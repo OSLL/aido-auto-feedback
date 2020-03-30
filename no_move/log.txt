@@ -1,0 +1,92 @@
+False: Incorrect solution execution
+
+
+time=1585602887.617633 gym-duckietown 2019.0.0
+
+time=1585602887.8198535 Registering gym environment id: Duckietown-small_loop-v0
+time=1585602887.81995 Registering gym environment id: Duckietown-loop_empty-v0
+time=1585602887.820013 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1585602887.820069 Registering gym environment id: Duckietown-udem1-v0
+time=1585602887.8201225 Registering gym environment id: Duckietown-straight_road-v0
+time=1585602887.8201747 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1585602887.8202257 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1585602887.8202772 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1585602887.8203268 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1585602887.820376 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1585602887.8204253 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1585602887.8204746 Registering gym environment id: Duckietown-4way-v0
+time=1585602887.8205233 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1585602889.93134 Called generator: NoMoveTaskGenerator
+/usr/local/lib/python3.6/dist-packages/gym/logger.py:30: UserWarning: [33mWARN: Box bound precision lowered by casting to float32[0m
+  warnings.warn(colorize('%s: %s'%('WARN', msg % args), 'yellow'))
+time=1585602890.3718753 Falling back to non-multisampled frame buffer
+time=1585602890.3766732 Falling back to non-multisampled frame buffer
+time=1585602890.3798835 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/straight_road.yaml"
+time=1585602890.4206216 loading mesh "duckiebot.obj"
+time=1585602890.4208593 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1585602890.874204 loading texture "straight_1.png"
+time=1585602890.8916314 road_tile_size=0.585
+time=1585602890.8918967 Starting at [0.2925 0.     0.2925] 0
+time=1585602890.892063 Pos: [0.2925 0.     0.2925] angle 0
+time=1585602891.076083 using DuckietownEnv
+time=1585602891.267668 Target coordinates: [0.2925, 0, 0.2925]
+... logging to /home/appuser/.ros/log/7e67248a-72cb-11ea-bd63-0242ac110002/roslaunch-8af4dc85ce4d-874.log
+[1mstarted roslaunch server http://8af4dc85ce4d:45965/[0m
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: melodic
+ * /rosversion: 1.14.3
+
+NODES
+  /
+    demo_node (demo/demo_node.py)
+    record (rosbag/record)
+
+auto-starting new master
+[1mprocess[master]: started with pid [908][0m
+[1mROS_MASTER_URI=http://localhost:11311[0m
+[1msetting /run_id to 7e67248a-72cb-11ea-bd63-0242ac110002[0m
+[1mprocess[rosout-1]: started with pid [919][0m
+started core service [/rosout]
+[demo_node-2] killing on exit
+[rosout-1] killing on exit
+[master] killing on exit
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/roslaunch/nodeprocess.py", line 309, in start
+    self.popen = subprocess.Popen(self.args, cwd=cwd, stdout=logfileout, stderr=logfileerr, env=full_env, close_fds=True, preexec_fn=os.setsid)
+  File "/usr/lib/python3.6/subprocess.py", line 729, in __init__
+    restore_signals, start_new_session)
+  File "/usr/lib/python3.6/subprocess.py", line 1364, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+OSError: [Errno 8] Exec format error: '/home/appuser/aido-auto/ros/catkin_ws/src/demo/scripts/demo_node.py'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib/python3.6/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/no_move/run_ros_solution.py", line 5, in <module>
+    run_ros_solution(task_generator=NoMoveTaskGenerator())
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/basic_control.py", line 14, in run_ros_solution
+    generated_task = task_generator.generate_task()
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/no_move/generate_task.py", line 26, in generate_task
+    self.configure_ros()
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/task_generator.py", line 48, in configure_ros
+    self.generated_task.launch.start()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/roslaunch/parent.py", line 288, in start
+    self.runner.launch()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/roslaunch/launch.py", line 663, in launch
+    succeeded, failed = self._launch_nodes()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/roslaunch/launch.py", line 370, in _launch_nodes
+    proc, success = self.launch_node(node)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/roslaunch/launch.py", line 562, in launch_node
+    success = process.start()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/roslaunch/nodeprocess.py", line 314, in start
+    raise FatalProcessLaunch("Unable to launch [%s]. \nIf it is a script, you may be missing a '#!' declaration at the top."%self.name)
+roslaunch.pmon.FatalProcessLaunch: Unable to launch [demo_node-2]. 
+If it is a script, you may be missing a '#!' declaration at the top.
