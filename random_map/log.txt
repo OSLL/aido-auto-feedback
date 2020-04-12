@@ -1,0 +1,98 @@
+False: StopAtCoordinatesChecker has failed
+time=1586720959.1293154 gym-duckietown 2019.0.0
+
+time=1586720959.3018699 Registering gym environment id: Duckietown-small_loop-v0
+time=1586720959.3019447 Registering gym environment id: Duckietown-loop_empty-v0
+time=1586720959.302006 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1586720959.302081 Registering gym environment id: Duckietown-udem1-v0
+time=1586720959.3021884 Registering gym environment id: Duckietown-straight_road-v0
+time=1586720959.3022928 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1586720959.3023639 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1586720959.3024478 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1586720959.302486 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1586720959.3025222 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1586720959.3025582 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1586720959.3025937 Registering gym environment id: Duckietown-4way-v0
+time=1586720959.3026292 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1586720959.3026652 Registering gym environment id: Duckietown-random_map-v0
+/usr/local/lib/python3.6/dist-packages/gym/logger.py:30: UserWarning: [33mWARN: Box bound precision lowered by casting to float32[0m
+  warnings.warn(colorize('%s: %s'%('WARN', msg % args), 'yellow'))
+time=1586720961.2424474 Falling back to non-multisampled frame buffer
+time=1586720961.2450292 Falling back to non-multisampled frame buffer
+time=1586720961.248203 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/random_map.yaml"
+time=1586720961.2621195 loading mesh "duckiebot.obj"
+time=1586720961.2622597 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1586720961.7460313 loading texture "floor_1.png"
+time=1586720961.8778243 loading texture "curve_right_1.png"
+time=1586720961.884013 loading texture "straight_1.png"
+time=1586720961.8902197 loading texture "curve_left_1.png"
+time=1586720961.8985517 loading texture "4way_1.png"
+time=1586720962.2194145 loading texture "3way_left_1.png"
+time=1586720962.5381534 using user tile start: (6, 6)
+time=1586720962.5401144 tile: {'coords': (6, 6), 'kind': '4way', 'angle': 2, 'drivable': True, 'curves': array([[[3.6855 , 0.     , 3.51   ],
+        [3.6855 , 0.     , 3.8025 ],
+        [3.8025 , 0.     , 3.9195 ],
+        [4.095  , 0.     , 3.9195 ]],
+
+       [[3.6855 , 0.     , 3.51   ],
+        [3.6855 , 0.     , 3.65625],
+        [3.6855 , 0.     , 3.94875],
+        [3.6855 , 0.     , 4.095  ]],
+
+       [[3.6855 , 0.     , 3.51   ],
+        [3.6855 , 0.     , 3.6855 ],
+        [3.627  , 0.     , 3.6855 ],
+        [3.51   , 0.     , 3.6855 ]],
+
+       [[3.51   , 0.     , 3.9195 ],
+        [3.8025 , 0.     , 3.9195 ],
+        [3.9195 , 0.     , 3.8025 ],
+        [3.9195 , 0.     , 3.51   ]],
+
+       [[3.51   , 0.     , 3.9195 ],
+        [3.65625, 0.     , 3.9195 ],
+        [3.94875, 0.     , 3.9195 ],
+        [4.095  , 0.     , 3.9195 ]],
+
+       [[3.51   , 0.     , 3.9195 ],
+        [3.6855 , 0.     , 3.9195 ],
+        [3.6855 , 0.     , 3.978  ],
+        [3.6855 , 0.     , 4.095  ]],
+
+       [[3.9195 , 0.     , 4.095  ],
+        [3.9195 , 0.     , 3.8025 ],
+        [3.8025 , 0.     , 3.6855 ],
+        [3.51   , 0.     , 3.6855 ]],
+
+       [[3.9195 , 0.     , 4.095  ],
+        [3.9195 , 0.     , 3.94875],
+        [3.9195 , 0.     , 3.65625],
+        [3.9195 , 0.     , 3.51   ]],
+
+       [[3.9195 , 0.     , 4.095  ],
+        [3.9195 , 0.     , 3.9195 ],
+        [3.978  , 0.     , 3.9195 ],
+        [4.095  , 0.     , 3.9195 ]],
+
+       [[4.095  , 0.     , 3.6855 ],
+        [3.8025 , 0.     , 3.6855 ],
+        [3.6855 , 0.     , 3.8025 ],
+        [3.6855 , 0.     , 4.095  ]],
+
+       [[4.095  , 0.     , 3.6855 ],
+        [3.94875, 0.     , 3.6855 ],
+        [3.65625, 0.     , 3.6855 ],
+        [3.51   , 0.     , 3.6855 ]],
+
+       [[4.095  , 0.     , 3.6855 ],
+        [3.9195 , 0.     , 3.6855 ],
+        [3.9195 , 0.     , 3.627  ],
+        [3.9195 , 0.     , 3.51   ]]]), 'texture': <gym_duckietown.graphics.Texture object at 0x7f8826e5deb8>, 'color': array([1, 1, 1])}
+time=1586720962.5401847 road_tile_size=0.585
+time=1586720962.5403457 Starting at [3.82717322 0.         3.81884234] 2.7934314923759316
+time=1586720962.5404956 Pos: [3.82717322 0.         3.81884234] angle 2.7934314923759316
+time=1586720962.6755643 using DuckietownEnv
+time=1586720962.812603 FAIL 
+AAA
+FAIL: 
+False: StopAtCoordinatesChecker has failed
