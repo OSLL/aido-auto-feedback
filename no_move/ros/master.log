@@ -1,0 +1,80 @@
+[rosmaster.main][INFO] 2020-05-26 21:11:37,226: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2020-05-26 21:11:37,227: Starting ROS Master Node
+[xmlrpc][INFO] 2020-05-26 21:11:37,227: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2020-05-26 21:11:37,228: Started XML-RPC server [http://dc6b5d01911a:11311/]
+[rosmaster.master][INFO] 2020-05-26 21:11:37,228: Master initialized: port[11311], uri[http://dc6b5d01911a:11311/]
+[xmlrpc][INFO] 2020-05-26 21:11:37,228: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2020-05-26 21:11:37,246: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2020-05-26 21:11:37,248: +PARAM [/roslaunch/uris/host_dc6b5d01911a__45535] by /roslaunch
+[rosmaster.master][INFO] 2020-05-26 21:11:37,363: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2020-05-26 21:11:37,364: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2020-05-26 21:11:37,484: +PUB [/dc6b5d01911a/corrected_image/compressed] /ROSAgent http://dc6b5d01911a:45991/
+[rosmaster.master][INFO] 2020-05-26 21:11:37,485: +PUB [/dc6b5d01911a/camera_node/camera_info] /ROSAgent http://dc6b5d01911a:45991/
+[rosmaster.master][INFO] 2020-05-26 21:11:37,487: +SUB [/dc6b5d01911a/car_cmd] /ROSAgent http://dc6b5d01911a:45991/
+[rosmaster.master][INFO] 2020-05-26 21:11:37,584: +PUB [/rosout] /ROSAgent http://dc6b5d01911a:45991/
+[rosmaster.master][INFO] 2020-05-26 21:11:37,588: +SERVICE [/ROSAgent/get_loggers] /ROSAgent http://dc6b5d01911a:45991/
+[rosmaster.master][INFO] 2020-05-26 21:11:37,589: +SERVICE [/ROSAgent/set_logger_level] /ROSAgent http://dc6b5d01911a:45991/
+[rosmaster.master][INFO] 2020-05-26 21:11:37,781: +SERVICE [/rosout/get_loggers] /rosout http://dc6b5d01911a:36851/
+[rosmaster.master][INFO] 2020-05-26 21:11:37,783: +SERVICE [/rosout/set_logger_level] /rosout http://dc6b5d01911a:36851/
+[rosmaster.master][INFO] 2020-05-26 21:11:37,785: +PUB [/rosout_agg] /rosout http://dc6b5d01911a:36851/
+[rosmaster.master][INFO] 2020-05-26 21:11:37,787: +SUB [/rosout] /rosout http://dc6b5d01911a:36851/
+[rosmaster.master][INFO] 2020-05-26 21:11:37,910: +PUB [/rosout] /record http://dc6b5d01911a:46761/
+[rosmaster.master][INFO] 2020-05-26 21:11:37,911: +SERVICE [/record/get_loggers] /record http://dc6b5d01911a:46761/
+[rosmaster.master][INFO] 2020-05-26 21:11:37,912: +SERVICE [/record/set_logger_level] /record http://dc6b5d01911a:46761/
+[rosmaster.master][INFO] 2020-05-26 21:11:37,916: +SUB [/dc6b5d01911a/corrected_image/compressed] /record http://dc6b5d01911a:46761/
+[rosmaster.master][INFO] 2020-05-26 21:11:37,918: +SUB [/rosout] /record http://dc6b5d01911a:46761/
+[rosmaster.master][INFO] 2020-05-26 21:11:37,920: +SUB [/rosout_agg] /record http://dc6b5d01911a:46761/
+[rosmaster.master][INFO] 2020-05-26 21:11:37,922: +SUB [/dc6b5d01911a/camera_node/camera_info] /record http://dc6b5d01911a:46761/
+[rosmaster.master][INFO] 2020-05-26 21:11:37,928: publisherUpdate[/rosout] -> http://dc6b5d01911a:36851/ ['http://dc6b5d01911a:45991/', 'http://dc6b5d01911a:46761/']
+[rosmaster.master][INFO] 2020-05-26 21:11:38,045: publisherUpdate[/rosout] -> http://dc6b5d01911a:36851/ ['http://dc6b5d01911a:45991/', 'http://dc6b5d01911a:46761/']: sec=0.12, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-05-26 21:11:48,447: +PUB [/rosout] /demo_node http://dc6b5d01911a:40871/
+[rosmaster.master][INFO] 2020-05-26 21:11:48,452: +SERVICE [/demo_node/get_loggers] /demo_node http://dc6b5d01911a:40871/
+[rosmaster.master][INFO] 2020-05-26 21:11:48,453: +SERVICE [/demo_node/set_logger_level] /demo_node http://dc6b5d01911a:40871/
+[rosmaster.master][INFO] 2020-05-26 21:11:48,459: -PUB [/rosout] /demo_node http://dc6b5d01911a:40871/
+[rosmaster.master][INFO] 2020-05-26 21:11:48,460: -SERVICE [/demo_node/get_loggers] /demo_node rosrpc://dc6b5d01911a:38441
+[rosmaster.master][INFO] 2020-05-26 21:11:48,460: -SERVICE [/demo_node/set_logger_level] /demo_node rosrpc://dc6b5d01911a:38441
+[rosmaster.master][INFO] 2020-05-26 21:11:48,464: publisherUpdate[/rosout] -> http://dc6b5d01911a:36851/ ['http://dc6b5d01911a:45991/', 'http://dc6b5d01911a:46761/', 'http://dc6b5d01911a:40871/']
+[rosmaster.master][INFO] 2020-05-26 21:11:48,465: publisherUpdate[/rosout] -> http://dc6b5d01911a:36851/ ['http://dc6b5d01911a:45991/', 'http://dc6b5d01911a:46761/', 'http://dc6b5d01911a:40871/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-05-26 21:11:48,465: publisherUpdate[/rosout] -> http://dc6b5d01911a:46761/ ['http://dc6b5d01911a:45991/', 'http://dc6b5d01911a:46761/', 'http://dc6b5d01911a:40871/']
+[rosmaster.master][INFO] 2020-05-26 21:11:48,515: publisherUpdate[/rosout] -> http://dc6b5d01911a:46761/ ['http://dc6b5d01911a:45991/', 'http://dc6b5d01911a:46761/', 'http://dc6b5d01911a:40871/']: sec=0.05, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-05-26 21:11:48,515: publisherUpdate[/rosout] -> http://dc6b5d01911a:36851/ ['http://dc6b5d01911a:45991/', 'http://dc6b5d01911a:46761/']
+[rosmaster.master][INFO] 2020-05-26 21:11:48,516: publisherUpdate[/rosout] -> http://dc6b5d01911a:36851/ ['http://dc6b5d01911a:45991/', 'http://dc6b5d01911a:46761/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-05-26 21:11:48,516: publisherUpdate[/rosout] -> http://dc6b5d01911a:46761/ ['http://dc6b5d01911a:45991/', 'http://dc6b5d01911a:46761/']
+[rosmaster.master][INFO] 2020-05-26 21:11:48,516: publisherUpdate[/rosout] -> http://dc6b5d01911a:46761/ ['http://dc6b5d01911a:45991/', 'http://dc6b5d01911a:46761/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-05-26 21:11:49,747: -PUB [/rosout] /record http://dc6b5d01911a:46761/
+[rosmaster.master][INFO] 2020-05-26 21:11:49,747: -SUB [/dc6b5d01911a/corrected_image/compressed] /record http://dc6b5d01911a:46761/
+[rosmaster.master][INFO] 2020-05-26 21:11:49,748: -SUB [/rosout] /record http://dc6b5d01911a:46761/
+[rosmaster.master][INFO] 2020-05-26 21:11:49,748: -SUB [/rosout_agg] /record http://dc6b5d01911a:46761/
+[rosmaster.master][INFO] 2020-05-26 21:11:49,749: -SUB [/dc6b5d01911a/camera_node/camera_info] /record http://dc6b5d01911a:46761/
+[rosmaster.master][INFO] 2020-05-26 21:11:49,749: -SERVICE [/record/get_loggers] /record rosrpc://dc6b5d01911a:44371
+[rosmaster.master][INFO] 2020-05-26 21:11:49,750: publisherUpdate[/rosout] -> http://dc6b5d01911a:36851/ ['http://dc6b5d01911a:45991/']
+[rosmaster.master][INFO] 2020-05-26 21:11:49,750: publisherUpdate[/rosout] -> http://dc6b5d01911a:46761/ ['http://dc6b5d01911a:45991/']
+[rosmaster.master][INFO] 2020-05-26 21:11:49,803: -SERVICE [/record/set_logger_level] /record rosrpc://dc6b5d01911a:44371
+[rosmaster.master][INFO] 2020-05-26 21:11:49,822: publisherUpdate[/rosout] -> http://dc6b5d01911a:36851/ ['http://dc6b5d01911a:45991/']: sec=0.07, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-05-26 21:11:49,835: publisherUpdate[/rosout] -> http://dc6b5d01911a:46761/ ['http://dc6b5d01911a:45991/']: sec=0.08, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.threadpool][ERROR] 2020-05-26 21:11:49,862: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2020-05-26 21:11:50,132: -PUB [/rosout_agg] /rosout http://dc6b5d01911a:36851/
+[rosmaster.master][INFO] 2020-05-26 21:11:50,132: -SUB [/rosout] /rosout http://dc6b5d01911a:36851/
+[rosmaster.master][INFO] 2020-05-26 21:11:50,133: -SERVICE [/rosout/get_loggers] /rosout rosrpc://dc6b5d01911a:42099
+[rosmaster.master][INFO] 2020-05-26 21:11:50,134: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://dc6b5d01911a:42099
+[rosmaster.main][INFO] 2020-05-26 21:11:50,173: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2020-05-26 21:11:50,173: stopping master...
+[rospy.core][INFO] 2020-05-26 21:11:50,174: signal_shutdown [atexit]
