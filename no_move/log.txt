@@ -1,0 +1,60 @@
+True: Accepted
+time=1593185041.0628498 gym-duckietown 2019.0.0
+
+time=1593185041.3872976 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1593185041.3874478 Registering gym environment id: Duckietown-small_loop-v0
+time=1593185041.387571 Registering gym environment id: Duckietown-udem1-v0
+time=1593185041.3876796 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1593185041.3877835 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1593185041.3878853 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1593185041.3879616 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1593185041.3880463 Registering gym environment id: Duckietown-loop_empty-v0
+time=1593185041.3881295 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1593185041.3882074 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1593185041.388301 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1593185041.3884015 Registering gym environment id: Duckietown-4way-v0
+time=1593185041.3884993 Registering gym environment id: Duckietown-straight_road-v0
+time=1593185041.3885868 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+[33m[ WARN] [1593185045.358601406]: Less than 5 x 1G of space free on disk with '2020-06-26-15-24-05.bag.active'.[0m
+/usr/local/lib/python3.6/dist-packages/gym/logger.py:30: UserWarning: [33mWARN: Box bound precision lowered by casting to float32[0m
+  warnings.warn(colorize('%s: %s'%('WARN', msg % args), 'yellow'))
+time=1593185047.4448206 Pos: [0.2925 0.     0.2925] angle 0
+[0m[ INFO] [1593185045.354984776]: Subscribing to /08dfe0f4b0de/camera_node/camera_info[0m
+[0m[ INFO] [1593185045.358482594]: Recording to '2020-06-26-15-24-05.bag'.[0m
+[0m[ INFO] [1593185045.362440833]: Subscribing to /08dfe0f4b0de/corrected_image/compressed[0m
+[0m[ INFO] [1593185045.365721683]: Subscribing to /rosout[0m
+[0m[ INFO] [1593185045.369247642]: Subscribing to /rosout_agg[0m
+[0m[ INFO] [1593185047.373075434]: Subscribing to /08dfe0f4b0de/car_cmd[0m
+... logging to /home/appuser/.ros/log/11e5cbf0-b7c1-11ea-8a6f-0242ac110004/roslaunch-08dfe0f4b0de-134.log
+[1mstarted roslaunch server http://08dfe0f4b0de:45847/[0m
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: melodic
+ * /rosversion: 1.14.6
+
+NODES
+  /
+    demo_node (demo/demo_node.py)
+    record (rosbag/record)
+
+auto-starting new master
+[1mprocess[master]: started with pid [149][0m
+[1mROS_MASTER_URI=http://localhost:11311[0m
+[1msetting /run_id to 11e5cbf0-b7c1-11ea-8a6f-0242ac110004[0m
+[1mprocess[rosout-1]: started with pid [160][0m
+started core service [/rosout]
+[1mprocess[demo_node-2]: started with pid [163][0m
+[1mprocess[record-3]: started with pid [164][0m
+env = <gym_duckietown.tasks.tracking_duckietown_env.TrackingDuckietownEnv object at 0x7fdfc1252128>
+launch = <roslaunch.parent.ROSLaunchParent object at 0x7fdfdc2b5438>
+agent = <gym_duckietown.tasks.rosagent.ROSAgent object at 0x7fdfd57c90f0>
+action = [0 0]
+action = [-99.0, -99.0]
+[record-3] killing on exit
+[demo_node-2] killing on exit
+[rosout-1] killing on exit
+[master] killing on exit
+True: Accepted
