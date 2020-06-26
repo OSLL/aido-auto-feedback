@@ -1,0 +1,96 @@
+[rosmaster.main][INFO] 2020-06-26 12:03:50,069: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2020-06-26 12:03:50,069: Starting ROS Master Node
+[xmlrpc][INFO] 2020-06-26 12:03:50,070: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2020-06-26 12:03:50,070: Started XML-RPC server [http://41732d068c51:11311/]
+[rosmaster.master][INFO] 2020-06-26 12:03:50,071: Master initialized: port[11311], uri[http://41732d068c51:11311/]
+[xmlrpc][INFO] 2020-06-26 12:03:50,071: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2020-06-26 12:03:50,123: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2020-06-26 12:03:50,125: +PARAM [/roslaunch/uris/host_41732d068c51__46277] by /roslaunch
+[rosmaster.master][INFO] 2020-06-26 12:03:50,195: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2020-06-26 12:03:50,195: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2020-06-26 12:03:50,322: +PUB [/41732d068c51/corrected_image/compressed] /ROSAgent http://41732d068c51:40735/
+[rosmaster.master][INFO] 2020-06-26 12:03:50,325: +PUB [/41732d068c51/camera_node/camera_info] /ROSAgent http://41732d068c51:40735/
+[rosmaster.master][INFO] 2020-06-26 12:03:50,328: +SUB [/41732d068c51/car_cmd] /ROSAgent http://41732d068c51:40735/
+[rosmaster.master][INFO] 2020-06-26 12:03:50,422: +PUB [/rosout] /ROSAgent http://41732d068c51:40735/
+[rosmaster.master][INFO] 2020-06-26 12:03:50,428: +SERVICE [/ROSAgent/get_loggers] /ROSAgent http://41732d068c51:40735/
+[rosmaster.master][INFO] 2020-06-26 12:03:50,431: +SERVICE [/ROSAgent/set_logger_level] /ROSAgent http://41732d068c51:40735/
+[rosmaster.master][INFO] 2020-06-26 12:03:51,566: +SERVICE [/rosout/get_loggers] /rosout http://41732d068c51:42207/
+[rosmaster.master][INFO] 2020-06-26 12:03:51,567: +SERVICE [/rosout/set_logger_level] /rosout http://41732d068c51:42207/
+[rosmaster.master][INFO] 2020-06-26 12:03:51,569: +PUB [/rosout_agg] /rosout http://41732d068c51:42207/
+[rosmaster.master][INFO] 2020-06-26 12:03:51,573: +SUB [/rosout] /rosout http://41732d068c51:42207/
+[rosmaster.master][INFO] 2020-06-26 12:03:51,863: +PUB [/rosout] /record http://41732d068c51:33423/
+[rosmaster.master][INFO] 2020-06-26 12:03:51,864: +SERVICE [/record/get_loggers] /record http://41732d068c51:33423/
+[rosmaster.master][INFO] 2020-06-26 12:03:51,866: +SERVICE [/record/set_logger_level] /record http://41732d068c51:33423/
+[rosmaster.master][INFO] 2020-06-26 12:03:51,874: +SUB [/41732d068c51/camera_node/camera_info] /record http://41732d068c51:33423/
+[rosmaster.master][INFO] 2020-06-26 12:03:51,878: +SUB [/41732d068c51/corrected_image/compressed] /record http://41732d068c51:33423/
+[rosmaster.master][INFO] 2020-06-26 12:03:51,881: +SUB [/rosout] /record http://41732d068c51:33423/
+[rosmaster.master][INFO] 2020-06-26 12:03:51,885: +SUB [/rosout_agg] /record http://41732d068c51:33423/
+[rosmaster.master][INFO] 2020-06-26 12:03:51,948: publisherUpdate[/rosout] -> http://41732d068c51:42207/ ['http://41732d068c51:40735/', 'http://41732d068c51:33423/']
+[rosmaster.master][INFO] 2020-06-26 12:03:52,059: publisherUpdate[/rosout] -> http://41732d068c51:42207/ ['http://41732d068c51:40735/', 'http://41732d068c51:33423/']: sec=0.11, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-06-26 12:04:00,052: +PUB [/rosout] /demo_node http://41732d068c51:38339/
+[rosmaster.master][INFO] 2020-06-26 12:04:00,079: publisherUpdate[/rosout] -> http://41732d068c51:42207/ ['http://41732d068c51:40735/', 'http://41732d068c51:33423/', 'http://41732d068c51:38339/']
+[rosmaster.master][INFO] 2020-06-26 12:04:00,083: +SERVICE [/demo_node/get_loggers] /demo_node http://41732d068c51:38339/
+[rosmaster.master][INFO] 2020-06-26 12:04:00,084: publisherUpdate[/rosout] -> http://41732d068c51:33423/ ['http://41732d068c51:40735/', 'http://41732d068c51:33423/', 'http://41732d068c51:38339/']
+[rosmaster.master][INFO] 2020-06-26 12:04:00,086: +SERVICE [/demo_node/set_logger_level] /demo_node http://41732d068c51:38339/
+[rosmaster.master][INFO] 2020-06-26 12:04:00,090: +SUB [/41732d068c51/corrected_image/compressed] /demo_node http://41732d068c51:38339/
+[rosmaster.master][INFO] 2020-06-26 12:04:00,093: +PUB [/41732d068c51/car_cmd] /demo_node http://41732d068c51:38339/
+[rosmaster.master][INFO] 2020-06-26 12:04:00,156: publisherUpdate[/rosout] -> http://41732d068c51:42207/ ['http://41732d068c51:40735/', 'http://41732d068c51:33423/', 'http://41732d068c51:38339/']: sec=0.08, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-06-26 12:04:00,156: publisherUpdate[/41732d068c51/car_cmd] -> http://41732d068c51:40735/ ['http://41732d068c51:38339/']
+[rosmaster.master][INFO] 2020-06-26 12:04:00,160: publisherUpdate[/41732d068c51/car_cmd] -> http://41732d068c51:40735/ ['http://41732d068c51:38339/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-06-26 12:04:00,167: publisherUpdate[/rosout] -> http://41732d068c51:33423/ ['http://41732d068c51:40735/', 'http://41732d068c51:33423/', 'http://41732d068c51:38339/']: sec=0.08, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-06-26 12:04:00,355: -SUB [/41732d068c51/corrected_image/compressed] /demo_node http://41732d068c51:38339/
+[rosmaster.master][INFO] 2020-06-26 12:04:00,355: -PUB [/41732d068c51/car_cmd] /demo_node http://41732d068c51:38339/
+[rosmaster.master][INFO] 2020-06-26 12:04:00,355: -PUB [/rosout] /demo_node http://41732d068c51:38339/
+[rosmaster.master][INFO] 2020-06-26 12:04:00,355: -SERVICE [/demo_node/get_loggers] /demo_node rosrpc://41732d068c51:37297
+[rosmaster.master][INFO] 2020-06-26 12:04:00,356: -SERVICE [/demo_node/set_logger_level] /demo_node rosrpc://41732d068c51:37297
+[rosmaster.master][INFO] 2020-06-26 12:04:00,361: publisherUpdate[/41732d068c51/car_cmd] -> http://41732d068c51:40735/ []
+[rosmaster.master][INFO] 2020-06-26 12:04:00,363: publisherUpdate[/41732d068c51/car_cmd] -> http://41732d068c51:40735/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-06-26 12:04:00,363: publisherUpdate[/rosout] -> http://41732d068c51:42207/ ['http://41732d068c51:40735/', 'http://41732d068c51:33423/']
+[rosmaster.master][INFO] 2020-06-26 12:04:00,364: publisherUpdate[/rosout] -> http://41732d068c51:42207/ ['http://41732d068c51:40735/', 'http://41732d068c51:33423/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-06-26 12:04:00,364: publisherUpdate[/rosout] -> http://41732d068c51:33423/ ['http://41732d068c51:40735/', 'http://41732d068c51:33423/']
+[rosmaster.master][INFO] 2020-06-26 12:04:00,453: publisherUpdate[/rosout] -> http://41732d068c51:33423/ ['http://41732d068c51:40735/', 'http://41732d068c51:33423/']: sec=0.09, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-06-26 12:04:00,555: -PUB [/rosout] /record http://41732d068c51:33423/
+[rosmaster.master][INFO] 2020-06-26 12:04:00,556: -SUB [/41732d068c51/camera_node/camera_info] /record http://41732d068c51:33423/
+[rosmaster.master][INFO] 2020-06-26 12:04:00,557: -SUB [/41732d068c51/corrected_image/compressed] /record http://41732d068c51:33423/
+[rosmaster.master][INFO] 2020-06-26 12:04:00,557: -SUB [/rosout] /record http://41732d068c51:33423/
+[rosmaster.master][INFO] 2020-06-26 12:04:00,558: -SUB [/rosout_agg] /record http://41732d068c51:33423/
+[rosmaster.master][INFO] 2020-06-26 12:04:00,559: -SERVICE [/record/get_loggers] /record rosrpc://41732d068c51:41949
+[rosmaster.master][INFO] 2020-06-26 12:04:00,559: -SERVICE [/record/set_logger_level] /record rosrpc://41732d068c51:41949
+[rosmaster.master][INFO] 2020-06-26 12:04:00,568: publisherUpdate[/rosout] -> http://41732d068c51:42207/ ['http://41732d068c51:40735/']
+[rosmaster.master][INFO] 2020-06-26 12:04:00,569: publisherUpdate[/rosout] -> http://41732d068c51:42207/ ['http://41732d068c51:40735/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-06-26 12:04:00,569: publisherUpdate[/rosout] -> http://41732d068c51:33423/ ['http://41732d068c51:40735/']
+[rosmaster.master][INFO] 2020-06-26 12:04:00,828: publisherUpdate[/rosout] -> http://41732d068c51:33423/ ['http://41732d068c51:40735/']: sec=0.26, exception=[Errno 111] Connection refused
+[rosmaster.threadpool][ERROR] 2020-06-26 12:04:00,871: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1311, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1459, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 1078, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 894, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 856, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 833, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+
+[rosmaster.master][INFO] 2020-06-26 12:04:01,471: -PUB [/rosout_agg] /rosout http://41732d068c51:42207/
+[rosmaster.master][INFO] 2020-06-26 12:04:01,472: -SUB [/rosout] /rosout http://41732d068c51:42207/
+[rosmaster.master][INFO] 2020-06-26 12:04:01,473: -SERVICE [/rosout/get_loggers] /rosout rosrpc://41732d068c51:39013
+[rosmaster.master][INFO] 2020-06-26 12:04:01,474: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://41732d068c51:39013
+[rosmaster.main][INFO] 2020-06-26 12:04:01,560: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2020-06-26 12:04:01,560: stopping master...
+[rospy.core][INFO] 2020-06-26 12:04:01,561: signal_shutdown [atexit]
