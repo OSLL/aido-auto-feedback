@@ -1,0 +1,111 @@
+[rosmaster.main][INFO] 2020-06-26 13:29:32,456: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2020-06-26 13:29:32,457: Starting ROS Master Node
+[xmlrpc][INFO] 2020-06-26 13:29:32,458: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2020-06-26 13:29:32,458: Started XML-RPC server [http://687a9678aa9c:11311/]
+[rosmaster.master][INFO] 2020-06-26 13:29:32,459: Master initialized: port[11311], uri[http://687a9678aa9c:11311/]
+[xmlrpc][INFO] 2020-06-26 13:29:32,459: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2020-06-26 13:29:32,558: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2020-06-26 13:29:32,560: +PARAM [/roslaunch/uris/host_687a9678aa9c__33423] by /roslaunch
+[rosmaster.master][INFO] 2020-06-26 13:29:32,676: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2020-06-26 13:29:32,677: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2020-06-26 13:29:32,805: +PUB [/687a9678aa9c/corrected_image/compressed] /ROSAgent http://687a9678aa9c:43469/
+[rosmaster.master][INFO] 2020-06-26 13:29:32,807: +PUB [/687a9678aa9c/camera_node/camera_info] /ROSAgent http://687a9678aa9c:43469/
+[rosmaster.master][INFO] 2020-06-26 13:29:32,808: +SUB [/687a9678aa9c/car_cmd] /ROSAgent http://687a9678aa9c:43469/
+[rosmaster.master][INFO] 2020-06-26 13:29:32,905: +PUB [/rosout] /ROSAgent http://687a9678aa9c:43469/
+[rosmaster.master][INFO] 2020-06-26 13:29:32,910: +SERVICE [/ROSAgent/get_loggers] /ROSAgent http://687a9678aa9c:43469/
+[rosmaster.master][INFO] 2020-06-26 13:29:32,912: +SERVICE [/ROSAgent/set_logger_level] /ROSAgent http://687a9678aa9c:43469/
+[rosmaster.master][INFO] 2020-06-26 13:29:34,658: +SERVICE [/rosout/get_loggers] /rosout http://687a9678aa9c:46013/
+[rosmaster.master][INFO] 2020-06-26 13:29:34,659: +SERVICE [/rosout/set_logger_level] /rosout http://687a9678aa9c:46013/
+[rosmaster.master][INFO] 2020-06-26 13:29:34,660: +PUB [/rosout_agg] /rosout http://687a9678aa9c:46013/
+[rosmaster.master][INFO] 2020-06-26 13:29:34,664: +SUB [/rosout] /rosout http://687a9678aa9c:46013/
+[rosmaster.master][INFO] 2020-06-26 13:29:34,991: +PUB [/rosout] /record http://687a9678aa9c:43149/
+[rosmaster.master][INFO] 2020-06-26 13:29:34,992: +SERVICE [/record/get_loggers] /record http://687a9678aa9c:43149/
+[rosmaster.master][INFO] 2020-06-26 13:29:34,993: +SERVICE [/record/set_logger_level] /record http://687a9678aa9c:43149/
+[rosmaster.master][INFO] 2020-06-26 13:29:34,999: +SUB [/687a9678aa9c/camera_node/camera_info] /record http://687a9678aa9c:43149/
+[rosmaster.master][INFO] 2020-06-26 13:29:35,003: +SUB [/687a9678aa9c/corrected_image/compressed] /record http://687a9678aa9c:43149/
+[rosmaster.master][INFO] 2020-06-26 13:29:35,006: +SUB [/rosout] /record http://687a9678aa9c:43149/
+[rosmaster.master][INFO] 2020-06-26 13:29:35,009: +SUB [/rosout_agg] /record http://687a9678aa9c:43149/
+[rosmaster.master][INFO] 2020-06-26 13:29:35,061: publisherUpdate[/rosout] -> http://687a9678aa9c:46013/ ['http://687a9678aa9c:43469/', 'http://687a9678aa9c:43149/']
+[rosmaster.master][INFO] 2020-06-26 13:29:35,146: publisherUpdate[/rosout] -> http://687a9678aa9c:46013/ ['http://687a9678aa9c:43469/', 'http://687a9678aa9c:43149/']: sec=0.08, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-06-26 13:29:59,761: +PUB [/rosout] /demo_node http://687a9678aa9c:41105/
+[rosmaster.master][INFO] 2020-06-26 13:29:59,766: publisherUpdate[/rosout] -> http://687a9678aa9c:46013/ ['http://687a9678aa9c:43469/', 'http://687a9678aa9c:43149/', 'http://687a9678aa9c:41105/']
+[rosmaster.master][INFO] 2020-06-26 13:29:59,776: publisherUpdate[/rosout] -> http://687a9678aa9c:43149/ ['http://687a9678aa9c:43469/', 'http://687a9678aa9c:43149/', 'http://687a9678aa9c:41105/']
+[rosmaster.master][INFO] 2020-06-26 13:29:59,854: publisherUpdate[/rosout] -> http://687a9678aa9c:46013/ ['http://687a9678aa9c:43469/', 'http://687a9678aa9c:43149/', 'http://687a9678aa9c:41105/']: sec=0.07, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-06-26 13:29:59,867: publisherUpdate[/rosout] -> http://687a9678aa9c:43149/ ['http://687a9678aa9c:43469/', 'http://687a9678aa9c:43149/', 'http://687a9678aa9c:41105/']: sec=0.08, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-06-26 13:29:59,868: +SERVICE [/demo_node/get_loggers] /demo_node http://687a9678aa9c:41105/
+[rosmaster.master][INFO] 2020-06-26 13:29:59,870: +SERVICE [/demo_node/set_logger_level] /demo_node http://687a9678aa9c:41105/
+[rosmaster.master][INFO] 2020-06-26 13:29:59,886: +SUB [/687a9678aa9c/corrected_image/compressed] /demo_node http://687a9678aa9c:41105/
+[rosmaster.master][INFO] 2020-06-26 13:29:59,889: +PUB [/687a9678aa9c/car_cmd] /demo_node http://687a9678aa9c:41105/
+[rosmaster.master][INFO] 2020-06-26 13:29:59,955: publisherUpdate[/687a9678aa9c/car_cmd] -> http://687a9678aa9c:43469/ ['http://687a9678aa9c:41105/']
+[rosmaster.master][INFO] 2020-06-26 13:29:59,962: publisherUpdate[/687a9678aa9c/car_cmd] -> http://687a9678aa9c:43469/ ['http://687a9678aa9c:41105/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-06-26 13:30:00,013: +SUB [/687a9678aa9c/car_cmd] /record http://687a9678aa9c:43149/
+[rosmaster.master][INFO] 2020-06-26 13:30:00,187: -SUB [/687a9678aa9c/corrected_image/compressed] /demo_node http://687a9678aa9c:41105/
+[rosmaster.master][INFO] 2020-06-26 13:30:00,187: -PUB [/687a9678aa9c/car_cmd] /demo_node http://687a9678aa9c:41105/
+[rosmaster.master][INFO] 2020-06-26 13:30:00,188: -PUB [/rosout] /demo_node http://687a9678aa9c:41105/
+[rosmaster.master][INFO] 2020-06-26 13:30:00,188: -SERVICE [/demo_node/get_loggers] /demo_node rosrpc://687a9678aa9c:35271
+[rosmaster.master][INFO] 2020-06-26 13:30:00,189: -SERVICE [/demo_node/set_logger_level] /demo_node rosrpc://687a9678aa9c:35271
+[rosmaster.master][INFO] 2020-06-26 13:30:00,191: publisherUpdate[/687a9678aa9c/car_cmd] -> http://687a9678aa9c:43469/ []
+[rosmaster.master][INFO] 2020-06-26 13:30:00,198: publisherUpdate[/687a9678aa9c/car_cmd] -> http://687a9678aa9c:43469/ []: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-06-26 13:30:00,198: publisherUpdate[/687a9678aa9c/car_cmd] -> http://687a9678aa9c:43149/ []
+[rosmaster.master][INFO] 2020-06-26 13:30:00,259: publisherUpdate[/687a9678aa9c/car_cmd] -> http://687a9678aa9c:43149/ []: sec=0.06, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-06-26 13:30:00,260: publisherUpdate[/rosout] -> http://687a9678aa9c:46013/ ['http://687a9678aa9c:43469/', 'http://687a9678aa9c:43149/']
+[rosmaster.master][INFO] 2020-06-26 13:30:00,263: publisherUpdate[/rosout] -> http://687a9678aa9c:43149/ ['http://687a9678aa9c:43469/', 'http://687a9678aa9c:43149/']
+[rosmaster.master][INFO] 2020-06-26 13:30:00,312: publisherUpdate[/rosout] -> http://687a9678aa9c:46013/ ['http://687a9678aa9c:43469/', 'http://687a9678aa9c:43149/']: sec=0.05, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-06-26 13:30:00,363: -PUB [/rosout] /record http://687a9678aa9c:43149/
+[rosmaster.master][INFO] 2020-06-26 13:30:00,364: publisherUpdate[/rosout] -> http://687a9678aa9c:43149/ ['http://687a9678aa9c:43469/', 'http://687a9678aa9c:43149/']: sec=0.10, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.master][INFO] 2020-06-26 13:30:00,364: -SUB [/687a9678aa9c/camera_node/camera_info] /record http://687a9678aa9c:43149/
+[rosmaster.master][INFO] 2020-06-26 13:30:00,365: -SUB [/687a9678aa9c/corrected_image/compressed] /record http://687a9678aa9c:43149/
+[rosmaster.master][INFO] 2020-06-26 13:30:00,367: -SUB [/rosout] /record http://687a9678aa9c:43149/
+[rosmaster.master][INFO] 2020-06-26 13:30:00,368: -SUB [/rosout_agg] /record http://687a9678aa9c:43149/
+[rosmaster.master][INFO] 2020-06-26 13:30:00,369: -SUB [/687a9678aa9c/car_cmd] /record http://687a9678aa9c:43149/
+[rosmaster.master][INFO] 2020-06-26 13:30:00,369: -SERVICE [/record/get_loggers] /record rosrpc://687a9678aa9c:49043
+[rosmaster.master][INFO] 2020-06-26 13:30:00,370: -SERVICE [/record/set_logger_level] /record rosrpc://687a9678aa9c:49043
+[rosmaster.master][INFO] 2020-06-26 13:30:00,372: publisherUpdate[/rosout] -> http://687a9678aa9c:46013/ ['http://687a9678aa9c:43469/']
+[rosmaster.master][INFO] 2020-06-26 13:30:00,373: publisherUpdate[/rosout] -> http://687a9678aa9c:46013/ ['http://687a9678aa9c:43469/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-06-26 13:30:00,373: publisherUpdate[/rosout] -> http://687a9678aa9c:43149/ ['http://687a9678aa9c:43469/']
+[rosmaster.master][INFO] 2020-06-26 13:30:00,374: publisherUpdate[/rosout] -> http://687a9678aa9c:43149/ ['http://687a9678aa9c:43469/']: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.threadpool][ERROR] 2020-06-26 13:30:00,548: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.threadpool][ERROR] 2020-06-26 13:30:00,548: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2020-06-26 13:30:02,779: -PUB [/rosout_agg] /rosout http://687a9678aa9c:46013/
+[rosmaster.master][INFO] 2020-06-26 13:30:02,780: -SUB [/rosout] /rosout http://687a9678aa9c:46013/
+[rosmaster.master][INFO] 2020-06-26 13:30:02,781: -SERVICE [/rosout/get_loggers] /rosout rosrpc://687a9678aa9c:36441
+[rosmaster.master][INFO] 2020-06-26 13:30:02,781: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://687a9678aa9c:36441
+[rosmaster.main][INFO] 2020-06-26 13:30:02,796: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2020-06-26 13:30:02,797: stopping master...
+[rospy.core][INFO] 2020-06-26 13:30:02,797: signal_shutdown [atexit]
