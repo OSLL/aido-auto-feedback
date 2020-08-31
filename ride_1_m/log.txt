@@ -1,0 +1,69 @@
+False: StopAtCoordinatesChecker has failed
+time=1598878691.8821301 gym-duckietown 2019.0.0
+
+time=1598878692.1111734 Registering gym environment id: Duckietown-4way-v0
+time=1598878692.1113155 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1598878692.1114378 Registering gym environment id: Duckietown-loop_empty-v0
+time=1598878692.1115553 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1598878692.1116734 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1598878692.1117926 Registering gym environment id: Duckietown-small_loop-v0
+time=1598878692.111915 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1598878692.1120331 Registering gym environment id: Duckietown-straight_road-v0
+time=1598878692.1121523 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1598878692.1122699 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1598878692.1123893 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1598878692.1125104 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1598878692.112627 Registering gym environment id: Duckietown-udem1-v0
+time=1598878692.1127436 Registering gym environment id: Duckietown-zigzag_dists-v0
+/usr/local/lib/python3.6/dist-packages/gym/logger.py:30: UserWarning: [33mWARN: Box bound precision lowered by casting to float32[0m
+  warnings.warn(colorize('%s: %s'%('WARN', msg % args), 'yellow'))
+time=1598878697.3967385 Pos: [0.2925 0.     0.2925] angle 0
+time=1598878697.8291903 Pos: [0.3325 0.     0.2925] angle 0
+time=1598878697.9525023 Pos: [0.3725 0.     0.2925] angle 0
+time=1598878698.075999 Pos: [0.4125 0.     0.2925] angle 0
+time=1598878698.1977232 Pos: [0.4525 0.     0.2925] angle 0
+time=1598878698.3198178 Pos: [0.4925 0.     0.2925] angle 0
+[0m[ INFO] [1598878695.217739377]: Subscribing to /c903b4397786/corrected_image/compressed[0m
+[0m[ INFO] [1598878695.221619105]: Recording to '2020-08-31-12-58-15.bag'.[0m
+[0m[ INFO] [1598878695.222655885]: Subscribing to /rosout[0m
+[0m[ INFO] [1598878695.226233657]: Subscribing to /rosout_agg[0m
+[0m[ INFO] [1598878695.230294245]: Subscribing to /c903b4397786/camera_node/camera_info[0m
+[0m[ INFO] [1598878697.235354549]: Subscribing to /c903b4397786/car_cmd[0m
+... logging to /home/appuser/.ros/log/a1c1d254-eb89-11ea-a2d2-0242ac110003/roslaunch-c903b4397786-134.log
+[1mstarted roslaunch server http://c903b4397786:37803/[0m
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: melodic
+ * /rosversion: 1.14.6
+
+NODES
+  /
+    demo_node (demo/demo_node.py)
+    record (rosbag/record)
+
+auto-starting new master
+[1mprocess[master]: started with pid [145][0m
+[1mROS_MASTER_URI=http://localhost:11311[0m
+[1msetting /run_id to a1c1d254-eb89-11ea-a2d2-0242ac110003[0m
+[1mprocess[rosout-1]: started with pid [156][0m
+started core service [/rosout]
+[1mprocess[demo_node-2]: started with pid [159][0m
+[1mprocess[record-3]: started with pid [164][0m
+env = <gym_duckietown.tasks.tracking_duckietown_env_with_rec.TrackingDuckietownEnvWithRec object at 0x7fa3b73e3b00>
+launch = <roslaunch.parent.ROSLaunchParent object at 0x7fa3d0964438>
+agent = <gym_duckietown.tasks.rosagent.ROSAgent object at 0x7fa3b7414f60>
+action = [0 0]
+action = [1.0, 0.0]
+action = [1.0, 0.0]
+action = [1.0, 0.0]
+action = [1.0, 0.0]
+action = [1.0, 0.0]
+action = [-99.0, -99.0]
+[record-3] killing on exit
+[demo_node-2] killing on exit
+[rosout-1] killing on exit
+[master] killing on exit
+False: StopAtCoordinatesChecker has failed
