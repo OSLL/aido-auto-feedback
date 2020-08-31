@@ -1,0 +1,104 @@
+[rosmaster.main][INFO] 2020-08-31 13:00:15,636: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2020-08-31 13:00:15,637: Starting ROS Master Node
+[xmlrpc][INFO] 2020-08-31 13:00:15,638: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2020-08-31 13:00:15,638: Started XML-RPC server [http://e713ab90591a:11311/]
+[rosmaster.master][INFO] 2020-08-31 13:00:15,638: Master initialized: port[11311], uri[http://e713ab90591a:11311/]
+[xmlrpc][INFO] 2020-08-31 13:00:15,638: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2020-08-31 13:00:15,743: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2020-08-31 13:00:15,745: +PARAM [/roslaunch/uris/host_e713ab90591a__42843] by /roslaunch
+[rosmaster.master][INFO] 2020-08-31 13:00:15,786: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2020-08-31 13:00:15,786: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2020-08-31 13:00:15,803: +SERVICE [/rosout/get_loggers] /rosout http://e713ab90591a:37801/
+[rosmaster.master][INFO] 2020-08-31 13:00:15,804: +SERVICE [/rosout/set_logger_level] /rosout http://e713ab90591a:37801/
+[rosmaster.master][INFO] 2020-08-31 13:00:15,806: +PUB [/rosout_agg] /rosout http://e713ab90591a:37801/
+[rosmaster.master][INFO] 2020-08-31 13:00:15,810: +SUB [/rosout] /rosout http://e713ab90591a:37801/
+[rosmaster.master][INFO] 2020-08-31 13:00:15,915: +PUB [/e713ab90591a/corrected_image/compressed] /ROSAgent http://e713ab90591a:36783/
+[rosmaster.master][INFO] 2020-08-31 13:00:15,917: +PUB [/rosout] /record http://e713ab90591a:33037/
+[rosmaster.master][INFO] 2020-08-31 13:00:15,918: +PUB [/e713ab90591a/camera_node/camera_info] /ROSAgent http://e713ab90591a:36783/
+[rosmaster.master][INFO] 2020-08-31 13:00:15,920: +SUB [/e713ab90591a/car_cmd] /ROSAgent http://e713ab90591a:36783/
+[rosmaster.master][INFO] 2020-08-31 13:00:15,921: +SERVICE [/record/get_loggers] /record http://e713ab90591a:33037/
+[rosmaster.master][INFO] 2020-08-31 13:00:15,922: +SERVICE [/record/set_logger_level] /record http://e713ab90591a:33037/
+[rosmaster.master][INFO] 2020-08-31 13:00:15,928: +SUB [/e713ab90591a/camera_node/camera_info] /record http://e713ab90591a:33037/
+[rosmaster.master][INFO] 2020-08-31 13:00:15,932: +SUB [/e713ab90591a/corrected_image/compressed] /record http://e713ab90591a:33037/
+[rosmaster.master][INFO] 2020-08-31 13:00:15,935: +SUB [/rosout] /record http://e713ab90591a:33037/
+[rosmaster.master][INFO] 2020-08-31 13:00:15,938: publisherUpdate[/rosout] -> http://e713ab90591a:37801/ ['http://e713ab90591a:33037/']
+[rosmaster.master][INFO] 2020-08-31 13:00:15,941: +SUB [/rosout_agg] /record http://e713ab90591a:33037/
+[rosmaster.master][INFO] 2020-08-31 13:00:15,990: publisherUpdate[/rosout] -> http://e713ab90591a:37801/ ['http://e713ab90591a:33037/']: sec=0.05, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-08-31 13:00:16,010: +PUB [/rosout] /ROSAgent http://e713ab90591a:36783/
+[rosmaster.master][INFO] 2020-08-31 13:00:16,015: +SERVICE [/ROSAgent/get_loggers] /ROSAgent http://e713ab90591a:36783/
+[rosmaster.master][INFO] 2020-08-31 13:00:16,016: +SERVICE [/ROSAgent/set_logger_level] /ROSAgent http://e713ab90591a:36783/
+[rosmaster.master][INFO] 2020-08-31 13:00:16,040: publisherUpdate[/rosout] -> http://e713ab90591a:37801/ ['http://e713ab90591a:33037/', 'http://e713ab90591a:36783/']
+[rosmaster.master][INFO] 2020-08-31 13:00:16,041: publisherUpdate[/rosout] -> http://e713ab90591a:33037/ ['http://e713ab90591a:33037/', 'http://e713ab90591a:36783/']
+[rosmaster.master][INFO] 2020-08-31 13:00:16,087: publisherUpdate[/rosout] -> http://e713ab90591a:33037/ ['http://e713ab90591a:33037/', 'http://e713ab90591a:36783/']: sec=0.05, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-08-31 13:00:16,088: publisherUpdate[/rosout] -> http://e713ab90591a:37801/ ['http://e713ab90591a:33037/', 'http://e713ab90591a:36783/']: sec=0.05, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-08-31 13:00:17,023: +PUB [/rosout] /demo_node http://e713ab90591a:39913/
+[rosmaster.master][INFO] 2020-08-31 13:00:17,027: +SERVICE [/demo_node/get_loggers] /demo_node http://e713ab90591a:39913/
+[rosmaster.master][INFO] 2020-08-31 13:00:17,028: +SERVICE [/demo_node/set_logger_level] /demo_node http://e713ab90591a:39913/
+[rosmaster.master][INFO] 2020-08-31 13:00:17,031: +SUB [/e713ab90591a/corrected_image/compressed] /demo_node http://e713ab90591a:39913/
+[rosmaster.master][INFO] 2020-08-31 13:00:17,033: +PUB [/e713ab90591a/car_cmd] /demo_node http://e713ab90591a:39913/
+[rosmaster.master][INFO] 2020-08-31 13:00:17,089: publisherUpdate[/rosout] -> http://e713ab90591a:37801/ ['http://e713ab90591a:33037/', 'http://e713ab90591a:36783/', 'http://e713ab90591a:39913/']
+[rosmaster.master][INFO] 2020-08-31 13:00:17,091: publisherUpdate[/rosout] -> http://e713ab90591a:33037/ ['http://e713ab90591a:33037/', 'http://e713ab90591a:36783/', 'http://e713ab90591a:39913/']
+[rosmaster.master][INFO] 2020-08-31 13:00:17,109: publisherUpdate[/e713ab90591a/car_cmd] -> http://e713ab90591a:36783/ ['http://e713ab90591a:39913/']
+[rosmaster.master][INFO] 2020-08-31 13:00:17,111: publisherUpdate[/rosout] -> http://e713ab90591a:33037/ ['http://e713ab90591a:33037/', 'http://e713ab90591a:36783/', 'http://e713ab90591a:39913/']: sec=0.02, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-08-31 13:00:17,115: publisherUpdate[/rosout] -> http://e713ab90591a:37801/ ['http://e713ab90591a:33037/', 'http://e713ab90591a:36783/', 'http://e713ab90591a:39913/']: sec=0.03, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-08-31 13:00:17,235: publisherUpdate[/e713ab90591a/car_cmd] -> http://e713ab90591a:36783/ ['http://e713ab90591a:39913/']: sec=0.13, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-08-31 13:00:17,947: +SUB [/e713ab90591a/car_cmd] /record http://e713ab90591a:33037/
+[rosmaster.master][INFO] 2020-08-31 13:00:19,353: -SUB [/e713ab90591a/corrected_image/compressed] /demo_node http://e713ab90591a:39913/
+[rosmaster.master][INFO] 2020-08-31 13:00:19,353: -PUB [/e713ab90591a/car_cmd] /demo_node http://e713ab90591a:39913/
+[rosmaster.master][INFO] 2020-08-31 13:00:19,354: -PUB [/rosout] /demo_node http://e713ab90591a:39913/
+[rosmaster.master][INFO] 2020-08-31 13:00:19,354: -SERVICE [/demo_node/get_loggers] /demo_node rosrpc://e713ab90591a:46695
+[rosmaster.master][INFO] 2020-08-31 13:00:19,354: -SERVICE [/demo_node/set_logger_level] /demo_node rosrpc://e713ab90591a:46695
+[rosmaster.master][INFO] 2020-08-31 13:00:19,416: publisherUpdate[/e713ab90591a/car_cmd] -> http://e713ab90591a:36783/ []
+[rosmaster.master][INFO] 2020-08-31 13:00:19,419: publisherUpdate[/e713ab90591a/car_cmd] -> http://e713ab90591a:33037/ []
+[rosmaster.master][INFO] 2020-08-31 13:00:19,420: publisherUpdate[/e713ab90591a/car_cmd] -> http://e713ab90591a:33037/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-08-31 13:00:19,420: publisherUpdate[/rosout] -> http://e713ab90591a:37801/ ['http://e713ab90591a:33037/', 'http://e713ab90591a:36783/']
+[rosmaster.master][INFO] 2020-08-31 13:00:19,421: publisherUpdate[/rosout] -> http://e713ab90591a:37801/ ['http://e713ab90591a:33037/', 'http://e713ab90591a:36783/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-08-31 13:00:19,422: publisherUpdate[/rosout] -> http://e713ab90591a:33037/ ['http://e713ab90591a:33037/', 'http://e713ab90591a:36783/']
+[rosmaster.master][INFO] 2020-08-31 13:00:19,422: publisherUpdate[/rosout] -> http://e713ab90591a:33037/ ['http://e713ab90591a:33037/', 'http://e713ab90591a:36783/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-08-31 13:00:19,443: publisherUpdate[/e713ab90591a/car_cmd] -> http://e713ab90591a:36783/ []: sec=0.03, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-08-31 13:00:19,523: -PUB [/rosout] /record http://e713ab90591a:33037/
+[rosmaster.master][INFO] 2020-08-31 13:00:19,523: publisherUpdate[/rosout] -> http://e713ab90591a:37801/ ['http://e713ab90591a:36783/']
+[rosmaster.master][INFO] 2020-08-31 13:00:19,524: publisherUpdate[/rosout] -> http://e713ab90591a:37801/ ['http://e713ab90591a:36783/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-08-31 13:00:19,524: publisherUpdate[/rosout] -> http://e713ab90591a:33037/ ['http://e713ab90591a:36783/']
+[rosmaster.master][INFO] 2020-08-31 13:00:19,525: -SUB [/e713ab90591a/camera_node/camera_info] /record http://e713ab90591a:33037/
+[rosmaster.master][INFO] 2020-08-31 13:00:19,526: -SUB [/e713ab90591a/corrected_image/compressed] /record http://e713ab90591a:33037/
+[rosmaster.master][INFO] 2020-08-31 13:00:19,526: -SUB [/rosout] /record http://e713ab90591a:33037/
+[rosmaster.master][INFO] 2020-08-31 13:00:19,527: -SUB [/rosout_agg] /record http://e713ab90591a:33037/
+[rosmaster.master][INFO] 2020-08-31 13:00:19,528: -SUB [/e713ab90591a/car_cmd] /record http://e713ab90591a:33037/
+[rosmaster.master][INFO] 2020-08-31 13:00:19,529: -SERVICE [/record/get_loggers] /record rosrpc://e713ab90591a:45641
+[rosmaster.master][INFO] 2020-08-31 13:00:19,530: -SERVICE [/record/set_logger_level] /record rosrpc://e713ab90591a:45641
+[rosmaster.master][INFO] 2020-08-31 13:00:19,554: publisherUpdate[/rosout] -> http://e713ab90591a:33037/ ['http://e713ab90591a:36783/']: sec=0.03, exception=[Errno 111] Connection refused
+[rosmaster.threadpool][ERROR] 2020-08-31 13:00:19,555: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1311, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1459, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 1078, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 894, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 856, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 833, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+
+[rosmaster.master][INFO] 2020-08-31 13:00:20,226: -PUB [/rosout_agg] /rosout http://e713ab90591a:37801/
+[rosmaster.master][INFO] 2020-08-31 13:00:20,226: -SUB [/rosout] /rosout http://e713ab90591a:37801/
+[rosmaster.master][INFO] 2020-08-31 13:00:20,227: -SERVICE [/rosout/get_loggers] /rosout rosrpc://e713ab90591a:52371
+[rosmaster.master][INFO] 2020-08-31 13:00:20,228: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://e713ab90591a:52371
+[rosmaster.main][INFO] 2020-08-31 13:00:20,267: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2020-08-31 13:00:20,267: stopping master...
+[rospy.core][INFO] 2020-08-31 13:00:20,267: signal_shutdown [atexit]
