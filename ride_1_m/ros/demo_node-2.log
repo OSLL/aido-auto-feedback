@@ -1,0 +1,29 @@
+[rospy.client][INFO] 2020-09-02 08:35:42,305: init_node, name[/demo_node], pid[159]
+[xmlrpc][INFO] 2020-09-02 08:35:42,306: XML-RPC server binding to 0.0.0.0:0
+[rospy.init][INFO] 2020-09-02 08:35:42,307: ROS Slave URI: [http://533c34771af1:36961/]
+[xmlrpc][INFO] 2020-09-02 08:35:42,307: Started XML-RPC server [http://533c34771af1:36961/]
+[rospy.impl.masterslave][INFO] 2020-09-02 08:35:42,307: _ready: http://533c34771af1:36961/
+[xmlrpc][INFO] 2020-09-02 08:35:42,308: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2020-09-02 08:35:42,309: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2020-09-02 08:35:42,407: registered with master
+[rospy.rosout][INFO] 2020-09-02 08:35:42,408: initializing /rosout core topic
+[rospy.rosout][INFO] 2020-09-02 08:35:42,412: connected to core topic /rosout
+[rospy.simtime][INFO] 2020-09-02 08:35:42,413: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2020-09-02 08:35:42,495: topic[/533c34771af1/corrected_image/compressed] adding connection to [http://533c34771af1:42199/], count 0
+[rospy.internal][INFO] 2020-09-02 08:35:42,640: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2020-09-02 08:35:42,641: topic[/rosout] adding connection to [/record], count 1
+[rospy.internal][INFO] 2020-09-02 08:35:42,891: topic[/533c34771af1/car_cmd] adding connection to [/ROSAgent], count 0
+[rospy.internal][INFO] 2020-09-02 08:35:43,450: topic[/533c34771af1/car_cmd] adding connection to [/record], count 1
+[rospy.core][INFO] 2020-09-02 08:35:47,427: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2020-09-02 08:35:47,433: topic[/533c34771af1/car_cmd] removing connection to /ROSAgent
+[rospy.internal][INFO] 2020-09-02 08:35:47,433: topic[/533c34771af1/car_cmd] removing connection to /record
+[rospy.internal][INFO] 2020-09-02 08:35:47,450: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2020-09-02 08:35:47,451: topic[/rosout] removing connection to /record
+[rospy.internal][INFO] 2020-09-02 08:35:47,452: topic[/533c34771af1/corrected_image/compressed] removing connection to http://533c34771af1:42199/
+[rospy.internal][WARNING] 2020-09-02 08:35:47,453: Unknown error initiating TCP/IP socket to 533c34771af1:43419 (http://533c34771af1:42199/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 563, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+
+[rospy.impl.masterslave][INFO] 2020-09-02 08:35:47,454: signal-2
+[rospy.core][INFO] 2020-09-02 08:35:47,558: signal_shutdown [atexit]
