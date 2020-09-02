@@ -1,0 +1,85 @@
+[roslaunch.parent][INFO] 2020-09-02 09:39:03,680: starting roslaunch parent run
+[roslaunch][INFO] 2020-09-02 09:39:03,681: loading roscore config file /opt/ros/melodic/etc/ros/roscore.xml
+[roslaunch][INFO] 2020-09-02 09:39:03,850: Added core node of type [rosout/rosout] in namespace [/]
+[roslaunch.config][INFO] 2020-09-02 09:39:03,850: loading config file /home/appuser/aido-auto/ros/catkin_ws/src/demo/launch/demo_node.launch
+[roslaunch][INFO] 2020-09-02 09:39:03,851: Added node of type [demo/demo_node.py] in namespace [/]
+[roslaunch][INFO] 2020-09-02 09:39:03,851: Added node of type [rosbag/record] in namespace [/]
+[roslaunch][INFO] 2020-09-02 09:39:03,851: ... selected machine [] for node of type [demo/demo_node.py]
+[roslaunch][INFO] 2020-09-02 09:39:03,851: ... selected machine [] for node of type [rosbag/record]
+[roslaunch.pmon][INFO] 2020-09-02 09:39:03,853: start_process_monitor: creating ProcessMonitor
+[roslaunch.pmon][INFO] 2020-09-02 09:39:03,853: created process monitor <ProcessMonitor(ProcessMonitor-1, initial daemon)>
+[roslaunch.pmon][INFO] 2020-09-02 09:39:03,853: start_process_monitor: ProcessMonitor started
+[roslaunch.parent][INFO] 2020-09-02 09:39:03,853: starting parent XML-RPC server
+[roslaunch.server][INFO] 2020-09-02 09:39:03,854: starting roslaunch XML-RPC server
+[roslaunch.server][INFO] 2020-09-02 09:39:03,854: waiting for roslaunch XML-RPC server to initialize
+[xmlrpc][INFO] 2020-09-02 09:39:03,854: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2020-09-02 09:39:03,854: Started XML-RPC server [http://cea7dd336f24:34933/]
+[xmlrpc][INFO] 2020-09-02 09:39:03,855: xml rpc node: starting XML-RPC server
+[roslaunch][INFO] 2020-09-02 09:39:03,866: started roslaunch server http://cea7dd336f24:34933/
+[roslaunch.parent][INFO] 2020-09-02 09:39:03,867: ... parent XML-RPC server started
+[roslaunch][INFO] 2020-09-02 09:39:03,867: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2020-09-02 09:39:03,868: auto-starting new master
+[roslaunch][INFO] 2020-09-02 09:39:03,868: create_master_process: rosmaster, /opt/ros/melodic/share/ros, 11311, 3, None, False
+[roslaunch][INFO] 2020-09-02 09:39:03,868: process[master]: launching with args [['rosmaster', '--core', '-p', '11311', '-w', '3']]
+[roslaunch.pmon][INFO] 2020-09-02 09:39:03,868: ProcessMonitor.register[master]
+[roslaunch.pmon][INFO] 2020-09-02 09:39:03,868: ProcessMonitor.register[master] complete
+[roslaunch][INFO] 2020-09-02 09:39:03,868: process[master]: starting os process
+[roslaunch][INFO] 2020-09-02 09:39:03,869: process[master]: start w/ args [['rosmaster', '--core', '-p', '11311', '-w', '3', '__log:=/home/appuser/.ros/log/23517f3c-ed00-11ea-901a-0242ac110003/master.log']]
+[roslaunch][INFO] 2020-09-02 09:39:03,869: process[master]: cwd will be [/home/appuser/.ros]
+[roslaunch][INFO] 2020-09-02 09:39:03,875: process[master]: started with pid [150]
+[roslaunch][INFO] 2020-09-02 09:39:03,875: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2020-09-02 09:39:03,977: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2020-09-02 09:39:04,078: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2020-09-02 09:39:04,179: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2020-09-02 09:39:04,182: master.is_running[http://localhost:11311]
+[roslaunch][INFO] 2020-09-02 09:39:04,183: ROS_MASTER_URI=http://localhost:11311
+[roslaunch][INFO] 2020-09-02 09:39:04,185: setting /run_id to 23517f3c-ed00-11ea-901a-0242ac110003
+[roslaunch][INFO] 2020-09-02 09:39:04,186: setting /roslaunch/uris/host_cea7dd336f24__34933' to http://cea7dd336f24:34933/
+[roslaunch][INFO] 2020-09-02 09:39:04,188: ... preparing to launch node of type [rosout/rosout]
+[roslaunch][INFO] 2020-09-02 09:39:04,189: create_node_process: package[rosout] type[rosout] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://localhost:11311]
+[roslaunch][INFO] 2020-09-02 09:39:04,189: process[rosout-1]: env[{'DISPLAY': ':99', 'XAUTHORITY': '/tmp/appuser.xvfb.auth', 'LC_ALL': 'C.UTF-8', 'LD_LIBRARY_PATH': '/home/appuser/aido-auto/ros/catkin_ws/devel/lib:/opt/ros/melodic/lib', 'LANG': 'C.UTF-8', 'HOSTNAME': 'cea7dd336f24', 'ROS_ETC_DIR': '/opt/ros/melodic/etc/ros', 'PUBLISHER_DROP_FOLDER': '/home/appuser/publisher-drop', 'PWD': '/home/appuser/aido-auto/gym-duckietown', 'HOME': '/home/appuser', 'CMAKE_PREFIX_PATH': '/home/appuser/aido-auto/ros/catkin_ws/devel:/opt/ros/melodic', 'ROS_ROOT': '/opt/ros/melodic/share/ros', 'ROS_MASTER_URI': 'http://localhost:11311', 'ROS_VERSION': '1', 'TERM': 'xterm', 'ROS_PYTHON_VERSION': '2', 'SHLVL': '4', 'PYTHONPATH': '/home/appuser/aido-auto/ros/catkin_ws/devel/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages', 'ROS_PACKAGE_PATH': '/home/appuser/aido-auto/ros/catkin_ws/src:/opt/ros/melodic/share', 'ROSLISP_PACKAGE_DIRECTORIES': '/home/appuser/aido-auto/ros/catkin_ws/devel/share/common-lisp', 'PATH': '/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'PKG_CONFIG_PATH': '/home/appuser/aido-auto/ros/catkin_ws/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig', 'ROS_DISTRO': 'melodic', '_': '/usr/bin/timeout', 'QT_QPA_PLATFORM_PLUGIN_PATH': '/usr/local/lib/python3.6/dist-packages/cv2/qt/plugins', 'QT_QPA_FONTDIR': '/usr/local/lib/python3.6/dist-packages/cv2/qt/fonts', 'ROS_LOG_FILENAME': '/home/appuser/.ros/log/23517f3c-ed00-11ea-901a-0242ac110003/roslaunch-cea7dd336f24-139.log'}]
+[roslaunch][INFO] 2020-09-02 09:39:04,233: process[rosout-1]: args[['/opt/ros/melodic/lib/rosout/rosout', '__name:=rosout']]
+[roslaunch][INFO] 2020-09-02 09:39:04,234: ... created process [rosout-1]
+[roslaunch.pmon][INFO] 2020-09-02 09:39:04,234: ProcessMonitor.register[rosout-1]
+[roslaunch.pmon][INFO] 2020-09-02 09:39:04,234: ProcessMonitor.register[rosout-1] complete
+[roslaunch][INFO] 2020-09-02 09:39:04,234: ... registered process [rosout-1]
+[roslaunch][INFO] 2020-09-02 09:39:04,235: process[rosout-1]: starting os process
+[roslaunch][INFO] 2020-09-02 09:39:04,235: process[rosout-1]: start w/ args [['/opt/ros/melodic/lib/rosout/rosout', '__name:=rosout', '__log:=/home/appuser/.ros/log/23517f3c-ed00-11ea-901a-0242ac110003/rosout-1.log']]
+[roslaunch][INFO] 2020-09-02 09:39:04,235: process[rosout-1]: cwd will be [/home/appuser/.ros]
+[roslaunch][INFO] 2020-09-02 09:39:04,243: process[rosout-1]: started with pid [161]
+[roslaunch][INFO] 2020-09-02 09:39:04,244: ... successfully launched [rosout-1]
+[roslaunch][INFO] 2020-09-02 09:39:04,244: load_parameters starting ...
+[roslaunch][INFO] 2020-09-02 09:39:04,259: ... load_parameters complete
+[roslaunch][INFO] 2020-09-02 09:39:04,259: launch_nodes: launching local nodes ...
+[roslaunch][INFO] 2020-09-02 09:39:04,260: ... preparing to launch node of type [demo/demo_node.py]
+[roslaunch][INFO] 2020-09-02 09:39:04,260: create_node_process: package[demo] type[demo_node.py] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://localhost:11311]
+[roslaunch][INFO] 2020-09-02 09:39:04,261: process[demo_node-2]: env[{'DISPLAY': ':99', 'XAUTHORITY': '/tmp/appuser.xvfb.auth', 'LC_ALL': 'C.UTF-8', 'LD_LIBRARY_PATH': '/home/appuser/aido-auto/ros/catkin_ws/devel/lib:/opt/ros/melodic/lib', 'LANG': 'C.UTF-8', 'HOSTNAME': 'cea7dd336f24', 'ROS_ETC_DIR': '/opt/ros/melodic/etc/ros', 'PUBLISHER_DROP_FOLDER': '/home/appuser/publisher-drop', 'PWD': '/home/appuser/aido-auto/gym-duckietown', 'HOME': '/home/appuser', 'CMAKE_PREFIX_PATH': '/home/appuser/aido-auto/ros/catkin_ws/devel:/opt/ros/melodic', 'ROS_ROOT': '/opt/ros/melodic/share/ros', 'ROS_MASTER_URI': 'http://localhost:11311', 'ROS_VERSION': '1', 'TERM': 'xterm', 'ROS_PYTHON_VERSION': '2', 'SHLVL': '4', 'PYTHONPATH': '/home/appuser/aido-auto/ros/catkin_ws/devel/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages', 'ROS_PACKAGE_PATH': '/home/appuser/aido-auto/ros/catkin_ws/src:/opt/ros/melodic/share', 'ROSLISP_PACKAGE_DIRECTORIES': '/home/appuser/aido-auto/ros/catkin_ws/devel/share/common-lisp', 'PATH': '/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'PKG_CONFIG_PATH': '/home/appuser/aido-auto/ros/catkin_ws/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig', 'ROS_DISTRO': 'melodic', '_': '/usr/bin/timeout', 'QT_QPA_PLATFORM_PLUGIN_PATH': '/usr/local/lib/python3.6/dist-packages/cv2/qt/plugins', 'QT_QPA_FONTDIR': '/usr/local/lib/python3.6/dist-packages/cv2/qt/fonts', 'ROS_LOG_FILENAME': '/home/appuser/.ros/log/23517f3c-ed00-11ea-901a-0242ac110003/roslaunch-cea7dd336f24-139.log'}]
+[roslaunch][INFO] 2020-09-02 09:39:04,263: process[demo_node-2]: args[['/home/appuser/aido-auto/ros/catkin_ws/src/demo/scripts/demo_node.py', '__name:=demo_node']]
+[roslaunch][INFO] 2020-09-02 09:39:04,264: ... created process [demo_node-2]
+[roslaunch.pmon][INFO] 2020-09-02 09:39:04,264: ProcessMonitor.register[demo_node-2]
+[roslaunch.pmon][INFO] 2020-09-02 09:39:04,264: ProcessMonitor.register[demo_node-2] complete
+[roslaunch][INFO] 2020-09-02 09:39:04,264: ... registered process [demo_node-2]
+[roslaunch][INFO] 2020-09-02 09:39:04,264: process[demo_node-2]: starting os process
+[roslaunch][INFO] 2020-09-02 09:39:04,265: process[demo_node-2]: start w/ args [['/home/appuser/aido-auto/ros/catkin_ws/src/demo/scripts/demo_node.py', '__name:=demo_node', '__log:=/home/appuser/.ros/log/23517f3c-ed00-11ea-901a-0242ac110003/demo_node-2.log']]
+[roslaunch][INFO] 2020-09-02 09:39:04,265: process[demo_node-2]: cwd will be [/home/appuser/.ros]
+[roslaunch][ERROR] 2020-09-02 09:39:04,284: OSError(8, Exec format error)
+[roslaunch.pmon][INFO] 2020-09-02 09:39:04,289: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, started daemon 139710987732736)>
+[roslaunch.pmon][INFO] 2020-09-02 09:39:04,355: ProcessMonitor._post_run <ProcessMonitor(ProcessMonitor-1, started daemon 139710987732736)>
+[roslaunch.pmon][INFO] 2020-09-02 09:39:04,355: ProcessMonitor._post_run <ProcessMonitor(ProcessMonitor-1, started daemon 139710987732736)>: remaining procs are [<roslaunch.nodeprocess.LocalProcess object at 0x7f10e6a11d68>, <roslaunch.nodeprocess.LocalProcess object at 0x7f10e6978048>, <roslaunch.nodeprocess.LocalProcess object at 0x7f10e69f5e48>]
+[roslaunch.pmon][INFO] 2020-09-02 09:39:04,356: ProcessMonitor exit: killing demo_node-2
+[roslaunch][INFO] 2020-09-02 09:39:04,356: [demo_node-2] killing on exit
+[roslaunch.pmon][INFO] 2020-09-02 09:39:04,358: ProcessMonitor exit: killing rosout-1
+[roslaunch][INFO] 2020-09-02 09:39:04,358: [rosout-1] killing on exit
+[roslaunch][INFO] 2020-09-02 09:39:04,358: process[rosout-1]: killing os process with pid[161] pgid[161]
+[roslaunch][INFO] 2020-09-02 09:39:04,358: [rosout-1] sending SIGINT to pgid [161]
+[roslaunch][INFO] 2020-09-02 09:39:04,358: [rosout-1] sent SIGINT to pgid [161]
+[roslaunch][INFO] 2020-09-02 09:39:04,559: process[rosout-1]: SIGINT killed with return value 0
+[roslaunch.pmon][INFO] 2020-09-02 09:39:04,559: ProcessMonitor exit: killing master
+[roslaunch][INFO] 2020-09-02 09:39:04,559: [master] killing on exit
+[roslaunch][INFO] 2020-09-02 09:39:04,559: process[master]: killing os process with pid[150] pgid[150]
+[roslaunch][INFO] 2020-09-02 09:39:04,559: [master] sending SIGINT to pgid [150]
+[roslaunch][INFO] 2020-09-02 09:39:04,559: [master] sent SIGINT to pgid [150]
+[roslaunch][INFO] 2020-09-02 09:39:04,760: process[master]: SIGINT killed with return value 0
+[roslaunch.pmon][INFO] 2020-09-02 09:39:04,760: ProcessMonitor exit: cleaning up data structures and signals
+[roslaunch.pmon][INFO] 2020-09-02 09:39:04,760: ProcessMonitor exit: pmon has shutdown
+[rospy.core][INFO] 2020-09-02 09:39:04,761: signal_shutdown [atexit]
