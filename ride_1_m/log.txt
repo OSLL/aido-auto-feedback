@@ -1,0 +1,109 @@
+False: StopAtCoordinatesChecker has thrown an exception: trackers call is not allowed in CV tasks
+time=1599040534.2277966 gym-duckietown 2019.0.0
+
+time=1599040534.627209 Registering gym environment id: Duckietown-4way-v0
+time=1599040534.6281457 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1599040534.6288126 Registering gym environment id: Duckietown-loop_empty-v0
+time=1599040534.629419 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1599040534.6301055 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1599040534.6307764 Registering gym environment id: Duckietown-small_loop-v0
+time=1599040534.6314232 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1599040534.6320527 Registering gym environment id: Duckietown-straight_road-v0
+time=1599040534.6327403 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1599040534.6333346 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1599040534.634029 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1599040534.6347153 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1599040534.6353118 Registering gym environment id: Duckietown-udem1-v0
+time=1599040534.635505 Registering gym environment id: Duckietown-zigzag_dists-v0
+/usr/local/lib/python3.6/dist-packages/gym/logger.py:30: UserWarning: [33mWARN: Box bound precision lowered by casting to float32[0m
+  warnings.warn(colorize('%s: %s'%('WARN', msg % args), 'yellow'))
+time=1599040539.9623563 Pos: [0.2925 0.     0.2925] angle 0
+time=1599040540.0301507 Pos: [0.3325 0.     0.2925] angle 0
+time=1599040540.0914798 Pos: [0.3725 0.     0.2925] angle 0
+time=1599040540.1509147 Pos: [0.4125 0.     0.2925] angle 0
+time=1599040540.2435184 Pos: [0.4525 0.     0.2925] angle 0
+time=1599040540.317296 Pos: [0.4925 0.     0.2925] angle 0
+time=1599040540.3763905 Pos: [0.5325 0.     0.2925] angle 0
+time=1599040540.434601 Pos: [0.5725 0.     0.2925] angle 0
+time=1599040540.4936712 Pos: [0.6125 0.     0.2925] angle 0
+time=1599040540.5523279 Pos: [0.6525 0.     0.2925] angle 0
+time=1599040540.6098356 Pos: [0.6925 0.     0.2925] angle 0
+time=1599040540.6671944 Pos: [0.7325 0.     0.2925] angle 0
+time=1599040540.7253208 Pos: [0.7725 0.     0.2925] angle 0
+time=1599040540.7837272 Pos: [0.8125 0.     0.2925] angle 0
+time=1599040540.8421855 Pos: [0.8525 0.     0.2925] angle 0
+time=1599040540.8993735 Pos: [0.8925 0.     0.2925] angle 0
+time=1599040540.957489 Pos: [0.9325 0.     0.2925] angle 0
+time=1599040541.0162902 Pos: [0.9725 0.     0.2925] angle 0
+time=1599040541.0737402 Pos: [1.0125 0.     0.2925] angle 0
+time=1599040541.1327918 Pos: [1.0525 0.     0.2925] angle 0
+time=1599040541.1906514 Pos: [1.0925 0.     0.2925] angle 0
+time=1599040541.2485135 Pos: [1.1325 0.     0.2925] angle 0
+time=1599040541.3341298 Pos: [1.1725 0.     0.2925] angle 0
+time=1599040541.4179802 Pos: [1.2125 0.     0.2925] angle 0
+time=1599040541.4762192 Pos: [1.2525 0.     0.2925] angle 0
+time=1599040541.5343943 Pos: [1.2925 0.     0.2925] angle 0
+[0m[ INFO] [1599040537.710638242]: Subscribing to /rosout[0m
+[0m[ INFO] [1599040537.712484968]: Recording to '2020-09-02-09-55-37.bag'.[0m
+[0m[ INFO] [1599040537.716363691]: Subscribing to /rosout_agg[0m
+[0m[ INFO] [1599040538.722294674]: Subscribing to /ece2b029ce55/camera_node/camera_info[0m
+[0m[ INFO] [1599040538.727916867]: Subscribing to /ece2b029ce55/corrected_image/compressed[0m
+[0m[ INFO] [1599040539.722675552]: Subscribing to /ece2b029ce55/car_cmd[0m
+... logging to /home/appuser/.ros/log/73693706-ed02-11ea-981c-0242ac110003/roslaunch-ece2b029ce55-138.log
+[1mstarted roslaunch server http://ece2b029ce55:42487/[0m
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: melodic
+ * /rosversion: 1.14.6
+
+NODES
+  /
+    demo_node (demo/demo_node.py)
+    record (rosbag/record)
+
+auto-starting new master
+[1mprocess[master]: started with pid [149][0m
+[1mROS_MASTER_URI=http://localhost:11311[0m
+[1msetting /run_id to 73693706-ed02-11ea-981c-0242ac110003[0m
+[1mprocess[rosout-1]: started with pid [160][0m
+started core service [/rosout]
+[1mprocess[demo_node-2]: started with pid [163][0m
+[1mprocess[record-3]: started with pid [168][0m
+env = <gym_duckietown.tasks.cv_task_env.CVTaskEnv object at 0x7f26d905e7f0>
+launch = <roslaunch.parent.ROSLaunchParent object at 0x7f26efb5ee80>
+agent = <gym_duckietown.tasks.rosagent.ROSAgent object at 0x7f26d90dcbe0>
+action = [0 0]
+action = [1.0, 0.0]
+action = [1.0, 0.0]
+action = [1.0, 0.0]
+action = [1.0, 0.0]
+action = [1.0, 0.0]
+action = [1.0, 0.0]
+action = [1.0, 0.0]
+action = [1.0, 0.0]
+action = [1.0, 0.0]
+action = [1.0, 0.0]
+action = [1.0, 0.0]
+action = [1.0, 0.0]
+action = [1.0, 0.0]
+action = [1.0, 0.0]
+action = [1.0, 0.0]
+action = [1.0, 0.0]
+action = [1.0, 0.0]
+action = [1.0, 0.0]
+action = [1.0, 0.0]
+action = [1.0, 0.0]
+action = [1.0, 0.0]
+action = [1.0, 0.0]
+action = [1.0, 0.0]
+action = [1.0, 0.0]
+action = [1.0, 0.0]
+action = [-99.0, -99.0]
+[record-3] killing on exit
+[demo_node-2] killing on exit
+[rosout-1] killing on exit
+[master] killing on exit
+False: StopAtCoordinatesChecker has thrown an exception: trackers call is not allowed in CV tasks
