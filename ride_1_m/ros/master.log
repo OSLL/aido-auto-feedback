@@ -1,0 +1,158 @@
+[rosmaster.main][INFO] 2020-09-02 09:57:36,137: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2020-09-02 09:57:36,137: Starting ROS Master Node
+[xmlrpc][INFO] 2020-09-02 09:57:36,139: XML-RPC server binding to 0.0.0.0:11311
+[rosmaster.master][INFO] 2020-09-02 09:57:36,139: Master initialized: port[11311], uri[http://bc8115d86280:11311/]
+[xmlrpc][INFO] 2020-09-02 09:57:36,139: Started XML-RPC server [http://bc8115d86280:11311/]
+[xmlrpc][INFO] 2020-09-02 09:57:36,140: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2020-09-02 09:57:36,181: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2020-09-02 09:57:36,182: +PARAM [/roslaunch/uris/host_bc8115d86280__41143] by /roslaunch
+[rosmaster.master][INFO] 2020-09-02 09:57:36,223: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2020-09-02 09:57:36,223: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2020-09-02 09:57:36,240: +SERVICE [/rosout/get_loggers] /rosout http://bc8115d86280:36631/
+[rosmaster.master][INFO] 2020-09-02 09:57:36,241: +SERVICE [/rosout/set_logger_level] /rosout http://bc8115d86280:36631/
+[rosmaster.master][INFO] 2020-09-02 09:57:36,242: +PUB [/rosout_agg] /rosout http://bc8115d86280:36631/
+[rosmaster.master][INFO] 2020-09-02 09:57:36,246: +SUB [/rosout] /rosout http://bc8115d86280:36631/
+[rosmaster.master][INFO] 2020-09-02 09:57:36,324: +PUB [/rosout] /record http://bc8115d86280:40725/
+[rosmaster.master][INFO] 2020-09-02 09:57:36,325: +SERVICE [/record/get_loggers] /record http://bc8115d86280:40725/
+[rosmaster.master][INFO] 2020-09-02 09:57:36,325: +SERVICE [/record/set_logger_level] /record http://bc8115d86280:40725/
+[rosmaster.master][INFO] 2020-09-02 09:57:36,334: +SUB [/rosout] /record http://bc8115d86280:40725/
+[rosmaster.master][INFO] 2020-09-02 09:57:36,337: +SUB [/rosout_agg] /record http://bc8115d86280:40725/
+[rosmaster.master][INFO] 2020-09-02 09:57:36,339: publisherUpdate[/rosout] -> http://bc8115d86280:36631/ ['http://bc8115d86280:40725/']
+[rosmaster.master][INFO] 2020-09-02 09:57:36,347: +PUB [/bc8115d86280/corrected_image/compressed] /ROSAgent http://bc8115d86280:37117/
+[rosmaster.master][INFO] 2020-09-02 09:57:36,349: +PUB [/bc8115d86280/camera_node/camera_info] /ROSAgent http://bc8115d86280:37117/
+[rosmaster.master][INFO] 2020-09-02 09:57:36,351: +SUB [/bc8115d86280/car_cmd] /ROSAgent http://bc8115d86280:37117/
+[rosmaster.master][INFO] 2020-09-02 09:57:36,359: +PUB [/rosout] /ROSAgent http://bc8115d86280:37117/
+[rosmaster.master][INFO] 2020-09-02 09:57:36,379: +SERVICE [/ROSAgent/get_loggers] /ROSAgent http://bc8115d86280:37117/
+[rosmaster.master][INFO] 2020-09-02 09:57:36,397: +SERVICE [/ROSAgent/set_logger_level] /ROSAgent http://bc8115d86280:37117/
+[rosmaster.master][INFO] 2020-09-02 09:57:36,402: publisherUpdate[/rosout] -> http://bc8115d86280:36631/ ['http://bc8115d86280:40725/']: sec=0.06, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-02 09:57:36,402: publisherUpdate[/rosout] -> http://bc8115d86280:36631/ ['http://bc8115d86280:40725/', 'http://bc8115d86280:37117/']
+[rosmaster.master][INFO] 2020-09-02 09:57:36,403: publisherUpdate[/rosout] -> http://bc8115d86280:36631/ ['http://bc8115d86280:40725/', 'http://bc8115d86280:37117/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-02 09:57:36,403: publisherUpdate[/rosout] -> http://bc8115d86280:40725/ ['http://bc8115d86280:40725/', 'http://bc8115d86280:37117/']
+[rosmaster.master][INFO] 2020-09-02 09:57:36,422: publisherUpdate[/rosout] -> http://bc8115d86280:40725/ ['http://bc8115d86280:40725/', 'http://bc8115d86280:37117/']: sec=0.02, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-02 09:57:37,342: +SUB [/bc8115d86280/camera_node/camera_info] /record http://bc8115d86280:40725/
+[rosmaster.master][INFO] 2020-09-02 09:57:37,351: +SUB [/bc8115d86280/corrected_image/compressed] /record http://bc8115d86280:40725/
+[rosmaster.master][INFO] 2020-09-02 09:57:37,471: +PUB [/rosout] /demo_node http://bc8115d86280:42269/
+[rosmaster.master][INFO] 2020-09-02 09:57:37,475: +SERVICE [/demo_node/get_loggers] /demo_node http://bc8115d86280:42269/
+[rosmaster.master][INFO] 2020-09-02 09:57:37,476: +SERVICE [/demo_node/set_logger_level] /demo_node http://bc8115d86280:42269/
+[rosmaster.master][INFO] 2020-09-02 09:57:37,479: +SUB [/bc8115d86280/corrected_image/compressed] /demo_node http://bc8115d86280:42269/
+[rosmaster.master][INFO] 2020-09-02 09:57:37,480: +PUB [/bc8115d86280/car_cmd] /demo_node http://bc8115d86280:42269/
+[rosmaster.master][INFO] 2020-09-02 09:57:37,527: publisherUpdate[/rosout] -> http://bc8115d86280:36631/ ['http://bc8115d86280:40725/', 'http://bc8115d86280:37117/', 'http://bc8115d86280:42269/']
+[rosmaster.master][INFO] 2020-09-02 09:57:37,528: publisherUpdate[/rosout] -> http://bc8115d86280:36631/ ['http://bc8115d86280:40725/', 'http://bc8115d86280:37117/', 'http://bc8115d86280:42269/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-02 09:57:37,528: publisherUpdate[/rosout] -> http://bc8115d86280:40725/ ['http://bc8115d86280:40725/', 'http://bc8115d86280:37117/', 'http://bc8115d86280:42269/']
+[rosmaster.master][INFO] 2020-09-02 09:57:37,529: publisherUpdate[/rosout] -> http://bc8115d86280:40725/ ['http://bc8115d86280:40725/', 'http://bc8115d86280:37117/', 'http://bc8115d86280:42269/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-02 09:57:37,529: publisherUpdate[/bc8115d86280/car_cmd] -> http://bc8115d86280:37117/ ['http://bc8115d86280:42269/']
+[rosmaster.master][INFO] 2020-09-02 09:57:37,675: publisherUpdate[/bc8115d86280/car_cmd] -> http://bc8115d86280:37117/ ['http://bc8115d86280:42269/']: sec=0.15, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-02 09:57:38,344: +SUB [/bc8115d86280/car_cmd] /record http://bc8115d86280:40725/
+[rosmaster.master][INFO] 2020-09-02 09:57:42,470: -SUB [/bc8115d86280/corrected_image/compressed] /demo_node http://bc8115d86280:42269/
+[rosmaster.master][INFO] 2020-09-02 09:57:42,470: -PUB [/bc8115d86280/car_cmd] /demo_node http://bc8115d86280:42269/
+[rosmaster.master][INFO] 2020-09-02 09:57:42,470: -PUB [/rosout] /demo_node http://bc8115d86280:42269/
+[rosmaster.master][INFO] 2020-09-02 09:57:42,471: -SERVICE [/demo_node/get_loggers] /demo_node rosrpc://bc8115d86280:43007
+[rosmaster.master][INFO] 2020-09-02 09:57:42,471: -SERVICE [/demo_node/set_logger_level] /demo_node rosrpc://bc8115d86280:43007
+[rosmaster.master][INFO] 2020-09-02 09:57:42,472: publisherUpdate[/bc8115d86280/car_cmd] -> http://bc8115d86280:37117/ []
+[rosmaster.master][INFO] 2020-09-02 09:57:42,507: publisherUpdate[/bc8115d86280/car_cmd] -> http://bc8115d86280:37117/ []: sec=0.04, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-02 09:57:42,507: publisherUpdate[/bc8115d86280/car_cmd] -> http://bc8115d86280:40725/ []
+[rosmaster.master][INFO] 2020-09-02 09:57:42,508: publisherUpdate[/rosout] -> http://bc8115d86280:36631/ ['http://bc8115d86280:40725/', 'http://bc8115d86280:37117/']
+[rosmaster.master][INFO] 2020-09-02 09:57:42,551: publisherUpdate[/rosout] -> http://bc8115d86280:36631/ ['http://bc8115d86280:40725/', 'http://bc8115d86280:37117/']: sec=0.04, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-02 09:57:42,623: -PUB [/rosout] /record http://bc8115d86280:40725/
+[rosmaster.master][INFO] 2020-09-02 09:57:42,623: -SUB [/rosout] /record http://bc8115d86280:40725/
+[rosmaster.master][INFO] 2020-09-02 09:57:42,624: -SUB [/rosout_agg] /record http://bc8115d86280:40725/
+[rosmaster.master][INFO] 2020-09-02 09:57:42,625: -SUB [/bc8115d86280/camera_node/camera_info] /record http://bc8115d86280:40725/
+[rosmaster.master][INFO] 2020-09-02 09:57:42,626: -SUB [/bc8115d86280/corrected_image/compressed] /record http://bc8115d86280:40725/
+[rosmaster.master][INFO] 2020-09-02 09:57:42,626: -SUB [/bc8115d86280/car_cmd] /record http://bc8115d86280:40725/
+[rosmaster.master][INFO] 2020-09-02 09:57:42,627: -SERVICE [/record/get_loggers] /record rosrpc://bc8115d86280:38721
+[rosmaster.master][INFO] 2020-09-02 09:57:42,628: -SERVICE [/record/set_logger_level] /record rosrpc://bc8115d86280:38721
+[rosmaster.master][INFO] 2020-09-02 09:57:42,651: publisherUpdate[/rosout] -> http://bc8115d86280:36631/ ['http://bc8115d86280:37117/']
+[rosmaster.master][INFO] 2020-09-02 09:57:42,653: publisherUpdate[/rosout] -> http://bc8115d86280:36631/ ['http://bc8115d86280:37117/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-02 09:57:42,862: publisherUpdate[/bc8115d86280/car_cmd] -> http://bc8115d86280:40725/ []: sec=0.35, exception=[Errno 111] Connection refused
+[rosmaster.threadpool][ERROR] 2020-09-02 09:57:42,864: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1311, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1459, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 1078, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 894, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 856, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 833, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+
+[rosmaster.master][INFO] 2020-09-02 09:57:42,864: publisherUpdate[/rosout] -> http://bc8115d86280:40725/ ['http://bc8115d86280:40725/', 'http://bc8115d86280:37117/']
+[rosmaster.master][INFO] 2020-09-02 09:57:42,864: publisherUpdate[/rosout] -> http://bc8115d86280:40725/ ['http://bc8115d86280:40725/', 'http://bc8115d86280:37117/']: sec=0.00, exception=[Errno 111] Connection refused
+[rosmaster.threadpool][ERROR] 2020-09-02 09:57:42,864: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1311, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1459, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 1078, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 894, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 856, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 833, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+
+[rosmaster.master][INFO] 2020-09-02 09:57:42,865: publisherUpdate[/rosout] -> http://bc8115d86280:40725/ ['http://bc8115d86280:37117/']
+[rosmaster.master][INFO] 2020-09-02 09:57:42,865: publisherUpdate[/rosout] -> http://bc8115d86280:40725/ ['http://bc8115d86280:37117/']: sec=0.00, exception=[Errno 111] Connection refused
+[rosmaster.threadpool][ERROR] 2020-09-02 09:57:42,865: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1311, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1459, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 1078, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 894, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 856, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 833, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+
+[rosmaster.master][INFO] 2020-09-02 09:57:43,053: -PUB [/rosout_agg] /rosout http://bc8115d86280:36631/
+[rosmaster.master][INFO] 2020-09-02 09:57:43,054: -SUB [/rosout] /rosout http://bc8115d86280:36631/
+[rosmaster.master][INFO] 2020-09-02 09:57:43,055: -SERVICE [/rosout/get_loggers] /rosout rosrpc://bc8115d86280:51461
+[rosmaster.master][INFO] 2020-09-02 09:57:43,056: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://bc8115d86280:51461
+[rosmaster.main][INFO] 2020-09-02 09:57:43,092: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2020-09-02 09:57:43,092: stopping master...
+[rospy.core][INFO] 2020-09-02 09:57:43,093: signal_shutdown [atexit]
