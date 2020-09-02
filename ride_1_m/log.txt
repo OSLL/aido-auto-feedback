@@ -1,0 +1,109 @@
+True: Accepted
+time=1599041149.306677 gym-duckietown 2019.0.0
+
+time=1599041149.6687458 Registering gym environment id: Duckietown-4way-v0
+time=1599041149.6689055 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1599041149.66939 Registering gym environment id: Duckietown-loop_empty-v0
+time=1599041149.6696062 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1599041149.669997 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1599041149.6701918 Registering gym environment id: Duckietown-small_loop-v0
+time=1599041149.6705651 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1599041149.6706865 Registering gym environment id: Duckietown-straight_road-v0
+time=1599041149.670805 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1599041149.6709135 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1599041149.6710622 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1599041149.6713827 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1599041149.671859 Registering gym environment id: Duckietown-udem1-v0
+time=1599041149.6721485 Registering gym environment id: Duckietown-zigzag_dists-v0
+/usr/local/lib/python3.6/dist-packages/gym/logger.py:30: UserWarning: [33mWARN: Box bound precision lowered by casting to float32[0m
+  warnings.warn(colorize('%s: %s'%('WARN', msg % args), 'yellow'))
+time=1599041155.0088506 Pos: [0.2925 0.     0.2925] angle 0
+time=1599041155.3917048 Pos: [0.3325 0.     0.2925] angle 0
+time=1599041155.5236442 Pos: [0.3725 0.     0.2925] angle 0
+time=1599041155.655859 Pos: [0.4125 0.     0.2925] angle 0
+time=1599041155.7872922 Pos: [0.4525 0.     0.2925] angle 0
+time=1599041155.9493177 Pos: [0.4925 0.     0.2925] angle 0
+time=1599041156.1102054 Pos: [0.5325 0.     0.2925] angle 0
+time=1599041156.2406778 Pos: [0.5725 0.     0.2925] angle 0
+time=1599041156.3715875 Pos: [0.6125 0.     0.2925] angle 0
+time=1599041156.5016155 Pos: [0.6525 0.     0.2925] angle 0
+time=1599041156.6312795 Pos: [0.6925 0.     0.2925] angle 0
+time=1599041156.7599626 Pos: [0.7325 0.     0.2925] angle 0
+time=1599041156.8897285 Pos: [0.7725 0.     0.2925] angle 0
+time=1599041157.0332894 Pos: [0.8125 0.     0.2925] angle 0
+time=1599041157.2117856 Pos: [0.8525 0.     0.2925] angle 0
+time=1599041157.375779 Pos: [0.8925 0.     0.2925] angle 0
+time=1599041157.5070288 Pos: [0.9325 0.     0.2925] angle 0
+time=1599041157.636737 Pos: [0.9725 0.     0.2925] angle 0
+time=1599041157.7678037 Pos: [1.0125 0.     0.2925] angle 0
+time=1599041157.8988202 Pos: [1.0525 0.     0.2925] angle 0
+time=1599041158.0292587 Pos: [1.0925 0.     0.2925] angle 0
+time=1599041158.170239 Pos: [1.1325 0.     0.2925] angle 0
+time=1599041158.3482592 Pos: [1.1725 0.     0.2925] angle 0
+time=1599041158.4772704 Pos: [1.2125 0.     0.2925] angle 0
+time=1599041158.6067202 Pos: [1.2525 0.     0.2925] angle 0
+time=1599041158.7366323 Pos: [1.2925 0.     0.2925] angle 0
+[0m[ INFO] [1599041152.787499068]: Subscribing to /561916efce91/corrected_image/compressed[0m
+[0m[ INFO] [1599041152.790289059]: Recording to '2020-09-02-10-05-52.bag'.[0m
+[0m[ INFO] [1599041152.792680271]: Subscribing to /rosout[0m
+[0m[ INFO] [1599041152.796600777]: Subscribing to /rosout_agg[0m
+[0m[ INFO] [1599041152.800634800]: Subscribing to /561916efce91/camera_node/camera_info[0m
+[0m[ INFO] [1599041153.823663808]: Subscribing to /561916efce91/car_cmd[0m
+... logging to /home/appuser/.ros/log/e20584e8-ed03-11ea-ac19-0242ac110003/roslaunch-561916efce91-140.log
+[1mstarted roslaunch server http://561916efce91:33241/[0m
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: melodic
+ * /rosversion: 1.14.6
+
+NODES
+  /
+    demo_node (demo/demo_node.py)
+    record (rosbag/record)
+
+auto-starting new master
+[1mprocess[master]: started with pid [151][0m
+[1mROS_MASTER_URI=http://localhost:11311[0m
+[1msetting /run_id to e20584e8-ed03-11ea-ac19-0242ac110003[0m
+[1mprocess[rosout-1]: started with pid [162][0m
+started core service [/rosout]
+[1mprocess[demo_node-2]: started with pid [165][0m
+[1mprocess[record-3]: started with pid [170][0m
+env = <gym_duckietown.tasks.tracking_duckietown_env_with_rec.TrackingDuckietownEnvWithRec object at 0x7f4533256518>
+launch = <roslaunch.parent.ROSLaunchParent object at 0x7f4549d58e80>
+agent = <gym_duckietown.tasks.rosagent.ROSAgent object at 0x7f45332d8e80>
+action = [0 0]
+action = [1.0, 0.0]
+action = [1.0, 0.0]
+action = [1.0, 0.0]
+action = [1.0, 0.0]
+action = [1.0, 0.0]
+action = [1.0, 0.0]
+action = [1.0, 0.0]
+action = [1.0, 0.0]
+action = [1.0, 0.0]
+action = [1.0, 0.0]
+action = [1.0, 0.0]
+action = [1.0, 0.0]
+action = [1.0, 0.0]
+action = [1.0, 0.0]
+action = [1.0, 0.0]
+action = [1.0, 0.0]
+action = [1.0, 0.0]
+action = [1.0, 0.0]
+action = [1.0, 0.0]
+action = [1.0, 0.0]
+action = [1.0, 0.0]
+action = [1.0, 0.0]
+action = [1.0, 0.0]
+action = [1.0, 0.0]
+action = [1.0, 0.0]
+action = [-99.0, -99.0]
+[record-3] killing on exit
+[demo_node-2] killing on exit
+[rosout-1] killing on exit
+[master] killing on exit
+True: Accepted
