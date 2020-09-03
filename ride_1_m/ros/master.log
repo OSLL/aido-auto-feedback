@@ -1,0 +1,134 @@
+[rosmaster.main][INFO] 2020-09-03 14:07:01,060: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2020-09-03 14:07:01,061: Starting ROS Master Node
+[xmlrpc][INFO] 2020-09-03 14:07:01,062: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2020-09-03 14:07:01,062: Started XML-RPC server [http://notebook:11311/]
+[xmlrpc][INFO] 2020-09-03 14:07:01,063: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2020-09-03 14:07:01,063: Master initialized: port[11311], uri[http://notebook:11311/]
+[rosmaster.master][INFO] 2020-09-03 14:07:01,157: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2020-09-03 14:07:01,159: +PARAM [/roslaunch/uris/host_notebook__46037] by /roslaunch
+[rosmaster.master][INFO] 2020-09-03 14:07:01,211: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2020-09-03 14:07:01,211: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2020-09-03 14:07:01,278: +PUB [/notebook/corrected_image/compressed] /ROSAgent http://notebook:46565/
+[rosmaster.master][INFO] 2020-09-03 14:07:01,282: +PUB [/notebook/camera_node/camera_info] /ROSAgent http://notebook:46565/
+[rosmaster.master][INFO] 2020-09-03 14:07:01,283: +SUB [/notebook/car_cmd] /ROSAgent http://notebook:46565/
+[rosmaster.master][INFO] 2020-09-03 14:07:01,319: +SERVICE [/rosout/get_loggers] /rosout http://notebook:38917/
+[rosmaster.master][INFO] 2020-09-03 14:07:01,320: +SERVICE [/rosout/set_logger_level] /rosout http://notebook:38917/
+[rosmaster.master][INFO] 2020-09-03 14:07:01,322: +PUB [/rosout_agg] /rosout http://notebook:38917/
+[rosmaster.master][INFO] 2020-09-03 14:07:01,324: +SUB [/rosout] /rosout http://notebook:38917/
+[rosmaster.master][INFO] 2020-09-03 14:07:01,357: +PUB [/rosout] /record http://notebook:35041/
+[rosmaster.master][INFO] 2020-09-03 14:07:01,358: +SERVICE [/record/get_loggers] /record http://notebook:35041/
+[rosmaster.master][INFO] 2020-09-03 14:07:01,359: +SERVICE [/record/set_logger_level] /record http://notebook:35041/
+[rosmaster.master][INFO] 2020-09-03 14:07:01,362: publisherUpdate[/rosout] -> http://notebook:38917/ ['http://notebook:35041/']
+[rosmaster.master][INFO] 2020-09-03 14:07:01,367: +SUB [/notebook/camera_node/camera_info] /record http://notebook:35041/
+[rosmaster.master][INFO] 2020-09-03 14:07:01,371: +SUB [/notebook/corrected_image/compressed] /record http://notebook:35041/
+[rosmaster.master][INFO] 2020-09-03 14:07:01,374: +SUB [/rosout] /record http://notebook:35041/
+[rosmaster.master][INFO] 2020-09-03 14:07:01,377: +SUB [/rosout_agg] /record http://notebook:35041/
+[rosmaster.master][INFO] 2020-09-03 14:07:01,382: +PUB [/rosout] /ROSAgent http://notebook:46565/
+[rosmaster.master][INFO] 2020-09-03 14:07:01,386: +SERVICE [/ROSAgent/get_loggers] /ROSAgent http://notebook:46565/
+[rosmaster.master][INFO] 2020-09-03 14:07:01,388: +SERVICE [/ROSAgent/set_logger_level] /ROSAgent http://notebook:46565/
+[rosmaster.master][INFO] 2020-09-03 14:07:01,415: publisherUpdate[/rosout] -> http://notebook:38917/ ['http://notebook:35041/']: sec=0.05, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-03 14:07:01,419: publisherUpdate[/rosout] -> http://notebook:38917/ ['http://notebook:35041/', 'http://notebook:46565/']
+[rosmaster.master][INFO] 2020-09-03 14:07:01,422: publisherUpdate[/rosout] -> http://notebook:38917/ ['http://notebook:35041/', 'http://notebook:46565/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-03 14:07:01,423: publisherUpdate[/rosout] -> http://notebook:35041/ ['http://notebook:35041/', 'http://notebook:46565/']
+[rosmaster.master][INFO] 2020-09-03 14:07:01,474: publisherUpdate[/rosout] -> http://notebook:35041/ ['http://notebook:35041/', 'http://notebook:46565/']: sec=0.05, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-03 14:07:02,918: +PUB [/rosout] /demo_node http://notebook:32911/
+[rosmaster.master][INFO] 2020-09-03 14:07:02,921: +SERVICE [/demo_node/get_loggers] /demo_node http://notebook:32911/
+[rosmaster.master][INFO] 2020-09-03 14:07:02,922: +SERVICE [/demo_node/set_logger_level] /demo_node http://notebook:32911/
+[rosmaster.master][INFO] 2020-09-03 14:07:02,924: +SUB [/notebook/corrected_image/compressed] /demo_node http://notebook:32911/
+[rosmaster.master][INFO] 2020-09-03 14:07:02,925: +PUB [/notebook/car_cmd] /demo_node http://notebook:32911/
+[rosmaster.master][INFO] 2020-09-03 14:07:02,978: publisherUpdate[/rosout] -> http://notebook:38917/ ['http://notebook:35041/', 'http://notebook:46565/', 'http://notebook:32911/']
+[rosmaster.master][INFO] 2020-09-03 14:07:02,979: publisherUpdate[/rosout] -> http://notebook:35041/ ['http://notebook:35041/', 'http://notebook:46565/', 'http://notebook:32911/']
+[rosmaster.master][INFO] 2020-09-03 14:07:03,002: publisherUpdate[/notebook/car_cmd] -> http://notebook:46565/ ['http://notebook:32911/']
+[rosmaster.master][INFO] 2020-09-03 14:07:03,004: publisherUpdate[/rosout] -> http://notebook:35041/ ['http://notebook:35041/', 'http://notebook:46565/', 'http://notebook:32911/']: sec=0.02, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-03 14:07:03,006: publisherUpdate[/rosout] -> http://notebook:38917/ ['http://notebook:35041/', 'http://notebook:46565/', 'http://notebook:32911/']: sec=0.03, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-03 14:07:03,009: publisherUpdate[/notebook/car_cmd] -> http://notebook:46565/ ['http://notebook:32911/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-03 14:07:03,382: +SUB [/notebook/car_cmd] /record http://notebook:35041/
+[rosmaster.master][INFO] 2020-09-03 14:07:07,401: -SUB [/notebook/corrected_image/compressed] /demo_node http://notebook:32911/
+[rosmaster.master][INFO] 2020-09-03 14:07:07,402: -PUB [/rosout] /demo_node http://notebook:32911/
+[rosmaster.master][INFO] 2020-09-03 14:07:07,402: -PUB [/notebook/car_cmd] /demo_node http://notebook:32911/
+[rosmaster.master][INFO] 2020-09-03 14:07:07,402: -SERVICE [/demo_node/get_loggers] /demo_node rosrpc://notebook:38151
+[rosmaster.master][INFO] 2020-09-03 14:07:07,402: -SERVICE [/demo_node/set_logger_level] /demo_node rosrpc://notebook:38151
+[rosmaster.master][INFO] 2020-09-03 14:07:07,429: publisherUpdate[/rosout] -> http://notebook:38917/ ['http://notebook:35041/', 'http://notebook:46565/']
+[rosmaster.master][INFO] 2020-09-03 14:07:07,430: publisherUpdate[/rosout] -> http://notebook:35041/ ['http://notebook:35041/', 'http://notebook:46565/']
+[rosmaster.master][INFO] 2020-09-03 14:07:07,431: -PUB [/rosout] /record http://notebook:35041/
+[rosmaster.master][INFO] 2020-09-03 14:07:07,432: -SUB [/notebook/camera_node/camera_info] /record http://notebook:35041/
+[rosmaster.master][INFO] 2020-09-03 14:07:07,434: publisherUpdate[/rosout] -> http://notebook:38917/ ['http://notebook:35041/', 'http://notebook:46565/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-03 14:07:07,435: publisherUpdate[/rosout] -> http://notebook:38917/ ['http://notebook:46565/']
+[rosmaster.master][INFO] 2020-09-03 14:07:07,434: publisherUpdate[/notebook/car_cmd] -> http://notebook:46565/ []
+[rosmaster.master][INFO] 2020-09-03 14:07:07,435: -SUB [/notebook/corrected_image/compressed] /record http://notebook:35041/
+[rosmaster.master][INFO] 2020-09-03 14:07:07,437: publisherUpdate[/rosout] -> http://notebook:38917/ ['http://notebook:46565/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-03 14:07:07,440: publisherUpdate[/rosout] -> http://notebook:35041/ ['http://notebook:35041/', 'http://notebook:46565/']: sec=0.01, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.master][INFO] 2020-09-03 14:07:07,438: publisherUpdate[/notebook/car_cmd] -> http://notebook:46565/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2020-09-03 14:07:07,440: publisherUpdate[/notebook/car_cmd] -> http://notebook:35041/ []
+[rosmaster.master][INFO] 2020-09-03 14:07:07,442: publisherUpdate[/notebook/car_cmd] -> http://notebook:35041/ []: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.master][INFO] 2020-09-03 14:07:07,438: -SUB [/rosout] /record http://notebook:35041/
+[rosmaster.master][INFO] 2020-09-03 14:07:07,443: -SUB [/rosout_agg] /record http://notebook:35041/
+[rosmaster.master][INFO] 2020-09-03 14:07:07,447: -SUB [/notebook/car_cmd] /record http://notebook:35041/
+[rosmaster.threadpool][ERROR] 2020-09-03 14:07:07,447: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2020-09-03 14:07:07,448: publisherUpdate[/rosout] -> http://notebook:35041/ ['http://notebook:46565/']
+[rosmaster.threadpool][ERROR] 2020-09-03 14:07:07,448: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2020-09-03 14:07:07,449: publisherUpdate[/rosout] -> http://notebook:35041/ ['http://notebook:46565/']: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.threadpool][ERROR] 2020-09-03 14:07:07,449: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2020-09-03 14:07:07,450: -SERVICE [/record/get_loggers] /record rosrpc://notebook:49351
+[rosmaster.master][INFO] 2020-09-03 14:07:07,451: -SERVICE [/record/set_logger_level] /record rosrpc://notebook:49351
+[rosmaster.master][INFO] 2020-09-03 14:07:07,941: -PUB [/rosout_agg] /rosout http://notebook:38917/
+[rosmaster.master][INFO] 2020-09-03 14:07:07,943: -SUB [/rosout] /rosout http://notebook:38917/
+[rosmaster.master][INFO] 2020-09-03 14:07:07,944: -SERVICE [/rosout/get_loggers] /rosout rosrpc://notebook:56239
+[rosmaster.master][INFO] 2020-09-03 14:07:07,945: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://notebook:56239
+[rosmaster.main][INFO] 2020-09-03 14:07:08,005: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2020-09-03 14:07:08,005: stopping master...
+[rospy.core][INFO] 2020-09-03 14:07:08,006: signal_shutdown [atexit]
