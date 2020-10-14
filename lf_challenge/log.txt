@@ -1,0 +1,29 @@
+NameError: name 'TrackingDuckietownEnvWithRec' is not defined
+False: Non-zero return code, probably a syntax error occurred\ntime=1602671925.3134031 gym-duckietown 2019.0.0
+
+time=1602671925.6085715 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1602671925.6087413 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1602671925.6093245 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1602671925.6100194 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1602671925.6105337 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1602671925.610684 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1602671925.6111755 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1602671925.6112983 Registering gym environment id: Duckietown-4way-v0
+time=1602671925.6116765 Registering gym environment id: Duckietown-loop_empty-v0
+time=1602671925.6118584 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1602671925.612416 Registering gym environment id: Duckietown-straight_road-v0
+time=1602671925.6126215 Registering gym environment id: Duckietown-small_loop-v0
+time=1602671925.6130075 Registering gym environment id: Duckietown-udem1-v0
+time=1602671925.613469 Registering gym environment id: Duckietown-zigzag_dists-v0
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib/python3.6/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/lf_challenge/checker.py", line 6, in <module>
+    checkers=[StopAtCoordinatesChecker(), RewardChecker()]
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/solution_evaluator.py", line 41, in evaluate_solution
+    generated_task = self.task_generator.generate_task()
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/lf_challenge/task_generator.py", line 27, in generate_task
+    env_loader = CVTaskEnv if self.args.is_cv_task else TrackingDuckietownEnvWithRec
+NameError: name 'TrackingDuckietownEnvWithRec' is not defined
