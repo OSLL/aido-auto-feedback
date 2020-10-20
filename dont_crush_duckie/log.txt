@@ -1,0 +1,987 @@
+False: Accepted
+time=1603219415.809381 gym-duckietown 2019.0.0
+
+time=1603219416.23724 Registering gym environment id: Duckietown-4way-v0
+time=1603219416.237635 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1603219416.2379704 Registering gym environment id: Duckietown-loop_empty-v0
+time=1603219416.2384274 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1603219416.238729 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1603219416.2405486 Registering gym environment id: Duckietown-small_loop-v0
+time=1603219416.2408504 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1603219416.2426133 Registering gym environment id: Duckietown-straight_road-v0
+time=1603219416.24299 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1603219416.2441494 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1603219416.2444468 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1603219416.244772 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1603219416.2450707 Registering gym environment id: Duckietown-udem1-v0
+time=1603219416.2453506 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1603219422.6230779 Falling back to non-multisampled frame buffer
+time=1603219422.62812 Falling back to non-multisampled frame buffer
+time=1603219422.6335046 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/straight_road.yaml"
+time=1603219422.6516457 loading mesh "duckiebot.obj"
+time=1603219422.6522608 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1603219424.0415902 loading texture "straight_1.png"
+time=1603219424.077474 road_tile_size=0.585
+time=1603219424.0784156 Starting at [0.2925  0.      0.43875] 0
+time=1603219424.0790744 Pos: [0.2925  0.      0.43875] angle 0
+time=1603219424.5752301 using DuckietownEnv
+/usr/local/lib/python3.6/dist-packages/gym/logger.py:30: UserWarning: [33mWARN: Box bound precision lowered by casting to float32[0m
+  warnings.warn(colorize('%s: %s'%('WARN', msg % args), 'yellow'))
+time=1603219424.5786898 loading mesh "duckie.obj"
+time=1603219424.7141924 loading texture "duckie.png"
+time=1603219426.3776305 Pos: [0.2925  0.      0.43875] angle 0
+time=1603219427.1226509 Pos: [0.3325  0.      0.43875] angle 0
+time=1603219427.364978 Pos: [0.3725  0.      0.43875] angle 0
+time=1603219427.8261125 Pos: [0.4125  0.      0.43875] angle 0
+time=1603219428.114086 Pos: [0.4525  0.      0.43875] angle 0
+time=1603219428.3357005 Pos: [0.4925  0.      0.43875] angle 0
+time=1603219428.5679903 Pos: [0.5325  0.      0.43875] angle 0
+time=1603219428.7971017 Pos: [0.5725  0.      0.43875] angle 0
+time=1603219429.0849247 Pos: [0.6125  0.      0.43875] angle 0
+time=1603219429.2817738 Pos: [0.6525  0.      0.43875] angle 0
+time=1603219429.4916945 Pos: [0.6925  0.      0.43875] angle 0
+time=1603219429.7243235 Pos: [0.7325  0.      0.43875] angle 0
+time=1603219429.975872 Pos: [0.7725  0.      0.43875] angle 0
+time=1603219430.3043735 Pos: [0.8125  0.      0.43875] angle 0
+time=1603219430.5563571 Pos: [0.8525  0.      0.43875] angle 0
+time=1603219430.7731538 Pos: [0.8925  0.      0.43875] angle 0
+time=1603219431.0158696 Pos: [0.9325  0.      0.43875] angle 0
+time=1603219431.250387 Pos: [0.9725  0.      0.43875] angle 0
+time=1603219431.5891085 Pos: [1.0125  0.      0.43875] angle 0
+time=1603219431.94508 Pos: [1.0525  0.      0.43875] angle 0
+time=1603219432.173142 Pos: [1.0925  0.      0.43875] angle 0
+time=1603219432.4169846 Pos: [1.1325  0.      0.43875] angle 0
+time=1603219432.7633119 Pos: [1.1725  0.      0.43875] angle 0
+time=1603219432.9777389 Pos: [1.2125  0.      0.43875] angle 0
+time=1603219433.2071762 Pos: [1.2525  0.      0.43875] angle 0
+time=1603219433.4449503 Pos: [1.2925  0.      0.43875] angle 0
+time=1603219433.6714587 Pos: [1.3325  0.      0.43875] angle 0
+time=1603219433.9727967 Pos: [1.3725  0.      0.43875] angle 0
+time=1603219434.3273194 Pos: [1.4125  0.      0.43875] angle 0
+time=1603219434.8250525 Pos: [1.4525  0.      0.43875] angle 0
+time=1603219435.2720635 Pos: [1.4925  0.      0.43875] angle 0
+time=1603219435.514612 Pos: [1.5325  0.      0.43875] angle 0
+time=1603219435.727573 Pos: [1.5725  0.      0.43875] angle 0
+time=1603219435.9644399 Pos: [1.6125  0.      0.43875] angle 0
+time=1603219436.1916854 Pos: [1.6525  0.      0.43875] angle 0
+time=1603219436.4897387 Pos: [1.6925  0.      0.43875] angle 0
+time=1603219436.7125545 Pos: [1.7325  0.      0.43875] angle 0
+time=1603219436.947925 Pos: [1.7725  0.      0.43875] angle 0
+time=1603219437.170882 Pos: [1.8125  0.      0.43875] angle 0
+time=1603219437.3897161 Pos: [1.8525  0.      0.43875] angle 0
+time=1603219437.6811695 Pos: [1.8925  0.      0.43875] angle 0
+time=1603219437.9189422 Pos: [1.9325  0.      0.43875] angle 0
+time=1603219438.1437569 Pos: [1.9725  0.      0.43875] angle 0
+time=1603219438.355306 Pos: [2.0125  0.      0.43875] angle 0
+time=1603219438.586043 Pos: [2.0525  0.      0.43875] angle 0
+time=1603219438.8844223 Pos: [2.0925  0.      0.43875] angle 0
+time=1603219439.1418395 Pos: [2.1325  0.      0.43875] angle 0
+time=1603219439.3738272 Pos: [2.1725  0.      0.43875] angle 0
+time=1603219439.601376 Pos: [2.2125  0.      0.43875] angle 0
+time=1603219439.8283482 Pos: [2.2525  0.      0.43875] angle 0
+time=1603219440.1150331 Pos: [2.2925  0.      0.43875] angle 0
+time=1603219440.3449156 Pos: [2.3325  0.      0.43875] angle 0
+time=1603219440.5668542 Pos: [2.3725  0.      0.43875] angle 0
+time=1603219440.7834446 Pos: [2.4125  0.      0.43875] angle 0
+time=1603219441.0127163 Pos: [2.4525  0.      0.43875] angle 0
+time=1603219441.3219118 Pos: [2.4925  0.      0.43875] angle 0
+time=1603219441.535566 Pos: [2.5325  0.      0.43875] angle 0
+time=1603219441.745334 Pos: [2.5725  0.      0.43875] angle 0
+time=1603219441.9680874 Pos: [2.6125  0.      0.43875] angle 0
+time=1603219442.1967423 Pos: [2.6525  0.      0.43875] angle 0
+time=1603219442.557777 Pos: [2.6925  0.      0.43875] angle 0
+time=1603219442.9769936 Pos: [2.7325  0.      0.43875] angle 0
+time=1603219443.4025438 Pos: [2.7725  0.      0.43875] angle 0
+time=1603219443.8357499 Pos: [2.8125  0.      0.43875] angle 0
+time=1603219444.0941367 Pos: [2.8525  0.      0.43875] angle 0
+time=1603219444.405394 Pos: [2.8925  0.      0.43875] angle 0
+time=1603219444.732083 Pos: [2.9325  0.      0.43875] angle 0
+time=1603219445.1417665 Pos: [2.9725  0.      0.43875] angle 0
+time=1603219445.5365138 Pos: [3.0125  0.      0.43875] angle 0
+time=1603219445.7793674 Pos: [3.0525  0.      0.43875] angle 0
+env.road_tile_size = 0.585
+start
+conturs 11
+area 193.5
+area 94.5
+area 27.0
+area 14.0
+area 0.0
+area 0.0
+area 1.5
+area 0.0
+area 87.0
+area 0.0
+area 0.0
+conturs 9
+area 47.0
+area 5.5
+area 0.0
+area 0.0
+area 0.0
+area 0.0
+area 0.0
+area 0.0
+area 77.5
+conturs 6
+area 63.5
+area 19.0
+area 16.5
+area 0.0
+area 0.0
+area 77.0
+conturs 12
+area 66.0
+area 3.5
+area 0.0
+area 4.0
+area 0.0
+area 0.0
+area 0.0
+area 0.0
+area 0.0
+area 0.0
+area 91.0
+area 0.0
+conturs 12
+area 75.0
+area 4.5
+area 0.0
+area 0.0
+area 1.5
+area 6.0
+area 0.0
+area 0.0
+area 0.0
+area 0.0
+area 0.0
+area 87.0
+conturs 11
+area 97.5
+area 2.5
+area 0.0
+area 0.0
+area 0.0
+area 0.0
+area 1.0
+area 0.0
+area 0.0
+area 89.0
+area 0.0
+conturs 9
+area 114.5
+area 24.0
+area 0.0
+area 4.5
+area 0.0
+area 0.0
+area 0.0
+area 0.0
+area 100.0
+conturs 10
+area 157.5
+area 40.5
+area 0.0
+area 5.0
+area 0.0
+area 0.0
+area 0.0
+area 0.0
+area 0.0
+area 103.5
+conturs 11
+area 204.5
+area 59.5
+area 0.0
+area 0.0
+area 0.0
+area 0.0
+area 0.0
+area 4.0
+area 0.0
+area 0.0
+area 87.0
+conturs 11
+area 244.5
+area 55.5
+area 1.0
+area 0.0
+area 0.0
+area 0.0
+area 0.0
+area 0.0
+area 0.0
+area 0.0
+area 98.0
+conturs 12
+area 359.5
+area 78.0
+area 1.5
+area 12.0
+area 0.0
+area 1.0
+area 0.0
+area 0.0
+area 0.0
+area 0.0
+area 0.0
+area 95.5
+conturs 13
+area 487.0
+area 124.0
+area 11.5
+area 21.0
+area 0.0
+area 5.0
+area 0.0
+area 0.0
+area 0.0
+area 0.0
+area 118.0
+area 0.0
+area 0.0
+conturs 15
+area 678.0
+area 157.0
+area 11.0
+area 27.0
+area 0.0
+area 9.0
+area 0.0
+area 0.0
+area 2.5
+area 0.0
+area 0.0
+area 111.0
+area 0.0
+area 0.0
+area 0.0
+conturs 11
+area 605.5
+area 209.5
+area 45.0
+area 18.5
+area 0.0
+area 10.5
+area 16.0
+area 5.0
+area 0.0
+area 128.0
+area 0.0
+conturs 12
+area 5.0
+area 311.0
+area 72.5
+area 41.0
+area 13.0
+area 0.0
+area 0.0
+area 0.0
+area 0.0
+area 134.0
+area 0.0
+area 0.0
+conturs 13
+area 35.0
+area 58.0
+area 43.0
+area 0.0
+area 3.5
+area 0.0
+area 0.0
+area 0.0
+area 0.0
+area 0.0
+area 119.0
+area 0.0
+area 0.0
+conturs 10
+area 63.5
+area 0.0
+area 0.0
+area 0.0
+area 0.0
+area 13.5
+area 2.5
+area 0.0
+area 126.5
+area 0.0
+conturs 12
+area 69.0
+area 3.5
+area 0.0
+area 0.0
+area 9.0
+area 0.0
+area 0.0
+area 0.0
+area 0.0
+area 0.0
+area 130.5
+area 0.0
+conturs 9
+area 66.0
+area 3.0
+area 0.0
+area 0.0
+area 1.5
+area 0.0
+area 0.0
+area 143.0
+area 0.0
+conturs 11
+area 94.0
+area 10.5
+area 0.0
+area 3.5
+area 0.0
+area 0.0
+area 0.0
+area 0.0
+area 0.0
+area 138.0
+area 0.0
+conturs 10
+area 111.5
+area 29.5
+area 0.0
+area 0.0
+area 0.0
+area 1.5
+area 0.0
+area 0.0
+area 0.0
+area 157.5
+conturs 9
+area 149.0
+area 37.5
+area 0.0
+area 0.0
+area 0.0
+area 0.0
+area 6.0
+area 0.0
+area 143.0
+conturs 9
+area 179.0
+area 33.0
+area 0.0
+area 0.0
+area 5.5
+area 0.0
+area 3.0
+area 0.0
+area 166.5
+conturs 12
+area 224.0
+area 33.5
+area 0.5
+area 11.0
+area 0.0
+area 7.0
+area 0.0
+area 0.0
+area 0.0
+area 0.0
+area 0.0
+area 164.5
+conturs 10
+area 309.5
+area 65.5
+area 7.5
+area 5.5
+area 0.0
+area 5.0
+area 1.5
+area 0.0
+area 179.0
+area 0.0
+conturs 16
+area 388.0
+area 90.0
+area 0.0
+area 5.5
+area 0.0
+area 0.0
+area 7.0
+area 0.0
+area 0.0
+area 0.0
+area 0.0
+area 179.0
+area 0.0
+area 0.0
+area 0.0
+area 0.0
+conturs 9
+area 521.0
+area 132.5
+area 9.0
+area 13.0
+area 8.0
+area 7.0
+area 2.5
+area 0.0
+area 193.5
+conturs 14
+area 762.5
+area 188.5
+area 23.5
+area 26.0
+area 0.0
+area 14.0
+area 0.0
+area 0.0
+area 0.0
+area 0.0
+area 205.0
+area 0.0
+area 0.0
+area 0.0
+conturs 13
+area 302.5
+area 255.0
+area 52.5
+area 27.0
+area 13.0
+area 0.0
+area 0.0
+area 0.0
+area 0.0
+area 0.0
+area 214.0
+area 0.0
+area 0.0
+conturs 13
+area 285.0
+area 74.0
+area 21.5
+area 0.0
+area 0.0
+area 0.0
+area 0.0
+area 0.0
+area 0.0
+area 0.0
+area 6.0
+area 0.0
+area 220.5
+conturs 9
+area 7.0
+area 39.5
+area 11.5
+area 0.0
+area 0.0
+area 0.0
+area 0.0
+area 226.5
+area 0.0
+conturs 9
+area 56.0
+area 5.5
+area 3.5
+area 0.0
+area 0.0
+area 0.0
+area 241.0
+area 0.0
+area 0.0
+conturs 13
+area 69.5
+area 0.0
+area 11.0
+area 0.0
+area 0.0
+area 4.0
+area 6.0
+area 0.0
+area 0.0
+area 255.0
+area 0.0
+area 0.0
+area 0.0
+conturs 13
+area 82.0
+area 0.0
+area 5.0
+area 0.0
+area 4.5
+area 0.0
+area 0.0
+area 0.0
+area 0.0
+area 0.0
+area 278.5
+area 0.0
+area 0.0
+conturs 9
+area 105.0
+area 18.0
+area 0.0
+area 4.5
+area 3.0
+area 0.0
+area 0.0
+area 287.5
+area 0.0
+conturs 13
+area 114.0
+area 2.0
+area 23.0
+area 0.0
+area 0.0
+area 10.0
+area 1.0
+area 0.0
+area 0.0
+area 0.0
+area 0.0
+area 0.0
+area 300.0
+conturs 9
+area 152.5
+area 1.0
+area 26.0
+area 0.0
+area 0.0
+area 2.0
+area 4.5
+area 0.0
+area 311.0
+conturs 11
+area 188.5
+area 54.5
+area 0.0
+area 0.0
+area 5.0
+area 4.5
+area 0.0
+area 0.0
+area 0.0
+area 0.0
+area 329.0
+conturs 12
+area 251.0
+area 62.0
+area 0.0
+area 18.0
+area 13.0
+area 1.0
+area 0.0
+area 0.0
+area 0.0
+area 337.5
+area 0.0
+area 0.0
+conturs 11
+area 319.5
+area 83.0
+area 0.5
+area 5.5
+area 5.5
+area 0.0
+area 0.0
+area 1.0
+area 0.0
+area 357.0
+area 0.0
+conturs 13
+area 462.5
+area 109.0
+area 0.0
+area 9.5
+area 1.0
+area 0.0
+area 0.0
+area 0.0
+area 0.0
+area 369.0
+area 0.0
+area 0.0
+area 0.0
+conturs 12
+area 635.0
+area 145.5
+area 17.0
+area 18.5
+area 1.0
+area 0.0
+area 0.0
+area 0.0
+area 405.5
+area 0.0
+area 0.0
+area 0.0
+conturs 9
+area 711.0
+area 202.5
+area 25.5
+area 26.0
+area 18.5
+area 0.0
+area 0.0
+area 0.0
+area 427.5
+conturs 14
+area 73.0
+area 284.5
+area 48.5
+area 41.0
+area 5.5
+area 0.0
+area 19.0
+area 0.0
+area 0.0
+area 0.0
+area 451.0
+area 0.0
+area 0.0
+area 0.0
+conturs 13
+area 146.0
+area 75.0
+area 45.0
+area 0.0
+area 4.0
+area 0.0
+area 0.0
+area 1.0
+area 0.0
+area 0.0
+area 493.0
+area 0.0
+area 0.0
+conturs 10
+area 46.0
+area 0.0
+area 5.0
+area 0.0
+area 0.0
+area 4.0
+area 0.0
+area 512.0
+area 0.0
+area 0.0
+conturs 11
+area 48.0
+area 4.5
+area 0.0
+area 0.0
+area 0.0
+area 3.0
+area 0.0
+area 537.5
+area 0.0
+area 0.0
+area 0.0
+conturs 9
+area 69.5
+area 0.0
+area 13.0
+area 0.0
+area 0.0
+area 0.0
+area 579.5
+area 0.0
+area 0.0
+conturs 13
+area 93.0
+area 0.0
+area 27.5
+area 0.0
+area 4.5
+area 2.5
+area 1.5
+area 0.0
+area 621.0
+area 0.0
+area 0.0
+area 0.0
+area 0.0
+conturs 13
+area 97.5
+area 2.0
+area 9.0
+area 0.0
+area 0.0
+area 4.0
+area 3.0
+area 0.0
+area 0.0
+area 0.0
+area 658.5
+area 0.0
+area 0.0
+conturs 11
+area 127.0
+area 36.0
+area 0.0
+area 0.0
+area 0.0
+area 0.0
+area 0.0
+area 0.0
+area 0.0
+area 728.5
+area 0.0
+conturs 9
+area 164.5
+area 32.0
+area 0.0
+area 5.0
+area 0.0
+area 0.0
+area 0.0
+area 787.5
+area 0.0
+conturs 12
+area 229.0
+area 48.0
+area 0.0
+area 0.0
+area 0.0
+area 0.0
+area 0.0
+area 0.0
+area 834.0
+area 2.0
+area 0.0
+area 0.0
+conturs 12
+area 286.0
+area 59.5
+area 0.0
+area 24.0
+area 0.0
+area 0.0
+area 0.0
+area 0.0
+area 0.0
+area 901.5
+area 0.0
+area 0.0
+conturs 13
+area 360.5
+area 91.5
+area 6.5
+area 24.0
+area 7.0
+area 0.0
+area 0.0
+area 0.0
+area 985.5
+area 0.0
+area 0.0
+area 0.0
+area 0.0
+conturs 10
+area 515.5
+area 110.5
+area 6.5
+area 24.0
+area 0.0
+area 0.0
+area 0.0
+area 1080.0
+area 0.0
+area 0.0
+conturs 15
+area 702.5
+area 163.5
+area 0.0
+area 17.0
+area 26.0
+area 0.0
+area 0.0
+area 0.0
+area 3.5
+area 1182.0
+area 0.0
+area 0.0
+area 0.0
+area 0.0
+area 0.0
+conturs 13
+area 494.0
+area 234.5
+area 27.0
+area 27.0
+area 0.0
+area 0.0
+area 0.0
+area 0.0
+area 0.0
+area 1299.0
+area 4.0
+area 0.0
+area 0.0
+conturs 11
+area 294.0
+area 70.0
+area 19.0
+area 2.0
+area 0.0
+area 0.0
+area 0.0
+area 1438.0
+area 0.0
+area 0.0
+area 0.0
+conturs 13
+area 3.0
+area 56.5
+area 27.0
+area 12.0
+area 0.0
+area 0.0
+area 1606.5
+area 0.0
+area 0.0
+area 0.0
+area 0.0
+area 0.0
+area 0.0
+conturs 10
+area 47.0
+area 11.5
+area 0.0
+area 0.0
+area 1778.0
+area 1.5
+area 0.0
+area 0.0
+area 0.0
+area 0.0
+conturs 13
+area 58.5
+area 0.0
+area 7.0
+area 0.0
+area 0.0
+area 4.0
+area 2001.0
+area 0.0
+area 0.0
+area 0.0
+area 0.0
+area 0.0
+area 0.0
+conturs 12
+area 71.0
+area 2.0
+area 18.0
+area 0.0
+area 4.5
+area 0.0
+area 0.0
+area 2266.5
+area 0.0
+area 0.0
+area 0.0
+area 0.0
+conturs 12
+area 94.0
+area 12.5
+area 0.0
+area 0.0
+area 0.0
+area 2598.0
+area 0.0
+area 0.0
+area 0.0
+area 0.0
+area 0.0
+area 0.0
+conturs 10
+area 117.0
+area 2.5
+area 0.0
+area 0.0
+area 0.0
+area 2990.0
+area 5.0
+area 0.0
+area 0.0
+area 0.0
+conturs 12
+area 151.0
+area 26.5
+area 0.0
+area 0.0
+area 0.0
+area 0.0
+area 0.0
+area 3496.0
+area 4.5
+area 0.0
+area 1.5
+area 1.0
+conturs 10
+area 200.5
+area 41.0
+area 0.0
+area 0.0
+area 0.0
+area 4104.0
+area 5.0
+area 0.0
+area 3.0
+area 0.0
+conturs 13
+area 241.0
+area 44.5
+area 4.5
+area 0.0
+area 0.0
+area 4889.5
+area 2.0
+area 0.0
+area 3.0
+area 1.5
+area 0.0
+area 0.0
+area 0.0
+conturs 14
+area 299.0
+area 74.5
+area 1.0
+area 9.5
+area 0.0
+area 0.0
+area 5966.5
+area 22.0
+area 0.0
+area 3.0
+area 0.0time=1603219445.994397 Pos: [3.0925  0.      0.43875] angle 0
+time=1603219446.327395 Pos: [3.1325  0.      0.43875] angle 0
+
+area 0.0
+area 0.0
+area 0.0
+conturs 13
+area 418.5
+area 87.0
+area 0.0
+area 9.5
+area 7380.5
+area 25.0
+area 0.0
+area 7.0
+area 0.0
+area 0.0
+area 0.0
+area 0.0
+area 0.0
+conturs 11
+area 546.5
+area 134.0
+area 9.5
+area 9346.5
+area 25.0
+area 0.0
+area 0.0
+area 0.0
+area 0.0
+area 1.5
+area 0.0
+False: Accepted
