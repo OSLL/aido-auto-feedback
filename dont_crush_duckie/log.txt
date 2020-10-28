@@ -1,0 +1,27 @@
+AttributeError: module 'gym_duckietown.tasks.dont_crush_duckie.solutions.solution' has no attribute 'DontCrushDuckieTaskSolution'
+False: Non-zero return code, probably a syntax error occurred\ntime=1603872948.0403697 gym-duckietown 2019.0.0
+
+time=1603872948.3321157 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1603872948.3322303 Registering gym environment id: Duckietown-small_loop-v0
+time=1603872948.3323376 Registering gym environment id: Duckietown-udem1-v0
+time=1603872948.3324497 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1603872948.33255 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1603872948.3326364 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1603872948.332742 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1603872948.3328276 Registering gym environment id: Duckietown-loop_empty-v0
+time=1603872948.3329096 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1603872948.3330145 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1603872948.3331044 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1603872948.3331854 Registering gym environment id: Duckietown-4way-v0
+time=1603872948.3332672 Registering gym environment id: Duckietown-straight_road-v0
+time=1603872948.3333497 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib/python3.6/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/dont_crush_duckie/checker.py", line 6, in <module>
+    checkers=[StopAtCoordinatesChecker()]
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/solution_evaluator.py", line 33, in __init__
+    self.solution_class = getattr(solution_file_as_module, solution_class_name)
+AttributeError: module 'gym_duckietown.tasks.dont_crush_duckie.solutions.solution' has no attribute 'DontCrushDuckieTaskSolution'
