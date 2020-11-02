@@ -1,0 +1,56 @@
+pyglet.canvas.xlib.NoSuchDisplayException: Cannot connect to "None"
+False: Non-zero return code, probably a syntax error occurred\ntime=1604308818.5063498 gym-duckietown 2019.0.0
+
+time=1604308818.675552 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1604308818.6757088 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1604308818.675791 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1604308818.6759603 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1604308818.6760097 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1604308818.676354 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1604308818.676697 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1604308818.6767805 Registering gym environment id: Duckietown-4way-v0
+time=1604308818.6768482 Registering gym environment id: Duckietown-loop_empty-v0
+time=1604308818.6769133 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1604308818.6769896 Registering gym environment id: Duckietown-straight_road-v0
+time=1604308818.6770375 Registering gym environment id: Duckietown-small_loop-v0
+time=1604308818.6770787 Registering gym environment id: Duckietown-udem1-v0
+time=1604308818.6771183 Registering gym environment id: Duckietown-zigzag_dists-v0
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/pyglet/__init__.py", line 336, in __getattr__
+    return getattr(self._module, name)
+AttributeError: 'NoneType' object has no attribute 'Window'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib/python3.6/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/lf_challenge_no_cv/checker.py", line 6, in <module>
+    checkers=[StopAtCoordinatesChecker(), RewardChecker()]
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/solution_evaluator.py", line 41, in evaluate_solution
+    generated_task = self.task_generator.generate_task()
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/lf_challenge_no_cv/task_generator.py", line 38, in generate_task
+    angle=-math.pi/2 + random.uniform(-0.35, 0.35),
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/tracking_duckietown_env_with_rec.py", line 14, in __init__
+    self.__wrapped = DuckietownEnv(**kwargs)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/envs/duckietown_env.py", line 24, in __init__
+    Simulator.__init__(self, **kwargs)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/simulator.py", line 273, in __init__
+    self.shadow_window = pyglet.window.Window(width=1, height=1, visible=False)
+  File "/usr/local/lib/python3.6/dist-packages/pyglet/__init__.py", line 342, in __getattr__
+    __import__(import_name)
+  File "/usr/local/lib/python3.6/dist-packages/pyglet/window/__init__.py", line 1897, in <module>
+    gl._create_shadow_window()
+  File "/usr/local/lib/python3.6/dist-packages/pyglet/gl/__init__.py", line 220, in _create_shadow_window
+    _shadow_window = Window(width=1, height=1, visible=False)
+  File "/usr/local/lib/python3.6/dist-packages/pyglet/window/xlib/__init__.py", line 173, in __init__
+    super(XlibWindow, self).__init__(*args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/pyglet/window/__init__.py", line 585, in __init__
+    display = pyglet.canvas.get_display()
+  File "/usr/local/lib/python3.6/dist-packages/pyglet/canvas/__init__.py", line 94, in get_display
+    return Display()
+  File "/usr/local/lib/python3.6/dist-packages/pyglet/canvas/xlib.py", line 123, in __init__
+    raise NoSuchDisplayException('Cannot connect to "%s"' % name)
+pyglet.canvas.xlib.NoSuchDisplayException: Cannot connect to "None"
