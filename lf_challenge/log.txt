@@ -1,0 +1,83 @@
+0: Accepted
+time=1606305594.7982957 gym-duckietown 2019.0.0
+
+time=1606305595.0471928 Registering gym environment id: Duckietown-4way-v0
+time=1606305595.0473523 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1606305595.0474439 Registering gym environment id: Duckietown-loop_empty-v0
+time=1606305595.047541 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1606305595.0476708 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1606305595.0477953 Registering gym environment id: Duckietown-small_loop-v0
+time=1606305595.0479221 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1606305595.0480382 Registering gym environment id: Duckietown-straight_road-v0
+time=1606305595.0481555 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1606305595.0484033 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1606305595.0485325 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1606305595.0486493 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1606305595.0487797 Registering gym environment id: Duckietown-udem1-v0
+time=1606305595.048888 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1606305597.1202273 Falling back to non-multisampled frame buffer
+time=1606305597.124174 Falling back to non-multisampled frame buffer
+time=1606305597.1286411 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/zigzag_dists.yaml"
+time=1606305597.1470761 loading mesh "duckiebot.obj"
+time=1606305597.1474075 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1606305597.7237606 loading mesh "bus.obj"
+time=1606305597.7376146 loading texture "bus.png"
+time=1606305598.126488 loading mesh "truck.obj"
+time=1606305598.154811 loading texture "truck.png"
+time=1606305598.5439897 loading mesh "tree.obj"
+time=1606305598.544311 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/tree.mtl"
+time=1606305598.5478578 loading mesh "sign_blank.obj"
+time=1606305598.5501935 loading texture "sign_blank.png"
+time=1606305598.6414044 loading texture "asphalt_1.png"
+time=1606305598.8653493 loading texture "curve_left_1.png"
+time=1606305598.8753898 loading texture "straight_1.png"
+time=1606305598.885085 loading texture "curve_right_1.png"
+time=1606305598.9021845 using user tile start: (1, 1)
+time=1606305598.9033215 tile: {'coords': (1, 1), 'kind': 'curve_left', 'angle': 3, 'drivable': True, 'curves': array([[[1.17  , 0.    , 0.7605],
+        [0.8775, 0.    , 0.7605],
+        [0.7605, 0.    , 0.8775],
+        [0.7605, 0.    , 1.17  ]],
+
+       [[0.9945, 0.    , 1.17  ],
+        [0.9945, 0.    , 1.053 ],
+        [1.053 , 0.    , 0.9945],
+        [1.17  , 0.    , 0.9945]]]), 'texture': <gym_duckietown.graphics.Texture object at 0x7f2bc50549e8>, 'color': array([1, 1, 1])}
+time=1606305598.9050465 road_tile_size=0.585
+time=1606305598.9054236 Starting at [0.75564126 0.         0.8521389 ] -1.543404982576376
+time=1606305598.9057333 Pos: [0.75564126 0.         0.8521389 ] angle -1.543404982576376
+time=1606305599.160422 using DuckietownEnv
+/usr/local/lib/python3.6/dist-packages/gym/logger.py:30: UserWarning: [33mWARN: Box bound precision lowered by casting to float32[0m
+  warnings.warn(colorize('%s: %s'%('WARN', msg % args), 'yellow'))
+time=1606305599.4053488 Pos: [0.75564126 0.         0.8521389 ] angle -1.543404982576376
+Exception in thread Thread-2:
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.6/threading.py", line 864, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/lf_challenge/solutions/solution.py", line 204, in angle_code
+    if (deb3==True):
+NameError: name 'deb3' is not defined
+
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.6/threading.py", line 864, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/lf_challenge/solutions/solution.py", line 87, in main_code
+    image_duck=cv2.inRange(image,duck_BGRcolorD,duck_BGRcolorH)
+NameError: name 'duck_BGRcolorD' is not defined
+
+Exception in thread Thread-3:
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/threading.py", line 916, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.6/threading.py", line 864, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/lf_challenge/solutions/solution.py", line 226, in state_code
+    if (angle>=80 and angle<=100 and bottom2[0]<bottom1[0]):
+NameError: name 'angle' is not defined
+
+0
+0: Accepted
