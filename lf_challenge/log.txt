@@ -1,0 +1,79 @@
+False: Incorrect solution execution: list index out of range
+time=1607103385.2975695 gym-duckietown 2019.0.0
+
+time=1607103385.5160384 Registering gym environment id: Duckietown-4way-v0
+time=1607103385.5162084 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1607103385.5163093 Registering gym environment id: Duckietown-loop_empty-v0
+time=1607103385.5164332 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1607103385.516553 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1607103385.516676 Registering gym environment id: Duckietown-small_loop-v0
+time=1607103385.5167947 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1607103385.516914 Registering gym environment id: Duckietown-straight_road-v0
+time=1607103385.517041 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1607103385.5172305 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1607103385.5173573 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1607103385.5174854 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1607103385.517574 Registering gym environment id: Duckietown-udem1-v0
+time=1607103385.517688 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1607103387.3888674 Falling back to non-multisampled frame buffer
+time=1607103387.3927119 Falling back to non-multisampled frame buffer
+time=1607103387.3967931 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/zigzag_dists.yaml"
+time=1607103387.4140592 loading mesh "duckiebot.obj"
+time=1607103387.4143524 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1607103387.821072 loading mesh "bus.obj"
+time=1607103387.8337653 loading texture "bus.png"
+time=1607103388.2139363 loading mesh "truck.obj"
+time=1607103388.2286677 loading texture "truck.png"
+time=1607103388.6027734 loading mesh "tree.obj"
+time=1607103388.6030967 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/tree.mtl"
+time=1607103388.6061788 loading mesh "sign_blank.obj"
+time=1607103388.6085243 loading texture "sign_blank.png"
+time=1607103388.6986308 loading texture "asphalt_1.png"
+time=1607103388.9218776 loading texture "curve_left_1.png"
+time=1607103388.9317417 loading texture "straight_1.png"
+time=1607103388.9409013 loading texture "curve_right_1.png"
+time=1607103388.9574466 using user tile start: (1, 1)
+time=1607103388.9584866 tile: {'coords': (1, 1), 'kind': 'curve_left', 'angle': 3, 'drivable': True, 'curves': array([[[1.17  , 0.    , 0.7605],
+        [0.8775, 0.    , 0.7605],
+        [0.7605, 0.    , 0.8775],
+        [0.7605, 0.    , 1.17  ]],
+
+       [[0.9945, 0.    , 1.17  ],
+        [0.9945, 0.    , 1.053 ],
+        [1.053 , 0.    , 0.9945],
+        [1.17  , 0.    , 0.9945]]]), 'texture': <gym_duckietown.graphics.Texture object at 0x7fc0fa147630>, 'color': array([1, 1, 1])}
+time=1607103388.9600587 road_tile_size=0.585
+time=1607103388.9604206 Starting at [0.71467553 0.         0.92838122] -1.2848322108648724
+time=1607103388.9607248 Pos: [0.71467553 0.         0.92838122] angle -1.2848322108648724
+time=1607103389.2146444 using DuckietownEnv
+/usr/local/lib/python3.6/dist-packages/gym/logger.py:30: UserWarning: [33mWARN: Box bound precision lowered by casting to float32[0m
+  warnings.warn(colorize('%s: %s'%('WARN', msg % args), 'yellow'))
+time=1607103389.4164681 Pos: [0.71467553 0.         0.92838122] angle -1.2848322108648724
+time=1607103389.6767368 Pos: [0.72124628 0.         0.950729  ] angle -1.2848322108648724
+time=1607103389.8093245 Pos: [0.72781704 0.         0.97307678] angle -1.2848322108648724
+time=1607103389.9200747 Pos: [0.73438779 0.         0.99542456] angle -1.2848322108648724
+time=1607103390.028818 Pos: [0.74095855 0.         1.01777233] angle -1.2848322108648724
+time=1607103390.1333263 Pos: [0.7475293  0.         1.04012011] angle -1.2848322108648724
+time=1607103390.2399514 Pos: [0.75410006 0.         1.06246789] angle -1.2848322108648724
+time=1607103390.346091 Pos: [0.76067082 0.         1.08481567] angle -1.2848322108648724
+time=1607103390.4518888 Pos: [0.76724157 0.         1.10716345] angle -1.2848322108648724
+time=1607103390.5591824 Pos: [0.77381233 0.         1.12951123] angle -1.2848322108648724
+time=1607103390.6639864 Pos: [0.78038308 0.         1.15185901] angle -1.2848322108648724
+time=1607103390.7699983 Pos: [0.78695384 0.         1.17420678] angle -1.2848322108648724
+time=1607103390.877754 Pos: [0.7935246  0.         1.19655456] angle -1.2848322108648724
+time=1607103390.9835103 Pos: [0.80009535 0.         1.21890234] angle -1.2848322108648724
+time=1607103391.0908082 Pos: [0.80666611 0.         1.24125012] angle -1.2848322108648724
+time=1607103391.1967406 Pos: [0.81323686 0.         1.2635979 ] angle -1.2848322108648724
+time=1607103391.3020751 Pos: [0.81980762 0.         1.28594568] angle -1.2848322108648724
+time=1607103391.408574 Pos: [0.82637837 0.         1.30829346] angle -1.2848322108648724
+time=1607103391.5166686 Pos: [0.83189925 0.         1.33091481] angle -1.378007146807104
+time=1607103391.6239805 Pos: [0.83421245 0.         1.35405954] angle -1.5643570186915672
+time=1607103391.7333333 Pos: [0.83219751 0.         1.37723215] angle -1.7507068905760304
+time=1607103391.855772 Pos: [0.82592418 0.         1.39963025] angle -1.9370567624604935
+time=1607103391.9619453 Pos: [0.8156097 0.        1.4204783] angle -2.1234066343449567
+time=1607103392.0696316 Pos: [0.80161121 0.         1.43905441] angle -2.30975650622942
+time=1607103392.18051 Pos: [0.78441341 0.         1.45471537] angle -2.496106378113883
+time=1607103392.28688 Pos: [0.76461181 0.         1.46691889] angle -2.682456249998346
+time=1607103392.3918815 Pos: [0.74289204 0.         1.47524244] angle -2.8688061218828094
+total reward =  4.6608603490133556
+False: Incorrect solution execution: list index out of range
