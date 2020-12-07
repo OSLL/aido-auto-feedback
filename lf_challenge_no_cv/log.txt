@@ -1,0 +1,40 @@
+SyntaxError: invalid syntax
+False: Non-zero return code, probably a syntax error occurred\ntime=1607330294.0450048 gym-duckietown 2019.0.0
+
+time=1607330294.2650478 Registering gym environment id: Duckietown-4way-v0
+time=1607330294.2652035 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1607330294.2652938 Registering gym environment id: Duckietown-loop_empty-v0
+time=1607330294.2653804 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1607330294.2654703 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1607330294.2655606 Registering gym environment id: Duckietown-small_loop-v0
+time=1607330294.2656865 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1607330294.2658029 Registering gym environment id: Duckietown-straight_road-v0
+time=1607330294.2658906 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1607330294.2660916 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1607330294.2661765 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1607330294.2662606 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1607330294.2663693 Registering gym environment id: Duckietown-udem1-v0
+time=1607330294.2664745 Registering gym environment id: Duckietown-zigzag_dists-v0
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib/python3.6/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/lf_challenge_no_cv/checker.py", line 6, in <module>
+    checkers=[RewardChecker()]
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/solution_evaluator.py", line 31, in __init__
+    solution_file_as_module = importlib.import_module(self.args.solution_file_as_module)
+  File "/usr/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/lf_challenge_no_cv/solutions/solution.py", line 19
+    orig_steer = 
+                ^
+SyntaxError: invalid syntax
