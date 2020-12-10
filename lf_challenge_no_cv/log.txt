@@ -1,0 +1,90 @@
+False: Incorrect solution execution: Stopping the simulator because we are at an invalid pose.
+time=1607615787.9725378 gym-duckietown 2019.0.0
+
+time=1607615788.2146013 Registering gym environment id: Duckietown-4way-v0
+time=1607615788.2148144 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1607615788.2149715 Registering gym environment id: Duckietown-loop_empty-v0
+time=1607615788.2151 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1607615788.215237 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1607615788.215362 Registering gym environment id: Duckietown-small_loop-v0
+time=1607615788.215497 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1607615788.2155998 Registering gym environment id: Duckietown-straight_road-v0
+time=1607615788.215736 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1607615788.2159564 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1607615788.216084 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1607615788.2161767 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1607615788.216257 Registering gym environment id: Duckietown-udem1-v0
+time=1607615788.2163508 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1607615790.301481 Falling back to non-multisampled frame buffer
+time=1607615790.3052266 Falling back to non-multisampled frame buffer
+time=1607615790.3093684 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/zigzag_dists.yaml"
+time=1607615790.3337452 loading mesh "duckiebot.obj"
+time=1607615790.3340266 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1607615790.819842 loading mesh "bus.obj"
+time=1607615790.8334467 loading texture "bus.png"
+time=1607615791.239212 loading mesh "truck.obj"
+time=1607615791.2561839 loading texture "truck.png"
+time=1607615791.6711342 loading mesh "tree.obj"
+time=1607615791.671496 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/tree.mtl"
+time=1607615791.6748645 loading mesh "sign_blank.obj"
+time=1607615791.6775315 loading texture "sign_blank.png"
+time=1607615791.796925 loading texture "asphalt_1.png"
+time=1607615792.0443907 loading texture "curve_left_1.png"
+time=1607615792.0545034 loading texture "straight_1.png"
+time=1607615792.064109 loading texture "curve_right_1.png"
+time=1607615792.080983 using user tile start: (1, 1)
+time=1607615792.0819476 tile: {'coords': (1, 1), 'kind': 'curve_left', 'angle': 3, 'drivable': True, 'curves': array([[[1.17  , 0.    , 0.7605],
+        [0.8775, 0.    , 0.7605],
+        [0.7605, 0.    , 0.8775],
+        [0.7605, 0.    , 1.17  ]],
+
+       [[0.9945, 0.    , 1.17  ],
+        [0.9945, 0.    , 1.053 ],
+        [1.053 , 0.    , 0.9945],
+        [1.17  , 0.    , 0.9945]]]), 'texture': <gym_duckietown.graphics.Texture object at 0x7f92cfbab7b8>, 'color': array([1, 1, 1])}
+time=1607615792.083615 road_tile_size=0.585
+time=1607615792.0839646 Starting at [0.71415763 0.         0.91850684] -1.7275938001834723
+time=1607615792.0842936 Pos: [0.71415763 0.         0.91850684] angle -1.7275938001834723
+time=1607615792.3476772 using DuckietownEnv
+/usr/local/lib/python3.6/dist-packages/gym/logger.py:30: UserWarning: [33mWARN: Box bound precision lowered by casting to float32[0m
+  warnings.warn(colorize('%s: %s'%('WARN', msg % args), 'yellow'))
+time=1607615792.569643 Pos: [0.70791139 0.         0.95801613] angle -1.7275938001834723
+time=1607615792.921292 Pos: [0.70166516 0.         0.99752543] angle -1.7275938001834723
+time=1607615793.04159 Pos: [0.69541893 0.         1.03703473] angle -1.7275938001834723
+time=1607615793.16732 Pos: [0.6891727  0.         1.07654403] angle -1.7275938001834723
+time=1607615793.2922487 Pos: [0.68292647 0.         1.11605332] angle -1.7275938001834723
+time=1607615793.413379 Pos: [0.67668024 0.         1.15556262] angle -1.7275938001834723
+time=1607615793.535692 Pos: [0.67043401 0.         1.19507192] angle -1.7275938001834723
+time=1607615793.6577263 Pos: [0.66418778 0.         1.23458122] angle -1.7275938001834723
+time=1607615793.7773712 Pos: [0.65794155 0.         1.27409051] angle -1.7275938001834723
+time=1607615793.8967252 [0.58136312 0.         1.27818255] corresponds to tile at (0, 2) which is not drivable: {'coords': (0, 2), 'kind': 'asphalt', 'angle': 0, 'drivable': False, 'texture': <gym_duckietown.graphics.Texture object at 0x7f92cfbab898>, 'color': array([1, 1, 1])}
+time=1607615793.8985777 Invalid pose. Collision free: True On drivable area: False
+time=1607615793.898672 safety_factor: 1.0
+time=1607615793.8990874 pos: [0.65544306 0.         1.28989423]
+time=1607615793.8994465 l_pos: [0.72952299 0.         1.30160592]
+time=1607615793.8997917 r_pos: [0.58136312 0.         1.27818255]
+time=1607615793.9001334 f_pos: [0.64138904 0.         1.37879015]
+time=1607615793.9002187 Stopping the simulator because we are at an invalid pose.
+time=1607615793.9005747 Pos: [0.65169532 0.         1.31359981] angle -1.7275938001834723
+dtr=0.0864618718068784; afs=-0.22173035186619644
+u=[ 1.9886317  -3.11118857]
+dtr=0.07932838093260755; afs=-0.13614761499490086
+u=[ 1.56518373 -0.90105615]
+dtr=0.07540421476044934; afs=-0.060200929039480384
+u=[1.49633592 0.52011559]
+dtr=0.07429596991506439; afs=0.006450728890859499
+u=[1.48262621 1.8115546 ]
+dtr=0.07559350434984324; afs=0.060329141718685635
+u=[1.5158018  2.88398474]
+dtr=0.07890742965846038; afs=0.10386570372022454
+u=[1.58813737 3.79603639]
+dtr=0.0839086195883966; afs=0.14564041637250552
+u=[1.69323135 4.73135364]
+dtr=0.09006599061516529; afs=0.15679747338857591
+u=[1.81985632 4.98928246]
+dtr=0.09631222155016228; afs=0.15679747338857591
+u=[1.94505715 5.0810278 ]
+dtr=0.10255845248515938; afs=0.15679747338857591
+u=[2.06999203 5.20597835]
+total reward =  3.1574312781583718
+False: Incorrect solution execution: Stopping the simulator because we are at an invalid pose.
