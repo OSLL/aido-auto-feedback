@@ -1,0 +1,65 @@
+False: Incorrect solution execution: cannot convert float NaN to integer
+time=1607590950.0116858 gym-duckietown 2019.0.0
+
+time=1607590950.2286596 Registering gym environment id: Duckietown-4way-v0
+time=1607590950.2288089 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1607590950.2288961 Registering gym environment id: Duckietown-loop_empty-v0
+time=1607590950.2289755 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1607590950.2290564 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1607590950.229129 Registering gym environment id: Duckietown-small_loop-v0
+time=1607590950.2292566 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1607590950.2293525 Registering gym environment id: Duckietown-straight_road-v0
+time=1607590950.229438 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1607590950.2296376 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1607590950.2297232 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1607590950.2298007 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1607590950.229885 Registering gym environment id: Duckietown-udem1-v0
+time=1607590950.2299912 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1607590952.0482652 Falling back to non-multisampled frame buffer
+time=1607590952.0518486 Falling back to non-multisampled frame buffer
+time=1607590952.0561466 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/zigzag_dists.yaml"
+time=1607590952.075134 loading mesh "duckiebot.obj"
+time=1607590952.0754015 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1607590952.4702783 loading mesh "bus.obj"
+time=1607590952.482717 loading texture "bus.png"
+time=1607590952.860735 loading mesh "truck.obj"
+time=1607590952.8752725 loading texture "truck.png"
+time=1607590953.2483184 loading mesh "tree.obj"
+time=1607590953.2486072 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/tree.mtl"
+time=1607590953.251836 loading mesh "sign_blank.obj"
+time=1607590953.2540596 loading texture "sign_blank.png"
+time=1607590953.3438163 loading texture "asphalt_1.png"
+time=1607590953.5629716 loading texture "curve_left_1.png"
+time=1607590953.573161 loading texture "straight_1.png"
+time=1607590953.5821297 loading texture "curve_right_1.png"
+time=1607590953.6093426 using user tile start: (1, 1)
+time=1607590953.6106808 tile: {'coords': (1, 1), 'kind': 'curve_left', 'angle': 3, 'drivable': True, 'curves': array([[[1.17  , 0.    , 0.7605],
+        [0.8775, 0.    , 0.7605],
+        [0.7605, 0.    , 0.8775],
+        [0.7605, 0.    , 1.17  ]],
+
+       [[0.9945, 0.    , 1.17  ],
+        [0.9945, 0.    , 1.053 ],
+        [1.053 , 0.    , 0.9945],
+        [1.17  , 0.    , 0.9945]]]), 'texture': <gym_duckietown.graphics.Texture object at 0x7fcd9d99fb70>, 'color': array([1, 1, 1])}
+time=1607590953.6132948 road_tile_size=0.585
+time=1607590953.613709 Starting at [0.73071634 0.         0.88047622] -1.472470214258629
+time=1607590953.614078 Pos: [0.73071634 0.         0.88047622] angle -1.472470214258629
+time=1607590953.8852909 using DuckietownEnv
+/usr/local/lib/python3.6/dist-packages/gym/logger.py:30: UserWarning: [33mWARN: Box bound precision lowered by casting to float32[0m
+  warnings.warn(colorize('%s: %s'%('WARN', msg % args), 'yellow'))
+/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/lf_challenge_no_cv/solutions/solution.py:63: RuntimeWarning: invalid value encountered in double_scalars
+  speed = 1 - 0.9 * steering ** 0.5
+------------ ERRORS ------------
+angle: -18.54363384000799
+distance: 0.08725138744596009
+PID: 0.5794704490487168 0.5794704490487168 0.5794704490487168
+------------ STATE ------------
+angle: -0.5794704490487168
+distance: 0.08725138744596009
+------------ ACTION ------------
+speed: nan
+steering: -1.0
+
+total reward =  0
+False: Incorrect solution execution: cannot convert float NaN to integer
