@@ -1,0 +1,510 @@
+False: Incorrect solution execution: Stopping the simulator because we are at an invalid pose.
+time=1607729114.1552818 gym-duckietown 2019.0.0
+
+time=1607729114.4051046 Registering gym environment id: Duckietown-4way-v0
+time=1607729114.4052796 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1607729114.4053822 Registering gym environment id: Duckietown-loop_empty-v0
+time=1607729114.4054573 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1607729114.4055696 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1607729114.405666 Registering gym environment id: Duckietown-small_loop-v0
+time=1607729114.4057834 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1607729114.4058728 Registering gym environment id: Duckietown-straight_road-v0
+time=1607729114.4059515 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1607729114.4061954 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1607729114.4062889 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1607729114.4063756 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1607729114.406508 Registering gym environment id: Duckietown-udem1-v0
+time=1607729114.406611 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1607729116.4968154 Falling back to non-multisampled frame buffer
+time=1607729116.5008433 Falling back to non-multisampled frame buffer
+time=1607729116.5054038 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/zigzag_dists.yaml"
+time=1607729116.5275142 loading mesh "duckiebot.obj"
+time=1607729116.5279114 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1607729116.9639997 loading mesh "bus.obj"
+time=1607729116.9779875 loading texture "bus.png"
+time=1607729117.406423 loading mesh "truck.obj"
+time=1607729117.4229767 loading texture "truck.png"
+time=1607729117.8618898 loading mesh "tree.obj"
+time=1607729117.8621695 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/tree.mtl"
+time=1607729117.8651588 loading mesh "sign_blank.obj"
+time=1607729117.867847 loading texture "sign_blank.png"
+time=1607729117.965697 loading texture "asphalt_1.png"
+time=1607729118.207579 loading texture "curve_left_1.png"
+time=1607729118.2181714 loading texture "straight_1.png"
+time=1607729118.2285233 loading texture "curve_right_1.png"
+time=1607729118.2477996 using user tile start: (1, 1)
+time=1607729118.2488182 tile: {'coords': (1, 1), 'kind': 'curve_left', 'angle': 3, 'drivable': True, 'curves': array([[[1.17  , 0.    , 0.7605],
+        [0.8775, 0.    , 0.7605],
+        [0.7605, 0.    , 0.8775],
+        [0.7605, 0.    , 1.17  ]],
+
+       [[0.9945, 0.    , 1.17  ],
+        [0.9945, 0.    , 1.053 ],
+        [1.053 , 0.    , 0.9945],
+        [1.17  , 0.    , 0.9945]]]), 'texture': <gym_duckietown.graphics.Texture object at 0x7f3a9f4fab70>, 'color': array([1, 1, 1])}
+time=1607729118.250516 road_tile_size=0.585
+time=1607729118.2508585 Starting at [0.74170145 0.         0.90374882] -1.8244886314713213
+time=1607729118.2511773 Pos: [0.74170145 0.         0.90374882] angle -1.8244886314713213
+time=1607729118.526473 using DuckietownEnv
+/usr/local/lib/python3.6/dist-packages/gym/logger.py:30: UserWarning: [33mWARN: Box bound precision lowered by casting to float32[0m
+  warnings.warn(colorize('%s: %s'%('WARN', msg % args), 'yellow'))
+time=1607729118.7704217 Pos: [0.73922808 0.         0.91429335] angle -1.7779011635002056
+time=1607729119.1045806 Pos: [0.73534282 0.         0.93434046] angle -1.7465581769642098
+time=1607729119.2432384 Pos: [0.7318036  0.         0.95575471] angle -1.7226211507909435
+time=1607729119.3769186 Pos: [0.72855651 0.         0.97836284] angle -1.7042703278306994
+time=1607729119.5113697 Pos: [0.7257064  0.         1.00154181] angle -1.6820158317328877
+time=1607729119.6546154 Pos: [0.72310687 0.         1.02579248] angle -1.673149964943506
+time=1607729119.7712383 Pos: [0.72062494 0.         1.05071621] angle -1.6669501684377728
+time=1607729119.8883204 Pos: [0.71818987 0.         1.07601576] angle -1.6665500447105732
+time=1607729120.014544 Pos: [0.715701   0.         1.10137376] angle -1.6707150336068626
+time=1607729120.1387002 Pos: [0.71307544 0.         1.12649653] angle -1.6791398228714356
+time=1607729120.2642145 Pos: [0.71022187 0.         1.15106033] angle -1.6937555653231875
+time=1607729120.394935 Pos: [0.7070546  0.         1.17473295] angle -1.7138462877224996
+time=1607729120.5159364 Pos: [0.70352743 0.         1.19720748] angle -1.739088606421147
+time=1607729120.646258 Pos: [0.69960867 0.         1.21852453] angle -1.7661082070062546
+time=1607729120.7855182 Pos: [0.69533059 0.         1.2385138 ] angle -1.7971616281967624
+time=1607729120.9112287 Pos: [0.6907417  0.         1.25691857] angle -1.8331294724335838
+time=1607729121.031975 Pos: [0.68593801 0.         1.27342605] angle -1.8748233420603444
+time=1607729121.1572816 Pos: [0.68110095 0.         1.28767223] angle -1.9214108100314602
+time=1607729121.2872906 Pos: [0.67652898 0.         1.29932453] angle -1.967998278002576
+time=1607729121.416049 Pos: [0.67252081 0.         1.308288  ] angle -2.0145857459736916
+time=1607729121.547137 Pos: [0.66937064 0.         1.3145346 ] angle -2.0611732139448073
+time=1607729121.6643145 Pos: [0.66735933 0.         1.31809956] angle -2.107760681915923
+time=1607729121.7938392 Pos: [0.66674719 0.         1.31907538] angle -2.154348149887039
+Frame 0
+distance to road center = 0.0670611469009913
+angle from straight in rads = -0.18962123845519696
+Steering pid: e_p = -0.18962123845519696  e_i = -0.18962123845519696  e_d = -0.18962123845519696
+Steering is 1.0
+Speed pid: e_p = 0.0670611469009913  e_i = 0.0670611469009913  e_d = 0.0670611469009913
+Speed is 0.23250244578525048
+
+Frame 1
+distance to road center = 0.06495540439358756
+angle from straight in rads = -0.20687407100854588
+Steering pid: e_p = -0.20687407100854588  e_i = -0.39649530946374284  e_d = -0.017252832553348918
+Steering is 0.672777205995148
+Speed pid: e_p = 0.06495540439358756  e_i = 0.13201655129457884  e_d = -0.002105742507403738
+Speed is 0.4383362749025166
+
+Frame 2
+distance to road center = 0.060973112163873765
+angle from straight in rads = -0.18897416839282374
+Steering pid: e_p = -0.18897416839282374  e_i = -0.5854694778565666  e_d = 0.017899902615722135
+Steering is 0.5138082668091614
+Speed pid: e_p = 0.060973112163873765  e_i = 0.19298966345845261  e_d = -0.003982292229713795
+Speed is 0.46590357148520034
+
+Frame 3
+distance to road center = 0.05720538208880094
+angle from straight in rads = -0.16001290627266285
+Steering pid: e_p = -0.16001290627266285  e_i = -0.7454823841292294  e_d = 0.028961262120160897
+Steering is 0.39390041484163507
+Speed pid: e_p = 0.05720538208880094  e_i = 0.2501950455472536  e_d = -0.003767730075072827
+Speed is 0.4902700715693482
+
+Frame 4
+distance to road center = 0.053687217687518406
+angle from straight in rads = -0.15947108734767315
+Steering pid: e_p = -0.15947108734767315  e_i = -0.9049534714769025  e_d = 0.0005418189249896954
+Steering is 0.4776927587395273
+Speed pid: e_p = 0.053687217687518406  e_i = 0.30388226323477197  e_d = -0.003518164401282532
+Speed is 0.5012940079469905
+
+Frame 5
+distance to road center = 0.05106384739593326
+angle from straight in rads = -0.11128380923273122
+Steering pid: e_p = -0.11128380923273122  e_i = -1.0162372807096338  e_d = 0.04818727811494193
+Steering is 0.19030583063407752
+Speed pid: e_p = 0.05106384739593326  e_i = 0.35494611063070525  e_d = -0.002623370291585145
+Speed is 0.5235243606108613
+
+Frame 6
+distance to road center = 0.048828276002167985
+angle from straight in rads = -0.07763936384153455
+Steering pid: e_p = -0.07763936384153455  e_i = -1.0938766445511683  e_d = 0.03364444539119667
+Steering is 0.1330786319955648
+Speed pid: e_p = 0.048828276002167985  e_i = 0.40377438663287324  e_d = -0.002235571393765276
+Speed is 0.5376347904653609
+
+Frame 7
+distance to road center = 0.04737508331680658
+angle from straight in rads = -0.040062134758272396
+Steering pid: e_p = -0.040062134758272396  e_i = -1.1339387793094406  e_d = 0.03757722908326216
+Steering is 0.008588655804340165
+Speed pid: e_p = 0.04737508331680658  e_i = 0.4511494699496798  e_d = -0.0014531926853614055
+Speed is 0.5455644353389354
+
+Frame 8
+distance to road center = 0.04677324905914702
+angle from straight in rads = -0.004941006305058375
+Steering pid: e_p = -0.004941006305058375  e_i = -1.138879785614499  e_d = 0.03512112845321402
+Steering is -0.08940148665885245
+Speed pid: e_p = 0.04677324905914702  e_i = 0.49792271900882684  e_d = -0.0006018342576595559
+Speed is 0.5469253412296513
+
+Frame 9
+distance to road center = 0.0470803163547031
+angle from straight in rads = 0.027854351347191834
+Steering pid: e_p = 0.027854351347191834  e_i = -1.1110254342673072  e_d = 0.03279535765225021
+Steering is -0.18083810156405883
+Speed pid: e_p = 0.0470803163547031  e_i = 0.5450030353635299  e_d = 0.0003070672955560738
+Speed is 0.542198919996232
+
+Frame 10
+distance to road center = 0.04830565860307658
+angle from straight in rads = 0.06638910035039111
+Steering pid: e_p = 0.06638910035039111  e_i = -1.044636333916916  e_d = 0.03853474900319928
+Steering is -0.3137269117268543
+Speed pid: e_p = 0.04830565860307658  e_i = 0.5933086939666065  e_d = 0.0012253422483734858
+Speed is 0.5308126003640923
+
+Frame 11
+distance to road center = 0.050438640917644155
+angle from straight in rads = 0.10522567800138706
+Steering pid: e_p = 0.10522567800138706  e_i = -0.939410655915529  e_d = 0.03883657765099595
+Steering is -0.4312473563012335
+Speed pid: e_p = 0.050438640917644155  e_i = 0.6437473348842506  e_d = 0.002132982314567572
+Speed is 0.5126692365546228
+
+Frame 12
+distance to road center = 0.053445399485618994
+angle from straight in rads = 0.1430499609276026
+Steering pid: e_p = 0.1430499609276026  e_i = -0.7963606949879264  e_d = 0.03782428292621555
+Steering is -0.5418263708664666
+Speed pid: e_p = 0.053445399485618994  e_i = 0.6971927343698696  e_d = 0.003006758567974839
+Speed is 0.48833359910742713
+
+Frame 13
+distance to road center = 0.0569725722799127
+angle from straight in rads = 0.16829227962625018
+Steering pid: e_p = 0.16829227962625018  e_i = -0.6280684153616762  e_d = 0.02524231869864757
+Steering is -0.5799757265593316
+Speed pid: e_p = 0.0569725722799127  e_i = 0.7541653066497823  e_d = 0.0035271727942937092
+Speed is 0.4652519635595072
+
+Frame 14
+distance to road center = 0.06089132566993205
+angle from straight in rads = 0.19531188021135826
+Steering pid: e_p = 0.19531188021135826  e_i = -0.432756535150318  e_d = 0.027019600585108078
+Steering is -0.6665616858542487
+Speed pid: e_p = 0.06089132566993205  e_i = 0.8150566323197144  e_d = 0.003918753390019347
+Speed is 0.43880389529722647
+
+Frame 15
+distance to road center = 0.06516941497229156
+angle from straight in rads = 0.22636530140186586
+Steering pid: e_p = 0.22636530140186586  e_i = -0.2063912337484521  e_d = 0.031053421190507607
+Steering is -0.772049776543372
+Speed pid: e_p = 0.06516941497229156  e_i = 0.8802260472920059  e_d = 0.004278089302359511
+Speed is 0.4071748745386203
+
+Frame 16
+distance to road center = 0.06975830123679583
+angle from straight in rads = 0.26233314563868737
+Steering pid: e_p = 0.26233314563868737  e_i = 0.05594191189023526  e_d = 0.035967844236821506
+Steering is -0.8949589115384169
+Speed pid: e_p = 0.06975830123679583  e_i = 0.9499843485288018  e_d = 0.004588886264504266
+Speed is 0.36905761365067113
+
+Frame 17
+distance to road center = 0.07456198611355058
+angle from straight in rads = 0.3040270152654479
+Steering pid: e_p = 0.3040270152654479  e_i = 0.3599689271556832  e_d = 0.04169386962676053
+Steering is -1.0
+Speed pid: e_p = 0.07456198611355058  e_i = 1.0245463346423525  e_d = 0.004803684876754755
+Speed is 0.32296931234635534
+
+Frame 18
+distance to road center = 0.07939904942622289
+angle from straight in rads = 0.35061448323656347
+Steering pid: e_p = 0.35061448323656347  e_i = 0.7105834103922466  e_d = 0.04658746797111557
+Steering is -1.0
+Speed pid: e_p = 0.07939904942622289  e_i = 1.1039453840685753  e_d = 0.004837063312672307
+Speed is 0.26870485675232586
+
+Frame 19
+distance to road center = 0.08397101741614843
+angle from straight in rads = 0.39720195120767926
+Steering pid: e_p = 0.39720195120767926  e_i = 1.1077853615999258  e_d = 0.04658746797111579
+Steering is -1.0
+Speed pid: e_p = 0.08397101741614843  e_i = 1.1879164014847237  e_d = 0.0045719679899255405
+Speed is 0.2107800846014642
+
+Frame 20
+distance to road center = 0.08797918845498987
+angle from straight in rads = 0.44378941917879494
+Steering pid: e_p = 0.44378941917879494  e_i = 1.5515747807787208  e_d = 0.04658746797111568
+Steering is -1.0
+Speed pid: e_p = 0.08797918845498987  e_i = 1.2758955899397135  e_d = 0.004008171038841435
+Speed is 0.15018195867325418
+
+Frame 21
+distance to road center = 0.09112935788770449
+angle from straight in rads = 0.49037688714991073
+Steering pid: e_p = 0.49037688714991073  e_i = 2.0419516679286316  e_d = 0.04658746797111579
+Steering is -1.0
+Speed pid: e_p = 0.09112935788770449  e_i = 1.3670249478274181  e_d = 0.0031501694327146224
+Speed is 0.0878687214110585
+
+Frame 22
+distance to road center = 0.09314066956355116
+angle from straight in rads = 0.5369643551210266
+Steering pid: e_p = 0.5369643551210266  e_i = 2.578916023049658  e_d = 0.04658746797111585
+Steering is -1.0
+Speed pid: e_p = 0.09314066956355116  e_i = 1.4601656173909694  e_d = 0.002011311675846672
+Speed is 0.0247282914571752
+
+Frame 23
+distance to road center = 0.09375280772464711
+angle from straight in rads = 0.5835518230921423
+Steering pid: e_p = 0.5835518230921423  e_i = 3.1624678461418005  e_d = 0.04658746797111568time=1607729121.9101706 Pos: [0.66674719 0.         1.31907538] angle -2.2009356178581547
+time=1607729122.049584 Pos: [0.66674719 0.         1.31907538] angle -2.2475230858292705
+time=1607729122.1760375 Pos: [0.66674719 0.         1.31907538] angle -2.2941105538003863
+time=1607729122.3029704 Pos: [0.66674719 0.         1.31907538] angle -2.340698021771502
+time=1607729122.4221392 Pos: [0.66674719 0.         1.31907538] angle -2.387285489742618
+time=1607729122.5447516 Pos: [0.66674719 0.         1.31907538] angle -2.4338729577137337
+time=1607729122.6676905 Pos: [0.66674719 0.         1.31907538] angle -2.4804604256848495
+time=1607729122.7987971 Pos: [0.66674719 0.         1.31907538] angle -2.5270478936559653
+time=1607729122.927379 Pos: [0.66674719 0.         1.31907538] angle -2.573635361627081
+time=1607729123.0563438 Pos: [0.66674719 0.         1.31907538] angle -2.620222829598197
+time=1607729123.1743712 Pos: [0.66674719 0.         1.31907538] angle -2.6668102975693126
+time=1607729123.2862625 Pos: [0.66674719 0.         1.31907538] angle -2.7133977655404284
+time=1607729123.3993266 Pos: [0.66674719 0.         1.31907538] angle -2.7599852335115442
+time=1607729123.5286436 Pos: [0.66674719 0.         1.31907538] angle -2.80657270148266
+time=1607729123.6479452 Pos: [0.66674719 0.         1.31907538] angle -2.853160169453776
+time=1607729123.7639756 Pos: [0.66674719 0.         1.31907538] angle -2.8997476374248916
+time=1607729123.8974664 Pos: [0.66674719 0.         1.31907538] angle -2.9463351053960074
+time=1607729124.022887 Pos: [0.66674719 0.         1.31907538] angle -2.992922573367123
+time=1607729124.1425025 Pos: [0.66674719 0.         1.31907538] angle -3.039510041338239
+time=1607729124.260083 Pos: [0.66674719 0.         1.31907538] angle -3.086097509309355
+time=1607729124.3785536 Pos: [0.66674719 0.         1.31907538] angle -3.1326849772804706
+time=1607729124.4980328 Pos: [0.66674719 0.         1.31907538] angle -3.1792724452515864
+time=1607729124.61963 Pos: [0.66186352 0.         1.31900512] angle -3.1326849772804706
+time=1607729124.744954 Pos: [0.66186352 0.         1.31900512] angle -3.1792724452515864
+time=1607729124.8703926 Pos: [0.65485345 0.         1.31890426] angle -3.1326849772804706
+time=1607729125.0097885 Pos: [0.65485345 0.         1.31890426] angle -3.1792724452515864
+time=1607729125.1318476 [0.57879848 0.         1.31934746] corresponds to tile at (0, 2) which is not drivable: {'coords': (0, 2), 'kind': 'asphalt', 'angle': 0, 'drivable': False, 'texture': <gym_duckietown.graphics.Texture object at 0x7f3a9f4fa780>, 'color': array([1, 1, 1])}
+time=1607729125.132649 Invalid pose. Collision free: True On drivable area: False
+time=1607729125.132738 safety_factor: 1.0
+time=1607729125.1330988 pos: [0.66879491 0.         1.31854578]
+time=1607729125.1334274 l_pos: [0.66946298 0.         1.39354281]
+time=1607729125.133761 r_pos: [0.66812685 0.         1.24354876]
+time=1607729125.1340666 f_pos: [0.57879848 0.         1.31934746]
+time=1607729125.1341488 Stopping the simulator because we are at an invalid pose.
+time=1607729125.1345115 Pos: [0.64479586 0.         1.31875957] angle -3.1326849772804706
+
+Steering is -1.0
+Speed pid: e_p = 0.09375280772464711  e_i = 1.5539184251156164  e_d = 0.0006121381610959542
+Speed is 0.0
+
+Frame 24
+distance to road center = 0.09375280772464711
+angle from straight in rads = 0.6301392910632582
+Steering pid: e_p = 0.6301392910632582  e_i = 3.7926071372050587  e_d = 0.0465874679711159
+Steering is -1.0
+Speed pid: e_p = 0.09375280772464711  e_i = 1.6476712328402634  e_d = 0.0
+Speed is 0.0
+
+Frame 25
+distance to road center = 0.09375280772464711
+angle from straight in rads = 0.6767267590343738
+Steering pid: e_p = 0.6767267590343738  e_i = 4.469333896239433  e_d = 0.04658746797111568
+Steering is -1.0
+Speed pid: e_p = 0.09375280772464711  e_i = 1.7414240405649104  e_d = 0.0
+Speed is 0.0
+
+Frame 26
+distance to road center = 0.09375280772464711
+angle from straight in rads = 0.7233142270054898
+Steering pid: e_p = 0.7233142270054898  e_i = 5.192648123244922  e_d = 0.0465874679711159
+Steering is -1.0
+Speed pid: e_p = 0.09375280772464711  e_i = 1.8351768482895574  e_d = 0.0
+Speed is 0.0
+
+Frame 27
+distance to road center = 0.09375280772464711
+angle from straight in rads = 0.7699016949766055
+Steering pid: e_p = 0.7699016949766055  e_i = 5.962549818221527  e_d = 0.04658746797111579
+Steering is -1.0
+Speed pid: e_p = 0.09375280772464711  e_i = 1.9289296560142044  e_d = 0.0
+Speed is 0.0
+
+Frame 28
+distance to road center = 0.09375280772464711
+angle from straight in rads = 0.8164891629477212
+Steering pid: e_p = 0.8164891629477212  e_i = 6.779038981169248  e_d = 0.04658746797111568
+Steering is -1.0
+Speed pid: e_p = 0.09375280772464711  e_i = 2.0226824637388514  e_d = 0.0
+Speed is 0.0
+
+Frame 29
+distance to road center = 0.09375280772464711
+angle from straight in rads = 0.863076630918837
+Steering pid: e_p = 0.863076630918837  e_i = 7.642115612088085  e_d = 0.04658746797111579
+Steering is -1.0
+Speed pid: e_p = 0.09375280772464711  e_i = 2.1164352714634984  e_d = 0.0
+Speed is 0.0
+
+Frame 30
+distance to road center = 0.09375280772464711
+angle from straight in rads = 0.9096640988899528
+Steering pid: e_p = 0.9096640988899528  e_i = 8.551779710978037  e_d = 0.04658746797111579
+Steering is -1.0
+Speed pid: e_p = 0.09375280772464711  e_i = 2.2101880791881454  e_d = 0.0
+Speed is 0.0
+
+Frame 31
+distance to road center = 0.09375280772464711
+angle from straight in rads = 0.9562515668610686
+Steering pid: e_p = 0.9562515668610686  e_i = 9.508031277839105  e_d = 0.04658746797111579
+Steering is -1.0
+Speed pid: e_p = 0.09375280772464711  e_i = 2.3039408869127924  e_d = 0.0
+Speed is 0.0
+
+Frame 32
+distance to road center = 0.09375280772464711
+angle from straight in rads = 1.0028390348321843
+Steering pid: e_p = 1.0028390348321843  e_i = 10.51087031267129  e_d = 0.04658746797111568
+Steering is -1.0
+Speed pid: e_p = 0.09375280772464711  e_i = 2.3976936946374394  e_d = 0.0
+Speed is 0.0
+
+Frame 33
+distance to road center = 0.09375280772464711
+angle from straight in rads = 1.0494265028033003
+Steering pid: e_p = 1.0494265028033003  e_i = 11.56029681547459  e_d = 0.046587467971116014
+Steering is -1.0
+Speed pid: e_p = 0.09375280772464711  e_i = 2.4914465023620864  e_d = 0.0
+Speed is 0.0
+
+Frame 34
+distance to road center = 0.09375280772464711
+angle from straight in rads = 1.096013970774416
+Steering pid: e_p = 1.096013970774416  e_i = 12.656310786249007  e_d = 0.04658746797111579
+Steering is -1.0
+Speed pid: e_p = 0.09375280772464711  e_i = 2.5851993100867334  e_d = 0.0
+Speed is 0.0
+
+Frame 35
+distance to road center = 0.09375280772464711
+angle from straight in rads = 1.1426014387455319
+Steering pid: e_p = 1.1426014387455319  e_i = 13.798912224994538  e_d = 0.04658746797111579
+Steering is -1.0
+Speed pid: e_p = 0.09375280772464711  e_i = 2.6789521178113804  e_d = 0.0
+Speed is 0.0
+
+Frame 36
+distance to road center = 0.09375280772464711
+angle from straight in rads = 1.1891889067166477
+Steering pid: e_p = 1.1891889067166477  e_i = 14.988101131711186  e_d = 0.04658746797111579
+Steering is -1.0
+Speed pid: e_p = 0.09375280772464711  e_i = 2.7727049255360274  e_d = 0.0
+Speed is 0.0
+
+Frame 37
+distance to road center = 0.09375280772464711
+angle from straight in rads = 1.2357763746877635
+Steering pid: e_p = 1.2357763746877635  e_i = 16.22387750639895  e_d = 0.04658746797111579
+Steering is -1.0
+Speed pid: e_p = 0.09375280772464711  e_i = 2.8664577332606744  e_d = 0.0
+Speed is 0.0
+
+Frame 38
+distance to road center = 0.09375280772464711
+angle from straight in rads = 1.2823638426588793
+Steering pid: e_p = 1.2823638426588793  e_i = 17.506241349057827  e_d = 0.04658746797111579
+Steering is -1.0
+Speed pid: e_p = 0.09375280772464711  e_i = 2.9602105409853214  e_d = 0.0
+Speed is 0.0
+
+Frame 39
+distance to road center = 0.09375280772464711
+angle from straight in rads = 1.328951310629995
+Steering pid: e_p = 1.328951310629995  e_i = 18.835192659687824  e_d = 0.04658746797111579
+Steering is -1.0
+Speed pid: e_p = 0.09375280772464711  e_i = 3.0539633487099684  e_d = 0.0
+Speed is 0.0
+
+Frame 40
+distance to road center = 0.09375280772464711
+angle from straight in rads = 1.3755387786011108
+Steering pid: e_p = 1.3755387786011108  e_i = 20.210731438288935  e_d = 0.04658746797111579
+Steering is -1.0
+Speed pid: e_p = 0.09375280772464711  e_i = 3.1477161564346154  e_d = 0.0
+Speed is 0.0
+
+Frame 41
+distance to road center = 0.09375280772464711
+angle from straight in rads = 1.4221262465722266
+Steering pid: e_p = 1.4221262465722266  e_i = 21.63285768486116  e_d = 0.04658746797111579
+Steering is -1.0
+Speed pid: e_p = 0.09375280772464711  e_i = 3.2414689641592624  e_d = 0.0
+Speed is 0.0
+
+Frame 42
+distance to road center = 0.09375280772464711
+angle from straight in rads = 1.4687137145433424
+Steering pid: e_p = 1.4687137145433424  e_i = 23.101571399404502  e_d = 0.04658746797111579
+Steering is -1.0
+Speed pid: e_p = 0.09375280772464711  e_i = 3.3352217718839094  e_d = 0.0
+Speed is 0.0
+
+Frame 43
+distance to road center = 0.09375280772464711
+angle from straight in rads = 1.5153011825144582
+Steering pid: e_p = 1.5153011825144582  e_i = 24.61687258191896  e_d = 0.04658746797111579
+Steering is -1.0
+Speed pid: e_p = 0.09375280772464711  e_i = 3.4289745796085564  e_d = 0.0
+Speed is 0.0
+
+Frame 44
+distance to road center = 0.09375280772464711
+angle from straight in rads = 1.561888650485574
+Steering pid: e_p = 1.561888650485574  e_i = 26.178761232404536  e_d = 0.04658746797111579
+Steering is -1.0
+Speed pid: e_p = 0.09375280772464711  e_i = 3.5227273873332035  e_d = 0.0
+Speed is 0.0
+
+Frame 45
+distance to road center = -0.3277528077246471
+angle from straight in rads = -1.5331165351331035
+Steering pid: e_p = -1.5331165351331035  e_i = 24.645644697271432  e_d = -3.0950051856186773
+Steering is 1.0
+Speed pid: e_p = -0.3277528077246471  e_i = 3.1949745796085565  e_d = -0.4215056154492942
+Speed is 0.10484824938644399
+
+Frame 46
+distance to road center = 0.09863647506417983
+angle from straight in rads = 1.561888650485574
+Steering pid: e_p = 1.561888650485574  e_i = 26.207533347757007  e_d = 3.0950051856186773
+Steering is -1.0
+Speed pid: e_p = 0.09863647506417983  e_i = 3.2936110546727364  e_d = 0.42638928278882693
+Speed is 0.0
+
+Frame 47
+distance to road center = -0.3326364750641798
+angle from straight in rads = -1.5331165351331035
+Steering pid: e_p = -1.5331165351331035  e_i = 24.674416812623903  e_d = -3.0950051856186773
+Steering is 1.0
+Speed pid: e_p = -0.3326364750641798  e_i = 2.9609745796085565  e_d = -0.43127295012835964
+Speed is 0.15050035564409825
+
+Frame 48
+distance to road center = 0.10564654605485646
+angle from straight in rads = 1.561888650485574
+Steering pid: e_p = 1.561888650485574  e_i = 26.236305463109478  e_d = 3.0950051856186773
+Steering is -1.0
+Speed pid: e_p = 0.10564654605485646  e_i = 3.066621125663413  e_d = 0.4382830211190363
+Speed is 0.0
+
+Frame 49
+distance to road center = -0.33964654605485645
+angle from straight in rads = -1.5331165351331035
+Steering pid: e_p = -1.5331165351331035  e_i = 24.703188927976374  e_d = -3.0950051856186773
+Steering is 1.0
+Speed pid: e_p = -0.33964654605485645  e_i = 2.7269745796085565  e_d = -0.4452930921097129
+Speed is 0.21592801585739085
+
+total reward =  -34.145711980490645
+False: Incorrect solution execution: Stopping the simulator because we are at an invalid pose.
