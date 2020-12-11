@@ -1,0 +1,210 @@
+False: Incorrect solution execution: Stopping the simulator because we are at an invalid pose.
+time=1607718088.1563768 gym-duckietown 2019.0.0
+
+time=1607718088.5151513 Registering gym environment id: Duckietown-4way-v0
+time=1607718088.5153916 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1607718088.5154834 Registering gym environment id: Duckietown-loop_empty-v0
+time=1607718088.5155616 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1607718088.5156438 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1607718088.5157788 Registering gym environment id: Duckietown-small_loop-v0
+time=1607718088.5159144 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1607718088.5160315 Registering gym environment id: Duckietown-straight_road-v0
+time=1607718088.516186 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1607718088.5165088 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1607718088.5166533 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1607718088.516786 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1607718088.5168767 Registering gym environment id: Duckietown-udem1-v0
+time=1607718088.5170097 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1607718091.973224 Falling back to non-multisampled frame buffer
+time=1607718091.9783275 Falling back to non-multisampled frame buffer
+time=1607718091.9837468 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/zigzag_dists.yaml"
+time=1607718092.0206137 loading mesh "duckiebot.obj"
+time=1607718092.021012 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1607718092.816442 loading mesh "bus.obj"
+time=1607718092.840564 loading texture "bus.png"
+time=1607718093.6079056 loading mesh "truck.obj"
+time=1607718093.644003 loading texture "truck.png"
+time=1607718094.380123 loading mesh "tree.obj"
+time=1607718094.3804922 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/tree.mtl"
+time=1607718094.3855577 loading mesh "sign_blank.obj"
+time=1607718094.3895724 loading texture "sign_blank.png"
+time=1607718094.56373 loading texture "asphalt_1.png"
+time=1607718094.9889646 loading texture "curve_left_1.png"
+time=1607718095.0035987 loading texture "straight_1.png"
+time=1607718095.0178337 loading texture "curve_right_1.png"
+time=1607718095.0459948 using user tile start: (1, 1)
+time=1607718095.0474286 tile: {'coords': (1, 1), 'kind': 'curve_left', 'angle': 3, 'drivable': True, 'curves': array([[[1.17  , 0.    , 0.7605],
+        [0.8775, 0.    , 0.7605],
+        [0.7605, 0.    , 0.8775],
+        [0.7605, 0.    , 1.17  ]],
+
+       [[0.9945, 0.    , 1.17  ],
+        [0.9945, 0.    , 1.053 ],
+        [1.053 , 0.    , 0.9945],
+        [1.17  , 0.    , 0.9945]]]), 'texture': <gym_duckietown.graphics.Texture object at 0x7fcebc4a68d0>, 'color': array([1, 1, 1])}
+time=1607718095.0498338 road_tile_size=0.585
+time=1607718095.0502028 Starting at [0.72387732 0.         0.92875609] -1.5757802506402843
+time=1607718095.0505602 Pos: [0.72387732 0.         0.92875609] angle -1.5757802506402843
+time=1607718095.4875798 using DuckietownEnv
+/usr/local/lib/python3.6/dist-packages/gym/logger.py:30: UserWarning: [33mWARN: Box bound precision lowered by casting to float32[0m
+  warnings.warn(colorize('%s: %s'%('WARN', msg % args), 'yellow'))
+time=1607718095.8490756 Pos: [0.7234822  0.         0.94272548] angle -1.6223677186114
+time=1607718096.4035878 Pos: [0.72275858 0.         0.95668297] angle -1.6228207659233704
+time=1607718096.602296 Pos: [0.72202832 0.         0.97064012] angle -1.6233204171184865
+time=1607718096.7980092 Pos: [0.72129109 0.         0.9845969 ] angle -1.6238190099713135
+time=1607718096.9907901 Pos: [0.72054719 0.         0.99855333] angle -1.6242758938607569
+time=1607718097.2242832 Pos: [0.71979591 0.         1.01250936] angle -1.624876476658718
+time=1607718097.4124289 Pos: [0.71903656 0.         1.02646496] angle -1.6254317886751428
+time=1607718097.6041436 Pos: [0.71826931 0.         1.04042013] angle -1.6260096432504902
+time=1607718097.7961838 Pos: [0.71749383 0.         1.05437484] angle -1.6266118695031608
+time=1607718097.9861176 Pos: [0.71670975 0.         1.06832906] angle -1.6272416746030716
+time=1607718098.191692 Pos: [0.71591672 0.         1.08228279] angle -1.6278945415849773
+time=1607718098.3862026 Pos: [0.71511428 0.         1.09623597] angle -1.6285899091344243
+time=1607718098.5739164 Pos: [0.71430195 0.         1.11018859] angle -1.6293131490712949
+time=1607718098.7651072 Pos: [0.71347928 0.         1.12414059] angle -1.6300710678044348
+time=1607718098.9555666 Pos: [0.7123267  0.         1.13806796] angle -1.6766585357755506
+time=1607718099.1504772 Pos: [0.71052677 0.         1.15192654] angle -1.7232460037466664
+time=1607718099.3632524 Pos: [0.70808338 0.         1.16568625] angle -1.7698334717177822
+time=1607718099.5579727 Pos: [0.70500184 0.         1.17931725] angle -1.816420939688898
+time=1607718099.7470934 Pos: [0.70128885 0.         1.19278995] angle -1.8630084076600137
+time=1607718099.938542 Pos: [0.69695245 0.         1.20607512] angle -1.9095958756311295
+time=1607718100.1278484 Pos: [0.69200206 0.         1.21914392] angle -1.9561833436022453
+time=1607718100.318969 Pos: [0.68644842 0.         1.231968  ] angle -2.002770811573361
+time=1607718100.5235193 Pos: [0.68030357 0.         1.24451953] angle -2.0493582795444767
+time=1607718100.77435 Pos: [0.67358087 0.         1.25677127] angle -2.0959457475155925
+time=1607718100.9707692 Pos: [0.66629488 0.         1.26869664] angle -2.1425332154867083
+time=1607718101.1582763 Pos: [0.65846143 0.         1.28026975] angle -2.189120683457824
+time=1607718101.3511474 Pos: [0.65009751 0.         1.29146551] angle -2.23570815142894
+time=1607718101.6342974 Pos: [0.64122127 0.         1.3022596 ] angle -2.2822956194000557
+time=1607718101.8734381 Pos: [0.63185198 0.         1.3126286 ] angle -2.3288830873711714
+time=1607718102.1143365 [0.57445004 0.         1.36831086] corresponds to tile at (0, 2) which is not drivable: {'coords': (0, 2), 'kind': 'asphalt', 'angle': 0, 'drivable': False, 'texture': <gym_duckietown.graphics.Texture object at 0x7fcebc4a6860>, 'color': array([1, 1, 1])}
+time=1607718102.115781 Invalid pose. Collision free: True On drivable area: False
+time=1607718102.1159039 safety_factor: 1.0
+time=1607718102.1165664 pos: [0.63930448 0.         1.30590972]
+time=1607718102.1171303 l_pos: [0.69130543 0.         1.35995508]
+time=1607718102.1178412 r_pos: [0.58730352 0.         1.25186436]
+time=1607718102.118332 f_pos: [0.57445004 0.         1.36831086]
+time=1607718102.1184874 Stopping the simulator because we are at an invalid pose.
+time=1607718102.119182 Pos: [0.62200996 0.         1.32255002] angle -2.3754705553422872
+distance to road center = 0.07367634415155944
+angle from straight in rads = -0.3597520947167487
+e_p = 0.07367634415155944, e_i = 0.07367634415155944, e_d = 0.07367634415155944
+pid_error = -3074.620857351345
+distance to road center = 0.06924819099623385
+angle from straight in rads = -0.2862591059200755
+e_p = 0.06924819099623385, e_i = 0.1429245351477933, e_d = -0.00442815315532559
+pid_error = -0.009724660551442974
+distance to road center = 0.06553762087694957
+angle from straight in rads = -0.253458382182775
+e_p = 0.06553762087694957, e_i = 0.20846215602474288, e_d = -0.0037105701192842733
+pid_error = -0.010725012903167755
+distance to road center = 0.06216740711631391
+angle from straight in rads = -0.24042099805988584
+e_p = 0.06216740711631391, e_i = 0.2706295631410568, e_d = -0.0033702137606356625
+pid_error = -0.010702295585931765
+distance to road center = 0.05884288718933335
+angle from straight in rads = -0.23992240520705924
+e_p = 0.05884288718933335, e_i = 0.32947245033039013, e_d = -0.0033245199269805598
+pid_error = -0.009807012686901758
+distance to road center = 0.056755351574816926
+angle from straight in rads = -0.16902374710486223
+e_p = 0.056755351574816926, e_i = 0.38622780190520706, e_d = -0.0020875356145164253
+pid_error = -0.012891509758236035
+distance to road center = 0.0545648514229271
+angle from straight in rads = -0.14673346732621775
+e_p = 0.0545648514229271, e_i = 0.44079265332813417, e_d = -0.002190500151889825
+pid_error = -0.011919772432557416
+distance to road center = 0.05271932118818216
+angle from straight in rads = -0.12028585976608035
+e_p = 0.05271932118818216, e_i = 0.49351197451631634, e_d = -0.0018455302347449437
+pid_error = -0.01240364845983323
+distance to road center = 0.05119686797338735
+angle from straight in rads = -0.0999450240130497
+e_p = 0.05119686797338735, e_i = 0.5447088424897037, e_d = -0.001522453214794807
+pid_error = -0.01292678651357208
+distance to road center = 0.049986548186186426
+angle from straight in rads = -0.07579024036761253
+e_p = 0.049986548186186426, e_i = 0.5946953906758902, e_d = -0.0012103197872009239
+pid_error = -0.013518766469582229
+distance to road center = 0.04902863000072653
+angle from straight in rads = -0.06608779724314548
+e_p = 0.04902863000072653, e_i = 0.6437240206766167, e_d = -0.0009579181854598995
+pid_error = -0.014013789766604334
+distance to road center = 0.04842360122131297
+angle from straight in rads = -0.035189862234558916
+e_p = 0.04842360122131297, e_i = 0.6921476218979297, e_d = -0.000605028779413555
+pid_error = -0.014926064448880338
+distance to road center = 0.048042324314724855
+angle from straight in rads = -0.018226562933498815
+e_p = 0.048042324314724855, e_i = 0.7401899462126545, e_d = -0.0003812769065881169
+pid_error = -0.015524345244928774
+distance to road center = 0.0479065442677166
+angle from straight in rads = -0.0019403701633733006
+e_p = 0.0479065442677166, e_i = 0.7880964904803711, e_d = -0.00013578004700825347
+pid_error = -0.016268725606850127
+distance to road center = 0.04800295892877
+angle from straight in rads = 0.013702106649179396
+e_p = 0.04800295892877, e_i = 0.8360994494091412, e_d = 9.641466105339558e-05
+pid_error = -213.5986121143453
+distance to road center = 0.048638596102884187
+angle from straight in rads = 0.07452211658952368
+e_p = 0.048638596102884187, e_i = 0.8847380455120254, e_d = 0.0006356371741141897
+pid_error = -237.16258555410016
+distance to road center = 0.050118430022660095
+angle from straight in rads = 0.13471611642486445
+e_p = 0.050118430022660095, e_i = 0.9348564755346855, e_d = 0.001479833919775908
+pid_error = -275.6990119106951
+distance to road center = 0.05242427011542241
+angle from straight in rads = 0.1943096053894035
+e_p = 0.05242427011542241, e_i = 0.9872807456501079, e_d = 0.002305840092762315
+pid_error = -316.9984102403088
+distance to road center = 0.05549815631490396
+angle from straight in rads = 0.24562461289400125
+e_p = 0.05549815631490396, e_i = 1.0427789019650118, e_d = 0.0030738861994815472
+pid_error = -359.337070834161
+distance to road center = 0.05921115126492005
+angle from straight in rads = 0.2922120808651171
+e_p = 0.05921115126492005, e_i = 1.1019900532299318, e_d = 0.003712994950016091
+pid_error = -399.5231761476266
+distance to road center = 0.06354754956178232
+angle from straight in rads = 0.33879954883623276
+e_p = 0.06354754956178232, e_i = 1.1655376027917141, e_d = 0.004336398296862276
+pid_error = -441.7560397870528
+distance to road center = 0.06849794122270336
+angle from straight in rads = 0.38538701680734866
+e_p = 0.06849794122270336, e_i = 1.2340355440144175, e_d = 0.0049503916609210386
+pid_error = -486.24182423663484
+distance to road center = 0.07405158389951116
+angle from straight in rads = 0.43197448477846423
+e_p = 0.07405158389951116, e_i = 1.3080871279139288, e_d = 0.005553642676807802
+pid_error = -532.8943568853243
+distance to road center = 0.08019642618953948
+angle from straight in rads = 0.4785619527495801
+e_p = 0.08019642618953948, e_i = 1.3882835541034684, e_d = 0.006144842290028318
+pid_error = -581.6227632791811
+distance to road center = 0.08691913378716876
+angle from straight in rads = 0.5251494207206958
+e_p = 0.08691913378716876, e_i = 1.4752026878906372, e_d = 0.006722707597629274
+pid_error = -632.3316643190174
+distance to road center = 0.09420511841926393
+angle from straight in rads = 0.5717368886918116
+e_p = 0.09420511841926393, e_i = 1.569407806309901, e_d = 0.007285984632095177
+pid_error = -684.9213832329299
+distance to road center = 0.10203856950172174
+angle from straight in rads = 0.6183243566629275
+e_p = 0.10203856950172174, e_i = 1.6714463758116227, e_d = 0.00783345108245781
+pid_error = -739.2881618748718
+distance to road center = 0.11040248844843403
+angle from straight in rads = 0.6649118246340433
+e_p = 0.11040248844843403, e_i = 1.7818488642600567, e_d = 0.00836391894671229
+pid_error = -795.324385879863
+distance to road center = 0.11927872555821228
+angle from straight in rads = 0.711499292605159
+e_p = 0.11927872555821228, e_i = 1.9011275898182691, e_d = 0.008876237109778251
+pid_error = -852.9188181870156
+distance to road center = 0.1286480193996331
+angle from straight in rads = 0.7580867605762749
+e_p = 0.1286480193996331, e_i = 2.0297756092179022, e_d = 0.009369293841420823
+pid_error = -911.9568404239799
+total reward =  -8.164922832355096
+False: Incorrect solution execution: Stopping the simulator because we are at an invalid pose.
