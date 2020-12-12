@@ -1,0 +1,618 @@
+False: Incorrect solution execution: Stopping the simulator because we are at an invalid pose.
+time=1607744422.6733243 gym-duckietown 2019.0.0
+
+time=1607744422.9433866 Registering gym environment id: Duckietown-4way-v0
+time=1607744422.943546 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1607744422.943641 Registering gym environment id: Duckietown-loop_empty-v0
+time=1607744422.9437523 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1607744422.9438522 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1607744422.9439607 Registering gym environment id: Duckietown-small_loop-v0
+time=1607744422.944064 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1607744422.9441671 Registering gym environment id: Duckietown-straight_road-v0
+time=1607744422.944268 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1607744422.9444964 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1607744422.9446213 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1607744422.9447315 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1607744422.9448338 Registering gym environment id: Duckietown-udem1-v0
+time=1607744422.9449234 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1607744425.1498318 Falling back to non-multisampled frame buffer
+time=1607744425.153528 Falling back to non-multisampled frame buffer
+time=1607744425.157798 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/zigzag_dists.yaml"
+time=1607744425.1801744 loading mesh "duckiebot.obj"
+time=1607744425.1805196 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1607744425.695977 loading mesh "bus.obj"
+time=1607744425.7123754 loading texture "bus.png"
+time=1607744426.155484 loading mesh "truck.obj"
+time=1607744426.1733806 loading texture "truck.png"
+time=1607744426.5775468 loading mesh "tree.obj"
+time=1607744426.577861 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/tree.mtl"
+time=1607744426.5816665 loading mesh "sign_blank.obj"
+time=1607744426.584439 loading texture "sign_blank.png"
+time=1607744426.6825137 loading texture "asphalt_1.png"
+time=1607744426.9260743 loading texture "curve_left_1.png"
+time=1607744426.9411144 loading texture "straight_1.png"
+time=1607744426.9557726 loading texture "curve_right_1.png"
+time=1607744426.9861517 using user tile start: (1, 1)
+time=1607744426.9877937 tile: {'coords': (1, 1), 'kind': 'curve_left', 'angle': 3, 'drivable': True, 'curves': array([[[1.17  , 0.    , 0.7605],
+        [0.8775, 0.    , 0.7605],
+        [0.7605, 0.    , 0.8775],
+        [0.7605, 0.    , 1.17  ]],
+
+       [[0.9945, 0.    , 1.17  ],
+        [0.9945, 0.    , 1.053 ],
+        [1.053 , 0.    , 0.9945],
+        [1.17  , 0.    , 0.9945]]]), 'texture': <gym_duckietown.graphics.Texture object at 0x7f996bb375c0>, 'color': array([1, 1, 1])}
+time=1607744426.9907973 road_tile_size=0.585
+time=1607744426.9912832 Starting at [0.74601152 0.         0.92715551] -1.5336478987531184
+time=1607744426.9917202 Pos: [0.74601152 0.         0.92715551] angle -1.5336478987531184
+time=1607744427.2720766 using DuckietownEnv
+/usr/local/lib/python3.6/dist-packages/gym/logger.py:30: UserWarning: [33mWARN: Box bound precision lowered by casting to float32[0m
+  warnings.warn(colorize('%s: %s'%('WARN', msg % args), 'yellow'))
+time=1607744427.511938 Pos: [0.74749711 0.         0.96712792] angle -1.5336478987531184
+time=1607744427.8456042 Pos: [0.74898271 0.         1.00710032] angle -1.5336478987531184
+time=1607744427.977385 Pos: [0.7504683  0.         1.04707272] angle -1.5336478987531184
+time=1607744428.1227741 Pos: [0.7519539  0.         1.08704512] angle -1.5336478987531184
+time=1607744428.2509801 Pos: [0.75343949 0.         1.12701753] angle -1.5336478987531184
+time=1607744428.3831751 Pos: [0.75492509 0.         1.16698993] angle -1.5336478987531184
+time=1607744428.5113184 Pos: [0.75641069 0.         1.20696233] angle -1.5336478987531184
+time=1607744428.6382437 Pos: [0.75789628 0.         1.24693474] angle -1.5336478987531184
+time=1607744428.7676153 Pos: [0.75938188 0.         1.28690714] angle -1.5336478987531184
+time=1607744428.931303 Pos: [0.76086747 0.         1.32687954] angle -1.5336478987531184
+time=1607744429.1282032 Pos: [0.76235307 0.         1.36685195] angle -1.5336478987531184
+time=1607744429.2666745 Pos: [0.76383866 0.         1.40682435] angle -1.5336478987531184
+time=1607744429.4010525 Pos: [0.76532426 0.         1.44679675] angle -1.5336478987531184
+time=1607744429.5294924 Pos: [0.76680985 0.         1.48676916] angle -1.5336478987531184
+time=1607744429.658741 Pos: [0.76829545 0.         1.52674156] angle -1.5336478987531184
+time=1607744429.778197 Pos: [0.76978104 0.         1.56671396] angle -1.5336478987531184
+time=1607744429.9057677 Pos: [0.77126664 0.         1.60668636] angle -1.5336478987531184
+time=1607744430.029256 Pos: [0.77275223 0.         1.64665877] angle -1.5336478987531184
+time=1607744430.1637897 Pos: [0.77423783 0.         1.68663117] angle -1.5336478987531184
+time=1607744430.302667 Pos: [0.77572342 0.         1.72660357] angle -1.5336478987531184
+time=1607744430.4369507 Pos: [0.77720902 0.         1.76657598] angle -1.5336478987531184
+time=1607744430.5561292 Pos: [0.77869462 0.         1.80654838] angle -1.5336478987531184
+time=1607744430.6734612 Pos: [0.78018021 0.         1.84652078] angle -1.5336478987531184
+time=1607744430.7953131 Pos: [0.78166581 0.         1.88649319] angle -1.5336478987531184
+time=1607744430.9246142 Pos: [0.7831514  0.         1.92646559] angle -1.5336478987531184
+time=1607744431.0662608 Pos: [0.784637   0.         1.96643799] angle -1.5336478987531184
+time=1607744431.1912267 Pos: [0.78612259 0.         2.0064104 ] angle -1.5336478987531184
+time=1607744431.327577 Pos: [0.78760819 0.         2.0463828 ] angle -1.5336478987531184
+lane pose LanePosition(dist=0.053687849221491564, dot_dir=0.909094329703944, angle_deg=-24.619506878619756, angle_rad=-0.4296914552493067)
+distance to road center 0.053687849221491564
+angle from straight in rads -0.4296914552493067
+angle from straight in degrees -24.619506878619756
+step
+lane pose LanePosition(dist=0.0388091667654727, dot_dir=0.9439709881598323, angle_deg=-19.270501904030933, angle_rad=-0.3363337067371761)
+distance to road center 0.0388091667654727
+angle from straight in rads -0.3363337067371761
+angle from straight in degrees -19.270501904030933
+step
+lane pose LanePosition(dist=0.027134739493703305, dot_dir=0.9664794498333421, angle_deg=-14.876948971995143, angle_rad=-0.2596517422125009)
+distance to road center 0.027134739493703305
+angle from straight in rads -0.2596517422125009
+angle from straight in degrees -14.876948971995143
+step
+lane pose LanePosition(dist=0.018364099966771286, dot_dir=0.9824742129443588, angle_deg=-10.742682065590738, angle_rad=-0.18749517253950382)
+distance to road center 0.018364099966771286
+angle from straight in rads -0.18749517253950382
+angle from straight in degrees -10.742682065590738
+step
+lane pose LanePosition(dist=0.012100895161255057, dot_dir=0.9916347844699037, angle_deg=-7.4161654552291845, angle_rad=-0.12943650506641338)
+distance to road center 0.012100895161255057
+angle from straight in rads -0.12943650506641338
+angle from straight in degrees -7.4161654552291845
+step
+lane pose LanePosition(dist=0.007955268518074697, dot_dir=0.9968730026816481, angle_deg=-4.532257949469386, angle_rad=-0.07910282376792757)
+distance to road center 0.007955268518074697
+angle from straight in rads -0.07910282376792757
+angle from straight in degrees -4.532257949469386
+step
+lane pose LanePosition(dist=0.005578277128224317, dot_dir=0.9992506540163806, angle_deg=-2.2182267879390585, angle_rad=-0.03871536100547461)
+distance to road center 0.005578277128224317
+angle from straight in rads -0.03871536100547461
+angle from straight in degrees -2.2182267879390585
+step
+lane pose LanePosition(dist=0.004089314994153104, dot_dir=0.9993100764940186, angle_deg=-2.1284481423392534, angle_rad=-0.03714842804177689)
+distance to road center 0.004089314994153104
+angle from straight in rads -0.03714842804177689
+angle from straight in degrees -2.1284481423392534
+step
+lane pose LanePosition(dist=0.0026037196158518183, dot_dir=0.9993100764940186, angle_deg=-2.1284481423392534, angle_rad=-0.03714842804177689)
+distance to road center 0.0026037196158518183
+angle from straight in rads -0.03714842804177689
+angle from straight in degrees -2.1284481423392534
+step
+lane pose LanePosition(dist=0.001118124237550533, dot_dir=0.9993100764940186, angle_deg=-2.1284481423392534, angle_rad=-0.03714842804177689)
+distance to road center 0.001118124237550533
+angle from straight in rads -0.03714842804177689
+angle from straight in degrees -2.1284481423392534
+step
+lane pose LanePosition(dist=-0.0003674711407507525, dot_dir=0.9993100764940186, angle_deg=-2.1284481423392534, angle_rad=-0.03714842804177689)
+distance to road center -0.0003674711407507525
+angle from straight in rads -0.03714842804177689
+angle from straight in degrees -2.1284481423392534
+step
+lane pose LanePosition(dist=-0.001853066519052149, dot_dir=0.9993100764940186, angle_deg=-2.1284481423392534, angle_rad=-0.03714842804177689)
+distance to road center -0.001853066519052149
+angle from straight in rads -0.03714842804177689
+angle from straight in degrees -2.1284481423392534
+step
+lane pose LanePosition(dist=-0.0033386618973533233, dot_dir=0.9993100764940186, angle_deg=-2.1284481423392534, angle_rad=-0.03714842804177689)
+distance to road center -0.0033386618973533233
+angle from straight in rads -0.03714842804177689
+angle from straight in degrees -2.1284481423392534
+step
+lane pose LanePosition(dist=-0.004824257275654609, dot_dir=0.9993100764940186, angle_deg=-2.1284481423392534, angle_rad=-0.03714842804177689)
+distance to road center -0.004824257275654609
+angle from straight in rads -0.03714842804177689
+angle from straight in degrees -2.1284481423392534
+step
+lane pose LanePosition(dist=-0.006309852653955894, dot_dir=0.9993100764940186, angle_deg=-2.1284481423392534, angle_rad=-0.03714842804177689)
+distance to road center -0.006309852653955894
+angle from straight in rads -0.03714842804177689
+angle from straight in degrees -2.1284481423392534
+step
+lane pose LanePosition(dist=-0.0077954480322570685, dot_dir=0.9993100764940186, angle_deg=-2.1284481423392534, angle_rad=-0.03714842804177689)
+distance to road center -0.0077954480322570685
+angle from straight in rads -0.03714842804177689
+angle from straight in degrees -2.1284481423392534
+step
+lane pose LanePosition(dist=-0.009281043410558465, dot_dir=0.9993100764940186, angle_deg=-2.1284481423392534, angle_rad=-0.03714842804177689)
+distance to road center -0.009281043410558465
+angle from straight in rads -0.03714842804177689
+angle from straight in degrees -2.1284481423392534
+step
+lane pose LanePosition(dist=-0.01076663878885975, dot_dir=0.9993100764940186, angle_deg=-2.1284481423392534, angle_rad=-0.03714842804177689)
+distance to road center -0.01076663878885975
+angle from straight in rads -0.03714842804177689
+angle from straight in degrees -2.1284481423392534
+step
+lane pose LanePosition(dist=-0.012252234167161036, dot_dir=0.9993100764940186, angle_deg=-2.1284481423392534, angle_rad=-0.03714842804177689)
+distance to road center -0.012252234167161036
+angle from straight in rads -0.03714842804177689
+angle from straight in degrees -2.1284481423392534
+step
+lane pose LanePosition(dist=-0.013737829545462321, dot_dir=0.9993100764940186, angle_deg=-2.1284481423392534, angle_rad=-0.03714842804177689)
+distance to road center -0.013737829545462321
+angle from straight in rads -0.03714842804177689
+angle from straight in degrees -2.1284481423392534
+step
+lane pose LanePosition(dist=-0.015223424923763607, dot_dir=0.9993100764940186, angle_deg=-2.1284481423392534, angle_rad=-0.03714842804177689)
+distance to road center -0.015223424923763607
+angle from straight in rads -0.03714842804177689
+angle from straight in degrees -2.1284481423392534
+step
+lane pose LanePosition(dist=-0.016709020302064892, dot_dir=0.9993100764940186, angle_deg=-2.1284481423392534, angle_rad=-0.03714842804177689)
+distance to road center -0.016709020302064892
+angle from straight in rads -0.03714842804177689
+angle from straight in degrees -2.1284481423392534
+step
+lane pose LanePosition(dist=-0.018194615680366177, dot_dir=0.9993100764940186, angle_deg=-2.1284481423392534, angle_rad=-0.03714842804177689)
+distance to road center -0.018194615680366177
+angle from straight in rads -0.03714842804177689
+angle from straight in degrees -2.1284481423392534
+step
+lane pose LanePosition(dist=-0.019680211058667463, dot_dir=0.9993100764940186, angle_deg=-2.1284481423392534, angle_rad=-0.03714842804177689)
+distance to road center -0.019680211058667463
+angle from straight in rads -0.03714842804177689
+angle from straight in degrees -2.1284481423392534
+step
+lane pose LanePosition(dist=-0.021165806436968637, dot_dir=0.9993100764940186, angle_deg=-2.1284481423392534, angle_rad=-0.03714842804177689)
+distance to road center -0.021165806436968637
+angle from straight in rads -0.03714842804177689
+angle from straight in degrees -2.1284481423392534
+step
+lane pose LanePosition(dist=-0.022651401815270034, dot_dir=0.9993100764940186, angle_deg=-2.1284481423392534, angle_rad=-0.03714842804177689)
+distance to road center -0.022651401815270034
+angle from straight in rads -0.03714842804177689
+angle from straight in degrees -2.1284481423392534
+step
+lane pose LanePosition(dist=-0.02413699719357132, dot_dir=0.9993100764940186, angle_deg=-2.1284481423392534, angle_rad=-0.03714842804177689)
+distance to road center -0.02413699719357132
+angle from straight in rads -0.03714842804177689
+angle from straight in degrees -2.1284481423392534
+step
+lane pose LanePosition(dist=-0.025622592571872604, dot_dir=0.9993100764940186, angle_deg=-2.1284481423392534, angle_rad=-0.03714842804177689)
+distance to road center -0.025622592571872604
+angle from straight in rads -0.03714842804177689
+angle from straight in degrees -2.1284481423392534
+step
+lane pose LanePosition(dist=-0.02710818795017389, dot_dir=0.9993100764940186, angle_deg=-2.1284481423392534, angle_rad=-0.03714842804177689)time=1607744431.4541166 Pos: [0.78909378 0.         2.0863552 ] angle -1.5336478987531184
+time=1607744431.5805151 Pos: [0.79057938 0.         2.1263276 ] angle -1.5336478987531184
+time=1607744431.7021759 Pos: [0.79206497 0.         2.16630001] angle -1.5336478987531184
+time=1607744431.822801 Pos: [0.79355057 0.         2.20627241] angle -1.5336478987531184
+time=1607744431.9433646 Pos: [0.79503616 0.         2.24624481] angle -1.5336478987531184
+time=1607744432.0673027 Pos: [0.79652176 0.         2.28621722] angle -1.5336478987531184
+time=1607744432.1900754 Pos: [0.79800736 0.         2.32618962] angle -1.5336478987531184
+time=1607744432.3308804 Pos: [0.79949295 0.         2.36616202] angle -1.5336478987531184
+time=1607744432.462199 Pos: [0.80097855 0.         2.40613443] angle -1.5336478987531184
+time=1607744432.5809631 Pos: [0.80246414 0.         2.44610683] angle -1.5336478987531184
+time=1607744432.7152076 Pos: [0.80394974 0.         2.48607923] angle -1.5336478987531184
+time=1607744432.8397536 Pos: [0.80543533 0.         2.52605164] angle -1.5336478987531184
+time=1607744432.9644837 Pos: [0.80692093 0.         2.56602404] angle -1.5336478987531184
+time=1607744433.0840783 Pos: [0.80840652 0.         2.60599644] angle -1.5336478987531184
+time=1607744433.206966 Pos: [0.80989212 0.         2.64596884] angle -1.5336478987531184
+time=1607744433.3347292 Pos: [0.81137771 0.         2.68594125] angle -1.5336478987531184
+time=1607744433.4880273 Pos: [0.81286331 0.         2.72591365] angle -1.5336478987531184
+time=1607744433.608345 Pos: [0.8143489  0.         2.76588605] angle -1.5336478987531184
+time=1607744433.7287076 Pos: [0.8158345  0.         2.80585846] angle -1.5336478987531184
+time=1607744433.8487957 Pos: [0.8173201  0.         2.84583086] angle -1.5336478987531184
+time=1607744433.9666522 Pos: [0.81880569 0.         2.88580326] angle -1.5336478987531184
+time=1607744434.0910814 Pos: [0.82029129 0.         2.92577567] angle -1.5336478987531184
+time=1607744434.2088196 Pos: [0.82177688 0.         2.96574807] angle -1.5336478987531184
+time=1607744434.33186 Pos: [0.82326248 0.         3.00572047] angle -1.5336478987531184
+time=1607744434.4626925 Pos: [0.82474807 0.         3.04569287] angle -1.5336478987531184
+time=1607744434.594216 Pos: [0.82623367 0.         3.08566528] angle -1.5336478987531184
+time=1607744434.7280407 Pos: [0.82771926 0.         3.12563768] angle -1.5336478987531184
+time=1607744434.8624897 Pos: [0.82920486 0.         3.16561008] angle -1.5336478987531184
+
+distance to road center -0.02710818795017389
+angle from straight in rads -0.03714842804177689
+angle from straight in degrees -2.1284481423392534
+step
+lane pose LanePosition(dist=-0.028593783328475175, dot_dir=0.9993100764940186, angle_deg=-2.1284481423392534, angle_rad=-0.03714842804177689)
+distance to road center -0.028593783328475175
+angle from straight in rads -0.03714842804177689
+angle from straight in degrees -2.1284481423392534
+step
+lane pose LanePosition(dist=-0.03007937870677646, dot_dir=0.9993100764940186, angle_deg=-2.1284481423392534, angle_rad=-0.03714842804177689)
+distance to road center -0.03007937870677646
+angle from straight in rads -0.03714842804177689
+angle from straight in degrees -2.1284481423392534
+step
+lane pose LanePosition(dist=-0.031564974085077746, dot_dir=0.9993100764940186, angle_deg=-2.1284481423392534, angle_rad=-0.03714842804177689)
+distance to road center -0.031564974085077746
+angle from straight in rads -0.03714842804177689
+angle from straight in degrees -2.1284481423392534
+step
+lane pose LanePosition(dist=-0.03305056946337903, dot_dir=0.9993100764940186, angle_deg=-2.1284481423392534, angle_rad=-0.03714842804177689)
+distance to road center -0.03305056946337903
+angle from straight in rads -0.03714842804177689
+angle from straight in degrees -2.1284481423392534
+step
+lane pose LanePosition(dist=-0.03453616484168032, dot_dir=0.9993100764940186, angle_deg=-2.1284481423392534, angle_rad=-0.03714842804177689)
+distance to road center -0.03453616484168032
+angle from straight in rads -0.03714842804177689
+angle from straight in degrees -2.1284481423392534
+step
+lane pose LanePosition(dist=-0.0360217602199816, dot_dir=0.9993100764940186, angle_deg=-2.1284481423392534, angle_rad=-0.03714842804177689)
+distance to road center -0.0360217602199816
+angle from straight in rads -0.03714842804177689
+angle from straight in degrees -2.1284481423392534
+step
+lane pose LanePosition(dist=-0.03750735559828289, dot_dir=0.9993100764940186, angle_deg=-2.1284481423392534, angle_rad=-0.03714842804177689)
+distance to road center -0.03750735559828289
+angle from straight in rads -0.03714842804177689
+angle from straight in degrees -2.1284481423392534
+step
+lane pose LanePosition(dist=-0.03899295097658417, dot_dir=0.9993100764940186, angle_deg=-2.1284481423392534, angle_rad=-0.03714842804177689)
+distance to road center -0.03899295097658417
+angle from straight in rads -0.03714842804177689
+angle from straight in degrees -2.1284481423392534
+step
+lane pose LanePosition(dist=-0.04047854635488557, dot_dir=0.9993100764940186, angle_deg=-2.1284481423392534, angle_rad=-0.03714842804177689)
+distance to road center -0.04047854635488557
+angle from straight in rads -0.03714842804177689
+angle from straight in degrees -2.1284481423392534
+step
+lane pose LanePosition(dist=-0.041964141733186744, dot_dir=0.9993100764940186, angle_deg=-2.1284481423392534, angle_rad=-0.03714842804177689)
+distance to road center -0.041964141733186744
+angle from straight in rads -0.03714842804177689
+angle from straight in degrees -2.1284481423392534
+step
+lane pose LanePosition(dist=-0.04344973711148792, dot_dir=0.9993100764940186, angle_deg=-2.1284481423392534, angle_rad=-0.03714842804177689)
+distance to road center -0.04344973711148792
+angle from straight in rads -0.03714842804177689
+angle from straight in degrees -2.1284481423392534
+step
+lane pose LanePosition(dist=-0.044935332489789315, dot_dir=0.9993100764940186, angle_deg=-2.1284481423392534, angle_rad=-0.03714842804177689)
+distance to road center -0.044935332489789315
+angle from straight in rads -0.03714842804177689
+angle from straight in degrees -2.1284481423392534
+step
+lane pose LanePosition(dist=-0.0464209278680906, dot_dir=0.9993100764940186, angle_deg=-2.1284481423392534, angle_rad=-0.03714842804177689)
+distance to road center -0.0464209278680906
+angle from straight in rads -0.03714842804177689
+angle from straight in degrees -2.1284481423392534
+step
+lane pose LanePosition(dist=-0.047906523246391886, dot_dir=0.9993100764940186, angle_deg=-2.1284481423392534, angle_rad=-0.03714842804177689)
+distance to road center -0.047906523246391886
+angle from straight in rads -0.03714842804177689
+angle from straight in degrees -2.1284481423392534
+step
+lane pose LanePosition(dist=-0.04939211862469317, dot_dir=0.9993100764940186, angle_deg=-2.1284481423392534, angle_rad=-0.03714842804177689)
+distance to road center -0.04939211862469317
+angle from straight in rads -0.03714842804177689
+angle from straight in degrees -2.1284481423392534
+step
+lane pose LanePosition(dist=-0.050877714002994456, dot_dir=0.9993100764940186, angle_deg=-2.1284481423392534, angle_rad=-0.03714842804177689)
+distance to road center -0.050877714002994456
+angle from straight in rads -0.03714842804177689
+angle from straight in degrees -2.1284481423392534
+step
+lane pose LanePosition(dist=-0.05236330938129574, dot_dir=0.9993100764940186, angle_deg=-2.1284481423392534, angle_rad=-0.03714842804177689)
+distance to road center -0.05236330938129574
+angle from straight in rads -0.03714842804177689
+angle from straight in degrees -2.1284481423392534
+step
+lane pose LanePosition(dist=-0.05384890475959703, dot_dir=0.9993100764940186, angle_deg=-2.1284481423392534, angle_rad=-0.03714842804177689)
+distance to road center -0.05384890475959703
+angle from straight in rads -0.03714842804177689
+angle from straight in degrees -2.1284481423392534
+step
+lane pose LanePosition(dist=-0.05533450013789831, dot_dir=0.9993100764940186, angle_deg=-2.1284481423392534, angle_rad=-0.03714842804177689)
+distance to road center -0.05533450013789831
+angle from straight in rads -0.03714842804177689
+angle from straight in degrees -2.1284481423392534
+step
+lane pose LanePosition(dist=-0.0568200955161996, dot_dir=0.9993100764940186, angle_deg=-2.1284481423392534, angle_rad=-0.03714842804177689)
+distance to road center -0.0568200955161996
+angle from straight in rads -0.03714842804177689
+angle from straight in degrees -2.1284481423392534
+step
+lane pose LanePosition(dist=-0.05830569089450088, dot_dir=0.9993100764940186, angle_deg=-2.1284481423392534, angle_rad=-0.03714842804177689)
+distance to road center -0.05830569089450088
+angle from straight in rads -0.03714842804177689
+angle from straight in degrees -2.1284481423392534
+step
+lane pose LanePosition(dist=-0.05979128627280228, dot_dir=0.9993100764940186, angle_deg=-2.1284481423392534, angle_rad=-0.03714842804177689)
+distance to road center -0.05979128627280228
+angle from straight in rads -0.03714842804177689
+angle from straight in degrees -2.1284481423392534
+step
+lane pose LanePosition(dist=-0.06127688165110334, dot_dir=0.9993100764940186, angle_deg=-2.1284481423392534, angle_rad=-0.03714842804177689)
+distance to road center -0.06127688165110334
+angle from straight in rads -0.03714842804177689
+angle from straight in degrees -2.1284481423392534
+step
+lane pose LanePosition(dist=-0.06276247702940474, dot_dir=0.9993100764940186, angle_deg=-2.1284481423392534, angle_rad=-0.03714842804177689)
+distance to road center -0.06276247702940474
+angle from straight in rads -0.03714842804177689
+angle from straight in degrees -2.1284481423392534
+step
+lane pose LanePosition(dist=-0.06424807240770614, dot_dir=0.9993100764940186, angle_deg=-2.1284481423392534, angle_rad=-0.03714842804177689)
+distance to road center -0.06424807240770614
+angle from straight in rads -0.03714842804177689
+angle from straight in degrees -2.1284481423392534
+step
+lane pose LanePosition(dist=-0.06573366778600731, dot_dir=0.9993100764940186, angle_deg=-2.1284481423392534, angle_rad=-0.03714842804177689)
+distance to road center -0.06573366778600731
+angle from straight in rads -0.03714842804177689
+angle from straight in degrees -2.1284481423392534
+step
+lane pose LanePosition(dist=-0.0672192631643086, dot_dir=0.9993100764940186, angle_deg=-2.1284481423392534, angle_rad=-0.03714842804177689)
+distance to road center -0.0672192631643086
+angle from straight in rads -0.03714842804177689
+angle from straight in degrees -2.1284481423392534
+step
+lane pose LanePosition(dist=-0.06870485854260988, dot_dir=0.9993100764940186, angle_deg=-2.1284481423392534, angle_rad=-0.03714842804177689)
+distance to road center -0.06870485854260988time=1607744434.9929223 Pos: [0.83069045 0.         3.20558249] angle -1.5336478987531184
+time=1607744435.1191058 Pos: [0.83217605 0.         3.24555489] angle -1.5336478987531184
+time=1607744435.2452009 Pos: [0.83366164 0.         3.28552729] angle -1.5336478987531184
+time=1607744435.3697257 Pos: [0.83514724 0.         3.3254997 ] angle -1.5336478987531184
+time=1607744435.4960806 Pos: [0.83663284 0.         3.3654721 ] angle -1.5336478987531184
+time=1607744435.6483877 Pos: [0.83811843 0.         3.4054445 ] angle -1.5336478987531184
+time=1607744435.7810638 Pos: [0.83960403 0.         3.44541691] angle -1.5336478987531184
+time=1607744435.906091 Pos: [0.84108962 0.         3.48538931] angle -1.5336478987531184
+time=1607744436.0310988 Pos: [0.84257522 0.         3.52536171] angle -1.5336478987531184
+time=1607744436.1463351 Pos: [0.84406081 0.         3.56533411] angle -1.5336478987531184
+time=1607744436.2727356 Pos: [0.84554641 0.         3.60530652] angle -1.5336478987531184
+time=1607744436.3901088 Pos: [0.847032   0.         3.64527892] angle -1.5336478987531184
+time=1607744436.5144906 Pos: [0.8485176  0.         3.68525132] angle -1.5336478987531184
+time=1607744436.6437852 Pos: [0.85000319 0.         3.72522373] angle -1.5336478987531184
+time=1607744436.766942 Pos: [0.85148879 0.         3.76519613] angle -1.5336478987531184
+time=1607744436.8966339 Pos: [0.85297438 0.         3.80516853] angle -1.5336478987531184
+time=1607744437.024661 Pos: [0.85445998 0.         3.84514094] angle -1.5336478987531184
+time=1607744437.140093 Pos: [0.85594558 0.         3.88511334] angle -1.5336478987531184
+time=1607744437.2666767 Pos: [0.85743117 0.         3.92508574] angle -1.5336478987531184
+time=1607744437.3926353 Pos: [0.85891677 0.         3.96505815] angle -1.5336478987531184
+time=1607744437.506489 Pos: [0.86040236 0.         4.00503055] angle -1.5336478987531184
+time=1607744437.6247396 Pos: [0.86188796 0.         4.04500295] angle -1.5336478987531184
+time=1607744437.75793 Pos: [0.86337355 0.         4.08497535] angle -1.5336478987531184
+time=1607744437.87212 Pos: [0.86485915 0.         4.12494776] angle -1.5336478987531184
+time=1607744437.9947617 Pos: [0.86634474 0.         4.16492016] angle -1.5336478987531184
+time=1607744438.1236005 Pos: [0.86783034 0.         4.20489256] angle -1.5336478987531184
+time=1607744438.2389922 Pos: [0.86931593 0.         4.24486497] angle -1.5336478987531184
+time=1607744438.3565612 Pos: [0.87080153 0.         4.28483737] angle -1.5336478987531184
+
+angle from straight in rads -0.03714842804177689
+angle from straight in degrees -2.1284481423392534
+step
+lane pose LanePosition(dist=-0.07019045392091117, dot_dir=0.9993100764940186, angle_deg=-2.1284481423392534, angle_rad=-0.03714842804177689)
+distance to road center -0.07019045392091117
+angle from straight in rads -0.03714842804177689
+angle from straight in degrees -2.1284481423392534
+step
+lane pose LanePosition(dist=-0.07167604929921245, dot_dir=0.9993100764940186, angle_deg=-2.1284481423392534, angle_rad=-0.03714842804177689)
+distance to road center -0.07167604929921245
+angle from straight in rads -0.03714842804177689
+angle from straight in degrees -2.1284481423392534
+step
+lane pose LanePosition(dist=-0.07316164467751374, dot_dir=0.9993100764940186, angle_deg=-2.1284481423392534, angle_rad=-0.03714842804177689)
+distance to road center -0.07316164467751374
+angle from straight in rads -0.03714842804177689
+angle from straight in degrees -2.1284481423392534
+step
+lane pose LanePosition(dist=-0.07464724005581502, dot_dir=0.9993100764940186, angle_deg=-2.1284481423392534, angle_rad=-0.03714842804177689)
+distance to road center -0.07464724005581502
+angle from straight in rads -0.03714842804177689
+angle from straight in degrees -2.1284481423392534
+step
+lane pose LanePosition(dist=-0.07613283543411631, dot_dir=0.9993100764940186, angle_deg=-2.1284481423392534, angle_rad=-0.03714842804177689)
+distance to road center -0.07613283543411631
+angle from straight in rads -0.03714842804177689
+angle from straight in degrees -2.1284481423392534
+step
+lane pose LanePosition(dist=-0.0776184308124176, dot_dir=0.9993100764940186, angle_deg=-2.1284481423392534, angle_rad=-0.03714842804177689)
+distance to road center -0.0776184308124176
+angle from straight in rads -0.03714842804177689
+angle from straight in degrees -2.1284481423392534
+step
+lane pose LanePosition(dist=-0.07910402619071888, dot_dir=0.9993100764940186, angle_deg=-2.1284481423392534, angle_rad=-0.03714842804177689)
+distance to road center -0.07910402619071888
+angle from straight in rads -0.03714842804177689
+angle from straight in degrees -2.1284481423392534
+step
+lane pose LanePosition(dist=-0.08058962156902016, dot_dir=0.9993100764940186, angle_deg=-2.1284481423392534, angle_rad=-0.03714842804177689)
+distance to road center -0.08058962156902016
+angle from straight in rads -0.03714842804177689
+angle from straight in degrees -2.1284481423392534
+step
+lane pose LanePosition(dist=-0.08207521694732134, dot_dir=0.9993100764940186, angle_deg=-2.1284481423392534, angle_rad=-0.03714842804177689)
+distance to road center -0.08207521694732134
+angle from straight in rads -0.03714842804177689
+angle from straight in degrees -2.1284481423392534
+step
+lane pose LanePosition(dist=-0.08356081232562274, dot_dir=0.9993100764940186, angle_deg=-2.1284481423392534, angle_rad=-0.03714842804177689)
+distance to road center -0.08356081232562274
+angle from straight in rads -0.03714842804177689
+angle from straight in degrees -2.1284481423392534
+step
+lane pose LanePosition(dist=-0.08504640770392402, dot_dir=0.9993100764940186, angle_deg=-2.1284481423392534, angle_rad=-0.03714842804177689)
+distance to road center -0.08504640770392402
+angle from straight in rads -0.03714842804177689
+angle from straight in degrees -2.1284481423392534
+step
+lane pose LanePosition(dist=-0.0865320030822252, dot_dir=0.9993100764940186, angle_deg=-2.1284481423392534, angle_rad=-0.03714842804177689)
+distance to road center -0.0865320030822252
+angle from straight in rads -0.03714842804177689
+angle from straight in degrees -2.1284481423392534
+step
+lane pose LanePosition(dist=-0.08801759846052648, dot_dir=0.9993100764940186, angle_deg=-2.1284481423392534, angle_rad=-0.03714842804177689)
+distance to road center -0.08801759846052648
+angle from straight in rads -0.03714842804177689
+angle from straight in degrees -2.1284481423392534
+step
+lane pose LanePosition(dist=-0.08950319383882788, dot_dir=0.9993100764940186, angle_deg=-2.1284481423392534, angle_rad=-0.03714842804177689)
+distance to road center -0.08950319383882788
+angle from straight in rads -0.03714842804177689
+angle from straight in degrees -2.1284481423392534
+step
+lane pose LanePosition(dist=-0.09098878921712916, dot_dir=0.9993100764940186, angle_deg=-2.1284481423392534, angle_rad=-0.03714842804177689)
+distance to road center -0.09098878921712916
+angle from straight in rads -0.03714842804177689
+angle from straight in degrees -2.1284481423392534
+step
+lane pose LanePosition(dist=-0.09247438459543045, dot_dir=0.9993100764940186, angle_deg=-2.1284481423392534, angle_rad=-0.03714842804177689)
+distance to road center -0.09247438459543045
+angle from straight in rads -0.03714842804177689
+angle from straight in degrees -2.1284481423392534
+step
+lane pose LanePosition(dist=-0.09395997997373173, dot_dir=0.9993100764940186, angle_deg=-2.1284481423392534, angle_rad=-0.03714842804177689)
+distance to road center -0.09395997997373173
+angle from straight in rads -0.03714842804177689
+angle from straight in degrees -2.1284481423392534
+step
+lane pose LanePosition(dist=-0.09544557535203302, dot_dir=0.9993100764940186, angle_deg=-2.1284481423392534, angle_rad=-0.03714842804177689)
+distance to road center -0.09544557535203302
+angle from straight in rads -0.03714842804177689
+angle from straight in degrees -2.1284481423392534
+step
+lane pose LanePosition(dist=-0.0969311707303343, dot_dir=0.9993100764940186, angle_deg=-2.1284481423392534, angle_rad=-0.03714842804177689)
+distance to road center -0.0969311707303343
+angle from straight in rads -0.03714842804177689
+angle from straight in degrees -2.1284481423392534
+step
+lane pose LanePosition(dist=-0.09841676610863559, dot_dir=0.9993100764940186, angle_deg=-2.1284481423392534, angle_rad=-0.03714842804177689)
+distance to road center -0.09841676610863559
+angle from straight in rads -0.03714842804177689
+angle from straight in degrees -2.1284481423392534
+step
+lane pose LanePosition(dist=-0.09990236148693687, dot_dir=0.9993100764940186, angle_deg=-2.1284481423392534, angle_rad=-0.03714842804177689)
+distance to road center -0.09990236148693687
+angle from straight in rads -0.03714842804177689
+angle from straight in degrees -2.1284481423392534
+step
+lane pose LanePosition(dist=-0.10138795686523816, dot_dir=0.9993100764940186, angle_deg=-2.1284481423392534, angle_rad=-0.03714842804177689)
+distance to road center -0.10138795686523816
+angle from straight in rads -0.03714842804177689
+angle from straight in degrees -2.1284481423392534
+step
+lane pose LanePosition(dist=-0.10287355224353945, dot_dir=0.9993100764940186, angle_deg=-2.1284481423392534, angle_rad=-0.03714842804177689)
+distance to road center -0.10287355224353945
+angle from straight in rads -0.03714842804177689
+angle from straight in degrees -2.1284481423392534
+step
+lane pose LanePosition(dist=-0.10388112397548681, dot_dir=0.9999831316659085, angle_deg=-0.33279311877655304, angle_rad=-0.005808335650631414)
+distance to road center -0.10388112397548681
+angle from straight in rads -0.005808335650631414
+angle from straight in degrees -0.33279311877655304
+step
+lane pose LanePosition(dist=-0.10299805196425103, dot_dir=0.9986995209280025, angle_deg=2.922378009566293, angle_rad=0.051005118254810154)
+distance to road center -0.10299805196425103
+angle from straight in rads 0.051005118254810154
+angle from straight in degrees 2.922378009566293
+step
+lane pose LanePosition(dist=-0.09960475844654097, dot_dir=0.9924606297596366, angle_deg=7.040093102925142, angle_rad=0.12287280429298776)
+distance to road center -0.09960475844654097
+angle from straight in rads 0.12287280429298776
+angle from straight in degrees 7.040093102925142
+step
+lane pose LanePosition(dist=-0.09313819864390745, dot_dir=0.9674620347240951, angle_deg=14.656069051120658, angle_rad=0.2557966603416966)
+distance to road center -0.09313819864390745
+angle from straight in rads 0.2557966603416966
+angle from straight in degrees 14.656069051120658
+step
+lane pose LanePosition(dist=-0.08187659662659211, dot_dir=0.9399340667920879, angle_deg=19.959513261431916, angle_rad=0.3483592235074587)
+distance to road center -0.08187659662659211
+angle from straight in rads 0.3483592235074587
+angle from straight in degreestime=1607744438.4788163 Pos: [0.87228712 0.         4.32480977] angle -1.5336478987531184
+time=1607744438.6074553 Pos: [0.87377272 0.         4.36478218] angle -1.5336478987531184
+time=1607744438.7334173 Pos: [0.87525832 0.         4.40475458] angle -1.5336478987531184
+time=1607744438.8571746 Pos: [0.87674391 0.         4.44472698] angle -1.5336478987531184
+time=1607744438.9747825 Pos: [0.87822951 0.         4.48469939] angle -1.5336478987531184
+time=1607744439.0902724 Pos: [0.8797151  0.         4.52467179] angle -1.5336478987531184
+time=1607744439.2134788 Pos: [0.8812007  0.         4.56464419] angle -1.5336478987531184
+time=1607744439.33101 Pos: [0.88268629 0.         4.60461659] angle -1.5336478987531184
+time=1607744439.4444478 [0.88662312 0.         4.71054346] corresponds to tile at (1, 8) which is not drivable: {'coords': (1, 8), 'kind': 'asphalt', 'angle': 0, 'drivable': False, 'texture': <gym_duckietown.graphics.Texture object at 0x7f996bb37ef0>, 'color': array([1, 1, 1])}
+time=1607744439.445237 Invalid pose. Collision free: True On drivable area: False
+time=1607744439.4453187 safety_factor: 1.0
+time=1607744439.4456336 pos: [0.88328053 0.         4.62060556]
+time=1607744439.445962 l_pos: [0.95822879 0.         4.61782006]
+time=1607744439.446279 r_pos: [0.80833227 0.         4.62339105]
+time=1607744439.446596 f_pos: [0.88662312 0.         4.71054346]
+time=1607744439.446688 Stopping the simulator because we are at an invalid pose.
+time=1607744439.447032 Pos: [0.88417189 0.         4.644589  ] angle -1.5336478987531184
+ 19.959513261431916
+step
+lane pose LanePosition(dist=-0.06552853641415224, dot_dir=0.878075508111346, angle_deg=28.58892257649909, angle_rad=0.49897082855764957)
+distance to road center -0.06552853641415224
+angle from straight in rads 0.49897082855764957
+angle from straight in degrees 28.58892257649909
+step
+lane pose LanePosition(dist=-0.04361182599918254, dot_dir=0.7915698606983194, angle_deg=37.66753963045729, angle_rad=0.6574225876769278)
+distance to road center -0.04361182599918254
+angle from straight in rads 0.6574225876769278
+angle from straight in degrees 37.66753963045729
+step
+lane pose LanePosition(dist=-0.016998617196715825, dot_dir=0.699608569590543, angle_deg=45.60439208527987, angle_rad=0.7959467952585764)
+distance to road center -0.016998617196715825
+angle from straight in rads 0.7959467952585764
+angle from straight in degrees 45.60439208527987
+step
+lane pose LanePosition(dist=0.012989312671930806, dot_dir=0.6226284735359546, angle_deg=51.49166536769968, angle_rad=0.898699098001496)
+distance to road center 0.012989312671930806
+angle from straight in rads 0.898699098001496
+angle from straight in degrees 51.49166536769968
+step
+lane pose LanePosition(dist=0.04526576575454955, dot_dir=0.5625616714229565, angle_deg=55.766859829031034, angle_rad=0.9733153175147535)
+distance to road center 0.04526576575454955
+angle from straight in rads 0.9733153175147535
+angle from straight in degrees 55.766859829031034
+step
+lane pose LanePosition(dist=0.07911881042490299, dot_dir=0.5087823348386084, angle_deg=59.417244332893986, angle_rad=1.0370265460709418)
+distance to road center 0.07911881042490299
+angle from straight in rads 1.0370265460709418
+angle from straight in degrees 59.417244332893986
+step
+lane pose LanePosition(dist=0.11408180286544431, dot_dir=0.46218889233633764, angle_deg=62.471556835227936, angle_rad=1.0903343556214962)
+distance to road center 0.11408180286544431
+angle from straight in rads 1.0903343556214962
+angle from straight in degrees 62.471556835227936
+step
+lane pose LanePosition(dist=0.14986539770028473, dot_dir=0.4294895555604398, angle_deg=64.56482957981677, angle_rad=1.1268688571568297)
+distance to road center 0.14986539770028473
+angle from straight in rads 1.1268688571568297
+angle from straight in degrees 64.56482957981677
+step
+total reward =  58.701746308324765
+False: Incorrect solution execution: Stopping the simulator because we are at an invalid pose.
