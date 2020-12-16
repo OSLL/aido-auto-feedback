@@ -1,0 +1,105 @@
+False: Incorrect solution execution: decision() missing 1 required positional argument: 'name'
+time=1608128614.2015874 gym-duckietown 2019.0.0
+
+time=1608128614.5256205 Registering gym environment id: Duckietown-4way-v0
+time=1608128614.525826 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1608128614.525928 Registering gym environment id: Duckietown-loop_empty-v0
+time=1608128614.5260203 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1608128614.5261579 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1608128614.526257 Registering gym environment id: Duckietown-small_loop-v0
+time=1608128614.5264194 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1608128614.5265577 Registering gym environment id: Duckietown-straight_road-v0
+time=1608128614.5266893 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1608128614.5269887 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1608128614.5270915 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1608128614.527238 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1608128614.527378 Registering gym environment id: Duckietown-udem1-v0
+time=1608128614.5275133 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1608128617.8512845 Falling back to non-multisampled frame buffer
+time=1608128617.85613 Falling back to non-multisampled frame buffer
+time=1608128617.8612804 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/zigzag_dists.yaml"
+time=1608128617.8994398 loading mesh "duckiebot.obj"
+time=1608128617.8997676 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1608128618.693152 loading mesh "bus.obj"
+time=1608128618.7175953 loading texture "bus.png"
+time=1608128619.4291468 loading mesh "truck.obj"
+time=1608128619.4566867 loading texture "truck.png"
+time=1608128620.15562 loading mesh "tree.obj"
+time=1608128620.1559763 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/tree.mtl"
+time=1608128620.1608906 loading mesh "sign_blank.obj"
+time=1608128620.1649194 loading texture "sign_blank.png"
+time=1608128620.3375814 loading texture "asphalt_1.png"
+time=1608128620.7557564 loading texture "curve_left_1.png"
+time=1608128620.7695994 loading texture "straight_1.png"
+time=1608128620.7833018 loading texture "curve_right_1.png"
+time=1608128620.8111937 using user tile start: (1, 1)
+time=1608128620.8124335 tile: {'coords': (1, 1), 'kind': 'curve_left', 'angle': 3, 'drivable': True, 'curves': array([[[1.17  , 0.    , 0.7605],
+        [0.8775, 0.    , 0.7605],
+        [0.7605, 0.    , 0.8775],
+        [0.7605, 0.    , 1.17  ]],
+
+       [[0.9945, 0.    , 1.17  ],
+        [0.9945, 0.    , 1.053 ],
+        [1.053 , 0.    , 0.9945],
+        [1.17  , 0.    , 0.9945]]]), 'texture': <gym_duckietown.graphics.Texture object at 0x7fe445582b70>, 'color': array([1, 1, 1])}
+time=1608128620.8148596 road_tile_size=0.585
+time=1608128620.8152356 Starting at [0.73952704 0.         0.86514478] -1.6240044777276574
+time=1608128620.8156111 Pos: [0.73952704 0.         0.86514478] angle -1.6240044777276574
+time=1608128621.236085 using DuckietownEnv
+/usr/local/lib/python3.6/dist-packages/gym/logger.py:30: UserWarning: [33mWARN: Box bound precision lowered by casting to float32[0m
+  warnings.warn(colorize('%s: %s'%('WARN', msg % args), 'yellow'))
+time=1608128621.592516 Pos: [0.73952704 0.         0.86514478] angle -1.6240044777276574
+time=1608128622.0571594 Pos: [0.73952704 0.         0.86514478] angle -1.6240044777276574
+<class 'numpy.ndarray'>
+[[[255 209 115]
+  [255 209 115]
+  [255 209 115]
+  ...
+  [255 209 115]
+  [255 209 115]
+  [255 209 115]]
+
+ [[255 209 115]
+  [255 209 115]
+  [255 209 115]
+  ...
+  [255 209 115]
+  [255 209 115]
+  [255 209 115]]
+
+ [[255 209 115]
+  [255 209 115]
+  [255 209 115]
+  ...
+  [255 209 115]
+  [255 209 115]
+  [255 209 115]]
+
+ ...
+
+ [[ 62  65  67]
+  [ 63  66  69]
+  [ 64  67  69]
+  ...
+  [ 69  75  79]
+  [ 69  75  79]
+  [ 69  75  79]]
+
+ [[ 63  66  69]
+  [ 64  67  69]
+  [ 64  68  70]
+  ...
+  [ 68  74  78]
+  [ 68  74  78]
+  [ 68  74  78]]
+
+ [[ 63  66  69]
+  [ 64  67  69]
+  [ 64  67  69]
+  ...
+  [ 68  74  78]
+  [ 68  74  78]
+  [ 68  74  78]]]
+(480, 640, 3)
+total reward =  -1.7390106798949385
+False: Incorrect solution execution: decision() missing 1 required positional argument: 'name'
