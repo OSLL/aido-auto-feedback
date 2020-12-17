@@ -1,0 +1,67 @@
+K_p = 10, K_i = 0.0001, K_d = 2
+False: Non-zero return code, probably a syntax error occurred\ntime=1608241803.6444108 gym-duckietown 2019.0.0
+
+time=1608241803.9806237 Registering gym environment id: Duckietown-4way-v0
+time=1608241803.9809995 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1608241803.9812312 Registering gym environment id: Duckietown-loop_empty-v0
+time=1608241803.9814534 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1608241803.981664 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1608241803.9818437 Registering gym environment id: Duckietown-small_loop-v0
+time=1608241803.9819984 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1608241803.9821584 Registering gym environment id: Duckietown-straight_road-v0
+time=1608241803.9823112 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1608241803.982539 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1608241803.982702 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1608241803.9828804 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1608241803.9829988 Registering gym environment id: Duckietown-udem1-v0
+time=1608241803.9831147 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1608241807.388535 Falling back to non-multisampled frame buffer
+time=1608241807.3938808 Falling back to non-multisampled frame buffer
+time=1608241807.3995328 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/zigzag_dists.yaml"
+time=1608241807.438669 loading mesh "duckiebot.obj"
+time=1608241807.4390922 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1608241808.2907531 loading mesh "bus.obj"
+time=1608241808.3154163 loading texture "bus.png"
+time=1608241809.0275867 loading mesh "truck.obj"
+time=1608241809.0557199 loading texture "truck.png"
+time=1608241809.759471 loading mesh "tree.obj"
+time=1608241809.7603977 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/tree.mtl"
+time=1608241809.7677667 loading mesh "sign_blank.obj"
+time=1608241809.7727172 loading texture "sign_blank.png"
+time=1608241809.9563785 loading texture "asphalt_1.png"
+time=1608241810.3984578 loading texture "curve_left_1.png"
+time=1608241810.4156592 loading texture "straight_1.png"
+time=1608241810.4300046 loading texture "curve_right_1.png"
+time=1608241810.4586515 using user tile start: (1, 1)
+time=1608241810.4600713 tile: {'coords': (1, 1), 'kind': 'curve_left', 'angle': 3, 'drivable': True, 'curves': array([[[1.17  , 0.    , 0.7605],
+        [0.8775, 0.    , 0.7605],
+        [0.7605, 0.    , 0.8775],
+        [0.7605, 0.    , 1.17  ]],
+
+       [[0.9945, 0.    , 1.17  ],
+        [0.9945, 0.    , 1.053 ],
+        [1.053 , 0.    , 0.9945],
+        [1.17  , 0.    , 0.9945]]]), 'texture': <gym_duckietown.graphics.Texture object at 0x7f01633b1b70>, 'color': array([1, 1, 1])}
+time=1608241810.4626422 road_tile_size=0.585
+time=1608241810.4630563 Starting at [0.70506966 0.         0.86247001] -1.5570219100478406
+time=1608241810.463391 Pos: [0.70506966 0.         0.86247001] angle -1.5570219100478406
+time=1608241810.906624 using DuckietownEnv
+/usr/local/lib/python3.6/dist-packages/gym/logger.py:30: UserWarning: [33mWARN: Box bound precision lowered by casting to float32[0m
+  warnings.warn(colorize('%s: %s'%('WARN', msg % args), 'yellow'))
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib/python3.6/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/lf_challenge/checker.py", line 6, in <module>
+    checkers=[RewardChecker()]
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/solution_evaluator.py", line 42, in evaluate_solution
+    verdict = self.run_solution(generated_task)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/solution_evaluator.py", line 52, in run_solution
+    solution = self.solution_class(generated_task_copy)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/lf_challenge/solutions/solution.py", line 45, in __init__
+    self.img_pid = IMG_PID(10, 0.0001, 2)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/lf_challenge/solutions/solution.py", line 14, in __init__
+    self.yellow_mask = cv2.inRange(hsv, np.array([20, 100, 100]), np.array([40, 255, 255]))
+NameError: name 'hsv' is not defined
+K_p = 10, K_i = 0.0001, K_d = 2
