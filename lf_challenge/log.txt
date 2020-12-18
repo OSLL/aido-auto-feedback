@@ -1,0 +1,661 @@
+False: Incorrect solution execution: Stopping the simulator because we are at an invalid pose.
+time=1608254856.08743 gym-duckietown 2019.0.0
+
+time=1608254856.461949 Registering gym environment id: Duckietown-4way-v0
+time=1608254856.4629974 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1608254856.463634 Registering gym environment id: Duckietown-loop_empty-v0
+time=1608254856.4642081 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1608254856.464723 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1608254856.465347 Registering gym environment id: Duckietown-small_loop-v0
+time=1608254856.4659262 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1608254856.466622 Registering gym environment id: Duckietown-straight_road-v0
+time=1608254856.4672077 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1608254856.4679995 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1608254856.468685 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1608254856.4692934 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1608254856.4699612 Registering gym environment id: Duckietown-udem1-v0
+time=1608254856.4707146 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1608254860.3711824 Falling back to non-multisampled frame buffer
+time=1608254860.3761826 Falling back to non-multisampled frame buffer
+time=1608254860.381663 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/zigzag_dists.yaml"
+time=1608254860.4194627 loading mesh "duckiebot.obj"
+time=1608254860.419843 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1608254861.201202 loading mesh "bus.obj"
+time=1608254861.2255487 loading texture "bus.png"
+time=1608254861.9492218 loading mesh "truck.obj"
+time=1608254861.9768689 loading texture "truck.png"
+time=1608254862.6964567 loading mesh "tree.obj"
+time=1608254862.696847 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/tree.mtl"
+time=1608254862.7018874 loading mesh "sign_blank.obj"
+time=1608254862.7059195 loading texture "sign_blank.png"
+time=1608254862.8873634 loading texture "asphalt_1.png"
+time=1608254863.3185534 loading texture "curve_left_1.png"
+time=1608254863.3335378 loading texture "straight_1.png"
+time=1608254863.348115 loading texture "curve_right_1.png"
+time=1608254863.3766837 using user tile start: (1, 1)
+time=1608254863.3780758 tile: {'coords': (1, 1), 'kind': 'curve_left', 'angle': 3, 'drivable': True, 'curves': array([[[1.17  , 0.    , 0.7605],
+        [0.8775, 0.    , 0.7605],
+        [0.7605, 0.    , 0.8775],
+        [0.7605, 0.    , 1.17  ]],
+
+       [[0.9945, 0.    , 1.17  ],
+        [0.9945, 0.    , 1.053 ],
+        [1.053 , 0.    , 0.9945],
+        [1.17  , 0.    , 0.9945]]]), 'texture': <gym_duckietown.graphics.Texture object at 0x7f503043cb70>, 'color': array([1, 1, 1])}
+time=1608254863.380578 road_tile_size=0.585
+time=1608254863.3809566 Starting at [0.7584988  0.         0.92894376] -1.2958361402146958
+time=1608254863.3812976 Pos: [0.7584988  0.         0.92894376] angle -1.2958361402146958
+time=1608254864.0129464 using DuckietownEnv
+/usr/local/lib/python3.6/dist-packages/gym/logger.py:30: UserWarning: [33mWARN: Box bound precision lowered by casting to float32[0m
+  warnings.warn(colorize('%s: %s'%('WARN', msg % args), 'yellow'))
+time=1608254864.411563 Pos: [0.7584988  0.         0.92894376] angle -1.2958361402146958
+time=1608254865.0540028 Pos: [0.76318356 0.         0.94697888] angle -1.3374749838102131
+time=1608254865.3744984 Pos: [0.76706836 0.         0.96520272] angle -1.384062451781329
+time=1608254865.685039 Pos: [0.77010025 0.         0.9835877 ] angle -1.4306499197524447
+time=1608254865.9992447 Pos: [0.77227265 0.         1.00209393] angle -1.4772373877235605
+time=1608254866.330071 Pos: [0.77358084 0.         1.02068126] angle -1.5238248556946763
+time=1608254866.657926 Pos: [0.774022   0.         1.03930933] angle -1.570412323665792
+time=1608254866.9932604 Pos: [0.77359515 0.         1.05793775] angle -1.6169997916369079
+time=1608254867.3672621 Pos: [0.77230123 0.         1.07652607] angle -1.6635872596080237
+time=1608254867.6858978 Pos: [0.77036177 0.         1.09505944] angle -1.6865398698003264
+time=1608254868.0092561 Pos: [0.76825481 0.         1.11357492] angle -1.6816668206505476
+time=1608254868.4115138 Pos: [0.76643994 0.         1.13212077] angle -1.6550218948022675
+time=1608254868.7163117 Pos: [0.76519943 0.         1.15071345] angle -1.6198147099794293
+time=1608254869.0338438 Pos: [0.76461454 0.         1.16933829] angle -1.5845645611583512
+time=1608254869.366833 Pos: [0.76459755 0.         1.18797276] angle -1.5588508670309604
+time=1608254869.7452245 Pos: [0.764921   0.         1.20660485] angle -1.5480260100286052
+time=1608254870.0579274 Pos: [0.76532063 0.         1.22523554] angle -1.5506726958478976
+time=1608254870.3908021 Pos: [0.76553538 0.         1.24386906] angle -1.5678717537457676
+time=1608254870.7040837 Pos: [0.76540193 0.         1.26250326] angle -1.5880441273772608
+time=1608254871.017187 Pos: [0.76488958 0.         1.28113087] angle -1.6085436485616176
+time=1608254871.3305364 Pos: [0.76406848 0.         1.29974764] angle -1.6212030165249687
+time=1608254871.6561382 Pos: [0.7630942  0.         1.31835713] angle -1.6250019657187467
+time=1608254871.9612093 Pos: [0.76212468 0.         1.33696686] angle -1.6206910720158194
+time=1608254872.2857478 Pos: [0.76129173 0.         1.35558314] angle -1.6103289838619772
+time=1608254872.6012602 Pos: [0.76068861 0.         1.37420821] angle -1.596004890376458
+time=1608254872.9072194 Pos: [0.76034234 0.         1.39283984] angle -1.5827533439313408
+time=1608254873.2854524 Pos: [0.7602193  0.         1.41147433] angle -1.5720454732374465
+time=1608254873.5998192 Pos: [0.76022745 0.         1.43010931] angle -1.5686720229178046
+time=1608254874.001022 Pos: [0.76028035 0.         1.44874422] angle -1.5672428229281574
+time=1608254874.410977 Pos: [0.76027535 0.         1.46737916] angle -1.5748867911451514
+time=1608254874.7211843 Pos: [0.76016841 0.         1.48601383] angle -1.5781831133233744
+time=1608254875.0321076 Pos: [0.75998246 0.         1.50464787] angle -1.5833667455929605
+time=1608254875.4194636 Pos: [0.75973159 0.         1.52328117] angle -1.5851515632547872
+time=1608254875.7563274 Pos: [0.7594811  0.         1.54191447] angle -1.5833263697873854
+time=1608254876.1210265 Pos: [0.75928027 0.         1.56054836] angle -1.5798204040032924
+time=1608254876.4389482 Pos: [0.75915538 0.         1.57918292] angle -1.575175633446572
+time=1608254876.8239565 Pos: [0.75912188 0.         1.59781785] angle -1.5700132243568394
+time=1608254877.146028 Pos: [0.7591603  0.         1.61645279] angle -1.5674560900037582
+time=1608254877.4563107 Pos: [0.7592345  0.         1.63508763] angle -1.5661723464418875
+time=1608254877.797546 Pos: [0.75932014 0.         1.65372242] angle -1.566229286680519
+time=1608254878.0984652 Pos: [0.75937821 0.         1.67235731] angle -1.5691311682965865
+time=1608254878.3953886 Pos: [0.7593838  0.         1.69099229] angle -1.5718611939196938
+time=1608254878.6980424 Pos: [0.75933608 0.         1.70962721] angle -1.5748526270019725
+time=1608254879.093382 Pos: [0.75923612 0.         1.72826193] angle -1.577468772147817
+time=1608254879.3933358 Pos: [0.7591053  0.         1.74689645] angle -1.5781639606976527
+time=1608254879.6836307 Pos: [0.75895997 0.         1.76553087] angle -1.5790263464936514
+time=1608254880.0523667 Pos: [0.75881136 0.         1.78416527] angle -1.578515954900101
+time=1608254880.3467002 Pos: [0.75867474 0.         1.80279975] angle -1.5777400147391156
+time=1608254880.6395204 Pos: [0.75855053 0.         1.82143433] angle -1.5771830356775942
+time=1608254880.9312966 Pos: [0.75842502 0.         1.84006889] angle -1.577880812420095
+time=1608254881.295608 Pos: [0.75828135 0.         1.85870332] angle -1.5791309094773198
+time=1608254881.6260698 Pos: [0.75810795 0.         1.8773375 ] angle -1.5810720539761163
+time=1608254881.9261737 Pos: [0.75789997 0.         1.89597133] angle -1.5828423777590186
+time=1608254882.2874858 Pos: [0.75767263 0.         1.91460493] angle -1.5831503726861609
+time=1608254882.5813036 Pos: [0.75744088 0.         1.93323847] angle -1.5833160170167249
+time=1608254882.8879144 Pos: [0.7572261  0.         1.95187222] angle -1.5813277674114243
+time=1608254883.1829975 Pos: [0.75703747 0.         1.97050625] angle -1.5805104161677979
+time=1608254883.5280352 Pos: [0.75687819 0.         1.98914055] angle -1.578176901660978
+time=1608254883.8423765 Pos: [0.75675311 0.         2.00777512] angle -1.5768403589687399
+time=1608254884.1527326 Pos: [0.75666232 0.         2.02640988] angle -1.5744959740527267
+time=1608254884.5467024 Pos: [0.75661098 0.         2.04504479] angle -1.5726065934072313
+time=1608254884.8560789 Pos: [0.75660136 0.         2.06367977] angle -1.5700189183807023
+time=1608254885.1751187 Pos: [0.75664425 0.         2.0823147 ] angle -1.5669710626983253
+time=1608254885.483751 Pos: [0.75673662 0.         2.10094946] angle -1.5647074293934622
+time=1608254885.801363 Pos: [0.75686699 0.         2.11958399] angle -1.5628931063352538
+time=1608254886.12145 Pos: [0.75701443 0.         2.13821839] angle -1.5628749889865985
+time=1608254886.4321678 Pos: [0.75715848 0.         2.15685282] angle -1.5632575238624946
+time=1608254886.8053634 Pos: [0.75729426 0.         2.17548731] angle -1.5637622214321818
+time=1608254887.1305344 Pos: [0.7574108  0.         2.19412193] angle -1.565322901609214
+time=1608254887.4513898 Pos: [0.75750085 0.         2.2127567 ] angle -1.5666056098940189
+time=1608254887.7803614 Pos: [0.75757508 0.         2.23139154] angle -1.5670202383589618
+time=1608254888.0927548 Pos: [0.75762989 0.         2.25002645] angle -1.5686901402664597
+time=1608254888.4221604 Pos: [0.75766823 0.         2.26866139] angle -1.5687869386721331
+time=1608254888.756002 Pos: [0.75769639 0.         2.28729636] angle -1.569783392848182
+time=1608254889.0810566 Pos: [0.75771551 0.         2.30593134] angle -1.5697580285600643
+time=1608254889.496828 Pos: [0.75773007 0.         2.32456632] angle -1.5702710083462796
+time=1608254889.8196936 Pos: [0.75774391 0.         2.3432013 ] angle -1.5698367096170822
+time=1608254890.1557286 Pos: [0.75774735 0.         2.36183628] angle -1.5713865193849212
+time=1608254890.5664752 Pos: [0.75772813 0.         2.38047126] angle -1.5722690930837073
+time=1608254890.8779874 Pos: [0.75768359 0.         2.39910619] angle -1.5741036040447032
+time=1608254891.2076595 Pos: [0.75759308 0.         2.41774095] angle -1.5772032235803815
+time=1608254891.5481114 Pos: [0.75745303 0.         2.43637541] angle -1.5794207870558066
+time=1608254891.9400115 Pos: [0.75726292 0.         2.45500942] angle -1.582575793914517
+time=1608254892.2485054 Pos: [0.75705463 0.         2.47364324] angle -1.5813722843252633
+time=1608254892.5278544 Pos: [0.75686028 0.         2.49227721] angle -1.5810793009155784
+time=1608254892.8093858 Pos: [0.75670344 0.         2.51091153] angle -1.577346091815493
+time=1608254893.118914 Pos: [0.75658522 0.         2.52954614] angle -1.576934569181748
+time=1608254893.4177105 Pos: [0.7564958  0.         2.54818091] angle -1.5742547544963428
+time=1608254893.73935 Pos: [0.75642126 0.         2.56681575] angle -1.5753381719459378
+time=1608254894.096865 Pos: [0.75634236 0.         2.58545057] angle -1.574722182091653
+time=1608254894.3868344 Pos: [0.75627185 0.         2.60408542] angle -1.5744385161755623
+time=1608254894.6803107 Pos: [0.75619764 0.         2.62272026] angle -1.5751186932079406
+time=1608254894.9869628 Pos: [0.75613709 0.         2.64135515] angle -1.5729725638500711
+time=1608254895.3787062 Pos: [0.75612177 0.         2.65999012] angle -1.5702642790453503
+time=1608254895.7019162 Pos: [0.75616593 0.         2.67862504] angle -1.5665885278224292
+time=1608254896.0207672 Pos: [0.75628118 0.         2.69725966] angle -1.5626348047072804
+time=1608254896.328886 Pos: [0.75645007 0.         2.71589388] angle -1.5608318696967982
+time=1608254896.833782 Pos: [0.75665063 0.         2.73452779] angle -1.5592349548224549
+time=1608254897.2209833 Pos: [0.7568657  0.         2.75316153] angle -1.5592748129894969
+time=1608254897.5379245 Pos: [0.75707846 0.         2.77179531] angle -1.559482903679768
+print white_sum 0 yellow_sum 20110, history: [0, 0, 0, 0, 0, -20110]
+print white_sum 0 yellow_sum 19205, history: [0, 0, 0, 0, -20110, -19205]
+print white_sum 0 yellow_sum 14748, history: [0, 0, 0, -20110, -19205, -14748]
+print white_sum 0 yellow_sum 18371, history: [0, 0, -20110, -19205, -14748, -18371]
+print white_sum 1013 yellow_sum 16490, history: [0, -20110, -19205, -14748, -18371, -15477]
+print white_sum 3528 yellow_sum 13358, history: [-20110, -19205, -14748, -18371, -15477, -9830]
+print white_sum 5201 yellow_sum 11146, history: [-19205, -14748, -18371, -15477, -9830, -5945]
+print white_sum 8141 yellow_sum 8088, history: [-14748, -18371, -15477, -9830, -5945, 53]
+print white_sum 10994 yellow_sum 5228, history: [-18371, -15477, -9830, -5945, 53, 5766]
+print white_sum 12618 yellow_sum 3946, history: [-15477, -9830, -5945, 53, 5766, 8672]
+print white_sum 12760 yellow_sum 3895, history: [-9830, -5945, 53, 5766, 8672, 8865]
+print white_sum 11259 yellow_sum 5112, history: [-5945, 53, 5766, 8672, 8865, 6147]
+print white_sum 9418 yellow_sum 6418, history: [53, 5766, 8672, 8865, 6147, 3000]
+print white_sum 7618 yellow_sum 7922, history: [5766, 8672, 8865, 6147, 3000, -304]
+print white_sum 6066 yellow_sum 9683, history: [8672, 8865, 6147, 3000, -304, -3617]
+print white_sum 5251 yellow_sum 9824, history: [8865, 6147, 3000, -304, -3617, -4573]
+print white_sum 5457 yellow_sum 11214, history: [6147, 3000, -304, -3617, -4573, -5757]
+print white_sum 6464 yellow_sum 9964, history: [3000, -304, -3617, -4573, -5757, -3500]
+print white_sum 7685 yellow_sum 8830, history: [-304, -3617, -4573, -5757, -3500, -1145]
+print white_sum 8402 yellow_sum 7243, history: [-3617, -4573, -5757, -3500, -1145, 1159]
+print white_sum 9561 yellow_sum 7083, history: [-4573, -5757, -3500, -1145, 1159, 2478]
+print white_sum 9463 yellow_sum 6559, history: [-5757, -3500, -1145, 1159, 2478, 2904]
+print white_sum 9510 yellow_sum 6838, history: [-3500, -1145, 1159, 2478, 2904, 2672]
+print white_sum 9480 yellow_sum 6757, history: [-1145, 1159, 2478, 2904, 2672, 2723]
+print white_sum 8070 yellow_sum 6658, history: [1159, 2478, 2904, 2672, 2723, 1412]
+print white_sum 7997 yellow_sum 7915, history: [2478, 2904, 2672, 2723, 1412, 82]
+print white_sum 7213 yellow_sum 9091, history: [2904, 2672, 2723, 1412, 82, -1878]
+print white_sum 7390 yellow_sum 8014, history: [2672, 2723, 1412, 82, -1878, -624]
+print white_sum 7088 yellow_sum 9800, history: [2723, 1412, 82, -1878, -624, -2712]
+print white_sum 7409 yellow_sum 7603, history: [1412, 82, -1878, -624, -2712, -194]
+print white_sum 8088 yellow_sum 7226, history: [82, -1878, -624, -2712, -194, 862]
+print white_sum 8144 yellow_sum 7724, history: [-1878, -624, -2712, -194, 862, 420]
+print white_sum 8199 yellow_sum 7402, history: [-624, -2712, -194, 862, 420, 797]
+print white_sum 8242 yellow_sum 6657, history: [-2712, -194, 862, 420, 797, 1585]
+print white_sum 8145 yellow_sum 7367, history: [-194, 862, 420, 797, 1585, 778]
+print white_sum 7976 yellow_sum 7782, history: [862, 420, 797, 1585, 778, 194]
+print white_sum 7693 yellow_sum 7985, history: [420, 797, 1585, 778, 194, -292]
+print white_sum 7349 yellow_sum 7640, history: [797, 1585, 778, 194, -292, -291]
+print white_sum 7287 yellow_sum 7589, history: [1585, 778, 194, -292, -291, -302]
+print white_sum 7196 yellow_sum 8401, history: [778, 194, -292, -291, -302, -1205]
+print white_sum 7497 yellow_sum 8115, history: [194, -292, -291, -302, -1205, -618]
+print white_sum 7640 yellow_sum 7504, history: [-292, -291, -302, -1205, -618, 136]
+print white_sum 7583 yellow_sum 7813, history: [-291, -302, -1205, -618, 136, -230]
+print white_sum 8097 yellow_sum 7980, history: [-302, -1205, -618, 136, -230, 117]
+print white_sum 7799 yellow_sum 7593, history: [-1205, -618, 136, -230, 117, 206]
+print white_sum 7777 yellow_sum 7521, history: [-618, 136, -230, 117, 206, 256]
+print white_sum 7869 yellow_sum 7770, history: [136, -230, 117, 206, 256, 99]
+print white_sum 7976 yellow_sum 8011, history: [-230, 117, 206, 256, 99, -35]
+print white_sum 7612 yellow_sum 8184, history: [117, 206, 256, 99, -35, -572]
+print white_sum 7806 yellow_sum 8372, history: [206, 256, 99, -35, -572, -566]
+print white_sum 7766 yellow_sum 8070, history: [256, 99, -35, -572, -566, -304]
+print white_sum 7646 yellow_sum 7732, history: [99, -35, -572, -566, -304, -86]
+print white_sum 7974 yellow_sum 7504, history: [-35, -572, -566, -304, -86, 470]
+print white_sum 8000 yellow_sum 7751, history: [-572, -566, -304, -86, 470, 249]
+print white_sum 8274 yellow_sum 7607, history: [-566, -304, -86, 470, 249, 667]
+print white_sum 8361 yellow_sum 8402, history: [-304, -86, 470, 249, 667, -41]
+print white_sum 8123 yellow_sum 7811, history: [-86, 470, 249, 667, -41, 312]
+print white_sum 7995 yellow_sum 7733, history: [470, 249, 667, -41, 312, 262]
+print white_sum 8351 yellow_sum 7815, history: [249, 667, -41, 312, 262, 536]
+print white_sum 8026 yellow_sum 7744, history: [667, -41, 312, 262, 536, 282]
+print white_sum 8183 yellow_sum 7673, history: [-41, 312, 262, 536, 282, 510]
+print white_sum 7839 yellow_sum 7054, history: [312, 262, 536, 282, 510, 785]
+print white_sum 7451 yellow_sum 7334, history: [262, 536, 282, 510, 785, 117]
+print white_sum 7652 yellow_sum 7922, history: [536, 282, 510, 785, 117, -270]
+print white_sum 7485 yellow_sum 7920, history: [282, 510, 785, 117, -270, -435]
+print white_sum 7414 yellow_sum 7573, history: [510, 785, 117, -270, -435, -159]
+print white_sum 7737 yellow_sum 7664, history: [785, 117, -270, -435, -159, 73]
+print white_sum 7741 yellow_sum 8207, history: [117, -270, -435, -159, 73, -466]
+print white_sum 7764 yellow_sum 8124, history: [-270, -435, -159, 73, -466, -360]
+print white_sum 7713 yellow_sum 7227, history: [-435, -159, 73, -466, -360, 486]
+print white_sum 7605 yellow_sum 8035, history: [-159, 73, -466, -360, 486, -430]
+print white_sum 7786 yellow_sum 8023, history: [73, -466, -360, 486, -430, -237]
+print white_sum 7635 yellow_sum 7542, history: [-466, -360, 486, -430, -237, 93]
+print white_sum 7798 yellow_sum 7496, history: [-360, 486, -430, -237, 93, 302]
+print white_sum 7734 yellow_sum 8105, history: [486, -430, -237, 93, 302, -371]
+print white_sum 7725 yellow_sum 7581, history: [-430, -237, 93, 302, -371, 144]
+print white_sum 7325 yellow_sum 7778, history: [-237, 93, 302, -371, 144, -453]
+print white_sum 7457 yellow_sum 7920, history: [93, 302, -371, 144, -453, -463]
+print white_sum 7871 yellow_sum 8207, history: [302, -371, 144, -453, -463, -336]
+print white_sum 7913 yellow_sum 8693, history: [-371, 144, -453, -463, -336, -780]
+print white_sum 7933 yellow_sum 8280, history: [144, -453, -463, -336, -780, -347]
+print white_sum 7888 yellow_sum 8232, history: [-453, -463, -336, -780, -347, -344]
+print white_sum 8166 yellow_sum 6757, history: [-463, -336, -780, -347, -344, 1409]
+print white_sum 7995 yellow_sum 7496, history: [-336, -780, -347, -344, 1409, 499]
+print white_sum 7945 yellow_sum 7308, history: [-780, -347, -344, 1409, 499, 637]
+print white_sum 7575 yellow_sum 8214, history: [-347, -344, 1409, 499, 637, -639]
+print white_sum 8169 yellow_sum 7743, history: [-344, 1409, 499, 637, -639, 426]
+print white_sum 7868 yellow_sum 8495, history: [1409, 499, 637, -639, 426, -627]
+print white_sum 8149 yellow_sum 8245, history: [499, 637, -639, 426, -627, -96]
+print white_sum 8130 yellow_sum 7448, history: [637, -639, 426, -627, -96, 682]
+print white_sum 8200 yellow_sum 8393, history: [-639, 426, -627, -96, 682, -193]
+print white_sum 7874 yellow_sum 7397, history: [426, -627, -96, 682, -193, 477]
+print white_sum 8401 yellow_sum 7009, history: [-627, -96, 682, -193, 477, 1392]
+print white_sum 7896 yellow_sum 7044, history: [-96, 682, -193, 477, 1392, 852]
+print white_sum 7856 yellow_sum 7793, history: [682, -193, 477, 1392, 852, 63]
+print white_sum 7580 yellow_sum 7996, history: [-193, 477, 1392, 852, 63, -416]
+print white_sum 7378 yellow_sum 7246, history: [477, 1392, 852, 63, -416, 132]
+print white_sum 7385 yellow_sum 7598, history: [1392, 852, 63, -416, 132, -213]
+print white_sum 7515 yellow_sum 7819, history: [852, 63, -416, 132, -213, -304]
+print white_sum 7191 yellow_sum 8046, history: [63, -416, 132, -213, -304, -855]time=1608254897.8734927 Pos: [0.75726615 0.         2.79042934] angle -1.5619660157226285
+time=1608254898.182791 Pos: [0.75741721 0.         2.80906372] angle -1.5634133330609312
+time=1608254898.5043452 Pos: [0.75752616 0.         2.82769838] angle -1.566487070669959
+time=1608254898.8630788 Pos: [0.75758613 0.         2.84633327] angle -1.5686689170866062
+time=1608254899.1879096 Pos: [0.75760608 0.         2.86496824] angle -1.570782952855429
+time=1608254899.49011 Pos: [0.75760165 0.         2.88360323] angle -1.571285062232451
+time=1608254899.7911692 Pos: [0.75758322 0.         2.9022382 ] angle -1.572285139878231
+time=1608254900.1006386 Pos: [0.75756769 0.         2.92087318] angle -1.5709739614741105
+time=1608254900.4100218 Pos: [0.75755696 0.         2.93950817] angle -1.5717711248149495
+time=1608254900.7153668 Pos: [0.75754113 0.         2.95814315] angle -1.5715200701264385
+time=1608254901.028587 Pos: [0.75751911 0.         2.97677812] angle -1.5724362903298703
+time=1608254901.357102 Pos: [0.7574746  0.         2.99541305] angle -1.5739333009673422
+time=1608254901.649978 Pos: [0.75740223 0.         3.0140479 ] angle -1.575425652858017
+time=1608254901.953177 Pos: [0.75729703 0.         3.03268258] angle -1.5774579017386237
+time=1608254902.3205602 Pos: [0.75717369 0.         3.05131716] angle -1.5773730090192097
+time=1608254902.6260717 Pos: [0.75705119 0.         3.06995175] angle -1.5773662797182806
+time=1608254902.930386 Pos: [0.75694229 0.         3.08858642] angle -1.5759143036331809
+time=1608254903.2386832 Pos: [0.75685002 0.         3.10722117] angle -1.575580944417921
+time=1608254903.5637732 Pos: [0.75675468 0.         3.12585592] angle -1.5762440393787098
+time=1608254903.8343656 Pos: [0.75664442 0.         3.14449058] angle -1.5771830356775942
+time=1608254904.1158648 Pos: [0.75651966 0.         3.16312515] angle -1.577799543170412
+time=1608254904.4954438 Pos: [0.75640022 0.         3.18175975] angle -1.5766115627371484
+time=1608254904.831032 Pos: [0.75630571 0.         3.2003945 ] angle -1.5751243872318037
+time=1608254905.1485877 Pos: [0.75625182 0.         3.2190294 ] angle -1.5722520110121179
+time=1608254905.4487095 Pos: [0.75626066 0.         3.23766437] angle -1.5683919804714443
+time=1608254905.7607691 Pos: [0.75634865 0.         3.25629913] angle -1.5637575626853844
+time=1608254906.0688007 Pos: [0.75652789 0.         3.27493324] angle -1.5585977417883168
+time=1608254906.377458 Pos: [0.75677247 0.         3.29356662] angle -1.5567445958401325
+time=1608254906.6920967 Pos: [0.75704407 0.         3.31219963] angle -1.5556979307263814
+time=1608254907.0292163 Pos: [0.75730431 0.         3.33083279] angle -1.5579636345853767
+time=1608254907.3430676 Pos: [0.75751654 0.         3.34946656] angle -1.560850504683987
+time=1608254907.6517174 Pos: [0.75766139 0.         3.36810097] angle -1.565196080168626
+time=1608254907.9497943 Pos: [0.75773391 0.         3.38673581] angle -1.5686135297635737
+time=1608254908.337271 Pos: [0.7577607  0.         3.40537078] angle -1.5701032934615833
+time=1608254908.6359198 Pos: [0.75776377 0.         3.42400576] angle -1.5711603113459947
+time=1608254908.9276564 Pos: [0.757756   0.         3.44264075] angle -1.5712659096067292
+time=1608254909.2453623 Pos: [0.7577501  0.         3.46127573] angle -1.570960502872252
+time=1608254909.5462468 Pos: [0.7577386  0.         3.47991072] angle -1.5718658526664906
+time=1608254909.8396163 Pos: [0.75771675 0.         3.49854569] angle -1.5720723904411626
+time=1608254910.144756 Pos: [0.75769039 0.         3.51718066] angle -1.5723488094177913
+time=1608254910.5043333 Pos: [0.75766268 0.         3.53581563] angle -1.5722178468689392
+time=1608254910.8409212 Pos: [0.75763456 0.         3.55445059] angle -1.5723933263316303
+time=1608254911.1319456 Pos: [0.75760298 0.         3.57308555] angle -1.572588476058576
+time=1608254911.538061 Pos: [0.75755697 0.         3.59172048] angle -1.5739415831838703
+time=1608254911.8429134 Pos: [0.75748743 0.         3.61035534] angle -1.5751145520996765
+time=1608254912.1563883 Pos: [0.75740095 0.         3.62899012] angle -1.575760047350343
+time=1608254912.4380298 Pos: [0.75731379 0.         3.64762491] angle -1.5751870214942982
+time=1608254912.7335842 Pos: [0.75723698 0.         3.66625974] angle -1.5746497126970314
+time=1608254913.038371 Pos: [0.75716929 0.         3.6848946 ] angle -1.5742076493898387
+time=1608254913.3585935 Pos: [0.7571195  0.         3.70352952] angle -1.5727287561010224
+time=1608254913.6483517 Pos: [0.75708511 0.         3.72216447] angle -1.5725548295539302
+time=1608254913.9633517 Pos: [0.75707434 0.         3.74079945] angle -1.5701933625663276
+time=1608254914.271705 Pos: [0.75708645 0.         3.75943444] angle -1.5700996699918524
+time=1608254914.5673459 Pos: [0.75712514 0.         3.77806938] angle -1.5673401389723634
+time=1608254914.8829446 Pos: [0.75720487 0.         3.79670419] angle -1.565695601352983
+time=1608254915.188767 Pos: [0.75734345 0.         3.81533865] angle -1.5610244312310793
+time=1608254915.4885845 Pos: [0.7575715  0.         3.83397222] angle -1.5560913360114712
+time=1608254915.793324 Pos: [0.75789933 0.         3.8526043 ] angle -1.5503155252601188
+time=1608254916.0964117 Pos: [0.75832225 0.         3.87123447] angle -1.5458829865019337
+time=1608254916.4150743 Pos: [0.75881617 0.         3.8898629 ] angle -1.5426938155000443
+time=1608254916.7107778 Pos: [0.75933011 0.         3.9084908 ] angle -1.5437332336743332
+time=1608254917.0439458 Pos: [0.75984412 0.         3.9271187 ] angle -1.5426860509220492
+time=1608254917.5060096 Pos: [0.76038662 0.         3.94574578] angle -1.540674507582763
+time=1608254917.8046196 Pos: [0.76102849 0.         3.96436965] angle -1.5320159678410648
+time=1608254918.1918852 Pos: [0.76189859 0.         3.98298412] angle -1.51615811138223
+time=1608254918.4961634 Pos: [0.76311342 0.         4.00157912] angle -1.4949582252627074
+time=1608254918.7960427 Pos: [0.76477082 0.         4.02013971] angle -1.468512590249637
+time=1608254919.1610215 Pos: [0.76690558 0.         4.03865153] angle -1.4434573323362379
+time=1608254919.4638333 Pos: [0.76949822 0.         4.05710481] angle -1.4189678533394214
+time=1608254919.7488983 Pos: [0.77248708 0.         4.07549827] angle -1.4004493348209028
+time=1608254920.047659 Pos: [0.77582811 0.         4.093831  ] angle -1.3806118733202688
+time=1608254920.3361497 Pos: [0.7795563  0.         4.11208884] angle -1.3581256554462102
+time=1608254920.6300044 Pos: [0.78377001 0.         4.13024042] angle -1.327266634300676
+time=1608254920.94101 Pos: [0.78860641 0.         4.1482357 ] angle -1.2892160610160006
+time=1608254921.2404106 Pos: [0.79419216 0.         4.16601213] angle -1.243470273299563
+time=1608254921.5612087 Pos: [0.80059232 0.         4.18351179] angle -1.1968828053284473
+time=1608254921.8642273 Pos: [0.80780052 0.         4.20069439] angle -1.1502953373573315
+time=1608254922.1715653 Pos: [0.81580109 0.         4.21752266] angle -1.1037078693862157
+time=1608254922.4921122 Pos: [0.82457669 0.         4.23396008] angle -1.0571204014150999
+time=1608254922.8667572 Pos: [0.83410826 0.         4.24997099] angle -1.010532933443984
+time=1608254923.1611745 Pos: [0.84437514 0.         4.26552063] angle -0.9639454654728683
+time=1608254923.456398 Pos: [0.85535503 0.         4.28057526] angle -0.9173579975017525
+time=1608254923.912029 Pos: [0.86702411 0.         4.29510222] angle -0.8707705295306367
+time=1608254924.2196374 Pos: [0.87935705 0.         4.30906998] angle -0.8241830615595209
+time=1608254924.5305512 Pos: [0.89232711 0.         4.32244823] angle -0.7775955935884051
+time=1608254924.914895 Pos: [0.90590612 0.         4.33520794] angle -0.7310081256172893
+time=1608254925.2507844 Pos: [0.92006463 0.         4.34732143] angle -0.6844206576461735
+time=1608254925.5948603 Pos: [0.93477191 0.         4.3587624 ] angle -0.6378331896750578
+time=1608254925.9164233 Pos: [0.94999605 0.         4.36950604] angle -0.591245721703942
+time=1608254926.32436 Pos: [0.965704   0.         4.37952901] angle -0.5446582537328262
+time=1608254926.6215332 Pos: [0.98186169 0.         4.38880959] angle -0.4980707857617104
+time=1608254926.9168196 Pos: [0.99843405 0.         4.39732762] angle -0.4514833177905946
+time=1608254927.2902172 Pos: [1.01538512 0.         4.40506462] angle -0.4048958498194788
+time=1608254927.590765 Pos: [1.03267811 0.         4.41200381] angle -0.358308381848363
+time=1608254927.8870852 Pos: [1.05027551 0.         4.41813012] angle -0.3117209138772472
+time=1608254928.182696 Pos: [1.06813911 0.         4.42343027] angle -0.2651334459061314
+time=1608254928.5713801 Pos: [1.08622456 0.         4.42791615] angle -0.22112899421474752
+time=1608254928.8607242 Pos: [1.10444646 0.         4.43181652] angle -0.20060410874227297
+time=1608254929.1784954 Pos: [1.12271048 0.         4.43551632] angle -0.19913298003145172
+time=1608254929.5707078 Pos: [1.1409573  0.         4.43929957] angle -0.20974922870500295
+
+print white_sum 7570 yellow_sum 7627, history: [-416, 132, -213, -304, -855, -57]
+print white_sum 7451 yellow_sum 7970, history: [132, -213, -304, -855, -57, -519]
+print white_sum 7551 yellow_sum 8075, history: [-213, -304, -855, -57, -519, -524]
+print white_sum 7703 yellow_sum 7770, history: [-304, -855, -57, -519, -524, -67]
+print white_sum 7885 yellow_sum 7229, history: [-855, -57, -519, -524, -67, 656]
+print white_sum 7562 yellow_sum 7867, history: [-57, -519, -524, -67, 656, -305]
+print white_sum 7964 yellow_sum 7633, history: [-519, -524, -67, 656, -305, 331]
+print white_sum 7544 yellow_sum 7723, history: [-524, -67, 656, -305, 331, -179]
+print white_sum 7640 yellow_sum 7876, history: [-67, 656, -305, 331, -179, -236]
+print white_sum 7540 yellow_sum 7915, history: [656, -305, 331, -179, -236, -375]
+print white_sum 7798 yellow_sum 8153, history: [-305, 331, -179, -236, -375, -355]
+print white_sum 7608 yellow_sum 7844, history: [331, -179, -236, -375, -355, -236]
+print white_sum 7942 yellow_sum 8312, history: [-179, -236, -375, -355, -236, -370]
+print white_sum 8207 yellow_sum 7596, history: [-236, -375, -355, -236, -370, 611]
+print white_sum 7983 yellow_sum 7521, history: [-375, -355, -236, -370, 611, 462]
+print white_sum 8128 yellow_sum 7913, history: [-355, -236, -370, 611, 462, 215]
+print white_sum 7609 yellow_sum 7965, history: [-236, -370, 611, 462, 215, -356]
+print white_sum 7601 yellow_sum 8223, history: [-370, 611, 462, 215, -356, -622]
+print white_sum 8018 yellow_sum 8282, history: [611, 462, 215, -356, -622, -264]
+print white_sum 8250 yellow_sum 7940, history: [462, 215, -356, -622, -264, 310]
+print white_sum 8502 yellow_sum 7551, history: [215, -356, -622, -264, 310, 951]
+print white_sum 8178 yellow_sum 7697, history: [-356, -622, -264, 310, 951, 481]
+print white_sum 8182 yellow_sum 7722, history: [-622, -264, 310, 951, 481, 460]
+print white_sum 8018 yellow_sum 6999, history: [-264, 310, 951, 481, 460, 1019]
+print white_sum 8149 yellow_sum 7061, history: [310, 951, 481, 460, 1019, 1088]
+print white_sum 7849 yellow_sum 7121, history: [951, 481, 460, 1019, 1088, 728]
+print white_sum 7377 yellow_sum 8242, history: [481, 460, 1019, 1088, 728, -865]
+print white_sum 7184 yellow_sum 7832, history: [460, 1019, 1088, 728, -865, -648]
+print white_sum 7457 yellow_sum 8233, history: [1019, 1088, 728, -865, -648, -776]
+print white_sum 7035 yellow_sum 7825, history: [1088, 728, -865, -648, -776, -790]
+print white_sum 7133 yellow_sum 8062, history: [728, -865, -648, -776, -790, -929]
+print white_sum 7634 yellow_sum 7690, history: [-865, -648, -776, -790, -929, -56]
+print white_sum 7939 yellow_sum 7162, history: [-648, -776, -790, -929, -56, 777]
+print white_sum 7999 yellow_sum 8024, history: [-776, -790, -929, -56, 777, -25]
+print white_sum 7514 yellow_sum 7892, history: [-790, -929, -56, 777, -25, -378]
+print white_sum 7533 yellow_sum 7214, history: [-929, -56, 777, -25, -378, 319]
+print white_sum 7671 yellow_sum 7984, history: [-56, 777, -25, -378, 319, -313]
+print white_sum 7822 yellow_sum 8256, history: [777, -25, -378, 319, -313, -434]
+print white_sum 7843 yellow_sum 7534, history: [-25, -378, 319, -313, -434, 309]
+print white_sum 7906 yellow_sum 7393, history: [-378, 319, -313, -434, 309, 513]
+print white_sum 7942 yellow_sum 8357, history: [319, -313, -434, 309, 513, -415]
+print white_sum 7631 yellow_sum 8025, history: [-313, -434, 309, 513, -415, -394]
+print white_sum 7847 yellow_sum 8084, history: [-434, 309, 513, -415, -394, -237]
+print white_sum 7944 yellow_sum 8159, history: [309, 513, -415, -394, -237, -215]
+print white_sum 7867 yellow_sum 7814, history: [513, -415, -394, -237, -215, 53]
+print white_sum 8141 yellow_sum 7401, history: [-415, -394, -237, -215, 53, 740]
+print white_sum 8321 yellow_sum 8088, history: [-394, -237, -215, 53, 740, 233]
+print white_sum 7831 yellow_sum 8316, history: [-237, -215, 53, 740, 233, -485]
+print white_sum 8727 yellow_sum 8269, history: [-215, 53, 740, 233, -485, 458]
+print white_sum 8675 yellow_sum 8477, history: [53, 740, 233, -485, 458, 198]
+print white_sum 8918 yellow_sum 8407, history: [740, 233, -485, 458, 198, 511]
+print white_sum 8594 yellow_sum 8926, history: [233, -485, 458, 198, 511, -332]
+print white_sum 8974 yellow_sum 8112, history: [-485, 458, 198, 511, -332, 862]
+print white_sum 8721 yellow_sum 8102, history: [458, 198, 511, -332, 862, 619]
+print white_sum 9480 yellow_sum 8335, history: [198, 511, -332, 862, 619, 1145]
+print white_sum 9232 yellow_sum 8015, history: [511, -332, 862, 619, 1145, 1217]
+print white_sum 8801 yellow_sum 7748, history: [-332, 862, 619, 1145, 1217, 1053]
+print white_sum 8610 yellow_sum 8606, history: [862, 619, 1145, 1217, 1053, 4]
+print white_sum 8188 yellow_sum 8447, history: [619, 1145, 1217, 1053, 4, -259]
+print white_sum 8205 yellow_sum 9500, history: [1145, 1217, 1053, 4, -259, -1295]
+print white_sum 8387 yellow_sum 7867, history: [1217, 1053, 4, -259, -1295, 520]
+print white_sum 8302 yellow_sum 6365, history: [1053, 4, -259, -1295, 520, 1937]
+print white_sum 8224 yellow_sum 4659, history: [4, -259, -1295, 520, 1937, 3565]
+print white_sum 7905 yellow_sum 2816, history: [-259, -1295, 520, 1937, 3565, 5089]
+print white_sum 6840 yellow_sum 1729, history: [-1295, 520, 1937, 3565, 5089, 5111]
+print white_sum 6213 yellow_sum 1313, history: [520, 1937, 3565, 5089, 5111, 4900]
+print white_sum 5533 yellow_sum 2416, history: [1937, 3565, 5089, 5111, 4900, 3117]
+print white_sum 5406 yellow_sum 2699, history: [3565, 5089, 5111, 4900, 3117, 2707]
+print white_sum 4830 yellow_sum 3455, history: [5089, 5111, 4900, 3117, 2707, 1375]
+print white_sum 6405 yellow_sum 3157, history: [5111, 4900, 3117, 2707, 1375, 3248]
+print white_sum 7872 yellow_sum 1880, history: [4900, 3117, 2707, 1375, 3248, 5992]
+print white_sum 8358 yellow_sum 0, history: [3117, 2707, 1375, 3248, 5992, 8358]
+print white_sum 8463 yellow_sum 0, history: [2707, 1375, 3248, 5992, 8358, 8463]
+print white_sum 8966 yellow_sum 0, history: [1375, 3248, 5992, 8358, 8463, 8966]
+print white_sum 8955 yellow_sum 0, history: [3248, 5992, 8358, 8463, 8966, 8955]
+print white_sum 9812 yellow_sum 0, history: [5992, 8358, 8463, 8966, 8955, 9812]
+print white_sum 9677 yellow_sum 0, history: [8358, 8463, 8966, 8955, 9812, 9677]
+print white_sum 10360 yellow_sum 0, history: [8463, 8966, 8955, 9812, 9677, 10360]
+print white_sum 11038 yellow_sum 0, history: [8966, 8955, 9812, 9677, 10360, 11038]
+print white_sum 11631 yellow_sum 0, history: [8955, 9812, 9677, 10360, 11038, 11631]
+print white_sum 12215 yellow_sum 0, history: [9812, 9677, 10360, 11038, 11631, 12215]
+print white_sum 13075 yellow_sum 0, history: [9677, 10360, 11038, 11631, 12215, 13075]
+print white_sum 13392 yellow_sum 0, history: [10360, 11038, 11631, 12215, 13075, 13392]
+print white_sum 13887 yellow_sum 0, history: [11038, 11631, 12215, 13075, 13392, 13887]
+print white_sum 14458 yellow_sum 0, history: [11631, 12215, 13075, 13392, 13887, 14458]
+print white_sum 14359 yellow_sum 0, history: [12215, 13075, 13392, 13887, 14458, 14359]
+print white_sum 14749 yellow_sum 0, history: [13075, 13392, 13887, 14458, 14359, 14749]
+print white_sum 14320 yellow_sum 0, history: [13392, 13887, 14458, 14359, 14749, 14320]
+print white_sum 13952 yellow_sum 0, history: [13887, 14458, 14359, 14749, 14320, 13952]
+print white_sum 12812 yellow_sum 0, history: [14458, 14359, 14749, 14320, 13952, 12812]
+print white_sum 12500 yellow_sum 0, history: [14359, 14749, 14320, 13952, 12812, 12500]
+print white_sum 11825 yellow_sum 0, history: [14749, 14320, 13952, 12812, 12500, 11825]
+print white_sum 11443 yellow_sum 0, history: [14320, 13952, 12812, 12500, 11825, 11443]
+print white_sum 10552 yellow_sum 0, history: [13952, 12812, 12500, 11825, 11443, 10552]
+print white_sum 9746 yellow_sum 4612, history: [12812, 12500, 11825, 11443, 10552, 5134]
+print white_sum 8599 yellow_sum 8124, history: [12500, 11825, 11443, 10552, 5134, 475]
+print white_sum 7839 yellow_sum 11634, history: [11825, 11443, 10552, 5134, 475, -3795]
+print white_sum 7093 yellow_sum 12691, history: [11443, 10552, 5134, 475, -3795, -5598]
+print white_sum 7508 yellow_sum 11481, history: [10552, 5134, 475, -3795, -5598, -3973]
+print white_sum 8414 yellow_sum 8988, history: [5134, 475, -3795, -5598, -3973, -574]time=1608254929.9037256 Pos: [1.15915632 0.         4.44330617] angle -0.22364627040078677
+time=1608254930.1967328 Pos: [1.17731121 0.         4.44750867] angle -0.23130110902697407
+time=1608254930.483949 Pos: [1.19546285 0.         4.45172525] angle -0.2251976330842249
+time=1608254930.7855668 Pos: [1.21366387 0.         4.45572229] angle -0.20715068326928068
+time=1608254931.0808294 Pos: [1.2319502  0.         4.45930716] angle -0.1800207301155679
+time=1608254931.3809419 Pos: [1.25032814 0.         4.46238807] angle -0.15217332995509994
+time=1608254931.6708732 Pos: [1.26877867 0.         4.46500056] angle -0.1291451445369774
+time=1608254931.9618034 Pos: [1.2872751 0.        4.4672675] angle -0.11476048734309588
+time=1608254932.2531507 Pos: [1.30579232 0.         4.46935904] angle -0.1101887038195304
+time=1608254932.509607 Pos: [1.32431407 0.         4.47141025] angle -0.11040455908779656
+time=1608254932.8119357 Pos: [1.34283119 0.         4.47350278] angle -0.11465023033556421
+time=1608254933.1916847 Pos: [1.36134341 0.         4.47563827] angle -0.1150467414518517
+time=1608254933.4858649 Pos: [1.37985713 0.         4.47776072] angle -0.11324018297163845
+time=1608254933.7867618 Pos: [1.39838059 0.         4.4797961 ] angle -0.10564435513821452
+time=1608254934.130568 Pos: [1.41692291 0.         4.48165107] angle -0.09377128010650915
+time=1608254934.4691525 Pos: [1.43548717 0.         4.48327145] angle -0.08035771280055887
+time=1608254934.7686381 Pos: [1.45407283 0.         4.48462399] angle -0.06493311979385549
+time=1608254935.0595334 Pos: [1.4726758  0.         4.48571355] angle -0.05207135516409646
+time=1608254935.3539767 Pos: [1.49129037 0.         4.48658376] angle -0.04135779044633883
+time=1608254935.6682432 Pos: [1.50991245 0.         4.48727592] angle -0.032946164284887385
+time=1608254935.9417808 Pos: [1.52853811 0.         4.48786524] angle -0.03031293706745334
+time=1608254936.2517242 Pos: [1.54716468 0.         4.48842517] angle -0.02979063978764385
+time=1608254936.6122751 Pos: [1.56579062 0.         4.48900552] angle -0.03250565389329388
+time=1608254936.9069014 Pos: [1.58441566 0.         4.48961436] angle -0.032848848240681114
+time=1608254937.1808684 Pos: [1.60304291 0.         4.49014963] angle -0.024607525156590725
+time=1608254937.4730043 Pos: [1.62167497 0.         4.49046958] angle -0.009732664271946492
+time=1608254937.767346 Pos: [1.64030946 0.         4.49042548] angle 0.014465384230784029
+time=1608254938.0508826 Pos: [1.65893663 0.         4.4899058 ] angle 0.041318400769335156
+time=1608254938.3308659 Pos: [1.67754394 0.         4.48889964] angle 0.06672306469251761
+time=1608254938.595598 Pos: [1.69612032 0.         4.48742882] angle 0.09130054223994621
+time=1608254938.8830543 Pos: [1.71465641 0.         4.48551554] angle 0.11440999690775168
+time=1608254939.1648564 Pos: [1.73314766 0.         4.48320782] angle 0.13390736989219665
+time=1608254939.4296935 Pos: [1.7515857  0.         4.48050856] angle 0.1568196042789244
+time=1608254939.7232323 Pos: [1.76995208 0.         4.47735908] angle 0.18283870514079253
+time=1608254940.0202923 Pos: [1.78821978 0.         4.47368144] angle 0.2144886779647695
+time=1608254940.34128 Pos: [1.80634094 0.         4.46934126] angle 0.25567251728976886
+time=1608254940.6665347 Pos: [1.82425601 0.         4.46421753] angle 0.30145661025764936
+time=1608254940.9707913 Pos: [1.84191535 0.         4.45827217] angle 0.34804407822876515
+time=1608254941.3087332 Pos: [1.85927866 0.         4.45151084] angle 0.39463154619988094
+time=1608254941.724953 Pos: [1.87630825 0.         4.44394823] angle 0.44121901417099674
+time=1608254942.0433147 Pos: [1.89296716 0.         4.43560075] angle 0.48780648214211253
+time=1608254942.3463793 Pos: [1.90921926 0.         4.42648651] angle 0.5343939501132283
+time=1608254942.7137573 Pos: [1.92502926 0.         4.41662529] angle 0.5809814180843441
+time=1608254943.0240912 Pos: [1.94036287 0.         4.40603849] angle 0.6275688860554599
+time=1608254943.3344238 Pos: [1.95518681 0.         4.39474907] angle 0.6741563540265757
+time=1608254943.6366851 Pos: [1.96946891 0.         4.38278155] angle 0.7207438219976915
+time=1608254944.0481071 Pos: [1.98317817 0.         4.37016188] angle 0.7673312899688073
+time=1608254944.3768432 Pos: [1.99628486 0.         4.35691746] angle 0.8139187579399231
+time=1608254944.708075 Pos: [2.00876053 0.         4.34307702] angle 0.8605062259110389
+time=1608254945.1091316 Pos: [2.0205781 0.        4.3286706] angle 0.9070936938821547
+time=1608254945.4519777 Pos: [2.03171193 0.         4.31372946] angle 0.9536811618532705
+time=1608254945.7691324 Pos: [2.04213787 0.         4.29828602] angle 1.0002686298243861
+time=1608254946.0913959 Pos: [2.05183328 0.         4.2823738 ] angle 1.046856097795502
+time=1608254946.4128103 Pos: [2.06077713 0.         4.26602732] angle 1.0934435657666177
+time=1608254946.7393305 Pos: [2.06895001 0.         4.24928205] angle 1.1400310337377335
+time=1608254947.0713248 Pos: [2.07633418 0.         4.23217433] angle 1.1866185017088493
+time=1608254947.3904696 Pos: [2.08291363 0.         4.2147413 ] angle 1.233205969679965
+time=1608254947.7457697 Pos: [2.08867407 0.         4.19702076] angle 1.279793437651081
+time=1608254948.0559764 Pos: [2.09360301 0.         4.17905119] angle 1.3263809056221967
+time=1608254948.3644166 Pos: [2.09768974 0.         4.16087157] angle 1.3729683735933125
+time=1608254948.6825216 Pos: [2.10108036 0.         4.14254834] angle 1.402674096087295
+time=1608254949.0244477 Pos: [2.10412563 0.         4.12416391] angle 1.410611565352507
+time=1608254949.3356524 Pos: [2.1071712  0.         4.10577953] angle 1.4026414848597153
+time=1608254949.6458476 Pos: [2.1104414  0.         4.08743394] angle 1.3861464153667422
+time=1608254950.0338845 Pos: [2.11399282 0.         4.06914065] angle 1.371940861105283
+time=1608254950.3374941 Pos: [2.11772207 0.         4.05088265] angle 1.3666883829108063
+time=1608254950.648239 Pos: [2.12141231 0.         4.03261677] angle 1.3762129319182344
+time=1608254950.9139595 Pos: [2.1248197  0.         4.01429632] angle 1.3976048619335046
+time=1608254951.2228007 Pos: [2.12774848 0.         3.99589366] angle 1.4283360263613847
+time=1608254951.5274606 Pos: [2.13008905 0.         3.9774071 ] angle 1.461377411562099
+time=1608254951.830859 Pos: [2.13190728 0.         3.95886146] angle 1.484759144098269
+time=1608254952.126135 Pos: [2.13340912 0.         3.94028718] angle 1.4954721911774935
+time=1608254952.423966 Pos: [2.13486108 0.         3.92170886] angle 1.4901306791553386
+time=1608254952.7514558 Pos: [2.13650925 0.         3.9031471 ] angle 1.4743390804287295
+time=1608254953.0714414 Pos: [2.1384839  0.         3.88461732] angle 1.4549224590554344
+time=1608254953.398513 Pos: [2.14078339 0.         3.86612495] angle 1.439243705529022
+time=1608254953.8003862 Pos: [2.14328397 0.         3.84765852] angle 1.4331614527661263
+time=1608254954.1083887 Pos: [2.14578779 0.         3.82919254] angle 1.4388932642421726
+time=1608254954.41157 Pos: [2.14812615 0.         3.81070496] angle 1.451070193092756
+time=1608254954.7973676 Pos: [2.15024447 0.         3.79219087] angle 1.4626797901111581
+time=1608254955.0973365 Pos: [2.1522746 0.        3.7736668] angle 1.4605957773772502
+time=1608254955.4140766 Pos: [2.1544447  0.         3.75515873] angle 1.447559568561866
+time=1608254955.738651 Pos: [2.15699624 0.         3.73669988] angle 1.4193172102007097
+time=1608254956.1199677 Pos: [2.16012413 0.         3.7183302 ] angle 1.384961540764677
+time=1608254956.4317842 Pos: [2.1638818  0.         3.70007895] angle 1.3505344372110883
+time=1608254956.7543771 Pos: [2.16822525 0.         3.68195793] angle 1.3205522957404772
+time=1608254957.173349 Pos: [2.17312799 0.         3.66398027] angle 1.288562752038844
+time=1608254957.7659018 Pos: [2.17862063 0.         3.64617409] angle 1.254614464128292
+time=1608254958.1383245 Pos: [2.1847821  0.         3.62858861] angle 1.2129647501235814
+time=1608254958.4493458 Pos: [2.19170378 0.         3.61128852] angle 1.1674513821084664
+time=1608254958.7599094 Pos: [2.19941449 0.         3.59432547] angle 1.1208639141373506
+time=1608254959.0716672 Pos: [2.20790681 0.         3.57773992] angle 1.0742764461662349
+time=1608254959.4897993 Pos: [2.21716231 0.         3.56156786] angle 1.027688978195119
+time=1608254959.8095953 Pos: [2.22716091 0.         3.54584438] angle 0.9811015102240033
+time=1608254960.125961 Pos: [2.23788092 0.         3.5306036 ] angle 0.9345140422528875
+time=1608254960.5114458 Pos: [2.24929907 0.         3.51587859] angle 0.8879265742817717
+
+print white_sum 9365 yellow_sum 6716, history: [475, -3795, -5598, -3973, -574, 2649]
+print white_sum 10282 yellow_sum 4081, history: [-3795, -5598, -3973, -574, 2649, 6201]
+print white_sum 10764 yellow_sum 3711, history: [-5598, -3973, -574, 2649, 6201, 7053]
+print white_sum 10414 yellow_sum 4801, history: [-3973, -574, 2649, 6201, 7053, 5613]
+print white_sum 9892 yellow_sum 6968, history: [-574, 2649, 6201, 7053, 5613, 2924]
+print white_sum 9222 yellow_sum 8420, history: [2649, 6201, 7053, 5613, 2924, 802]
+print white_sum 8707 yellow_sum 9601, history: [6201, 7053, 5613, 2924, 802, -894]
+print white_sum 8162 yellow_sum 10430, history: [7053, 5613, 2924, 802, -894, -2268]
+print white_sum 8126 yellow_sum 9104, history: [5613, 2924, 802, -894, -2268, -978]
+print white_sum 8225 yellow_sum 8471, history: [2924, 802, -894, -2268, -978, -246]
+print white_sum 8860 yellow_sum 7422, history: [802, -894, -2268, -978, -246, 1438]
+print white_sum 9144 yellow_sum 7350, history: [-894, -2268, -978, -246, 1438, 1794]
+print white_sum 9526 yellow_sum 6871, history: [-2268, -978, -246, 1438, 1794, 2655]
+print white_sum 9871 yellow_sum 6648, history: [-978, -246, 1438, 1794, 2655, 3223]
+print white_sum 9722 yellow_sum 7451, history: [-246, 1438, 1794, 2655, 3223, 2271]
+print white_sum 9699 yellow_sum 7512, history: [1438, 1794, 2655, 3223, 2271, 2187]
+print white_sum 9535 yellow_sum 8059, history: [1794, 2655, 3223, 2271, 2187, 1476]
+print white_sum 9121 yellow_sum 8540, history: [2655, 3223, 2271, 2187, 1476, 581]
+print white_sum 9013 yellow_sum 8492, history: [3223, 2271, 2187, 1476, 581, 521]
+print white_sum 8609 yellow_sum 9532, history: [2271, 2187, 1476, 581, 521, -923]
+print white_sum 8487 yellow_sum 9586, history: [2187, 1476, 581, 521, -923, -1099]
+print white_sum 9042 yellow_sum 9800, history: [1476, 581, 521, -923, -1099, -758]
+print white_sum 9207 yellow_sum 8129, history: [581, 521, -923, -1099, -758, 1078]
+print white_sum 9477 yellow_sum 4633, history: [521, -923, -1099, -758, 1078, 4844]
+print white_sum 9375 yellow_sum 3785, history: [-923, -1099, -758, 1078, 4844, 5590]
+print white_sum 8346 yellow_sum 2706, history: [-1099, -758, 1078, 4844, 5590, 5640]
+print white_sum 7225 yellow_sum 2547, history: [-758, 1078, 4844, 5590, 5640, 4678]
+print white_sum 6057 yellow_sum 3475, history: [1078, 4844, 5590, 5640, 4678, 2582]
+print white_sum 5702 yellow_sum 3174, history: [4844, 5590, 5640, 4678, 2582, 2528]
+print white_sum 5929 yellow_sum 1959, history: [5590, 5640, 4678, 2582, 2528, 3970]
+print white_sum 5799 yellow_sum 3128, history: [5640, 4678, 2582, 2528, 3970, 2671]
+print white_sum 6751 yellow_sum 2770, history: [4678, 2582, 2528, 3970, 2671, 3981]
+print white_sum 7609 yellow_sum 979, history: [2582, 2528, 3970, 2671, 3981, 6630]
+print white_sum 7355 yellow_sum 0, history: [2528, 3970, 2671, 3981, 6630, 7355]
+print white_sum 8766 yellow_sum 0, history: [3970, 2671, 3981, 6630, 7355, 8766]
+print white_sum 9245 yellow_sum 0, history: [2671, 3981, 6630, 7355, 8766, 9245]
+print white_sum 8918 yellow_sum 0, history: [3981, 6630, 7355, 8766, 9245, 8918]
+print white_sum 10768 yellow_sum 0, history: [6630, 7355, 8766, 9245, 8918, 10768]
+print white_sum 9706 yellow_sum 0, history: [7355, 8766, 9245, 8918, 10768, 9706]
+print white_sum 10421 yellow_sum 0, history: [8766, 9245, 8918, 10768, 9706, 10421]
+print white_sum 11034 yellow_sum 0, history: [9245, 8918, 10768, 9706, 10421, 11034]
+print white_sum 11714 yellow_sum 0, history: [8918, 10768, 9706, 10421, 11034, 11714]
+print white_sum 12598 yellow_sum 0, history: [10768, 9706, 10421, 11034, 11714, 12598]
+print white_sum 13289 yellow_sum 0, history: [9706, 10421, 11034, 11714, 12598, 13289]
+print white_sum 13610 yellow_sum 0, history: [10421, 11034, 11714, 12598, 13289, 13610]
+print white_sum 14226 yellow_sum 0, history: [11034, 11714, 12598, 13289, 13610, 14226]
+print white_sum 14884 yellow_sum 0, history: [11714, 12598, 13289, 13610, 14226, 14884]
+print white_sum 15326 yellow_sum 0, history: [12598, 13289, 13610, 14226, 14884, 15326]
+print white_sum 16017 yellow_sum 0, history: [13289, 13610, 14226, 14884, 15326, 16017]
+print white_sum 15415 yellow_sum 0, history: [13610, 14226, 14884, 15326, 16017, 15415]
+print white_sum 15264 yellow_sum 0, history: [14226, 14884, 15326, 16017, 15415, 15264]
+print white_sum 14029 yellow_sum 0, history: [14884, 15326, 16017, 15415, 15264, 14029]
+print white_sum 13964 yellow_sum 0, history: [15326, 16017, 15415, 15264, 14029, 13964]
+print white_sum 13650 yellow_sum 0, history: [16017, 15415, 15264, 14029, 13964, 13650]
+print white_sum 12927 yellow_sum 0, history: [15415, 15264, 14029, 13964, 13650, 12927]
+print white_sum 12193 yellow_sum 0, history: [15264, 14029, 13964, 13650, 12927, 12193]
+print white_sum 11140 yellow_sum 0, history: [14029, 13964, 13650, 12927, 12193, 11140]
+print white_sum 10428 yellow_sum 3258, history: [13964, 13650, 12927, 12193, 11140, 7170]
+print white_sum 9164 yellow_sum 7225, history: [13650, 12927, 12193, 11140, 7170, 1939]
+print white_sum 7959 yellow_sum 10332, history: [12927, 12193, 11140, 7170, 1939, -2373]
+print white_sum 7339 yellow_sum 12477, history: [12193, 11140, 7170, 1939, -2373, -5138]
+print white_sum 6945 yellow_sum 12199, history: [11140, 7170, 1939, -2373, -5138, -5254]
+print white_sum 7887 yellow_sum 11086, history: [7170, 1939, -2373, -5138, -5254, -3199]
+print white_sum 8786 yellow_sum 8200, history: [1939, -2373, -5138, -5254, -3199, 586]
+print white_sum 9792 yellow_sum 6085, history: [-2373, -5138, -5254, -3199, 586, 3707]
+print white_sum 10677 yellow_sum 4192, history: [-5138, -5254, -3199, 586, 3707, 6485]
+print white_sum 11132 yellow_sum 4162, history: [-5254, -3199, 586, 3707, 6485, 6970]
+print white_sum 11680 yellow_sum 5339, history: [-3199, 586, 3707, 6485, 6970, 6341]
+print white_sum 12664 yellow_sum 7956, history: [586, 3707, 6485, 6970, 6341, 4708]
+print white_sum 9224 yellow_sum 9740, history: [3707, 6485, 6970, 6341, 4708, -516]
+print white_sum 7222 yellow_sum 11576, history: [6485, 6970, 6341, 4708, -516, -4354]
+print white_sum 5807 yellow_sum 11287, history: [6970, 6341, 4708, -516, -4354, -5480]
+print white_sum 5814 yellow_sum 10350, history: [6341, 4708, -516, -4354, -5480, -4536]
+print white_sum 7742 yellow_sum 10465, history: [4708, -516, -4354, -5480, -4536, -2723]
+print white_sum 8289 yellow_sum 8057, history: [-516, -4354, -5480, -4536, -2723, 232]
+print white_sum 9430 yellow_sum 6110, history: [-4354, -5480, -4536, -2723, 232, 3320]
+print white_sum 9018 yellow_sum 4127, history: [-5480, -4536, -2723, 232, 3320, 4891]
+print white_sum 7636 yellow_sum 4541, history: [-4536, -2723, 232, 3320, 4891, 3095]
+print white_sum 5107 yellow_sum 5372, history: [-2723, 232, 3320, 4891, 3095, -265]
+print white_sum 1136 yellow_sum 7282, history: [232, 3320, 4891, 3095, -265, -6146]
+print white_sum 0 yellow_sum 7321, history: [3320, 4891, 3095, -265, -6146, -7321]
+print white_sum 0 yellow_sum 7594, history: [4891, 3095, -265, -6146, -7321, -7594]
+print white_sum 449 yellow_sum 6993, history: [3095, -265, -6146, -7321, -7594, -6544]
+print white_sum 2947 yellow_sum 6911, history: [-265, -6146, -7321, -7594, -6544, -3964]
+print white_sum 5154 yellow_sum 6834, history: [-6146, -7321, -7594, -6544, -3964, -1680]
+print white_sum 2420 yellow_sum 8121, history: [-7321, -7594, -6544, -3964, -1680, -5701]
+print white_sum 0 yellow_sum 8765, history: [-7594, -6544, -3964, -1680, -5701, -8765]
+print white_sum 0 yellow_sum 9176, history: [-6544, -3964, -1680, -5701, -8765, -9176]
+print white_sum 0 yellow_sum 8086, history: [-3964, -1680, -5701, -8765, -9176, -8086]
+print white_sum 0 yellow_sum 9457, history: [-1680, -5701, -8765, -9176, -8086, -9457]
+print white_sum 0 yellow_sum 9768, history: [-5701, -8765, -9176, -8086, -9457, -9768]
+print white_sum 0 yellow_sum 11188, history: [-8765, -9176, -8086, -9457, -9768, -11188]
+print white_sum 0 yellow_sum 12154, history: [-9176, -8086, -9457, -9768, -11188, -12154]
+print white_sum 0 yellow_sum 15268, history: [-8086, -9457, -9768, -11188, -12154, -15268]
+print white_sum 0 yellow_sum 12894, history: [-9457, -9768, -11188, -12154, -15268, -12894]
+print white_sum 0 yellow_sum 11000, history: [-9768, -11188, -12154, -15268, -12894, -11000]time=1608254960.8495014 Pos: [2.26139058 0.         3.50170132] angle 0.8413391063106559
+time=1608254961.1582286 Pos: [2.27412922 0.         3.48810253] angle 0.7947516383395401
+time=1608254961.5490885 Pos: [2.28748734 0.         3.47511174] angle 0.7481641703684243
+time=1608254961.9044178 Pos: [2.30143596 0.         3.46275715] angle 0.7015767023973085
+time=1608254962.2154775 [2.3425978  0.         3.52516425] corresponds to tile at (4, 6) which is not drivable: {'coords': (4, 6), 'kind': 'asphalt', 'angle': 0, 'drivable': False, 'texture': <gym_duckietown.graphics.Texture object at 0x7f503043c908>, 'color': array([1, 1, 1])}
+time=1608254962.2176878 Invalid pose. Collision free: True On drivable area: False
+time=1608254962.218554 safety_factor: 1.0
+time=1608254962.2197092 pos: [2.2969115  0.         3.46568517]
+time=1608254962.2208536 l_pos: [2.25122519 0.         3.40620608]
+time=1608254962.2220159 r_pos: [2.3425978  0.         3.52516425]
+time=1608254962.2231514 f_pos: [2.3682864 0.        3.4108616]
+time=1608254962.223831 Stopping the simulator because we are at an invalid pose.
+time=1608254962.2248926 Pos: [2.3159448  0.         3.45106555] angle 0.6549892344261927
+
+print white_sum 0 yellow_sum 11284, history: [-11188, -12154, -15268, -12894, -11000, -11284]
+print white_sum 0 yellow_sum 13338, history: [-12154, -15268, -12894, -11000, -11284, -13338]
+print white_sum 0 yellow_sum 11856, history: [-15268, -12894, -11000, -11284, -13338, -11856]
+print white_sum 0 yellow_sum 12622, history: [-12894, -11000, -11284, -13338, -11856, -12622]
+total reward =  95.71904338804875
+False: Incorrect solution execution: Stopping the simulator because we are at an invalid pose.
