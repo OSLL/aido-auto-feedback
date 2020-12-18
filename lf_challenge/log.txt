@@ -1,0 +1,60 @@
+
+time=1608288164.031795 gym-duckietown 2019.0.0
+
+time=1608288164.3310215 Registering gym environment id: Duckietown-4way-v0
+time=1608288164.331312 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1608288164.331463 Registering gym environment id: Duckietown-loop_empty-v0
+time=1608288164.3316143 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1608288164.3317604 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1608288164.3319173 Registering gym environment id: Duckietown-small_loop-v0
+time=1608288164.3320858 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1608288164.3322308 Registering gym environment id: Duckietown-straight_road-v0
+time=1608288164.3323698 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1608288164.3326724 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1608288164.3328228 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1608288164.3329682 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1608288164.3331287 Registering gym environment id: Duckietown-udem1-v0
+time=1608288164.3332853 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1608288167.6558292 Falling back to non-multisampled frame buffer
+time=1608288167.661579 Falling back to non-multisampled frame buffer
+time=1608288167.6671076 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/zigzag_dists.yaml"
+time=1608288167.7052245 loading mesh "duckiebot.obj"
+time=1608288167.7057855 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1608288168.4847682 loading mesh "bus.obj"
+time=1608288168.5091407 loading texture "bus.png"
+time=1608288169.22866 loading mesh "truck.obj"
+time=1608288169.2564695 loading texture "truck.png"
+time=1608288169.9765666 loading mesh "tree.obj"
+time=1608288169.9769442 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/tree.mtl"
+time=1608288169.9819236 loading mesh "sign_blank.obj"
+time=1608288169.985912 loading texture "sign_blank.png"
+time=1608288170.1640406 loading texture "asphalt_1.png"
+time=1608288170.5922496 loading texture "curve_left_1.png"
+time=1608288170.606862 loading texture "straight_1.png"
+time=1608288170.620709 loading texture "curve_right_1.png"
+time=1608288170.6473334 using user tile start: (1, 1)
+time=1608288170.6486883 tile: {'coords': (1, 1), 'kind': 'curve_left', 'angle': 3, 'drivable': True, 'curves': array([[[1.17  , 0.    , 0.7605],
+        [0.8775, 0.    , 0.7605],
+        [0.7605, 0.    , 0.8775],
+        [0.7605, 0.    , 1.17  ]],
+
+       [[0.9945, 0.    , 1.17  ],
+        [0.9945, 0.    , 1.053 ],
+        [1.053 , 0.    , 0.9945],
+        [1.17  , 0.    , 0.9945]]]), 'texture': <gym_duckietown.graphics.Texture object at 0x7f867cb63b70>, 'color': array([1, 1, 1])}
+time=1608288170.6511717 road_tile_size=0.585
+time=1608288170.6515675 Starting at [0.72957323 0.         0.91131765] -1.6750407894894692
+time=1608288170.6519055 Pos: [0.72957323 0.         0.91131765] angle -1.6750407894894692
+time=1608288171.0959625 using DuckietownEnv
+/usr/local/lib/python3.6/dist-packages/gym/logger.py:30: UserWarning: [33mWARN: Box bound precision lowered by casting to float32[0m
+  warnings.warn(colorize('%s: %s'%('WARN', msg % args), 'yellow'))
+time=1608288171.4468107 Pos: [0.72957323 0.         0.91131765] angle -1.6750407894894692
+K_p = 10, K_i = 0.0001, K_d = 2
+K_p = 10, K_i = 0.0001, K_d = 2
+total reward =  -0.7499337323866251
+False: Incorrect solution execution: OpenCV(4.4.0) /tmp/pip-req-build-qacpj5ci/opencv/modules/imgproc/src/color.simd_helpers.hpp:92: error: (-2:Unspecified error) in function 'cv::impl::{anonymous}::CvtHelper<VScn, VDcn, VDepth, sizePolicy>::CvtHelper(cv::InputArray, cv::OutputArray, int) [with VScn = cv::impl::{anonymous}::Set<3, 4>; VDcn = cv::impl::{anonymous}::Set<3>; VDepth = cv::impl::{anonymous}::Set<0, 5>; cv::impl::{anonymous}::SizePolicy sizePolicy = cv::impl::<unnamed>::NONE; cv::InputArray = const cv::_InputArray&; cv::OutputArray = const cv::_OutputArray&]'
+> Invalid number of channels in input image:
+>     'VScn::contains(scn)'
+> where
+>     'scn' is 1
+
