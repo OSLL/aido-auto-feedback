@@ -1,0 +1,352 @@
+False: Incorrect solution execution: Stopping the simulator because we are at an invalid pose.
+time=1608500937.964382 gym-duckietown 2019.0.0
+
+time=1608500938.2278004 Registering gym environment id: Duckietown-4way-v0
+time=1608500938.2280788 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1608500938.2282195 Registering gym environment id: Duckietown-loop_empty-v0
+time=1608500938.2283494 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1608500938.228477 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1608500938.2286358 Registering gym environment id: Duckietown-small_loop-v0
+time=1608500938.228756 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1608500938.2288785 Registering gym environment id: Duckietown-straight_road-v0
+time=1608500938.229017 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1608500938.2292829 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1608500938.2294362 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1608500938.229566 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1608500938.2297106 Registering gym environment id: Duckietown-udem1-v0
+time=1608500938.229849 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1608500940.9371378 Falling back to non-multisampled frame buffer
+time=1608500940.9416459 Falling back to non-multisampled frame buffer
+time=1608500940.9470303 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/zigzag_dists.yaml"
+time=1608500940.9776163 loading mesh "duckiebot.obj"
+time=1608500940.9780111 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1608500941.6281614 loading mesh "bus.obj"
+time=1608500941.6451566 loading texture "bus.png"
+time=1608500942.181869 loading mesh "truck.obj"
+time=1608500942.2030485 loading texture "truck.png"
+time=1608500942.865936 loading mesh "tree.obj"
+time=1608500942.8663335 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/tree.mtl"
+time=1608500942.871465 loading mesh "sign_blank.obj"
+time=1608500942.8755932 loading texture "sign_blank.png"
+time=1608500943.0471196 loading texture "asphalt_1.png"
+time=1608500943.3967447 loading texture "curve_left_1.png"
+time=1608500943.4102411 loading texture "straight_1.png"
+time=1608500943.4224396 loading texture "curve_right_1.png"
+time=1608500943.448346 using user tile start: (1, 1)
+time=1608500943.4498603 tile: {'coords': (1, 1), 'kind': 'curve_left', 'angle': 3, 'drivable': True, 'curves': array([[[1.17  , 0.    , 0.7605],
+        [0.8775, 0.    , 0.7605],
+        [0.7605, 0.    , 0.8775],
+        [0.7605, 0.    , 1.17  ]],
+
+       [[0.9945, 0.    , 1.17  ],
+        [0.9945, 0.    , 1.053 ],
+        [1.053 , 0.    , 0.9945],
+        [1.17  , 0.    , 0.9945]]]), 'texture': <gym_duckietown.graphics.Texture object at 0x7fe7b3e314a8>, 'color': array([1, 1, 1])}
+time=1608500943.4522405 road_tile_size=0.585
+time=1608500943.4527547 Starting at [0.72662252 0.         0.91614755] -1.5993361716272676
+time=1608500943.4532373 Pos: [0.72662252 0.         0.91614755] angle -1.5993361716272676
+time=1608500943.8441474 using DuckietownEnv
+/usr/local/lib/python3.6/dist-packages/gym/logger.py:30: UserWarning: [33mWARN: Box bound precision lowered by casting to float32[0m
+  warnings.warn(colorize('%s: %s'%('WARN', msg % args), 'yellow'))
+time=1608500944.1485658 Pos: [0.72662252 0.         0.91614755] angle -1.5993361716272676
+time=1608500944.5263097 No lane lines detected, nothing to do.
+time=1608500944.5617363 Pos: [0.72555899 0.         0.95340234] angle -1.5993361716272676
+time=1608500944.677416 No lane lines detected, nothing to do.
+time=1608500944.7575483 Pos: [0.72462839 0.         0.98600029] angle -1.5993361716272676
+time=1608500944.8734462 No lane lines detected, nothing to do.
+time=1608500944.945672 Pos: [0.7236978  0.         1.01859824] angle -1.5993361716272676
+time=1608500945.0501914 No lane lines detected, nothing to do.
+time=1608500945.1229866 Pos: [0.72276721 0.         1.05119619] angle -1.5993361716272676
+time=1608500945.2364633 No lane lines detected, nothing to do.
+time=1608500945.306262 Pos: [0.72183661 0.         1.08379413] angle -1.5993361716272676
+time=1608500945.409306 No lane lines detected, nothing to do.
+time=1608500945.4839292 Pos: [0.72090602 0.         1.11639208] angle -1.5993361716272676
+time=1608500945.5870426 No lane lines detected, nothing to do.
+time=1608500945.6669989 Pos: [0.71997543 0.         1.14899003] angle -1.5993361716272676
+time=1608500945.7726905 No lane lines detected, nothing to do.
+time=1608500945.8409429 Pos: [0.71904483 0.         1.18158797] angle -1.5993361716272676
+time=1608500945.9461987 No lane lines detected, nothing to do.
+time=1608500946.0200405 Pos: [0.71811424 0.         1.21418592] angle -1.5993361716272676
+time=1608500946.158294 No lane lines detected, nothing to do.
+time=1608500946.262694 Pos: [0.71718365 0.         1.24678387] angle -1.5993361716272676
+time=1608500946.4291017 No lane lines detected, nothing to do.
+time=1608500946.5221424 Pos: [0.71625306 0.         1.27938182] angle -1.5993361716272676
+time=1608500946.6444259 No lane lines detected, nothing to do.
+time=1608500946.7468 Pos: [0.71532246 0.         1.31197976] angle -1.5993361716272676
+time=1608500946.871424 No lane lines detected, nothing to do.
+time=1608500946.9392989 Pos: [0.71439187 0.         1.34457771] angle -1.5993361716272676
+time=1608500947.0579748 No lane lines detected, nothing to do.
+time=1608500947.1318123 Pos: [0.71346128 0.         1.37717566] angle -1.5993361716272676
+time=1608500947.234535 No lane lines detected, nothing to do.
+time=1608500947.320347 Pos: [0.71253068 0.         1.40977361] angle -1.5993361716272676
+time=1608500947.4327312 No lane lines detected, nothing to do.
+time=1608500947.5091934 Pos: [0.71160009 0.         1.44237155] angle -1.5993361716272676
+time=1608500947.6126819 No lane lines detected, nothing to do.
+time=1608500947.689615 Pos: [0.7106695 0.        1.4749695] angle -1.5993361716272676
+time=1608500947.7966297 No lane lines detected, nothing to do.
+time=1608500947.8720796 Pos: [0.7097389  0.         1.50756745] angle -1.5993361716272676
+time=1608500947.9763553 No lane lines detected, nothing to do.
+time=1608500948.0454874 Pos: [0.70880831 0.         1.54016539] angle -1.5993361716272676
+time=1608500948.150691 No lane lines detected, nothing to do.
+time=1608500948.2232172 Pos: [0.70787772 0.         1.57276334] angle -1.5993361716272676
+time=1608500948.322859 No lane lines detected, nothing to do.
+time=1608500948.3931801 Pos: [0.70694713 0.         1.60536129] angle -1.5993361716272676
+time=1608500948.5071294 No lane lines detected, nothing to do.
+time=1608500948.5808365 Pos: [0.70601653 0.         1.63795924] angle -1.5993361716272676
+time=1608500948.6849952 No lane lines detected, nothing to do.
+time=1608500948.7570608 Pos: [0.70508594 0.         1.67055718] angle -1.5993361716272676
+time=1608500948.8672202 No lane lines detected, nothing to do.
+time=1608500948.940098 Pos: [0.70415535 0.         1.70315513] angle -1.5993361716272676
+time=1608500949.0480342 No lane lines detected, nothing to do.
+time=1608500949.1197705 Pos: [0.70322475 0.         1.73575308] angle -1.5993361716272676
+time=1608500949.2291791 No lane lines detected, nothing to do.
+time=1608500949.3008704 Pos: [0.70229416 0.         1.76835102] angle -1.5993361716272676
+time=1608500949.4049888 No lane lines detected, nothing to do.
+time=1608500949.4774215 Pos: [0.70136357 0.         1.80094897] angle -1.5993361716272676
+time=1608500949.584631 No lane lines detected, nothing to do.
+time=1608500949.651388 Pos: [0.70043297 0.         1.83354692] angle -1.5993361716272676
+time=1608500949.7521334 No lane lines detected, nothing to do.
+time=1608500949.8231277 Pos: [0.69950238 0.         1.86614487] angle -1.5993361716272676
+time=1608500949.9315927 No lane lines detected, nothing to do.
+time=1608500950.0167131 Pos: [0.69857179 0.         1.89874281] angle -1.5993361716272676
+time=1608500950.1214473 No lane lines detected, nothing to do.
+time=1608500950.1923187 Pos: [0.6976412  0.         1.93134076] angle -1.5993361716272676
+time=1608500950.3025765 No lane lines detected, nothing to do.
+time=1608500950.3671522 Pos: [0.6967106  0.         1.96393871] angle -1.5993361716272676
+time=1608500950.4644794 No lane lines detected, nothing to do.
+time=1608500950.5356233 Pos: [0.69578001 0.         1.99653665] angle -1.5993361716272676
+time=1608500950.6345394 No lane lines detected, nothing to do.
+time=1608500950.703361 Pos: [0.69484942 0.         2.0291346 ] angle -1.5993361716272676
+time=1608500950.8021097 No lane lines detected, nothing to do.
+time=1608500950.865936 Pos: [0.69391882 0.         2.06173255] angle -1.5993361716272676
+time=1608500950.9643688 No lane lines detected, nothing to do.
+time=1608500951.043796 Pos: [0.69298823 0.         2.0943305 ] angle -1.5993361716272676
+time=1608500951.1468508 No lane lines detected, nothing to do.
+time=1608500951.2181213 Pos: [0.69205764 0.         2.12692844] angle -1.5993361716272676
+time=1608500951.3274086 No lane lines detected, nothing to do.
+time=1608500951.3983188 Pos: [0.69112704 0.         2.15952639] angle -1.5993361716272676
+time=1608500951.4945786 No lane lines detected, nothing to do.
+time=1608500951.5624487 Pos: [0.69019645 0.         2.19212434] angle -1.5993361716272676
+time=1608500951.667896 No lane lines detected, nothing to do.
+time=1608500951.7316442 Pos: [0.68926586 0.         2.22472228] angle -1.5993361716272676
+time=1608500951.8341827 No lane lines detected, nothing to do.
+time=1608500951.9050763 Pos: [0.68833526 0.         2.25732023] angle -1.5993361716272676
+time=1608500952.0098217 No lane lines detected, nothing to do.
+time=1608500952.0864244 Pos: [0.68740467 0.         2.28991818] angle -1.5993361716272676
+time=1608500952.1910024 No lane lines detected, nothing to do.
+time=1608500952.260641 Pos: [0.68647408 0.         2.32251613] angle -1.5993361716272676
+time=1608500952.356842 No lane lines detected, nothing to do.
+time=1608500952.427171 Pos: [0.68554349 0.         2.35511407] angle -1.5993361716272676
+time=1608500952.5354843 No lane lines detected, nothing to do.
+time=1608500952.6010153 Pos: [0.68461289 0.         2.38771202] angle -1.5993361716272676
+time=1608500952.697649 No lane lines detected, nothing to do.
+time=1608500952.7670891 Pos: [0.6836823  0.         2.42030997] angle -1.5993361716272676
+time=1608500952.8722148 No lane lines detected, nothing to do.
+time=1608500952.9397101 Pos: [0.68275171 0.         2.45290792] angle -1.5993361716272676
+time=1608500953.0431614 No lane lines detected, nothing to do.
+time=1608500953.1099007 Pos: [0.68182111 0.         2.48550586] angle -1.5993361716272676
+time=1608500953.21226 No lane lines detected, nothing to do.
+time=1608500953.284575 Pos: [0.68089052 0.         2.51810381] angle -1.5993361716272676
+time=1608500953.3818784 No lane lines detected, nothing to do.
+time=1608500953.4472249 Pos: [0.67995993 0.         2.55070176] angle -1.5993361716272676
+time=1608500953.5422935 No lane lines detected, nothing to do.
+time=1608500953.6092527 Pos: [0.67902933 0.         2.5832997 ] angle -1.5993361716272676
+time=1608500953.7171593 No lane lines detected, nothing to do.
+time=1608500953.7901227 Pos: [0.67809874 0.         2.61589765] angle -1.5993361716272676
+time=1608500953.8968756 No lane lines detected, nothing to do.
+time=1608500953.9633913 Pos: [0.67716815 0.         2.6484956 ] angle -1.5993361716272676
+time=1608500954.070099 No lane lines detected, nothing to do.
+time=1608500954.1328373 Pos: [0.67623756 0.         2.68109355] angle -1.5993361716272676
+time=1608500954.234396 No lane lines detected, nothing to do.
+time=1608500954.3137577 Pos: [0.67530696 0.         2.71369149] angle -1.5993361716272676
+time=1608500954.4154756 No lane lines detected, nothing to do.
+time=1608500954.4872286 Pos: [0.67437637 0.         2.74628944] angle -1.5993361716272676
+time=1608500954.5903661 No lane lines detected, nothing to do.
+time=1608500954.651834 Pos: [0.67344578 0.         2.77888739] angle -1.5993361716272676
+time=1608500954.7597597 No lane lines detected, nothing to do.
+time=1608500954.8318331 Pos: [0.67251518 0.         2.81148533] angle -1.5993361716272676
+time=1608500954.9257152 No lane lines detected, nothing to do.
+time=1608500954.9960287 Pos: [0.67158459 0.         2.84408328] angle -1.5993361716272676
+time=1608500955.1028306 No lane lines detected, nothing to do.
+time=1608500955.1667168 Pos: [0.670654   0.         2.87668123] angle -1.5993361716272676
+time=1608500955.266906 No lane lines detected, nothing to do.
+time=1608500955.3406649 Pos: [0.6697234  0.         2.90927918] angle -1.5993361716272676
+time=1608500955.4443192 No lane lines detected, nothing to do.
+time=1608500955.5155907 Pos: [0.66879281 0.         2.94187712] angle -1.5993361716272676
+time=1608500955.6194062 No lane lines detected, nothing to do.
+time=1608500955.6859093 Pos: [0.66786222 0.         2.97447507] angle -1.5993361716272676
+time=1608500955.7879622 No lane lines detected, nothing to do.
+time=1608500955.8568113 Pos: [0.66693163 0.         3.00707302] angle -1.5993361716272676
+time=1608500955.9610085 No lane lines detected, nothing to do.
+time=1608500956.031077 Pos: [0.66600103 0.         3.03967096] angle -1.5993361716272676
+time=1608500956.1372871 No lane lines detected, nothing to do.
+time=1608500956.2095683 Pos: [0.66507044 0.         3.07226891] angle -1.5993361716272676
+time=1608500956.3127022 No lane lines detected, nothing to do.
+time=1608500956.3795147 Pos: [0.66413985 0.         3.10486686] angle -1.5993361716272676
+time=1608500956.486232 No lane lines detected, nothing to do.
+time=1608500956.5574167 Pos: [0.66320925 0.         3.13746481] angle -1.5993361716272676
+time=1608500956.6566029 No lane lines detected, nothing to do.
+time=1608500956.7243905 Pos: [0.66227866 0.         3.17006275] angle -1.5993361716272676
+time=1608500956.8297985 No lane lines detected, nothing to do.
+time=1608500956.8948615 Pos: [0.66134807 0.         3.2026607 ] angle -1.5993361716272676
+time=1608500956.992893 No lane lines detected, nothing to do.
+time=1608500957.0624425 Pos: [0.66041747 0.         3.23525865] angle -1.5993361716272676
+time=1608500957.1634293 No lane lines detected, nothing to do.
+time=1608500957.2357395 Pos: [0.65948688 0.         3.26785659] angle -1.5993361716272676
+time=1608500957.3385236 No lane lines detected, nothing to do.
+time=1608500957.4071536 [0.58427169 0.         3.27432412] corresponds to tile at (0, 5) which is not drivable: {'coords': (0, 5), 'kind': 'asphalt', 'angle': 0, 'drivable': False, 'texture': <gym_duckietown.graphics.Texture object at 0x7fe7b3e31198>, 'color': array([1, 1, 1])}
+time=1608500957.4083161 Invalid pose. Collision free: True On drivable area: False
+time=1608500957.408416 safety_factor: 1.0
+time=1608500957.4087985 pos: [0.65924115 0.         3.27646432]
+time=1608500957.4091475 l_pos: [0.73421061 0.         3.27860451]
+time=1608500957.4094858 r_pos: [0.58427169 0.         3.27432412]
+time=1608500957.4098313 f_pos: [0.65667291 0.         3.36642766]
+time=1608500957.4099164 Stopping the simulator because we are at an invalid pose.
+time=1608500957.4102592 Pos: [0.65855629 0.         3.30045454] angle -1.5993361716272676
+sergey2
+0
+step=1
+0
+step=2
+0
+step=3
+0
+step=4
+0
+step=5
+0
+step=6
+0
+step=7
+0
+step=8
+0
+step=9
+0
+step=10
+0
+step=11
+0
+step=12
+0
+step=13
+0
+step=14
+0
+step=15
+0
+step=16
+0
+step=17
+0
+step=18
+0
+step=19
+0
+step=20
+0
+step=21
+0
+step=22
+0
+step=23
+0
+step=24
+0
+step=25
+0
+step=26
+0
+step=27
+0
+step=28
+0
+step=29
+0
+step=30
+0
+step=31
+0
+step=32
+0
+step=33
+0
+step=34
+0
+step=35
+0
+step=36
+0
+step=37
+0
+step=38
+0
+step=39
+0
+step=40
+0
+step=41
+0
+step=42
+0
+step=43
+0
+step=44
+0
+step=45
+0
+step=46
+0
+step=47
+0
+step=48
+0
+step=49
+0
+step=50
+0
+step=51
+0
+step=52
+0
+step=53
+0
+step=54
+0
+step=55
+0
+step=56
+0
+step=57
+0
+step=58
+0
+step=59
+0
+step=60
+0
+step=61
+0
+step=62
+0
+step=63
+0
+step=64
+0
+step=65
+0
+step=66
+0
+step=67
+0
+step=68
+0
+step=69
+0
+step=70
+0
+step=71
+0
+step=72
+total reward =  20.01502201284432
+False: Incorrect solution execution: Stopping the simulator because we are at an invalid pose.
