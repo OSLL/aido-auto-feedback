@@ -1,0 +1,27 @@
+AttributeError: module 'gym_duckietown.tasks.ride_1_m.solutions.solution' has no attribute 'Ride1MTaskSolution'
+False: Non-zero return code, probably a syntax error occurred\ntime=1609466572.5510254 gym-duckietown 2019.0.0
+
+time=1609466572.787046 Registering gym environment id: Duckietown-4way-v0
+time=1609466572.7872097 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1609466572.7873118 Registering gym environment id: Duckietown-loop_empty-v0
+time=1609466572.7874522 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1609466572.7875547 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1609466572.787649 Registering gym environment id: Duckietown-small_loop-v0
+time=1609466572.7877676 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1609466572.78788 Registering gym environment id: Duckietown-straight_road-v0
+time=1609466572.7879953 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1609466572.788081 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1609466572.7881994 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1609466572.7882934 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1609466572.7883787 Registering gym environment id: Duckietown-udem1-v0
+time=1609466572.7884872 Registering gym environment id: Duckietown-zigzag_dists-v0
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib/python3.6/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/ride_1_m/checker.py", line 6, in <module>
+    checkers=[StopAtCoordinatesChecker()]
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/solution_evaluator.py", line 33, in __init__
+    self.solution_class = getattr(solution_file_as_module, solution_class_name)
+AttributeError: module 'gym_duckietown.tasks.ride_1_m.solutions.solution' has no attribute 'Ride1MTaskSolution'
