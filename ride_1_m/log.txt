@@ -1,0 +1,35 @@
+84.55284552845521
+TestFalse: Non-zero return code, probably a syntax error occurred\ntime=1612022147.3221087 gym-duckietown 2019.0.0
+
+time=1612022149.407483 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1612022149.4076626 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1612022149.407791 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1612022149.4078913 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1612022149.407971 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1612022149.4080691 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1612022149.4082043 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1612022149.4083295 Registering gym environment id: Duckietown-4way-v0
+time=1612022149.408427 Registering gym environment id: Duckietown-loop_empty-v0
+time=1612022149.40854 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1612022149.408641 Registering gym environment id: Duckietown-straight_road-v0
+time=1612022149.408729 Registering gym environment id: Duckietown-small_loop-v0
+time=1612022149.4088829 Registering gym environment id: Duckietown-udem1-v0
+time=1612022149.4090247 Registering gym environment id: Duckietown-zigzag_dists-v0
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib/python3.6/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/ride_1_m/checker.py", line 6, in <module>
+    checkers=[StopAtCoordinatesChecker()]
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/solution_evaluator.py", line 33, in __init__
+    self.solution_class = getattr(solution_file_as_module, solution_class_name)
+AttributeError: module 'gym_duckietown.tasks.ride_1_m.solutions.solution' has no attribute 'Ride1MTaskSolution'
+0.6 0.008333333333333333 0.5773502691896258
+	 0.11020408163265305
+	 0.27297794117647056
+	 54.59558823529411
+0.8 0.0062499999999999995 0.5773502691896258
+	 0.20983606557377055
+	 0.42276422764227606
+	 84.55284552845521
