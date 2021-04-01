@@ -1,0 +1,1547 @@
+False: Incorrect solution execution: Stopping the simulator because we are at an invalid pose.
+time=1617295234.5843954 gym-duckietown 2019.0.0
+
+time=1617295234.8089592 Registering gym environment id: Duckietown-4way-v0
+time=1617295234.8091218 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1617295234.8092248 Registering gym environment id: Duckietown-loop_empty-v0
+time=1617295234.8093507 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1617295234.809441 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1617295234.8095179 Registering gym environment id: Duckietown-small_loop-v0
+time=1617295234.8096018 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1617295234.809715 Registering gym environment id: Duckietown-straight_road-v0
+time=1617295234.8098087 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1617295234.8099236 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1617295234.8100154 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1617295234.8100965 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1617295234.810182 Registering gym environment id: Duckietown-udem1-v0
+time=1617295234.8102586 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1617295236.7147262 Falling back to non-multisampled frame buffer
+time=1617295236.7183142 Falling back to non-multisampled frame buffer
+time=1617295236.7224545 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/zigzag_dists.yaml"
+time=1617295236.7420018 loading mesh "duckiebot.obj"
+time=1617295236.7422986 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1617295237.1967063 loading mesh "bus.obj"
+time=1617295237.2112265 loading texture "bus.png"
+time=1617295237.5901196 loading mesh "truck.obj"
+time=1617295237.60632 loading texture "truck.png"
+time=1617295237.983589 loading mesh "tree.obj"
+time=1617295237.9839787 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/tree.mtl"
+time=1617295237.9876008 loading mesh "sign_blank.obj"
+time=1617295237.9901912 loading texture "sign_blank.png"
+time=1617295238.0840251 loading texture "asphalt_1.png"
+time=1617295238.3100703 loading texture "curve_left_1.png"
+time=1617295238.3197858 loading texture "straight_1.png"
+time=1617295238.3289456 loading texture "curve_right_1.png"
+time=1617295238.3452315 using user tile start: (1, 1)
+time=1617295238.3461642 tile: {'coords': (1, 1), 'kind': 'curve_left', 'angle': 3, 'drivable': True, 'curves': array([[[1.17  , 0.    , 0.7605],
+        [0.8775, 0.    , 0.7605],
+        [0.7605, 0.    , 0.8775],
+        [0.7605, 0.    , 1.17  ]],
+
+       [[0.9945, 0.    , 1.17  ],
+        [0.9945, 0.    , 1.053 ],
+        [1.053 , 0.    , 0.9945],
+        [1.17  , 0.    , 0.9945]]]), 'texture': <gym_duckietown.graphics.Texture object at 0x7fcecebf6940>, 'color': array([1, 1, 1])}
+time=1617295238.3477328 road_tile_size=0.585
+time=1617295238.3480656 Starting at [0.75981951 0.         0.945843  ] -1.5929037987404016
+time=1617295238.3483653 Pos: [0.75981951 0.         0.945843  ] angle -1.5929037987404016
+time=1617295238.5999992 using DuckietownEnv
+/usr/local/lib/python3.6/dist-packages/gym/logger.py:30: UserWarning: [33mWARN: Box bound precision lowered by casting to float32[0m
+  warnings.warn(colorize('%s: %s'%('WARN', msg % args), 'yellow'))
+time=1617295238.804703 Pos: [0.75981951 0.         0.945843  ] angle -1.5929037987404016
+time=1617295239.07386 Pos: [0.75947863 0.         0.96447482] angle -1.5852758250889043
+time=1617295239.1930323 Pos: [0.75927209 0.         0.98310863] angle -1.578483715221369
+time=1617295239.3097897 Pos: [0.75918394 0.         1.00174338] angle -1.5725693565992267
+time=1617295239.422136 Pos: [0.75919821 0.         1.02037834] angle -1.567492377819151
+time=1617295239.5345304 Pos: [0.75929967 0.         1.03901304] angle -1.5632104986087016
+time=1617295239.6455173 Pos: [0.75947461 0.         1.05764719] angle -1.5596069140416378
+time=1617295239.7544444 Pos: [0.75971159 0.         1.07628067] angle -1.556550693902183
+time=1617295239.8633265 Pos: [0.7600005  0.         1.09491341] angle -1.5540334068077584
+time=1617295239.9739022 Pos: [0.76033096 0.         1.11354546] angle -1.5520910245847963
+time=1617295240.0888133 Pos: [0.76069309 0.         1.13217693] angle -1.5506340366836866
+time=1617295240.2003648 Pos: [0.76107953 0.         1.15080791] angle -1.5494801422759417
+time=1617295240.3160777 Pos: [0.76148369 0.         1.16943851] angle -1.5487327780208222
+time=1617295240.425677 Pos: [0.76189757 0.         1.1880689 ] angle -1.548437046491547
+time=1617295240.5383594 Pos: [0.76231453 0.         1.20669923] angle -1.5484017599771183
+time=1617295240.6473677 Pos: [0.76273045 0.         1.22532957] angle -1.5485481727725288
+time=1617295240.757408 Pos: [0.76314189 0.         1.24396001] angle -1.5488833792626706
+time=1617295240.8673608 Pos: [0.76354332 0.         1.26259068] angle -1.5496222271351896
+time=1617295240.9782102 Pos: [0.76393057 0.         1.28122164] angle -1.5504057848843458
+time=1617295241.0909138 Pos: [0.76430342 0.         1.2998529 ] angle -1.5511684553362621
+time=1617295241.201578 Pos: [0.76466008 0.         1.31848447] angle -1.552143522227508
+time=1617295241.3123276 Pos: [0.76499855 0.         1.33711638] angle -1.553119977617528
+time=1617295241.4242175 Pos: [0.76532035 0.         1.35574859] angle -1.553934194062654
+time=1617295241.5351324 Pos: [0.76562761 0.         1.37438104] angle -1.5546803111672336
+time=1617295241.6441314 Pos: [0.76592392 0.         1.39301367] angle -1.5551097113208223
+time=1617295241.7559423 Pos: [0.76621406 0.         1.4116464 ] angle -1.555342663468865
+time=1617295241.8670747 Pos: [0.76650188 0.         1.43027917] angle -1.5553578055457098
+time=1617295241.977441 Pos: [0.76679276 0.         1.44891188] angle -1.5550153037757728
+time=1617295242.088894 Pos: [0.76709071 0.         1.46754449] angle -1.5545985741706594
+time=1617295242.1968226 Pos: [0.76739786 0.         1.48617694] angle -1.5540273341857929
+time=1617295242.3070252 Pos: [0.76771565 0.         1.50480922] angle -1.5534569023267186
+time=1617295242.4350467 Pos: [0.76803873 0.         1.52344141] angle -1.5534594493522182
+time=1617295242.5454066 Pos: [0.76836087 0.         1.54207361] angle -1.5535574445768008
+time=1617295242.6543083 Pos: [0.76868094 0.         1.56070585] angle -1.5536820768642274
+time=1617295242.7622852 Pos: [0.76899635 0.         1.57933817] angle -1.554057873000119
+time=1617295242.8707314 Pos: [0.76930341 0.         1.59797062] angle -1.5545784717136975
+time=1617295242.9779077 Pos: [0.76960067 0.         1.61660324] angle -1.555108627206507
+time=1617295243.0873685 Pos: [0.76988786 0.         1.63523601] angle -1.5556601345869334
+time=1617295243.1959589 Pos: [0.77016217 0.         1.65386898] angle -1.5564913485111393
+time=1617295243.302924 Pos: [0.77042095 0.         1.67250217] angle -1.5573270108070312
+time=1617295243.4116838 Pos: [0.77066464 0.         1.69113556] angle -1.5581103758284498
+time=1617295243.5283349 Pos: [0.77089231 0.         1.70976916] angle -1.5590475983586418
+time=1617295243.6373289 Pos: [0.77110095 0.         1.72840298] angle -1.5601517539872878
+time=1617295243.74586 Pos: [0.77128897 0.         1.74703701] angle -1.5612622219193972
+time=1617295243.8544154 Pos: [0.77145657 0.         1.76567125] angle -1.562342547180308
+time=1617295243.9640462 Pos: [0.77160153 0.         1.78430567] angle -1.563691270377446
+time=1617295244.0755005 Pos: [0.77172191 0.         1.80294027] angle -1.5649815311492676
+time=1617295244.1860476 Pos: [0.77181932 0.         1.821575  ] angle -1.5661573866185434
+time=1617295244.2952044 Pos: [0.77189383 0.         1.84020983] angle -1.5674376689022103
+time=1617295244.403723 Pos: [0.77194398 0.         1.85884475] angle -1.5687723662829998
+time=1617295244.5189037 Pos: [0.77197087 0.         1.87747972] angle -1.5699344264394355
+time=1617295244.6258826 Pos: [0.77197683 0.         1.89611471] angle -1.5710186005065891
+time=1617295244.7338936 Pos: [0.77196196 0.         1.91474969] angle -1.5721704733153938
+time=1617295244.8427956 Pos: [0.77192836 0.         1.93338464] angle -1.573028649835485
+time=1617295244.9521136 Pos: [0.77188137 0.         1.95201957] angle -1.5736069869210816
+time=1617295245.0611594 Pos: [0.77182655 0.         1.97065448] angle -1.573869531157545
+time=1617295245.1716158 Pos: [0.77176945 0.         1.98928938] angle -1.573850977085796
+time=1617295245.2794242 Pos: [0.77171546 0.         2.00792428] angle -1.5735363305452867
+time=1617295245.3865895 Pos: [0.77167147 0.         2.02655922] angle -1.5727768668754076
+time=1617295245.493833 Pos: [0.77164357 0.         2.04519418] angle -1.5718110677855248
+time=1617295245.6168263 Pos: [0.77163501 0.         2.06382917] angle -1.5706999602627818
+time=1617295245.7286422 Pos: [0.77164798 0.         2.08246415] angle -1.5695000088013724
+time=1617295245.8356729 Pos: [0.77167851 0.         2.10109911] angle -1.5688164370375794
+time=1617295245.9440982 Pos: [0.77172059 0.         2.11973405] angle -1.5682598307383289
+time=1617295246.0539682 Pos: [0.77177293 0.         2.13836897] angle -1.5677159693887626
+time=1617295246.1600218 Pos: [0.77183433 0.         2.15700385] angle -1.5672869183048255
+time=1617295246.2673619 Pos: [0.77190142 0.         2.17563872] angle -1.5671053277288993
+time=1617295246.3758218 Pos: [0.77197157 0.         2.19427357] angle -1.5669580416945712
+time=1617295246.4848478 Pos: [0.772044   0.         2.21290842] angle -1.566861019711954
+time=1617295246.590646 Pos: [0.77211609 0.         2.23154327] angle -1.5669951129847859
+time=1617295246.7061012 Pos: [0.77218488 0.         2.25017813] angle -1.5672137998726416
+time=1617295246.8118303 Pos: [0.77224987 0.         2.268813  ] angle -1.5674046624114697
+shift_center=2.5349915275317585 shift_yellow=-137.1959689131445  shift_white=142.26595196820801
+move by both lines
+shift_center=4.448785247291511 shift_yellow=-135.08440833199347  shift_white=143.9819788265765
+move by both lines
+shift_center=6.458484498742536 shift_yellow=-132.6085509924764  shift_white=145.52551998996148
+move by both lines
+shift_center=8.375749385138818 shift_yellow=-130.10348045705123  shift_white=146.8549792273289
+move by both lines
+shift_center=10.196209359755017 shift_yellow=-127.69281755624594  shift_white=148.08523627575602
+move by both lines
+shift_center=11.749232775250675 shift_yellow=-125.64478269387784  shift_white=149.14324824437927
+move by both lines
+shift_center=13.002478368704317 shift_yellow=-124.02526858883752  shift_white=150.03022532624618
+move by both lines
+shift_center=14.23641946860576 shift_yellow=-122.3815208531736  shift_white=150.8543597903851
+move by both lines
+shift_center=15.55272166230597 shift_yellow=-120.45600189369007  shift_white=151.56144521830197
+move by both lines
+shift_center=16.66408050161914 shift_yellow=-118.9032372210442  shift_white=152.23139822428243
+move by both lines
+shift_center=17.358043364027168 shift_yellow=-118.07541722188975  shift_white=152.79150394994406
+move by both lines
+shift_center=18.28883480147846 shift_yellow=-116.73249727291254  shift_white=153.3101668758694
+move by both lines
+shift_center=19.3228930905712 shift_yellow=-115.15785477368675  shift_white=153.80364095482918
+move by both lines
+shift_center=19.919207996564012 shift_yellow=-114.34522591548348  shift_white=154.18364190861143
+move by both lines
+shift_center=20.33522673637188 shift_yellow=-113.8486054940038  shift_white=154.5190589667476
+move by both lines
+shift_center=20.767488779828568 shift_yellow=-113.38505889269624  shift_white=154.92003645235337
+move by both lines
+shift_center=21.691666088919504 shift_yellow=-111.97625654586192  shift_white=155.35958872370094
+move by both lines
+shift_center=21.79403382246784 shift_yellow=-112.09277097638974  shift_white=155.6808386213254
+move by both lines
+shift_center=21.746210266707607 shift_yellow=-112.45568801748658  shift_white=155.9481085509018
+move by both lines
+shift_center=22.23251315419654 shift_yellow=-111.8009175979263  shift_white=156.26594390631942
+move by both lines
+shift_center=22.23569226098965 shift_yellow=-111.89418319073454  shift_white=156.3655677127138
+move by both lines
+shift_center=21.86422997276094 shift_yellow=-112.64790834682327  shift_white=156.3763682923452
+move by both lines
+shift_center=21.708309722645254 shift_yellow=-112.83425778302548  shift_white=156.25087722831597
+move by both lines
+shift_center=20.98315459165687 shift_yellow=-114.17287132255306  shift_white=156.13918050586688
+move by both lines
+shift_center=20.533367238158434 shift_yellow=-114.80023689439187  shift_white=155.8669713707087
+move by both lines
+shift_center=20.034669299143673 shift_yellow=-115.6687012835993  shift_white=155.73803988188672
+move by both lines
+shift_center=19.215807947552292 shift_yellow=-117.28328863003844  shift_white=155.71490452514303
+move by both lines
+shift_center=19.045855896132423 shift_yellow=-117.79211574496473  shift_white=155.88382753722954
+move by both lines
+shift_center=18.692088930649447 shift_yellow=-118.57723857227636  shift_white=155.9614164335752
+move by both lines
+shift_center=18.693939215463587 shift_yellow=-118.61966253787719  shift_white=156.0075409688044
+move by both lines
+shift_center=20.005831669584097 shift_yellow=-116.09949490521014  shift_white=156.11115824437832
+move by both lines
+shift_center=20.224369866203972 shift_yellow=-115.66753589689505  shift_white=156.11627562930295
+move by both lines
+shift_center=20.285358085292046 shift_yellow=-115.54113869139707  shift_white=156.1118548619811
+move by both lines
+shift_center=20.860422832737612 shift_yellow=-114.46516971545297  shift_white=156.1860153809282
+move by both lines
+shift_center=21.191962814608985 shift_yellow=-113.79857868318001  shift_white=156.18250431239795
+move by both lines
+shift_center=21.213844016336964 shift_yellow=-113.73094978241211  shift_white=156.15863781508602
+move by both lines
+shift_center=21.262731298223997 shift_yellow=-113.65246653734758  shift_white=156.1779291337956
+move by both lines
+shift_center=21.903147400861997 shift_yellow=-112.38059024546864  shift_white=156.18688504719267
+move by both lines
+shift_center=21.913332392673908 shift_yellow=-112.34610669219818  shift_white=156.172771477546
+move by both lines
+shift_center=21.793592553040156 shift_yellow=-112.62121565223627  shift_white=156.20840075831654
+move by both lines
+shift_center=22.145864705127906 shift_yellow=-111.89108886720724  shift_white=156.18281827746307
+move by both lines
+shift_center=22.528074727347644 shift_yellow=-111.13104791044104  shift_white=156.18719736513634
+move by both lines
+shift_center=22.54252737735777 shift_yellow=-111.20096674538532  shift_white=156.28602150010084
+move by both lines
+shift_center=22.473512717381567 shift_yellow=-111.39361270907146  shift_white=156.3406381438346
+move by both lines
+shift_center=23.08803663216662 shift_yellow=-110.16209200118617  shift_white=156.33816526551936
+move by both lines
+shift_center=22.95418106316282 shift_yellow=-110.5196777426353  shift_white=156.42803986896092
+move by both lines
+shift_center=22.692238682453876 shift_yellow=-111.11992638712276  shift_white=156.5044037520305
+move by both lines
+shift_center=22.93133431668386 shift_yellow=-110.69153454364512  shift_white=156.55420317701282
+move by both lines
+shift_center=23.055923123055777 shift_yellow=-110.53307018076322  shift_white=156.64491642687477
+move by both lines
+shift_center=22.660652934175005 shift_yellow=-111.45492587977873  shift_white=156.7762317481288
+move by both lines
+shift_center=22.48232494415481 shift_yellow=-111.72405625550104  shift_white=156.6887061438107
+move by both lines
+shift_center=22.637327983039086 shift_yellow=-111.44711019634778  shift_white=156.72176616242592
+move by both lines
+shift_center=21.96488096040096 shift_yellow=-112.53879313032365  shift_white=156.46855505112558
+move by both lines
+shift_center=21.32416059118185 shift_yellow=-113.67264641826533  shift_white=156.320967600629
+move by both lines
+shift_center=20.60112128380655 shift_yellow=-114.78640968022127  shift_white=155.98865224783435
+move by both lines
+shift_center=19.957518597323315 shift_yellow=-115.69886800783671  shift_white=155.61390520248335
+move by both lines
+shift_center=19.2795852808502 shift_yellow=-116.71571670567651  shift_white=155.27488726737693
+move by both lines
+shift_center=18.261131981444663 shift_yellow=-118.66839553072019  shift_white=155.19065949360953
+move by both lines
+shift_center=17.78870640380441 shift_yellow=-119.57384053197846  shift_white=155.1512533395873
+move by both lines
+shift_center=17.456008215927483 shift_yellow=-120.32409885070867  shift_white=155.23611528256367
+move by both lines
+shift_center=17.25259113395714 shift_yellow=-120.7172075859214  shift_white=155.2223898538357
+move by both lines
+shift_center=18.434894089619718 shift_yellow=-118.44184832447873  shift_white=155.31163650371815
+move by both lines
+shift_center=18.725594217235795 shift_yellow=-117.83702718688649  shift_white=155.28821562135806
+move by both lines
+shift_center=18.754775054032876 shift_yellow=-117.68879222181863  shift_white=155.19834232988444
+move by both lines
+shift_center=19.017644638217575 shift_yellow=-117.25572031236769  shift_white=155.2910095888028
+move by both lines
+shift_center=19.58423021735976 shift_yellow=-116.16370466621379  shift_white=155.3321651009333
+move by both lines
+shift_center=19.662773895802218 shift_yellow=-116.00632341554419  shift_white=155.33187120714865
+move by both lines
+shift_center=19.77785846859922 shift_yellow=-115.81459190097563  shift_white=155.37030883817408
+move by both lines
+shift_center=20.307019957476086 shift_yellow=-114.75417227218225  shift_white=155.36821218713442
+move by both lines
+shift_center=20.500705498434712 shift_yellow=-114.35725139848299  shift_white=155.35866239535244
+move by both lines
+shift_center=20.4369988689009 shift_yellow=-114.4971719946419  shift_white=155.37116973244366
+move by both lines
+shift_center=20.61998077006598 shift_yellow=-114.17934761455554  shift_white=155.41930915468748time=1617295246.9202638 Pos: [0.77231055 0.         2.28744789] angle -1.5676754436702336
+time=1617295247.0308943 Pos: [0.77236338 0.         2.3060828 ] angle -1.5682462954960494
+time=1617295247.138128 Pos: [0.7724061  0.         2.32471774] angle -1.5687614450081961
+time=1617295247.2451558 Pos: [0.7724394 0.        2.3433527] angle -1.569258167241515
+time=1617295247.3508315 Pos: [0.77246126 0.         2.36198767] angle -1.5699881004573732
+time=1617295247.458618 Pos: [0.77246948 0.         2.38062266] angle -1.570722076981791
+time=1617295247.5654392 Pos: [0.77246451 0.         2.39925764] angle -1.5714045540620647
+time=1617295247.6795454 Pos: [0.77244667 0.         2.41789262] angle -1.5721018783170262
+time=1617295247.7875683 Pos: [0.77241371 0.         2.43652758] angle -1.573028257976275
+time=1617295247.8955173 Pos: [0.77236495 0.         2.4551625 ] angle -1.5737977977905306
+time=1617295248.0024507 Pos: [0.7723028  0.         2.47379738] angle -1.5744656155675185
+time=1617295248.110082 Pos: [0.77222743 0.         2.49243222] angle -1.5752157705237064
+time=1617295248.2184298 Pos: [0.77213965 0.         2.511067  ] angle -1.5757976650502552
+time=1617295248.3276215 Pos: [0.77204338 0.         2.52970174] angle -1.5761272201497918
+time=1617295248.4406214 Pos: [0.77194327 0.         2.54833645] angle -1.5762102426760252
+time=1617295248.5471113 Pos: [0.77184471 0.         2.56697118] angle -1.575960520958134
+time=1617295248.6549058 Pos: [0.77175302 0.         2.58560594] angle -1.5754726194471538
+time=1617295248.763997 Pos: [0.77167316 0.         2.60424076] angle -1.5746912643848556
+time=1617295248.8704152 Pos: [0.7716111  0.         2.62287564] angle -1.5735613306842167
+time=1617295248.9767334 Pos: [0.77157064 0.         2.64151058] angle -1.5723737544599865
+time=1617295249.0873988 Pos: [0.77155366 0.         2.66014556] angle -1.5710410303122961
+time=1617295249.1935737 Pos: [0.77155978 0.         2.67878055] angle -1.5698949023151239
+time=1617295249.3029811 Pos: [0.77158313 0.         2.69741552] angle -1.5691916990431856
+time=1617295249.4103966 Pos: [0.7716197  0.         2.71605047] angle -1.568476981847647
+time=1617295249.5161834 Pos: [0.77166885 0.         2.73468539] angle -1.5678403599995463
+time=1617295249.6229353 Pos: [0.77172705 0.         2.75332029] angle -1.5675052686169366
+time=1617295249.7349763 Pos: [0.77179093 0.         2.77195517] angle -1.5672314540891121
+time=1617295249.8529332 Pos: [0.77185926 0.         2.79059003] angle -1.5670284782862407
+time=1617295249.959295 Pos: [0.77192999 0.         2.80922488] angle -1.5669721863596222
+time=1617295250.0701396 Pos: [0.77199974 0.         2.82785974] angle -1.5671354602009873
+time=1617295250.1792867 Pos: [0.77206637 0.         2.8464946 ] angle -1.5673054639755228
+time=1617295250.286432 Pos: [0.77212975 0.         2.86512948] angle -1.5674851100550247
+time=1617295250.3961468 Pos: [0.77218731 0.         2.88376438] angle -1.5679296200577812
+time=1617295250.5021276 Pos: [0.77223616 0.         2.90239931] angle -1.5684203216360004
+time=1617295250.6111255 Pos: [0.77227666 0.         2.92103425] angle -1.568826364485575
+time=1617295250.718665 Pos: [0.77230803 0.         2.93966921] angle -1.5693985422607244
+time=1617295250.8374658 Pos: [0.77232701 0.         2.95830419] angle -1.5701575509429304
+time=1617295250.945162 Pos: [0.7723326  0.         2.97693917] angle -1.5708353785863003
+time=1617295251.0559745 Pos: [0.77232607 0.         2.99557416] angle -1.5714576195958756
+time=1617295251.1621926 Pos: [0.7723055  0.         3.01420913] angle -1.5723433594505252
+time=1617295251.269871 Pos: [0.77226876 0.         3.03284408] angle -1.5731922913562895
+time=1617295251.3773499 Pos: [0.77221821 0.         3.051479  ] angle -1.5738258880495761
+time=1617295251.4842043 Pos: [0.77215498 0.         3.07011388] angle -1.5745527931328462
+time=1617295251.5916872 Pos: [0.77207856 0.         3.08874871] angle -1.5752411536718425
+time=1617295251.699732 Pos: [0.77199208 0.         3.1073835 ] angle -1.575633381137249
+time=1617295251.8091257 Pos: [0.77190018 0.         3.12601826] angle -1.5758225810280204
+time=1617295251.9403975 Pos: [0.77180698 0.         3.14465301] angle -1.575772383956939
+time=1617295252.0495868 Pos: [0.77171774 0.         3.16328779] angle -1.5753982429168294
+time=1617295252.1576734 Pos: [0.77163827 0.         3.1819226 ] angle -1.574723543853309
+time=1617295252.2653005 Pos: [0.7715742  0.         3.20055748] angle -1.5737449058261328
+time=1617295252.3739188 Pos: [0.7715298  0.         3.21919241] angle -1.5726129000622788
+time=1617295252.481242 Pos: [0.77150831 0.         3.23782739] angle -1.5712869483992706
+time=1617295252.5879693 Pos: [0.7715114  0.         3.25646237] angle -1.5699733358111223
+time=1617295252.6950483 Pos: [0.7715336  0.         3.27509735] angle -1.569237544928745
+time=1617295252.802334 Pos: [0.77156908 0.         3.2937323 ] angle -1.5685466354026065
+time=1617295252.9116414 Pos: [0.77161734 0.         3.31236722] angle -1.5678665767240607
+time=1617295253.0240228 Pos: [0.77167674 0.         3.33100212] angle -1.5673508110662766
+time=1617295253.130318 Pos: [0.7717441  0.         3.34963698] angle -1.5670130858163989
+time=1617295253.2370543 Pos: [0.77181708 0.         3.36827182] angle -1.5667463367913277
+time=1617295253.3450668 Pos: [0.77189464 0.         3.38690665] angle -1.5665227727945343
+time=1617295253.4519107 Pos: [0.77197372 0.         3.40554147] angle -1.5665819280013005
+time=1617295253.5621622 Pos: [0.7720512 0.        3.4241763] angle -1.566695368062921
+time=1617295253.6729815 Pos: [0.77212576 0.         3.44281113] angle -1.5668952376629468
+time=1617295253.7823346 Pos: [0.77219451 0.         3.46144599] angle -1.5673191098846364
+time=1617295253.8894265 Pos: [0.77225327 0.         3.48008089] angle -1.5679664716763857
+time=1617295254.0105093 Pos: [0.77229994 0.         3.49871582] angle -1.5686171880641444
+time=1617295254.1206355 Pos: [0.77233258 0.         3.51735077] angle -1.56947274054011
+time=1617295254.2276905 Pos: [0.7723457  0.         3.53598576] angle -1.57071183361402
+time=1617295254.3345609 Pos: [0.77233636 0.         3.55462074] angle -1.5718829738587239
+time=1617295254.441772 Pos: [0.77230651 0.         3.5732557 ] angle -1.5729141042334318
+time=1617295254.5496793 Pos: [0.772256   0.         3.59189062] angle -1.574099386802178
+
+move by both lines
+shift_center=21.3070223403881 shift_yellow=-112.96200659321393  shift_white=155.57605127399012
+move by both lines
+shift_center=21.179486323010906 shift_yellow=-113.13237483929659  shift_white=155.49134748531839
+move by both lines
+shift_center=21.137295225406774 shift_yellow=-113.26478775149059  shift_white=155.53937820230414
+move by both lines
+shift_center=21.671255091029423 shift_yellow=-112.26069987241328  shift_white=155.60321005447213
+move by both lines
+shift_center=21.680512650306838 shift_yellow=-112.25091864318013  shift_white=155.6119439437938
+move by both lines
+shift_center=21.562599522995157 shift_yellow=-112.54388400194591  shift_white=155.66908304793623
+move by both lines
+shift_center=21.59659361415973 shift_yellow=-112.59486111743288  shift_white=155.78804834575237
+move by both lines
+shift_center=22.12103886781611 shift_yellow=-111.62390906769402  shift_white=155.86598680332622
+move by both lines
+shift_center=21.761938358719732 shift_yellow=-112.43005019354118  shift_white=155.9539269109806
+move by both lines
+shift_center=21.529035582191256 shift_yellow=-112.95471036174852  shift_white=156.012781526131
+move by both lines
+shift_center=21.71755478768793 shift_yellow=-112.64534625958481  shift_white=156.08045583496073
+move by both lines
+shift_center=21.332305707986052 shift_yellow=-113.31104094411398  shift_white=155.97565236008603
+move by both lines
+shift_center=20.754549355899087 shift_yellow=-114.4196428752058  shift_white=155.92874158700397
+move by both lines
+shift_center=20.19008837606367 shift_yellow=-115.22932316511186  shift_white=155.6094999172392
+move by both lines
+shift_center=19.42823715471664 shift_yellow=-116.38811597436981  shift_white=155.24459028380306
+move by both lines
+shift_center=18.882900700459828 shift_yellow=-117.22768037987015  shift_white=154.9934817807898
+move by both lines
+shift_center=18.21100944936208 shift_yellow=-118.41046225974684  shift_white=154.83248115847096
+move by both lines
+shift_center=17.41290379901693 shift_yellow=-119.95086784054244  shift_white=154.77667543857626
+move by both lines
+shift_center=17.280925477002626 shift_yellow=-120.29516583722786  shift_white=154.85701679123315
+move by both lines
+shift_center=16.948594791448045 shift_yellow=-121.09993082587904  shift_white=154.99712040877517
+move by both lines
+shift_center=17.37582533767406 shift_yellow=-120.34727892554298  shift_white=155.09892960089115
+move by both lines
+shift_center=18.389945788570202 shift_yellow=-118.35369530378617  shift_white=155.1335868809266
+move by both lines
+shift_center=18.363583509094866 shift_yellow=-118.3529925573166  shift_white=155.0801595755063
+move by both lines
+shift_center=18.54239061658862 shift_yellow=-117.98358488275863  shift_white=155.06836611593587
+move by both lines
+shift_center=19.23277477037712 shift_yellow=-116.7562748713626  shift_white=155.22182441211686
+move by both lines
+shift_center=19.373074257093094 shift_yellow=-116.42250976880842  shift_white=155.1686582829946
+move by both lines
+shift_center=19.535266601745633 shift_yellow=-116.13852565115155  shift_white=155.20905885464282
+move by both lines
+shift_center=19.87111400481413 shift_yellow=-115.51237593541265  shift_white=155.2546039450409
+move by both lines
+shift_center=20.373831787189545 shift_yellow=-114.58335490661071  shift_white=155.33101848098977
+move by both lines
+shift_center=20.389240642176617 shift_yellow=-114.56920266423191  shift_white=155.3476839485851
+move by both lines
+shift_center=20.411317663627415 shift_yellow=-114.57624036985885  shift_white=155.39887569711368
+move by both lines
+shift_center=21.01775010231171 shift_yellow=-113.34233020736848  shift_white=155.3778304119919
+move by both lines
+shift_center=21.123510333490685 shift_yellow=-113.17067196719962  shift_white=155.41769263418098
+move by both lines
+shift_center=20.9296757083861 shift_yellow=-113.55211952835315  shift_white=155.4114709451253
+move by both lines
+shift_center=21.310058233981664 shift_yellow=-112.87121287728404  shift_white=155.49132934524738
+move by both lines
+shift_center=21.73782627877884 shift_yellow=-112.04551272785778  shift_white=155.52116528541546
+move by both lines
+shift_center=21.55195417225974 shift_yellow=-112.55119975015205  shift_white=155.6551080946715
+move by both lines
+shift_center=21.424683015523726 shift_yellow=-112.93634792613005  shift_white=155.7857139571775
+move by both lines
+shift_center=22.027989971205557 shift_yellow=-111.8005759774698  shift_white=155.85655591988086
+move by both lines
+shift_center=21.94371449143813 shift_yellow=-112.02549355686553  shift_white=155.91292253974183
+move by both lines
+shift_center=21.450682988949353 shift_yellow=-113.03238219883676  shift_white=155.9337481767355
+move by both lines
+shift_center=21.664321878655443 shift_yellow=-112.73381735023005  shift_white=156.06246110754097
+move by both lines
+shift_center=21.57607029008568 shift_yellow=-112.83380338173285  shift_white=155.98594396190424
+move by both lines
+shift_center=20.898044004794485 shift_yellow=-114.10251630351206  shift_white=155.89860431310103
+move by both lines
+shift_center=20.43319206991069 shift_yellow=-114.89986019509051  shift_white=155.7662443349119
+move by both lines
+shift_center=19.88506878605196 shift_yellow=-115.76647597093522  shift_white=155.53661354303915
+move by both lines
+shift_center=19.143366674565016 shift_yellow=-116.89851489186937  shift_white=155.18524824099939
+move by both lines
+shift_center=18.45520902416385 shift_yellow=-117.94303829556931  shift_white=154.85345634389705
+move by both lines
+shift_center=17.75931037297775 shift_yellow=-119.28071023622154  shift_white=154.79933098217703
+move by both lines
+shift_center=17.408159603080122 shift_yellow=-120.0676938732385  shift_white=154.88401307939876
+move by both lines
+shift_center=16.964101072376423 shift_yellow=-120.97458388687728  shift_white=154.90278603163011
+move by both lines
+shift_center=16.992352618175573 shift_yellow=-121.06928947086485  shift_white=155.0539947072159
+move by both lines
+shift_center=18.315333195708945 shift_yellow=-118.52593490865121  shift_white=155.1566013000691
+move by both lines
+shift_center=18.418093548953436 shift_yellow=-118.27471931354061  shift_white=155.11090641144744
+move by both lines
+shift_center=18.442937649601475 shift_yellow=-118.15128213994457  shift_white=155.0371574391475
+move by both lines
+shift_center=18.819102949937303 shift_yellow=-117.41142898491817  shift_white=155.0496348847928
+move by both lines
+shift_center=19.226744267880065 shift_yellow=-116.58251656416338  shift_white=155.0360050999235
+move by both lines
+shift_center=19.38925143219717 shift_yellow=-116.27346566521942  shift_white=155.05196852961376
+move by both lines
+shift_center=19.488127872941902 shift_yellow=-116.05138670535811  shift_white=155.02764245124195
+move by both lines
+shift_center=20.135441761411926 shift_yellow=-114.85038635433968  shift_white=155.1212698771635
+move by both lines
+shift_center=20.259732365086506 shift_yellow=-114.60140059060896  shift_white=155.12086532078195
+move by both lines
+shift_center=20.457621436219313 shift_yellow=-114.29957976184956  shift_white=155.2148226342881
+move by both lines
+shift_center=20.970497838780346 shift_yellow=-113.38958647257039  shift_white=155.33058215013114
+move by both lines
+shift_center=21.482199558389397 shift_yellow=-112.38302820099327  shift_white=155.3474273177721
+move by both lines
+shift_center=21.489880241412408 shift_yellow=-112.3367519732164  shift_white=155.3165124560412
+move by both lines
+shift_center=21.958872948970992 shift_yellow=-111.63177780300902  shift_white=155.549523700951
+move by both lines
+shift_center=22.837027502023886 shift_yellow=-109.90179533718211  shift_white=155.57585034122985
+move by both lines
+shift_center=22.68144270427416 shift_yellow=-110.33324774480116  shift_white=155.69613315334948
+move by both lines
+shift_center=22.36087610593114 shift_yellow=-111.04794445819212  shift_white=155.76969667005437
+move by both lines
+shift_center=22.713822969401463 shift_yellow=-110.47627341554937  shift_white=155.9039193543523
+move by both lines
+shift_center=23.05149516403361 shift_yellow=-109.82883685887319  shift_white=155.93182718694038
+move by both lines
+time=1617295254.6575596 Pos: [0.77218203 0.         3.61052546] angle -1.5754321502386008
+time=1617295254.766073 Pos: [0.77208626 0.         3.6291602 ] angle -1.5764383996954265
+time=1617295254.873814 Pos: [0.77196315 0.         3.64779478] angle -1.5783671037445117
+time=1617295254.982009 Pos: [0.77181141 0.         3.66642915] angle -1.5795118201083933
+time=1617295255.0968597 Pos: [0.771642   0.         3.68506336] angle -1.58026271332332
+time=1617295255.205295 Pos: [0.77145064 0.         3.70369736] angle -1.5818681202648257
+time=1617295255.3111992 Pos: [0.77123866 0.         3.72233115] angle -1.5824761231671307
+time=1617295255.4173698 Pos: [0.77102402 0.         3.7409649 ] angle -1.5821530822061585
+time=1617295255.5270336 Pos: [0.7708206  0.         3.75959877] angle -1.5812722842107956
+time=1617295255.6340232 Pos: [0.77063665 0.         3.77823285] angle -1.5800622950168728
+time=1617295255.7451172 Pos: [0.77047656 0.         3.79686715] angle -1.5787126345336042
+time=1617295255.853391 Pos: [0.77034935 0.         3.8155017 ] angle -1.5765324889988197
+time=1617295255.9631655 Pos: [0.77026875 0.         3.83413651] angle -1.5737112899808596
+time=1617295256.074682 Pos: [0.77024442 0.         3.85277147] angle -1.5704923754093034
+time=1617295256.1887512 Pos: [0.77029001 0.         3.87140639] angle -1.5662074245610773
+time=1617295256.2990024 Pos: [0.77042278 0.         3.89004088] angle -1.561135039198001
+time=1617295256.4074059 Pos: [0.77065897 0.         3.90867434] angle -1.5551084334574787
+time=1617295256.5164182 Pos: [0.77101555 0.         3.92730588] angle -1.5482115984522178
+time=1617295256.6233945 Pos: [0.77150786 0.         3.94593432] angle -1.5405380581568715
+time=1617295256.732123 Pos: [0.77214869 0.         3.96455823] angle -1.5322629845323434
+time=1617295256.84031 Pos: [0.77294739 0.         3.98317603] angle -1.5235832471408728
+time=1617295256.9464252 Pos: [0.77391011 0.         4.00178608] angle -1.5146393164998329
+time=1617295257.0550728 Pos: [0.77504338 0.         4.0203865 ] angle -1.5052493578941066
+time=1617295257.1649275 Pos: [0.77535483 0.         4.02503482] angle -1.5025362430879845
+time=1617295257.2711844 Pos: [0.77565066 0.         4.02968415] angle -1.5119729474654542
+time=1617295257.3773708 Pos: [0.77590784 0.         4.03433579] angle -1.5191560059208917
+/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/lf_challenge/solutions/solution.py:228: RankWarning: Polyfit may be poorly conditioned
+  vel, angle = find_lane(img)
+time=1617295257.48558 Pos: [0.77613649 0.         4.03898891] angle -1.5242374880726344
+/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/lf_challenge/solutions/solution.py:228: RankWarning: Polyfit may be poorly conditioned
+  vel, angle = find_lane(img)
+time=1617295257.5930963 Pos: [0.77634336 0.         4.04364306] angle -1.5285171348697217
+/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/lf_challenge/solutions/solution.py:228: RankWarning: Polyfit may be poorly conditioned
+  vel, angle = find_lane(img)
+time=1617295257.699158 Pos: [0.77653345 0.         4.04829793] angle -1.5314469509767186
+/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/lf_challenge/solutions/solution.py:228: RankWarning: Polyfit may be poorly conditioned
+  vel, angle = find_lane(img)
+time=1617295257.8049707 Pos: [0.77671302 0.         4.05295321] angle -1.5330374304985228
+/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/lf_challenge/solutions/solution.py:228: RankWarning: Polyfit may be poorly conditioned
+  vel, angle = find_lane(img)
+time=1617295257.9115927 Pos: [0.77688731 0.         4.0576087 ] angle -1.5337116558004886
+/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/lf_challenge/solutions/solution.py:228: RankWarning: Polyfit may be poorly conditioned
+  vel, angle = find_lane(img)
+time=1617295258.0211427 Pos: [0.77706046 0.         4.06226422] angle -1.5335303118497416
+/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/lf_challenge/solutions/solution.py:228: RankWarning: Polyfit may be poorly conditioned
+  vel, angle = find_lane(img)
+time=1617295258.1267169 Pos: [0.77723628 0.         4.06691965] angle -1.5325682549387136
+/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/lf_challenge/solutions/solution.py:228: RankWarning: Polyfit may be poorly conditioned
+  vel, angle = find_lane(img)
+time=1617295258.260449 Pos: [0.7774179  0.         4.07157486] angle -1.5310322764518882
+/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/lf_challenge/solutions/solution.py:228: RankWarning: Polyfit may be poorly conditioned
+  vel, angle = find_lane(img)
+time=1617295258.3913188 Pos: [0.77760789 0.         4.07622973] angle -1.5289756143680415
+/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/lf_challenge/solutions/solution.py:228: RankWarning: Polyfit may be poorly conditioned
+  vel, angle = find_lane(img)
+time=1617295258.5299432 Pos: [0.77780834 0.         4.08088416] angle -1.5265382471602198
+/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/lf_challenge/solutions/solution.py:228: RankWarning: Polyfit may be poorly conditioned
+  vel, angle = find_lane(img)
+time=1617295258.6544354 Pos: [0.77802129 0.         4.08553803] angle -1.5236027470206899
+/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/lf_challenge/solutions/solution.py:228: RankWarning: Polyfit may be poorly conditioned
+  vel, angle = find_lane(img)
+time=1617295258.76169 Pos: [0.77825183 0.         4.09019107] angle -1.5189762782444303
+/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/lf_challenge/solutions/solution.py:228: RankWarning: Polyfit may be poorly conditioned
+  vel, angle = find_lane(img)
+time=1617295258.8674889 Pos: [0.77850372 0.         4.094843  ] angle -1.5144304773112711
+/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/lf_challenge/solutions/solution.py:228: RankWarning: Polyfit may be poorly conditioned
+  vel, angle = find_lane(img)
+time=1617295258.9727185 Pos: [0.77877655 0.         4.09949374] angle -1.5099687173028749
+/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/lf_challenge/solutions/solution.py:228: RankWarning: Polyfit may be poorly conditioned
+  vel, angle = find_lane(img)
+time=1617295259.0790844 Pos: [0.77906992 0.         4.10414324] angle -1.5055967780699648
+/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/lf_challenge/solutions/solution.py:228: RankWarning: Polyfit may be poorly conditioned
+  vel, angle = find_lane(img)
+time=1617295259.1841173 Pos: [0.77938345 0.         4.10879142] angle -1.5012947255337699
+/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/lf_challenge/solutions/solution.py:228: RankWarning: Polyfit may be poorly conditioned
+  vel, angle = find_lane(img)
+time=1617295259.294619 Pos: [0.7797169  0.         4.11343822] angle -1.4970262172069193
+time=1617295259.3976521 Pos: [0.78038329 0.         4.11804523] angle -1.357263813293572
+time=1617295259.5031092 Pos: [0.78505593 0.         4.13607975] angle -1.2772905008361628
+time=1617295259.6108122 Pos: [0.78644548 0.         4.14052637] angle -1.2585383385519295
+time=1617295259.7166557 Pos: [0.78788409 0.         4.14495743] angle -1.2551972583872923
+time=1617295259.8225636 Pos: [0.78933823 0.         4.14938342] angle -1.251525446044833
+time=1617295259.9263794 Pos: [0.7907854  0.         4.15381169] angle -1.2583415241280254
+time=1617295260.0312128 Pos: [0.79657534 0.         4.17152434] angle -1.2513853897193359
+time=1617295260.1378934 Pos: [0.80276499 0.         4.18910013] angle -1.2129960962885944
+time=1617295260.2466521 Pos: [0.80439655 0.         4.19346383] angle -1.2129960962885944
+time=1617295260.360318 Pos: [0.80602811 0.         4.19782754] angle -1.2129960962885944
+time=1617295260.4653468 Pos: [0.80765967 0.         4.20219124] angle -1.2129960962885944
+time=1617295260.5668747 Pos: [0.80929123 0.         4.20655495] angle -1.2129960962885944
+time=1617295260.6730084 Pos: [0.81092279 0.         4.21091866] angle -1.2129960962885944
+time=1617295260.7785516 Pos: [0.81255435 0.         4.21528236] angle -1.2129960962885944
+time=1617295260.8813794 Pos: [0.81418592 0.         4.21964607] angle -1.2129960962885944
+time=1617295260.9825065 Pos: [0.81581748 0.         4.22400977] angle -1.2129960962885944
+time=1617295261.0865722 Pos: [0.81744904 0.         4.22837348] angle -1.2129960962885944
+time=1617295261.1908069 Pos: [0.8190806  0.         4.23273719] angle -1.2129960962885944
+time=1617295261.2920077 Pos: [0.82071216 0.         4.23710089] angle -1.2129960962885944
+time=1617295261.4244792 Pos: [0.82234372 0.         4.2414646 ] angle -1.2129960962885944
+time=1617295261.5280395 Pos: [0.82397528 0.         4.2458283 ] angle -1.2129960962885944
+time=1617295261.6334827 Pos: [0.82560684 0.         4.25019201] angle -1.2129960962885944
+time=1617295261.739518 Pos: [0.82723841 0.         4.25455572] angle -1.2129960962885944
+time=1617295261.8437657 Pos: [0.82886997 0.         4.25891942] angle -1.2129960962885944
+time=1617295261.9463463 Pos: [0.83050153 0.         4.26328313] angle -1.2129960962885944
+time=1617295262.0501697 Pos: [0.83213309 0.         4.26764683] angle -1.2129960962885944
+time=1617295262.1533 Pos: [0.83376465 0.         4.27201054] angle -1.2129960962885944
+time=1617295262.2584805 Pos: [0.83539621 0.         4.27637425] angle -1.2129960962885944
+time=1617295262.3608115 Pos: [0.83702777 0.         4.28073795] angle -1.2129960962885944
+time=1617295262.484719 Pos: [0.83865933 0.         4.28510166] angle -1.2129960962885944
+time=1617295262.5888412 Pos: [0.8402909  0.         4.28946536] angle -1.2129960962885944
+time=1617295262.6944883 Pos: [0.84192246 0.         4.29382907] angle -1.2129960962885944
+time=1617295262.800636 Pos: [0.84355402 0.         4.29819278] angle -1.2129960962885944
+time=1617295262.905682 Pos: [0.84548472 0.         4.30242846] angle -1.073233692375247
+time=1617295263.014032 Pos: [0.84798666 0.         4.30635388] angle -0.9334712884618996
+time=1617295263.1212194 Pos: [0.85101104 0.         4.30989248] angle -0.7937088845485523
+time=1617295263.2261682 Pos: [0.85449889 0.         4.31297526] angle -0.6539464806352049
+time=1617295263.3315468 Pos: [0.85820999 0.         4.31579155] angle -0.6443757117517447
+time=1617295263.43582 Pos: [0.86194824 0.         4.3185717 ] angle -0.6345445952605546
+time=1617295263.557147 Pos: [0.86571391 0.         4.3213146 ] angle -0.6245162174695809
+time=1617295263.6618452 Pos: [0.86950703 0.         4.32401939] angle -0.6143816224138557
+time=1617295263.766877 Pos: [0.87332753 0.         4.32668539] angle -0.6041326824600097
+time=1617295263.8733387 Pos: [0.87717537 0.         4.32931177] angle -0.5937183237799154
+time=1617295263.9814746 Pos: [0.88105032 0.         4.33189797] angle -0.5833225652937274
+shift_center=22.303908756348363 shift_yellow=-111.24757985588545  shift_white=155.8553973685822
+move by both lines
+shift_center=24.415960790785448 shift_yellow=-106.85314433695586  shift_white=155.6850659185268
+move by both lines
+shift_center=22.620942586743183 shift_yellow=-109.85149894014972  shift_white=155.09338411363603
+move by both lines
+shift_center=21.719245104896373 shift_yellow=-111.03669112343266  shift_white=154.4751813332254
+move by both lines
+shift_center=23.67573973327137 shift_yellow=-106.13458154744427  shift_white=153.486061013987
+move by both lines
+shift_center=21.392083445117777 shift_yellow=-109.09289271994297  shift_white=151.87705961017855
+move by both lines
+shift_center=19.260365415758088 shift_yellow=-111.66244492369029  shift_white=150.18317575520643
+move by both lines
+shift_center=17.983324909817327 shift_yellow=-112.82878338705744  shift_white=148.79543320669205
+move by both lines
+shift_center=17.22960874159449 shift_yellow=-113.91088574864227  shift_white=148.37010323183125
+move by both lines
+shift_center=16.909817357508302 shift_yellow=-114.62878752167708  shift_white=148.44842223669366
+move by both lines
+shift_center=15.008338783557576 shift_yellow=-118.42062820222446  shift_white=148.43730576933967
+move by both lines
+shift_center=13.54058272847874 shift_yellow=-121.57467165341595  shift_white=148.65583711037345
+move by both lines
+shift_center=12.629973196964812 shift_yellow=-123.74594217437699  shift_white=149.00588856830666
+move by both lines
+shift_center=10.189176537901687 shift_yellow=-129.10159612950986  shift_white=149.47994920531318
+move by both lines
+shift_center=8.38626647270047 shift_yellow=-133.37771527712238  shift_white=150.15024822252332
+move by both lines
+shift_center=6.201483496500259 shift_yellow=-138.4883669401952  shift_white=150.89133393319577
+move by both lines
+shift_center=4.20900657195449 shift_yellow=-143.28946770265955  shift_white=151.7074808465685
+move by both lines
+shift_center=2.430662139775052 shift_yellow=-147.75417145515553  shift_white=152.61549573470563
+move by both lines
+shift_center=1.0533914292807367 shift_yellow=-151.30707907562729  shift_white=153.41386193418873
+move by both lines
+shift_center=0.12687326848862313 shift_yellow=-154.30382858066997  shift_white=154.55757511764716
+move by both lines
+shift_center=-0.4780235957249488 shift_yellow=-157.92832414822686  shift_white=156.97227695677702
+move by both lines
+shift_center=-1.4992492236706028 shift_yellow=-160.22304600233133  shift_white=157.22454755499012
+move by both lines
+shift_center=-5.152967392783069 shift_yellow=-164.09398712546894  shift_white=153.78805233990283
+move by white line
+shift_center=8.450066386905803 shift_yellow=-164.70614556884297  shift_white=181.6062783426546
+move by white line
+shift_center=4.528589048600054 shift_yellow=-167.38915254236952  shift_white=176.44633063956957
+move by white line
+shift_center=394.8242011825397 shift_yellow=618.0138408304497  shift_white=171.6345615346297
+move by white line
+shift_center=356.3172923282027 shift_yellow=542.8359053497943  shift_white=169.79867930661135
+move by white line
+shift_center=-4.712821551804467 shift_yellow=-176.13375006218897  shift_white=166.70810695858
+move by white line
+shift_center=319.84363414215704 shift_yellow=476.04570637119105  shift_white=163.64156191312304
+move by white line
+shift_center=294.0539364590238 shift_yellow=426.5641666666668  shift_white=161.5437062513808
+move by white line
+shift_center=296.9676057785181 shift_yellow=434.35041666666655  shift_white=159.5847948903696
+move by white line
+shift_center=276.711184489374 shift_yellow=395.6250944822374  shift_white=157.79727449651045
+move by white line
+shift_center=278.44909482147955 shift_yellow=400.4149659863947  shift_white=156.4832236565644
+move by white line
+shift_center=260.7204299406271 shift_yellow=366.14979338842977  shift_white=155.29106649282448
+move by white line
+shift_center=17.88195662114549 shift_yellow=-118.6554907986806  shift_white=154.41940404097159
+move by white line
+shift_center=241.51703868412255 shift_yellow=329.7551984877127  shift_white=153.27887888053237
+move by white line
+shift_center=222.5433176190122 shift_yellow=295.67939814814827  shift_white=149.40723708987616
+move by white line
+shift_center=223.6010886194971 shift_yellow=297.61024305555554  shift_white=149.59193418343864
+move by white line
+shift_center=209.42457714238805 shift_yellow=269.0648  shift_white=149.784354284776
+move by white line
+shift_center=208.62220396616465 shift_yellow=267.25440000000015  shift_white=149.9900079323292
+move by white line
+shift_center=194.3153948719485 shift_yellow=238.48076923076906  shift_white=150.15002051312808
+move by white line
+shift_center=190.94797774237225 shift_yellow=231.66913214990143  shift_white=150.22682333484306
+move by white line
+shift_center=840 shift_yellow=-160  shift_white=-160
+move by white line
+shift_center=-163.106896202484 shift_yellow=-498.8604946099408  shift_white=172.64670220497254
+move by both lines
+shift_center=-2.3204158068009804 shift_yellow=-161.46747538299024  shift_white=156.82664376938828
+move by yellow line
+shift_center=16.541281690184434 shift_yellow=-143.82486857247653  shift_white=176.9074319528454
+move by yellow line
+shift_center=9.778349157330155 shift_yellow=-144.20349076964743  shift_white=163.7601890843078
+move by yellow line
+shift_center=12.299648766822713 shift_yellow=-132.19695381036158  shift_white=156.79625134400703
+move by yellow line
+shift_center=4.073234657864418 shift_yellow=-153.89432930582134  shift_white=162.04079862155015
+move by both lines
+shift_center=-67.89612623902588 shift_yellow=-291.5503633043479  shift_white=155.7581108262965
+move by both lines
+shift_center=840 shift_yellow=-160  shift_white=-160
+shift_center=840 shift_yellow=-160  shift_white=-160
+shift_center=840 shift_yellow=-160  shift_white=-160
+shift_center=840 shift_yellow=-160  shift_white=-160
+shift_center=840 shift_yellow=-160  shift_white=-160
+shift_center=840 shift_yellow=-160  shift_white=-160
+shift_center=840 shift_yellow=-160  shift_white=-160
+shift_center=840 shift_yellow=-160  shift_white=-160
+shift_center=840 shift_yellow=-160  shift_white=-160
+shift_center=840 shift_yellow=-160  shift_white=-160
+shift_center=840 shift_yellow=-160  shift_white=-160
+shift_center=840 shift_yellow=-160  shift_white=-160
+shift_center=840 shift_yellow=-160  shift_white=-160
+shift_center=840 shift_yellow=-160  shift_white=-160
+shift_center=840 shift_yellow=-160  shift_white=-160
+shift_center=840 shift_yellow=-160  shift_white=-160
+shift_center=840 shift_yellow=-160  shift_white=-160
+shift_center=840 shift_yellow=-160  shift_white=-160
+shift_center=840 shift_yellow=-160  shift_white=-160
+shift_center=840 shift_yellow=-160  shift_white=-160
+shift_center=840 shift_yellow=-160  shift_white=-160
+shift_center=840 shift_yellow=-160  shift_white=-160
+shift_center=840 shift_yellow=-160  shift_white=-160
+shift_center=840 shift_yellow=-160  shift_white=-160
+shift_center=840 shift_yellow=-160  shift_white=-160
+shift_center=840 shift_yellow=-160  shift_white=-160
+move by white line
+shift_center=840 shift_yellow=-160  shift_white=-160
+move by white line
+shift_center=840 shift_yellow=-160  shift_white=-160
+move by white line
+shift_center=840 shift_yellow=-160  shift_white=-160
+move by white line
+shift_center=-114.57968297159147 shift_yellow=-367.2461335076125  shift_white=138.08676756442958
+move by white line
+shift_center=-11.436537854383573 shift_yellow=-160.36375139053834  shift_white=137.49067568177122
+move by white line
+shift_center=-8.100661735300037 shift_yellow=-153.2403496803866  shift_white=137.03902620978647
+move by white line
+shift_center=-8.222259259987368 shift_yellow=-153.2403496803866  shift_white=136.7958311604118
+move by white line
+shift_center=-8.060143354823026 shift_yellow=-152.6543137913201  shift_white=136.53402708167408
+move by white line
+shift_center=-11.777230055065786 shift_yellow=-159.70974447618767  shift_white=136.1552843660561
+move by white line
+shift_center=-17.021416877159425 shift_yellow=-170.2407051243428  shift_white=136.19787137002396
+move by white line
+shift_center=-20.425148078681417 shift_yellow=-176.99584295274275  shift_white=136.14554679537997time=1617295264.091782 Pos: [0.88495198 0.         4.33444371] angle -0.5729039536564894
+time=1617295264.1972282 Pos: [0.88887994 0.         4.33694868] angle -0.5624957889495215
+time=1617295264.3036053 Pos: [0.89283373 0.         4.33941269] angle -0.5521145667019195
+time=1617295264.4091136 Pos: [0.89681283 0.         4.34183559] angle -0.5417727934994936
+time=1617295264.516828 Pos: [0.90081663 0.         4.34421745] angle -0.5315485315826777
+time=1617295264.6263437 Pos: [0.90484425 0.         4.34655883] angle -0.5216071212772833
+time=1617295264.7335083 Pos: [0.90889471 0.         4.34886046] angle -0.5118715745290652
+time=1617295264.8394725 Pos: [0.91296706 0.         4.35112315] angle -0.5024300286909754
+time=1617295264.9447446 Pos: [0.91706042 0.         4.35334759] angle -0.4931326576259909
+time=1617295265.0615711 Pos: [0.92117396 0.         4.3555345 ] angle -0.48413655974534126
+time=1617295265.1690133 Pos: [0.92530675 0.         4.35768482] angle -0.4753882156300007
+time=1617295265.275563 Pos: [0.94193541 0.         4.36609579] angle -0.46118405437818605
+time=1617295265.3834724 Pos: [0.94611761 0.         4.36814834] angle -0.45130615825893766
+time=1617295265.489773 Pos: [0.95031962 0.         4.37016002] angle -0.441689803909293
+time=1617295265.605267 Pos: [0.95454065 0.         4.37213149] angle -0.43220922777037774
+time=1617295265.715504 Pos: [0.97151346 0.         4.37982442] angle -0.41889710404977376
+time=1617295265.8204334 Pos: [0.97577933 0.         4.38169687] angle -0.40833728396558977
+time=1617295265.9269855 Pos: [0.98006439 0.         4.383525  ] angle -0.39816253939443724
+time=1617295266.0364969 Pos: [0.99728904 0.         4.39063619] angle -0.38490613557127545
+time=1617295266.1444519 Pos: [1.01460872 0.         4.39751265] angle -0.3709828527160106
+time=1617295266.2503269 Pos: [1.01896042 0.         4.3991759 ] angle -0.359165672571473
+time=1617295266.359183 Pos: [1.03645089 0.         4.40560556] angle -0.34538603580764676
+time=1617295266.4659967 Pos: [1.05402958 0.         4.41178994] angle -0.3311883263862172
+time=1617295266.5940921 Pos: [1.07169525 0.         4.4177213 ] angle -0.3166709363725735
+time=1617295266.7281818 Pos: [1.08944599 0.         4.42339294] angle -0.30185589017601605
+time=1617295266.8361843 Pos: [1.10727899 0.         4.42880038] angle -0.2869734382735723
+time=1617295266.9446278 Pos: [1.12519043 0.         4.43394204] angle -0.2721137479231332
+time=1617295267.0525756 Pos: [1.14317612 0.         4.43881765] angle -0.2573272389282171
+time=1617295267.1617787 Pos: [1.16123139 0.         4.44342889] angle -0.2427738455720075
+time=1617295267.2680476 Pos: [1.17935104 0.         4.44778036] angle -0.22860328858565085
+time=1617295267.3747575 Pos: [1.19752957 0.         4.45187896] angle -0.21490839312642748
+time=1617295267.4802988 Pos: [1.21576147 0.         4.45573322] angle -0.20176145305484858
+time=1617295267.5869446 Pos: [1.23404177 0.         4.45935106] angle -0.18900721735244058
+time=1617295267.7065675 Pos: [1.25236573 0.         4.4627409 ] angle -0.17684645590867737
+time=1617295267.8304465 Pos: [1.27072848 0.         4.46591398] angle -0.16537387603007728
+time=1617295267.9373984 Pos: [1.28912557 0.         4.46888156] angle -0.1544845918041129
+time=1617295268.048224 Pos: [1.30755316 0.         4.47165343] angle -0.14411635458167954
+time=1617295268.1543245 Pos: [1.32600765 0.         4.47424029] angle -0.1344185973404253
+time=1617295268.264086 Pos: [1.34448588 0.         4.47665183] angle -0.12512896260166645
+time=1617295268.3707786 Pos: [1.36298532 0.         4.4788948 ] angle -0.1161830014014807
+time=1617295268.4764469 Pos: [1.38150382 0.         4.48097467] angle -0.10750644835575238
+time=1617295268.5828886 Pos: [1.40003915 0.         4.48289877] angle -0.0993670530086519
+time=1617295268.6928642 Pos: [1.41858939 0.         4.48467353] angle -0.09139871360698729
+time=1617295268.8192837 Pos: [1.43715343 0.         4.48629738] angle -0.08310252864520834
+time=1617295268.928391 Pos: [1.45573057 0.         4.48776384] angle -0.07444853444903295
+time=1617295269.0355794 Pos: [1.47431983 0.         4.4890677 ] angle -0.06560286654771119
+time=1617295269.1460524 Pos: [1.49291984 0.         4.49020788] angle -0.05684461575440536
+time=1617295269.2546709 Pos: [1.51152928 0.         4.49118213] angle -0.04776383130086081
+time=1617295269.3622296 Pos: [1.53014687 0.         4.49198557] angle -0.038492848961020974
+time=1617295269.4709184 Pos: [1.5487712  0.         4.49261379] angle -0.028943678195119137
+time=1617295269.5772357 Pos: [1.56740069 0.         4.49306352] angle -0.01932855417591
+time=1617295269.685857 Pos: [1.58603365 0.         4.49333319] angle -0.009615533457367348
+time=1617295269.7912285 Pos: [1.60466836 0.         4.49342025] angle 0.00027237947940298574
+time=1617295269.9116714 Pos: [1.623303   0.         4.49332083] angle 0.01039823382556805
+time=1617295270.0180783 Pos: [1.64193562 0.         4.49302962] angle 0.02085713075727942
+time=1617295270.1239328 Pos: [1.64659321 0.         4.49292574] angle 0.02373884330732584
+time=1617295270.228506 Pos: [1.65125049 0.         4.49280885] angle 0.026448988745060333
+time=1617295270.332908 Pos: [1.65590745 0.         4.49267981] angle 0.028955951349594763
+time=1617295270.4370964 Pos: [1.66056408 0.         4.4925395 ] angle 0.03128710538971867
+time=1617295270.5421329 Pos: [1.66522039 0.         4.49238868] angle 0.033470251660880475
+time=1617295270.648305 Pos: [1.66987636 0.         4.49222802] angle 0.03551492719395851
+time=1617295270.7542822 Pos: [1.67450549 0.         4.49173832] angle 0.17527733110730584
+time=1617295270.8624704 Pos: [1.6790919  0.         4.49092054] angle 0.17762304209752725
+time=1617295270.9726348 Pos: [1.68367504 0.         4.4900847 ] angle 0.18315777159888133
+time=1617295271.0791874 Pos: [1.68825312 0.         4.48922152] angle 0.1895605790587405
+time=1617295271.1842875 Pos: [1.69282525 0.         4.48832739] angle 0.19668430262966358
+time=1617295271.2889032 Pos: [1.69739057 0.         4.48739915] angle 0.20449750676700038
+time=1617295271.395545 Pos: [1.70194815 0.         4.48643361] angle 0.21303552526571357
+time=1617295271.500955 Pos: [1.70649706 0.         4.48542802] angle 0.2220879492795474
+time=1617295271.606857 Pos: [1.71103638 0.         4.48438003] angle 0.2316985641964154
+time=1617295271.7140255 Pos: [1.71556509 0.         4.48328708] angle 0.2419247609742412
+
+move by white line
+shift_center=-17.41612504895403 shift_yellow=-171.00171618483427  shift_white=136.1694660869262
+move by white line
+shift_center=-4.65163201741791 shift_yellow=-145.5344175767264  shift_white=136.23115354189054
+move by white line
+shift_center=-9.260139161792637 shift_yellow=-154.84175439931084  shift_white=136.32147607572557
+move by white line
+shift_center=-17.112137560930876 shift_yellow=-170.81480503712004  shift_white=136.5905299152583
+move by white line
+shift_center=-15.711282320443757 shift_yellow=-168.6607116056563  shift_white=137.23814696476882
+move by white line
+shift_center=-21.162020289062013 shift_yellow=-180.03353274340378  shift_white=137.70949216527976
+move by white line
+shift_center=-26.228084268698268 shift_yellow=-190.8388051865061  shift_white=138.3826366491096
+move by white line
+shift_center=-20.360472627042554 shift_yellow=-179.43368446369658  shift_white=138.71273920961153
+move by white line
+shift_center=-14.751821588659709 shift_yellow=-168.90617746978393  shift_white=139.40253429246457
+move by white line
+shift_center=-12.888964923533791 shift_yellow=-165.74772116058386  shift_white=139.96979131351634
+move by white line
+shift_center=-12.521847602154935 shift_yellow=-165.50338227554147  shift_white=140.4596870712316
+move by both lines
+shift_center=-12.361176690458649 shift_yellow=-162.1059224262862  shift_white=137.38356904536892
+move by white line
+shift_center=-11.835432539474937 shift_yellow=-161.65326016000358  shift_white=137.9823950810537
+move by white line
+shift_center=-11.192615234379701 shift_yellow=-160.6785033410989  shift_white=138.29327287233957
+move by white line
+shift_center=-10.479438470695044 shift_yellow=-159.6237114428604  shift_white=138.6648345014703
+move by both lines
+shift_center=-12.435114408200917 shift_yellow=-160.69246475165411  shift_white=135.82223593525225
+move by white line
+shift_center=-11.38175249784041 shift_yellow=-159.46740982556997  shift_white=136.70390482988915
+move by white line
+shift_center=-10.351862193511181 shift_yellow=-158.09243635730135  shift_white=137.38871197027896
+move by both lines
+shift_center=-11.87874842541433 shift_yellow=-158.91682449399894  shift_white=135.1593276431703
+move by both lines
+shift_center=-13.165064536442799 shift_yellow=-159.27351341395232  shift_white=132.9433843410667
+move by white line
+shift_center=-11.54985633445662 shift_yellow=-157.40484405730857  shift_white=134.3051313883953
+move by both lines
+shift_center=-12.507075491305045 shift_yellow=-157.60673284946296  shift_white=132.59258186685287
+move by both lines
+shift_center=-13.239016175238532 shift_yellow=-157.66279343284114  shift_white=131.18476108236405
+move by both lines
+shift_center=-13.920529771637888 shift_yellow=-157.8543410256901  shift_white=130.0132814824143
+move by both lines
+shift_center=-14.074861875835154 shift_yellow=-157.51250003339533  shift_white=129.36277628172502
+move by both lines
+shift_center=-14.02274702636538 shift_yellow=-156.81034518074736  shift_white=128.76485112801663
+move by both lines
+shift_center=-13.85519099475988 shift_yellow=-156.2234894977933  shift_white=128.5131075082735
+move by both lines
+shift_center=-13.321449428377491 shift_yellow=-155.08409849903302  shift_white=128.4411996422781
+move by both lines
+shift_center=-12.444907275962237 shift_yellow=-153.4670741745939  shift_white=128.57725962266943
+move by both lines
+shift_center=-11.355832643437878 shift_yellow=-151.64803090758255  shift_white=128.93636562070685
+move by both lines
+shift_center=-10.101233987887014 shift_yellow=-149.828759276493  shift_white=129.626291300719
+move by both lines
+shift_center=-9.202098064233383 shift_yellow=-148.45515252177904  shift_white=130.05095639331228
+move by both lines
+shift_center=-7.8432794016401886 shift_yellow=-146.49303302525954  shift_white=130.80647422197916
+move by both lines
+shift_center=-6.267618890042826 shift_yellow=-144.12773170028152  shift_white=131.59249392019586
+move by both lines
+shift_center=-4.932105163767915 shift_yellow=-142.31828400041164  shift_white=132.45407367287578
+move by both lines
+shift_center=-3.7391159444834443 shift_yellow=-140.79950445124672  shift_white=133.32127256227977
+move by both lines
+shift_center=-2.2039849795756936 shift_yellow=-138.56316926733348  shift_white=134.1551993081821
+move by both lines
+shift_center=-1.269547697862265 shift_yellow=-137.52120002134643  shift_white=134.9821046256219
+move by both lines
+shift_center=-0.48267276394528835 shift_yellow=-136.78909766943883  shift_white=135.82375214154825
+move by both lines
+shift_center=0.13416414650032493 shift_yellow=-136.1558250562589  shift_white=136.42415334925954
+move by both lines
+shift_center=1.3640404132787012 shift_yellow=-134.00767841889794  shift_white=136.7357592454553
+move by both lines
+shift_center=1.755690105948588 shift_yellow=-133.47796479397783  shift_white=136.989345005875
+move by both lines
+shift_center=1.0050549115107685 shift_yellow=-134.7205821431989  shift_white=136.73069196622043
+move by both lines
+shift_center=0.18581488843676652 shift_yellow=-136.45080795786214  shift_white=136.82243773473567
+move by both lines
+shift_center=-0.2530412268662303 shift_yellow=-138.12602757942284  shift_white=137.61994512569038
+move by both lines
+shift_center=-0.052891016352958786 shift_yellow=-139.01620503811574  shift_white=138.91042300540983
+move by both lines
+shift_center=-0.7913640848356067 shift_yellow=-141.78987240337528  shift_white=140.20714423370407
+move by both lines
+shift_center=-1.2268411652972304 shift_yellow=-144.21327946235294  shift_white=141.75959713175848
+move by both lines
+shift_center=-1.8637813856087462 shift_yellow=-147.13587352627925  shift_white=143.4083107550618
+move by both lines
+shift_center=-2.0147879543813474 shift_yellow=-149.2803941696797  shift_white=145.25081826091707
+move by both lines
+shift_center=-2.23893223717522 shift_yellow=-151.4912422259335  shift_white=147.0133777515831
+move by both lines
+shift_center=-2.63936546002941 shift_yellow=-153.9822980443593  shift_white=148.70356712430055
+move by both lines
+shift_center=-3.184156110979501 shift_yellow=-156.77146506956814  shift_white=150.40315284760914
+move by both lines
+shift_center=-3.946690414846273 shift_yellow=-159.89278876108622  shift_white=151.99940793139376
+move by both lines
+shift_center=-5.075597303038364 shift_yellow=-163.5532255514904  shift_white=153.40203094541369
+move by white line
+shift_center=-5.273163850939369 shift_yellow=-164.3411787076418  shift_white=153.79485100576312
+move by white line
+shift_center=-5.388220407914218 shift_yellow=-165.03649923648652  shift_white=154.26005842065797
+move by white line
+shift_center=-5.899174526215319 shift_yellow=-166.46093876216287  shift_white=154.6625897097323
+move by white line
+shift_center=-6.622172422799025 shift_yellow=-168.24581314314594  shift_white=155.00146829754794
+move by white line
+shift_center=2.557359715129053 shift_yellow=-150.20379146920635  shift_white=155.3185108994645
+move by white line
+shift_center=840 shift_yellow=-160  shift_white=-160
+move by white line
+shift_center=-0.5604461738095381 shift_yellow=-142.68536994160547  shift_white=141.56447759398628
+move by yellow line
+shift_center=-2.4942337407498485 shift_yellow=-146.33615833315014  shift_white=141.34769085165044
+move by yellow line
+shift_center=0.44489057527658815 shift_yellow=-147.32993398004677  shift_white=148.21971513059998
+move by yellow line
+shift_center=-4.365738493335101 shift_yellow=-148.15523874399275  shift_white=139.4237617573226
+move by yellow line
+shift_center=-2.9599269920634583 shift_yellow=-148.94455609642316  shift_white=143.02470211229627
+move by yellow line
+shift_center=2.2098183420368684 shift_yellow=-149.77432357732684  shift_white=154.19396026140043
+move by yellow line
+shift_center=-5.725462774663356 shift_yellow=-150.36321501103697  shift_white=138.91228946171015
+move by yellow line
+shift_center=-7.216289152234879 shift_yellow=-151.00223195683049  shift_white=136.56965365236078
+move by yellow line
+shift_center=-8.925302655752262 shift_yellow=-151.70695007125497  shift_white=133.85634475975053
+move by yellow line
+shift_center=-35.49671034943145 shift_yellow=-153.66596689758003  shift_white=82.67254619871727time=1617295271.823562 Pos: [1.7200814 0.        4.482144 ] angle 0.2538621883830288
+time=1617295271.939959 Pos: [1.72458308 0.         4.48094466] angle 0.2668842110040516
+time=1617295272.047766 Pos: [1.72906873 0.         4.47968666] angle 0.27996663037809244
+time=1617295272.1545959 Pos: [1.73353749 0.         4.47836993] angle 0.293121003098783
+time=1617295272.263199 Pos: [1.73798819 0.         4.47699336] angle 0.3067993741061316
+time=1617295272.370114 Pos: [1.7424205 0.        4.4755587] angle 0.3192816714217743
+time=1617295272.4789498 Pos: [1.74683504 0.         4.47407025] angle 0.3311143701917474
+time=1617295272.588332 Pos: [1.75123147 0.         4.47252914] angle 0.3431915215007545
+time=1617295272.6955335 Pos: [1.75560962 0.         4.4709368 ] angle 0.3544684274968162
+time=1617295272.8037465 Pos: [1.75997113 0.         4.46929944] angle 0.36379219310779193
+time=1617295272.9103107 Pos: [1.76431705 0.         4.46762111] angle 0.37329087888771983
+time=1617295273.0307975 Pos: [1.76864483 0.         4.46589658] angle 0.38509794134327247
+time=1617295273.143945 Pos: [1.77294208 0.         4.46409753] angle 0.40786025313961893
+time=1617295273.2528267 Pos: [1.77720275 0.         4.46221335] angle 0.42488150465496843
+time=1617295273.3599436 Pos: [1.78143199 0.         4.46025964] angle 0.44062007273550263
+time=1617295273.4665034 Pos: [1.78563075 0.         4.45824124] angle 0.4555800584301859
+time=1617295273.5731835 Pos: [1.78979777 0.         4.45615812] angle 0.4715610014179208
+time=1617295273.6827507 Pos: [1.79393271 0.         4.454012  ] angle 0.4859377573173402
+time=1617295273.7907414 Pos: [1.79803774 0.         4.45180921] angle 0.499066731140038
+time=1617295273.8999937 Pos: [1.80211704 0.         4.44955908] angle 0.5090720929278081
+time=1617295274.0115778 Pos: [1.80617683 0.         4.44727393] angle 0.5162730540528375
+time=1617295274.124821 Pos: [1.81021941 0.         4.44495846] angle 0.5240452931247611
+time=1617295274.2340615 Pos: [1.81422908 0.         4.44258661] angle 0.5442914803459274
+time=1617295274.341703 Pos: [1.81818069 0.         4.44011935] angle 0.5720004269070196
+time=1617295274.451374 Pos: [1.82206634 0.         4.43754942] angle 0.596679418494487
+time=1617295274.560533 Pos: [1.82589737 0.         4.43489865] angle 0.6138860800054458
+time=1617295274.6685345 Pos: [1.82969041 0.         4.43219374] angle 0.6250740000776921
+time=1617295274.7759378 Pos: [1.83345554 0.         4.4294501 ] angle 0.634381448886032
+time=1617295274.8859425 Pos: [1.83719306 0.         4.42666897] angle 0.6450629875691316
+time=1617295274.994316 Pos: [1.84085211 0.         4.42378597] angle 0.6895848115953459
+time=1617295275.108982 Pos: [1.84440247 0.         4.4207698 ] angle 0.7188686010268411
+time=1617295275.2180214 Pos: [1.84787477 0.         4.41766396] angle 0.7406256957108984
+time=1617295275.325935 Pos: [1.85129884 0.         4.41450493] angle 0.7496944985507829
+time=1617295275.4370687 Pos: [1.8546904  0.         4.41131102] angle 0.76109140363814
+time=1617295275.5456097 Pos: [1.85807434 0.         4.40810903] angle 0.7544639329106769
+time=1617295275.6532311 Pos: [1.86147227 0.         4.40492187] angle 0.7523415357917222
+time=1617295275.765055 Pos: [1.86486574 0.         4.40172997] angle 0.7572573104145452
+time=1617295275.8737152 Pos: [1.86824038 0.         4.39851817] angle 0.7641007066733193
+time=1617295275.9814398 Pos: [1.87159281 0.         4.3952832 ] angle 0.771036517957572
+time=1617295276.093236 Pos: [1.87491904 0.         4.3920213 ] angle 0.7802321377763946
+time=1617295276.228891 Pos: [1.87821488 0.         4.3887287 ] angle 0.7895820040330274
+time=1617295276.339037 Pos: [1.8814823  0.         4.38540789] angle 0.7974200320944153
+time=1617295276.4476821 Pos: [1.88472348 0.         4.38206147] angle 0.8053277704998043
+time=1617295276.5560455 Pos: [1.88793824 0.         4.37868965] angle 0.8131466071157717
+time=1617295276.6642013 Pos: [1.89112572 0.         4.37529205] angle 0.821446301905515
+time=1617295276.7748685 Pos: [1.89428401 0.         4.37186728] angle 0.8302636704010088
+time=1617295276.8832107 Pos: [1.89740927 0.         4.36841236] angle 0.8406485265078284
+time=1617295276.9933722 Pos: [1.90049725 0.         4.36492408] angle 0.8517391077636003
+time=1617295277.1058514 Pos: [1.90354841 0.         4.36140355] angle 0.861662356240542
+time=1617295277.2184486 Pos: [1.90656698 0.         4.35785502] angle 0.870180667298607
+time=1617295277.3287325 Pos: [1.90955689 0.         4.35428231] angle 0.8777635238169845
+time=1617295277.4402711 Pos: [1.91252014 0.         4.35068746] angle 0.8850559535572604
+time=1617295277.54955 Pos: [1.91545757 0.         4.34707147] angle 0.8920930121631301
+time=1617295277.660386 Pos: [1.91836889 0.         4.34343444] angle 0.8994488323273411
+time=1617295277.7715368 Pos: [1.92125324 0.         4.33977598] angle 0.906881260850473
+time=1617295277.8818724 Pos: [1.92411085 0.         4.33609659] angle 0.9140297992738894
+time=1617295277.9887378 Pos: [1.92694193 0.         4.33239675] angle 0.9212562706562641
+time=1617295278.0986345 Pos: [1.92974544 0.         4.32867598] angle 0.9288915815639526
+time=1617295278.2075942 Pos: [1.93252052 0.         4.32493395] angle 0.9364976981947477
+time=1617295278.3232896 Pos: [1.93526725 0.         4.32117107] angle 0.9439993614907783
+time=1617295278.4315636 Pos: [1.93798563 0.         4.31738766] angle 0.9515257287267741
+time=1617295278.569772 Pos: [1.94067574 0.         4.31358409] angle 0.9589049636901632
+time=1617295278.6917632 Pos: [1.943338   0.         4.30976097] angle 0.9661297188805721
+time=1617295278.8200095 Pos: [1.94597253 0.         4.3059187 ] angle 0.9733776692012986
+time=1617295278.9518647 Pos: [1.9485798  0.         4.30205787] angle 0.9802864741249113
+time=1617295279.07769 Pos: [1.95116085 0.         4.29817946] angle 0.9869287246932262
+time=1617295279.1883051 Pos: [1.95371629 0.         4.29428414] angle 0.9934603398812933
+time=1617295279.2993095 Pos: [1.95624648 0.         4.29037237] angle 0.99986610270942
+time=1617295279.4102936 Pos: [1.9587516  0.         4.28644449] angle 1.006255153859786
+time=1617295279.517382 Pos: [1.96123235 0.         4.28250117] angle 1.012250089962556
+time=1617295279.6286244 Pos: [1.96368935 0.         4.27854301] angle 1.0182796522003696
+
+move by yellow line
+shift_center=-53.442702410366905 shift_yellow=-154.90761149654688  shift_white=48.02220667581295
+move by yellow line
+shift_center=-55.384912817529596 shift_yellow=-154.976753699402  shift_white=44.20692806434275
+move by yellow line
+shift_center=-72.2005230643419 shift_yellow=-155.05912589064656  shift_white=10.658079761962739
+move by yellow line
+shift_center=-64.43855598628747 shift_yellow=-155.65899912921276  shift_white=26.781887156637794
+move by yellow line
+shift_center=-37.58705897927882 shift_yellow=-154.28973396694778  shift_white=79.11561600839022
+move by yellow line
+shift_center=-28.69075089276862 shift_yellow=-153.54607355186516  shift_white=96.16457176632792
+move by yellow line
+shift_center=-24.642069544164684 shift_yellow=-153.82592281855136  shift_white=104.54178373022194
+move by yellow line
+shift_center=-5.357841368619006 shift_yellow=-152.90980198429145  shift_white=142.19411924705355
+move by yellow line
+shift_center=21.549638317864208 shift_yellow=-150.67384687144505  shift_white=193.77312350717358
+move by yellow line
+shift_center=8.528223046677851 shift_yellow=-150.87409548086146  shift_white=167.93054157421727
+move by yellow line
+shift_center=0.4119539933433032 shift_yellow=-153.51672509911663  shift_white=154.34063308580323
+move by yellow line
+shift_center=-15.337467701191883 shift_yellow=-166.05829454445745  shift_white=135.38335914207386
+move by yellow line
+shift_center=-36.00333183775962 shift_yellow=-159.48592873477213  shift_white=87.47926505925287
+move by yellow line
+shift_center=-26.474486939542686 shift_yellow=-158.01751273859554  shift_white=105.06853885951011
+move by yellow line
+shift_center=-28.916899769637013 shift_yellow=-157.12619162327343  shift_white=99.29239208399929
+move by yellow line
+shift_center=35.3908757886914 shift_yellow=-158.2949835323589  shift_white=229.07673510974178
+move by yellow line
+shift_center=48.33904345870769 shift_yellow=-156.4585101536553  shift_white=253.1365970710707
+move by yellow line
+shift_center=32.26186062902147 shift_yellow=-155.03004923222448  shift_white=219.55377049026737
+move by yellow line
+shift_center=36.86611820941556 shift_yellow=-151.45413817463913  shift_white=225.1863745934702
+move by yellow line
+shift_center=36.698373204194894 shift_yellow=-148.2436602959337  shift_white=221.64040670432348
+move by yellow line
+shift_center=36.130418152413455 shift_yellow=-148.89765928953813  shift_white=221.1584955943651
+move by yellow line
+shift_center=23.194352190756547 shift_yellow=-163.1778351307912  shift_white=209.5665395123043
+move by yellow line
+shift_center=16.89040372289486 shift_yellow=-171.7212020231383  shift_white=205.50200946892812
+move by yellow line
+shift_center=16.11808802308741 shift_yellow=-168.2525095693328  shift_white=200.48868561550768
+move by yellow line
+shift_center=19.18786606464454 shift_yellow=-159.69818609774552  shift_white=198.07391822703465
+move by yellow line
+shift_center=23.32983066339662 shift_yellow=-152.80793089870758  shift_white=199.46759222550077
+move by yellow line
+shift_center=22.14764955943093 shift_yellow=-150.6551673957875  shift_white=194.95046651464952
+move by yellow line
+shift_center=21.925743461614815 shift_yellow=-152.22822548441246  shift_white=196.0797124076421
+move by yellow line
+shift_center=1.145847081770114 shift_yellow=-190.96858414521012  shift_white=193.26027830875046
+move by yellow line
+shift_center=9.2149643397712 shift_yellow=-173.5240821411757  shift_white=191.95401082071817
+move by yellow line
+shift_center=12.809130510336388 shift_yellow=-164.9075219943088  shift_white=190.5257830149817
+move by yellow line
+shift_center=15.50849202835684 shift_yellow=-150.38196549109972  shift_white=181.39894954781346
+move by yellow line
+shift_center=15.137709932891312 shift_yellow=-153.04717694400648  shift_white=183.32259680978916
+move by yellow line
+shift_center=25.38081688728107 shift_yellow=-132.41287151120028  shift_white=183.1745052857624
+move by yellow line
+shift_center=23.088185362595596 shift_yellow=-137.57027977822074  shift_white=183.74665050341184
+move by yellow line
+shift_center=16.730471066048267 shift_yellow=-145.62757878820776  shift_white=179.0885209203043
+move by yellow line
+shift_center=15.778257076443595 shift_yellow=-147.83432003704453  shift_white=179.3908341899317
+move by yellow line
+shift_center=14.767812513962355 shift_yellow=-147.94011675821253  shift_white=177.47574178613712
+move by yellow line
+shift_center=15.437286879428484 shift_yellow=-150.52714556858805  shift_white=181.40171932744505
+move by yellow line
+shift_center=6.588819158370654 shift_yellow=-150.70372689059323  shift_white=163.88136520733457
+move by yellow line
+shift_center=8.13061030256668 shift_yellow=-148.97297452467683  shift_white=165.23419512981025
+move by yellow line
+shift_center=4.6453396639895175 shift_yellow=-149.05277892648942  shift_white=158.34345825446854
+move by yellow line
+shift_center=7.109031860997447 shift_yellow=-148.95100415795952  shift_white=163.16906787995435
+move by yellow line
+shift_center=7.79095151521733 shift_yellow=-149.50149059529815  shift_white=165.0833936257328
+move by yellow line
+shift_center=8.059069402052785 shift_yellow=-150.0941234536412  shift_white=166.21226225774683
+move by yellow line
+shift_center=12.493428177185166 shift_yellow=-151.88858327108704  shift_white=176.87543962545732
+move by yellow line
+shift_center=9.815982250341023 shift_yellow=-152.69649742160763  shift_white=172.32846192228965
+move by yellow line
+shift_center=10.702894470624358 shift_yellow=-151.36013485640282  shift_white=172.76592379765157
+move by yellow line
+shift_center=4.4662669086835365 shift_yellow=-149.75176249927276  shift_white=158.68429631663986
+move by yellow line
+shift_center=8.298303467438501 shift_yellow=-148.68085414223856  shift_white=165.27746107711562
+move by yellow line
+shift_center=6.3472689401278615 shift_yellow=-148.34837356666785  shift_white=161.04291144692348
+move by yellow line
+shift_center=3.156906733522561 shift_yellow=-148.05602469199954  shift_white=154.36983815904472
+move by yellow line
+shift_center=3.24835600794151 shift_yellow=-148.42094292398878  shift_white=154.9176549398718
+move by yellow line
+shift_center=3.4431525129531906 shift_yellow=-148.50864417328143  shift_white=155.39494919918786
+move by yellow line
+shift_center=3.8259330804865215 shift_yellow=-148.18364678712697  shift_white=155.83551294810007
+move by yellow line
+shift_center=5.402740783123335 shift_yellow=-148.2728644385426  shift_white=159.0783460047893
+move by yellow line
+shift_center=2.880051748955026 shift_yellow=-148.7409039271217  shift_white=154.50100742503167
+move by yellow line
+shift_center=5.55501364671926 shift_yellow=-148.70748231893432  shift_white=159.81750961237276
+move by yellow line
+shift_center=4.6861729102644745 shift_yellow=-148.58790414129584  shift_white=157.9602499618248
+move by yellow line
+shift_center=5.055819456451502 shift_yellow=-148.61618521176797  shift_white=158.72782412467092
+move by yellow line
+shift_center=10.448665742338164 shift_yellow=-148.44774818608786  shift_white=169.34507967076422
+move by yellow line
+shift_center=10.390763349977306 shift_yellow=-148.27089974198003  shift_white=169.0524264419347
+move by yellow line
+shift_center=5.606114060889382 shift_yellow=-148.2974535271677  shift_white=159.50968164894653
+move by yellow line
+shift_center=4.581670095485748 shift_yellow=-147.90919987655178  shift_white=157.0725400675234
+move by yellow line
+shift_center=6.13837713107759 shift_yellow=-147.60404845060697  shift_white=159.88080271276226
+move by yellow line
+shift_center=8.051820886386707 shift_yellow=-147.47739306729923  shift_white=163.58103484007268
+move by yellow line
+shift_center=6.318362783695477 shift_yellow=-147.3333172856394  shift_white=159.97004285303035
+move by yellow line
+shift_center=6.147049238952462 shift_yellow=-147.314185756939  shift_white=159.60828423484395
+move by yellow line
+shift_center=5.965007716259805 shift_yellow=-146.86300285045104  shift_white=158.7930182829706
+move by yellow line
+shift_center=5.952569457477068 shift_yellow=-146.90264284984926  shift_white=158.80778176480328
+move by yellow line
+shift_center=5.705332832605279 shift_yellow=-146.93368862022547  shift_white=158.34435428543594time=1617295279.7415042 Pos: [1.96612238 0.         4.27457008] angle 1.024336333385053
+time=1617295279.8509796 Pos: [1.96853083 0.         4.27058219] angle 1.0306286773120839
+time=1617295279.9626544 Pos: [1.97091468 0.         4.26657955] angle 1.0366548337269044
+time=1617295280.0745194 Pos: [1.97327462 0.         4.26256277] angle 1.0425525121899368
+time=1617295280.1836848 Pos: [1.97561053 0.         4.25853197] angle 1.048596519857376
+time=1617295280.2935815 Pos: [1.97792223 0.         4.25448723] angle 1.0545506372517879
+time=1617295280.4100604 Pos: [1.98020932 0.         4.25042853] angle 1.0607369296224607
+time=1617295280.5196679 Pos: [1.98247146 0.         4.24635587] angle 1.0668284191436705
+time=1617295280.6309936 Pos: [1.98470897 0.         4.24226962] angle 1.0728139287251486
+time=1617295280.7427359 Pos: [1.98692237 0.         4.23817026] angle 1.0786067448372871
+time=1617295280.853081 Pos: [1.98911313 0.         4.23405876] angle 1.0838443237424324
+time=1617295280.9636686 Pos: [1.9912819  0.         4.22993562] angle 1.0892854138477208
+time=1617295281.0733585 Pos: [1.99985394 0.         4.21338928] angle 1.0963212085536245
+time=1617295281.1854606 Pos: [2.00829962 0.         4.1967781 ] angle 1.1045282375431926
+time=1617295281.298574 Pos: [2.01659917 0.         4.18009344] angle 1.1138764852169414
+time=1617295281.4129157 Pos: [2.02472881 0.         4.16332537] angle 1.1248419137299654
+time=1617295281.5242321 Pos: [2.0326766  0.         4.14647034] angle 1.1355103824419241
+time=1617295281.633424 Pos: [2.04041623 0.         4.12951879] angle 1.149468432527822
+time=1617295281.7455552 Pos: [2.04791233 0.         4.11245816] angle 1.164149893432479
+time=1617295281.855105 Pos: [2.04972629 0.         4.1081671 ] angle 1.1775471627771898
+time=1617295281.965396 Pos: [2.05673599 0.         4.09090095] angle 1.1927452609793971
+time=1617295282.0779898 Pos: [2.06347534 0.         4.07352751] angle 1.2087636700020632
+time=1617295282.190758 Pos: [2.06993145 0.         4.05604684] angle 1.225250705062839
+time=1617295282.2999833 Pos: [2.07609857 0.         4.03846215] angle 1.2417283851537804
+time=1617295282.4098525 Pos: [2.08197426 0.         4.02077795] angle 1.2583021340400515
+time=1617295282.5313232 Pos: [2.08755574 0.         4.00299869] angle 1.2749121595428732
+time=1617295282.6427138 Pos: [2.09284238 0.         3.98512955] angle 1.2913849195209088
+time=1617295282.7512581 Pos: [2.09783555 0.         3.96717618] angle 1.307680468231452
+time=1617295282.8607726 Pos: [2.10253433 0.         3.94914353] angle 1.324107398107925
+time=1617295282.9697564 Pos: [2.1069389  0.         3.93103677] angle 1.3402440782338982
+time=1617295283.0804935 Pos: [2.11106008 0.         3.91286338] angle 1.3553512796314704
+time=1617295283.188668 Pos: [2.114915   0.         3.89463163] angle 1.369498781963422
+time=1617295283.2991395 Pos: [2.11851994 0.         3.8763488 ] angle 1.382736724643609
+time=1617295283.4077682 Pos: [2.1218923  0.         3.85802162] angle 1.3949093753900328
+time=1617295283.5187216 Pos: [2.12504896 0.         3.83965604] angle 1.4062513392150717
+time=1617295283.6277082 Pos: [2.1280079  0.         3.82125755] angle 1.416421877212377
+time=1617295283.7394645 Pos: [2.12872122 0.         3.81665373] angle 1.4177329062030815
+time=1617295283.8495042 Pos: [2.12942922 0.         3.8120491 ] angle 1.4187343366956748
+time=1617295283.9585307 Pos: [2.13013322 0.         3.80744385] angle 1.4194693114577543
+time=1617295284.067817 Pos: [2.13083931 0.         3.80283892] angle 1.4178260538707952
+time=1617295284.1758583 Pos: [2.13154699 0.         3.79823424] angle 1.418779217976823
+time=1617295284.2836595 Pos: [2.13225476 0.         3.79362957] angle 1.4177864155361588
+time=1617295284.3940992 Pos: [2.13296362 0.         3.78902507] angle 1.4183055512733762
+time=1617295284.5004816 Pos: [2.13367395 0.         3.78442079] angle 1.4171499795134448
+time=1617295284.6230495 Pos: [2.13438606 0.         3.77981679] angle 1.417531208099919
+time=1617295284.731637 Pos: [2.13510145 0.         3.7752133 ] angle 1.4157211655871544
+time=1617295284.8399842 Pos: [2.13582106 0.         3.77061047] angle 1.415701066474023
+time=1617295284.9466906 Pos: [2.13654203 0.         3.76600785] angle 1.4151302547124303
+time=1617295285.0561767 Pos: [2.13727235 0.         3.7614067 ] angle 1.4116405360504969
+time=1617295285.1628783 Pos: [2.13801237 0.         3.75680711] angle 1.4109064670911506
+time=1617295285.2718666 Pos: [2.13876743 0.         3.75220996] angle 1.4051058617032945
+time=1617295285.3792255 Pos: [2.13954463 0.         3.7476165 ] angle 1.4012644994476793
+time=1617295285.4874065 Pos: [2.1403327  0.         3.74302489] angle 1.4003759334235033
+time=1617295285.5919857 Pos: [2.14113569 0.         3.73843588] angle 1.3947623256073856
+time=1617295285.7039928 Pos: [2.14195963 0.         3.73385057] angle 1.3912412327621462
+time=1617295285.808907 Pos: [2.14279283 0.         3.72926694] angle 1.3907243723441454
+time=1617295285.914802 Pos: [2.14363655 0.         3.72468523] angle 1.3866521778507532
+time=1617295286.0220141 Pos: [2.14449697 0.         3.72010663] angle 1.3834283512779424
+time=1617295286.1288548 Pos: [2.14536838 0.         3.71553011] angle 1.381849016153561
+time=1617295286.2364893 Pos: [2.14624553 0.         3.71095468] angle 1.3809246131948938
+time=1617295286.3420935 Pos: [2.14713543 0.         3.70638172] angle 1.3762714870060049
+time=1617295286.4497893 Pos: [2.14804682 0.         3.701813  ] angle 1.371520372496161
+time=1617295286.5573745 Pos: [2.14898012 0.         3.6972487 ] angle 1.3666742560867113
+time=1617295286.6651797 Pos: [2.14993632 0.         3.69268914] angle 1.3614833709389074
+time=1617295286.7715535 Pos: [2.15090789 0.         3.68813283] angle 1.3599323697764145
+time=1617295286.8749192 Pos: [2.15189847 0.         3.68358062] angle 1.3531295181272596
+time=1617295286.9793756 Pos: [2.1529231  0.         3.67903596] angle 1.3449636022265772
+time=1617295287.0845387 Pos: [2.15398657 0.         3.67450024] angle 1.3360209938588843
+time=1617295287.1911602 Pos: [2.15507815 0.         3.66997118] angle 1.3325569020881731
+time=1617295287.3003657 Pos: [2.15618681 0.         3.66544628] angle 1.328475251106984
+time=1617295287.4076052 Pos: [2.15731843 0.         3.66092706] angle 1.322404796628083
+
+move by yellow line
+shift_center=5.3711468815778005 shift_yellow=-147.2034753276649  shift_white=157.94576909082048
+move by yellow line
+shift_center=5.461105531648286 shift_yellow=-146.89874386368666  shift_white=157.82095492698323
+move by yellow line
+shift_center=5.282612865525266 shift_yellow=-146.75166230447957  shift_white=157.31688803553016
+move by yellow line
+shift_center=5.0834874812645126 shift_yellow=-146.9191799776842  shift_white=157.0861549402132
+move by yellow line
+shift_center=4.924857211518884 shift_yellow=-146.81627359312284  shift_white=156.6659880161606
+move by yellow line
+shift_center=4.561341253270086 shift_yellow=-147.08206750594633  shift_white=156.20475001248644
+move by yellow line
+shift_center=4.666093338925862 shift_yellow=-146.973537203881  shift_white=156.30572388173272
+move by yellow line
+shift_center=4.392048719308576 shift_yellow=-146.85221136887614  shift_white=155.63630880749326
+move by yellow line
+shift_center=4.4472130815274795 shift_yellow=-146.6316158851761  shift_white=155.52604204823103
+move by yellow line
+shift_center=4.633666416304209 shift_yellow=-145.99598033061037  shift_white=155.26331316321887
+move by yellow line
+shift_center=4.269568562808104 shift_yellow=-146.22895995253418  shift_white=154.7680970781504
+move by yellow line
+shift_center=3.8908444413631855 shift_yellow=-146.59918663475634  shift_white=154.38087551748265
+move by both lines
+shift_center=1.2091864254849156 shift_yellow=-150.0711666358778  shift_white=152.48953948684755
+move by both lines
+shift_center=-1.4037478738148934 shift_yellow=-152.7458379652149  shift_white=149.9383422175851
+move by both lines
+shift_center=-5.106445123420002 shift_yellow=-154.97833038174045  shift_white=144.76544013490047
+move by both lines
+shift_center=-4.426525962900541 shift_yellow=-157.18220639852942  shift_white=148.3291544727283
+move by both lines
+shift_center=-11.958351476671538 shift_yellow=-157.9037961763349  shift_white=133.98709322299186
+move by both lines
+shift_center=-13.614672887302504 shift_yellow=-159.32346722962805  shift_white=132.09412145502307
+move by both lines
+shift_center=-18.769237773823818 shift_yellow=-166.86408765599774  shift_white=129.32561210835013
+move by white line
+shift_center=-14.79756564377385 shift_yellow=-160.75670918316797  shift_white=131.16157789562033
+move by both lines
+shift_center=-16.67574929829601 shift_yellow=-162.21053534387264  shift_white=128.85903674728058
+move by both lines
+shift_center=-17.748715475152125 shift_yellow=-161.7162699599457  shift_white=126.21883900964144
+move by both lines
+shift_center=-17.72729633621927 shift_yellow=-159.7590716287019  shift_white=124.30447895626332
+move by both lines
+shift_center=-17.947255450006423 shift_yellow=-159.50810784815764  shift_white=123.61359694814485
+move by both lines
+shift_center=-18.030314391260333 shift_yellow=-159.64420598075185  shift_white=123.58357719823113
+move by both lines
+shift_center=-17.716031245710752 shift_yellow=-159.54719315759547  shift_white=124.11513066617403
+move by both lines
+shift_center=-17.310288327659464 shift_yellow=-158.668918710455  shift_white=124.04834205513617
+move by both lines
+shift_center=-17.611098645172376 shift_yellow=-158.73660870093315  shift_white=123.51441141058842
+move by both lines
+shift_center=-16.94654281642829 shift_yellow=-158.5307813530714  shift_white=124.63769572021488
+move by both lines
+shift_center=-14.589448319881171 shift_yellow=-156.2891548659445  shift_white=127.11025822618217
+move by both lines
+shift_center=-12.392121339236382 shift_yellow=-153.79580253914634  shift_white=129.01155986067363
+move by both lines
+shift_center=-10.30959356055638 shift_yellow=-152.1312152118482  shift_white=131.5120280907355
+move by both lines
+shift_center=-7.8705011490118295 shift_yellow=-150.7921927139179  shift_white=135.0511904158942
+move by both lines
+shift_center=-5.968560373809225 shift_yellow=-148.7379465428648  shift_white=136.80082579524634
+move by both lines
+shift_center=-3.2864637986298817 shift_yellow=-145.2847973559098  shift_white=138.7118697586501
+move by both lines
+shift_center=2.2386188728142713 shift_yellow=-141.50086598855853  shift_white=145.97810373418702
+move by yellow line
+shift_center=3.660557453376555 shift_yellow=-141.1464376279208  shift_white=148.46755253467404
+move by yellow line
+shift_center=5.084479255093527 shift_yellow=-140.84139910762866  shift_white=151.01035761781566
+move by yellow line
+shift_center=7.680759164003348 shift_yellow=-138.11879871444924  shift_white=153.48031704245597
+move by yellow line
+shift_center=6.774873794875305 shift_yellow=-141.0911822685807  shift_white=154.64092985833133
+move by yellow line
+shift_center=8.641060217003087 shift_yellow=-138.86343976592758  shift_white=156.14556019993375
+move by yellow line
+shift_center=8.299432954046154 shift_yellow=-140.59430659196641  shift_white=157.19317250005878
+move by yellow line
+shift_center=9.934915955863715 shift_yellow=-138.6771014492306  shift_white=158.54693336095806
+move by yellow line
+shift_center=9.710441040792062 shift_yellow=-140.43643048579565  shift_white=159.85731256737978
+move by yellow line
+shift_center=11.802083267494908 shift_yellow=-137.9278633313872  shift_white=161.53202986637694
+move by yellow line
+shift_center=12.059812891548006 shift_yellow=-139.97699053528714  shift_white=164.09661631838327
+move by yellow line
+shift_center=14.115983197128315 shift_yellow=-139.34653469532853  shift_white=167.5785010895852
+move by yellow line
+shift_center=18.537895698404782 shift_yellow=-136.00497007581876  shift_white=173.08076147262824
+move by yellow line
+shift_center=19.371678104062596 shift_yellow=-139.15963785534046  shift_white=177.9029940634656
+move by yellow line
+shift_center=25.035435432807503 shift_yellow=-133.3594669519823  shift_white=183.43033781759732
+move by yellow line
+shift_center=25.02100329033061 shift_yellow=-135.60240848977176  shift_white=185.64441507043296
+move by yellow line
+shift_center=30.232579550867285 shift_yellow=-138.98276961552324  shift_white=199.44792871725787
+move by yellow line
+shift_center=41.62112089015787 shift_yellow=-133.5735417721085  shift_white=216.8157835524243
+move by yellow line
+shift_center=34.966516154179715 shift_yellow=-135.96905291076996  shift_white=205.9020852191294
+move by yellow line
+shift_center=41.93964231097945 shift_yellow=-139.4082981934727  shift_white=223.28758281543162
+move by yellow line
+shift_center=105.42618297929789 shift_yellow=-135.33815174396457  shift_white=346.19051770256044
+move by yellow line
+shift_center=-574.6480456973102 shift_yellow=-136.30936333944612  shift_white=-1012.9867280551744
+move by yellow line
+shift_center=-436.311026839813 shift_yellow=-138.1919771496082  shift_white=-734.4300765300177
+move by yellow line
+shift_center=-1165.9967206086249 shift_yellow=-138.94174349291774  shift_white=-2193.051697724332
+move by yellow line
+shift_center=-1503.716591696241 shift_yellow=-134.67310113895988  shift_white=-2872.7600822535214
+move by yellow line
+shift_center=-1284.5345093504588 shift_yellow=-134.56092410913075  shift_white=-2434.508094591787
+move by yellow line
+shift_center=-1420.7149408430791 shift_yellow=-134.4521659344618  shift_white=-2706.9777157516965
+move by yellow line
+shift_center=-1541.7883329114175 shift_yellow=-134.05747468279407  shift_white=-2949.519191140041
+move by yellow line
+shift_center=-1231.5731435763055 shift_yellow=-138.22441386917825  shift_white=-2324.9218732834324
+move by yellow line
+shift_center=-1270.1391665831293 shift_yellow=-132.2120954320473  shift_white=-2408.066237734211
+move by yellow line
+shift_center=-1374.5041177471603 shift_yellow=-130.65165947689886  shift_white=-2618.356576017422
+move by yellow line
+shift_center=-1322.065182141179 shift_yellow=-129.76250194066512  shift_white=-2514.3678623416936
+move by yellow line
+shift_center=-1348.9882990087697 shift_yellow=-136.03430774088991  shift_white=-2561.9422902766496
+move by yellow line
+shift_center=-1158.2865208459448 shift_yellow=-135.32732595673468  shift_white=-2181.245715735155
+move by yellow line
+shift_center=-1200.1183487161352 shift_yellow=-133.05054371255426  shift_white=-2267.186153719716
+move by yellow line
+shift_center=-1208.3541428110377 shift_yellow=-133.32889853553155  shift_white=-2283.379387086544time=1617295287.5162842 Pos: [2.15847691 0.         3.65641466] angle 1.3165774892691833
+time=1617295287.6212783 Pos: [2.15966283 0.         3.65190939] angle 1.3102331613125462
+time=1617295287.7397788 Pos: [2.16087859 0.         3.64741209] angle 1.303320269817072
+time=1617295287.8457606 Pos: [2.16212628 0.         3.64292353] angle 1.296018838482405
+time=1617295287.9523122 Pos: [2.16340752 0.         3.63844444] angle 1.2883546514697457
+time=1617295288.0594356 Pos: [2.16472288 0.         3.63397526] angle 1.2807680356223443
+time=1617295288.1698432 Pos: [2.16607612 0.         3.6295174 ] angle 1.2713824283746054
+time=1617295288.2793725 Pos: [2.16748034 0.         3.62507535] angle 1.2578492284318306
+time=1617295288.3864772 Pos: [2.17130422 0.         3.60687247] angle 1.469625367339259
+time=1617295288.4948862 Pos: [2.17189211 0.         3.60225147] angle 1.418880810229939
+time=1617295288.6029794 Pos: [2.17270181 0.         3.59766404] angle 1.3733035495013086
+time=1617295288.7091372 Pos: [2.17369623 0.         3.59311291] angle 1.3380544784385142
+time=1617295288.8203359 Pos: [2.1748994  0.         3.58861286] angle 1.2810206077815676
+time=1617295288.9270036 Pos: [2.1763648  0.         3.58419133] angle 1.220509793123871
+time=1617295289.0346165 Pos: [2.17808557 0.         3.57986269] angle 1.1643308695832215
+time=1617295289.140055 Pos: [2.17996441 0.         3.57559967] angle 1.147027069957311
+/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/lf_challenge/solutions/solution.py:228: RankWarning: Polyfit may be poorly conditioned
+  vel, angle = find_lane(img)
+time=1617295289.245433 Pos: [2.18669155 0.         3.55823108] angle 1.255515518688597
+time=1617295289.3536747 Pos: [2.18842272 0.         3.55390954] angle 1.1240466909170537
+time=1617295289.4649096 Pos: [2.19039867 0.         3.54969065] angle 1.141516991406222
+/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/lf_challenge/solutions/solution.py:228: RankWarning: Polyfit may be poorly conditioned
+  vel, angle = find_lane(img)
+time=1617295289.572885 Pos: [2.19952752 0.         3.53346955] angle 0.974877448801795
+time=1617295289.6825361 Pos: [2.20236057 0.         3.52977452] angle 0.8584820968049105
+time=1617295289.7899594 Pos: [2.20555829 0.         3.52638864] angle 0.7694606766214533
+time=1617295289.9004564 Pos: [2.20899647 0.         3.52324591] angle 0.7116036594714484
+time=1617295290.0099747 Pos: [2.21259364 0.         3.5202861 ] angle 0.6653969531795285
+time=1617295290.1150727 Pos: [2.21631105 0.         3.51747856] angle 0.6282954290230064
+time=1617295290.2229407 Pos: [2.22011932 0.         3.51479539] angle 0.5992708282644359
+time=1617295290.3314383 Pos: [2.22399615 0.         3.51221214] angle 0.5762655712776883
+time=1617295290.4389768 Pos: [2.22792477 0.         3.50970828] angle 0.5585826745462611
+time=1617295290.5462055 Pos: [2.23189024 0.         3.50726314] angle 0.5464984339559181
+time=1617295290.6517317 Pos: [2.23588258 0.         3.50486211] angle 0.5364143325662255
+time=1617295290.7582061 Pos: [2.23989718 0.         3.50249847] angle 0.5278159136876762
+time=1617295290.8648593 Pos: [2.25599372 0.         3.4931089 ] angle 0.5283256938662408
+time=1617295290.968652 Pos: [2.2600279  0.         3.49077883] angle 0.5192166088474992
+time=1617295291.0750625 Pos: [2.26407868 0.         3.48847774] angle 0.5139929216069758
+time=1617295291.1805606 Pos: [2.26813829 0.         3.48619225] angle 0.5115175772663383
+time=1617295291.2874284 Pos: [2.27220223 0.         3.48391446] angle 0.5102009819092209
+time=1617295291.3928714 Pos: [2.27626898 0.         3.4816417 ] angle 0.5090445424797402
+time=1617295291.4981267 Pos: [2.2803383  0.         3.47937354] angle 0.5079410225583602
+time=1617295291.6049304 Pos: [2.28440966 0.         3.47710903] angle 0.5072472700365541
+time=1617295291.709555 Pos: [2.288482  0.        3.4748463] angle 0.5070705655141201
+time=1617295291.8138301 Pos: [2.29255417 0.         3.47258325] angle 0.5074009464376256
+time=1617295291.921584 Pos: [2.29662519 0.         3.47031816] angle 0.5080779368953803
+time=1617295292.026745 Pos: [2.30069412 0.         3.4680493 ] angle 0.5092486348331704
+time=1617295292.1307566 Pos: [2.30476005 0.         3.46577507] angle 0.5107226560137322
+time=1617295292.2391224 Pos: [2.30882203 0.         3.46349378] angle 0.512718736430077
+time=1617295292.3462653 Pos: [2.31287944 0.         3.46120438] angle 0.5147182735485619
+time=1617295292.4540546 Pos: [2.31693186 0.         3.45890616] angle 0.5170706895674737
+time=1617295292.563508 Pos: [2.32097893 0.         3.45659854] angle 0.5193614113773485
+time=1617295292.6691046 [2.34160855 0.         3.53126049] corresponds to tile at (4, 6) which is not drivable: {'coords': (4, 6), 'kind': 'asphalt', 'angle': 0, 'drivable': False, 'texture': <gym_duckietown.graphics.Texture object at 0x7fcecebf6358>, 'color': array([1, 1, 1])}
+time=1617295292.6698499 Invalid pose. Collision free: True On drivable area: False
+time=1617295292.6699438 safety_factor: 1.0
+time=1617295292.6702647 pos: [2.30421595 0.         3.46624669]
+time=1617295292.6705825 l_pos: [2.26682335 0.         3.40123289]
+time=1617295292.670878 r_pos: [2.34160855 0.         3.53126049]
+time=1617295292.6711576 f_pos: [2.3822325  0.         3.42137557]
+time=1617295292.6712303 Stopping the simulator because we are at an invalid pose.
+time=1617295292.671545 Pos: [2.32502036 0.         3.45428106] angle 0.5219460077067889
+
+move by yellow line
+shift_center=-1024.9683691795858 shift_yellow=-132.7370133552418  shift_white=-1917.1997250039299
+move by yellow line
+shift_center=-980.2156028264994 shift_yellow=-132.08612181598124  shift_white=-1828.3450838370177
+move by yellow line
+shift_center=-853.0223614444551 shift_yellow=-131.64132140807317  shift_white=-1574.4034014808371
+move by yellow line
+shift_center=-815.2674981431608 shift_yellow=-131.22603870790772  shift_white=-1499.3089575784138
+move by yellow line
+shift_center=-758.2922026030432 shift_yellow=-131.31484217789477  shift_white=-1385.2695630281914
+move by yellow line
+shift_center=-641.1546523446443 shift_yellow=-129.25535682278849  shift_white=-1153.0539478665
+move by yellow line
+shift_center=-502.233782408295 shift_yellow=-124.50719270551133  shift_white=-879.9603721110786
+move by yellow line
+shift_center=-464.88264764244803 shift_yellow=-121.48790420013847  shift_white=-808.2773910847578
+move by both lines
+shift_center=-446.10337539158127 shift_yellow=-81.90763102125057  shift_white=-810.2991197619118
+move by yellow line
+shift_center=-480.6211715470929 shift_yellow=-87.8231519178638  shift_white=-873.4191911763219
+move by yellow line
+shift_center=-475.85191115806373 shift_yellow=-99.64686344731311  shift_white=-852.0569588688145
+move by yellow line
+shift_center=-455.5271808101926 shift_yellow=-74.70762487192735  shift_white=-836.3467367484579
+move by yellow line
+shift_center=-350.92881980092454 shift_yellow=-70.7272193798691  shift_white=-631.13042022198
+move by yellow line
+shift_center=-147.739577630217 shift_yellow=-75.68636833066444  shift_white=-219.79278692976953
+move by yellow line
+shift_center=-78.01763773010883 shift_yellow=-120.19061018825778  shift_white=-35.844665271959855
+move by yellow line
+shift_center=-228.39515221515205 shift_yellow=-159.5261186325398  shift_white=-297.2641857977644
+move by both lines
+shift_center=-131.88194502989722 shift_yellow=10.50551403286272  shift_white=-274.2694040926573
+move by yellow line
+shift_center=840 shift_yellow=-160  shift_white=-160
+move by yellow line
+shift_center=401.53789674709594 shift_yellow=140.7015143707781  shift_white=662.3742791234142
+move by both lines
+shift_center=-809.9914243765015 shift_yellow=-6.750601033966518  shift_white=-1613.2322477190364
+move by yellow line
+shift_center=179.69279586017615 shift_yellow=-38.08827817397831  shift_white=397.4738698943304
+move by yellow line
+shift_center=74.89504420242707 shift_yellow=-73.76528676667438  shift_white=223.55537517152857
+move by yellow line
+shift_center=-175.37234031733135 shift_yellow=-87.10256263701007  shift_white=-263.6421179976527
+move by yellow line
+shift_center=-55.78960755394756 shift_yellow=-97.52617514561354  shift_white=-14.053039962281474
+move by yellow line
+shift_center=20.81983651172959 shift_yellow=-106.77263705158855  shift_white=148.4123100750478
+move by yellow line
+shift_center=55.78354790166708 shift_yellow=-113.6635818015713  shift_white=225.2306776049054
+move by yellow line
+shift_center=39.93838376494719 shift_yellow=-119.7566198218621  shift_white=199.63338735175654
+move by yellow line
+shift_center=27.641819443586655 shift_yellow=-126.16596137217532  shift_white=181.4496002593487
+move by yellow line
+shift_center=23.147265102188328 shift_yellow=-128.45572072907987  shift_white=174.75025093345653
+move by yellow line
+shift_center=20.399405112538204 shift_yellow=-130.1565300678368  shift_white=170.9553402929132
+move by yellow line
+shift_center=18.832807303158347 shift_yellow=-131.9922692893614  shift_white=169.65788389567814
+move by both lines
+shift_center=31.68544252242313 shift_yellow=-129.57191947054457  shift_white=192.94280451539083
+move by yellow line
+shift_center=27.046811824499514 shift_yellow=-134.0199228470488  shift_white=188.11354649604777
+move by yellow line
+shift_center=3.7751755047216307 shift_yellow=-137.16622579883818  shift_white=144.7165768082815
+move by yellow line
+shift_center=3.708844459583588 shift_yellow=-138.4927616351721  shift_white=145.91045055433932
+move by yellow line
+shift_center=3.1527393264640864 shift_yellow=-138.67610814113047  shift_white=144.98158679405867
+move by yellow line
+shift_center=2.0447400993663223 shift_yellow=-138.7366903940042  shift_white=142.8261705927368
+move by yellow line
+shift_center=3.445483194646698 shift_yellow=-139.20579211303647  shift_white=146.09675850232986
+move by yellow line
+shift_center=-0.5588410526934808 shift_yellow=-139.79770866271755  shift_white=138.6800265573305
+move by yellow line
+shift_center=-2.0781100256213847 shift_yellow=-140.37822008122902  shift_white=136.22200002998625
+move by yellow line
+shift_center=-3.63553925481267 shift_yellow=-140.7750186760376  shift_white=133.50394016641212
+move by yellow line
+shift_center=-2.47060610239285 shift_yellow=-141.34021499918214  shift_white=136.3990027943965
+move by yellow line
+shift_center=-5.58755412547842 shift_yellow=-141.68745944750714  shift_white=130.5123511965503
+move by yellow line
+shift_center=-9.869587868537735 shift_yellow=-142.28511286063159  shift_white=122.54593712355597
+move by yellow line
+shift_center=-13.538176901429466 shift_yellow=-142.28907009324155  shift_white=115.21271629038256
+move by yellow line
+shift_center=-13.409880344227986 shift_yellow=-142.69304585845023  shift_white=115.87328516999423
+move by yellow line
+shift_center=-13.97101841641313 shift_yellow=-142.6224183279446  shift_white=114.68038149511824
+move by yellow line
+shift_center=-4.805966248934254 shift_yellow=-142.95884587794333  shift_white=133.3469133800748
+move by yellow line
+total reward =  -56.02071781041431
+False: Incorrect solution execution: Stopping the simulator because we are at an invalid pose.
