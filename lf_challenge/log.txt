@@ -1,0 +1,39 @@
+False: Non-zero return code, probably a syntax error occurred\ntime=1636656088.364965 gym-duckietown 2019.0.0
+
+time=1636656088.5958955 Registering gym environment id: Duckietown-4way-v0
+time=1636656088.59605 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1636656088.5961485 Registering gym environment id: Duckietown-loop_empty-v0
+time=1636656088.596291 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1636656088.5964103 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1636656088.5965261 Registering gym environment id: Duckietown-small_loop-v0
+time=1636656088.5966485 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1636656088.596757 Registering gym environment id: Duckietown-straight_road-v0
+time=1636656088.596841 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1636656088.59691 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1636656088.5970209 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1636656088.597117 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1636656088.5972064 Registering gym environment id: Duckietown-udem1-v0
+time=1636656088.5973346 Registering gym environment id: Duckietown-zigzag_dists-v0
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib/python3.6/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/lf_challenge/checker.py", line 6, in <module>
+    checkers=[RewardChecker()]
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/solution_evaluator.py", line 31, in __init__
+    solution_file_as_module = importlib.import_module(self.args.solution_file_as_module)
+  File "/usr/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/lf_challenge/solutions/solution.py", line 11
+    print(file.readlines())
+                          ^
+TabError: inconsistent use of tabs and spaces in indentation
