@@ -1,0 +1,452 @@
+False: Incorrect solution execution: Stopping the simulator because we are at an invalid pose.
+time=1637055956.1937046 gym-duckietown 2019.0.0
+
+time=1637055956.477444 Registering gym environment id: Duckietown-4way-v0
+time=1637055956.4776266 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1637055956.4777296 Registering gym environment id: Duckietown-loop_empty-v0
+time=1637055956.4778295 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1637055956.4779234 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1637055956.4780004 Registering gym environment id: Duckietown-small_loop-v0
+time=1637055956.4780755 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1637055956.4781625 Registering gym environment id: Duckietown-straight_road-v0
+time=1637055956.4782639 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1637055956.4784021 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1637055956.4784997 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1637055956.4785771 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1637055956.478654 Registering gym environment id: Duckietown-udem1-v0
+time=1637055956.4787407 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1637055958.5611088 Falling back to non-multisampled frame buffer
+time=1637055958.5649 Falling back to non-multisampled frame buffer
+time=1637055958.5691922 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/zigzag_dists.yaml"
+time=1637055958.5870256 loading mesh "duckiebot.obj"
+time=1637055958.587354 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1637055959.0239549 loading mesh "bus.obj"
+time=1637055959.0490425 loading texture "bus.png"
+time=1637055959.4477994 loading mesh "truck.obj"
+time=1637055959.4634192 loading texture "truck.png"
+time=1637055959.8400412 loading mesh "tree.obj"
+time=1637055959.8403385 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/tree.mtl"
+time=1637055959.8433244 loading mesh "sign_blank.obj"
+time=1637055959.8455954 loading texture "sign_blank.png"
+time=1637055959.9374897 loading texture "asphalt_1.png"
+time=1637055960.1722736 loading texture "curve_left_1.png"
+time=1637055960.182543 loading texture "straight_1.png"
+time=1637055960.192074 loading texture "curve_right_1.png"
+time=1637055960.2088294 using user tile start: (1, 1)
+time=1637055960.2098403 tile: {'coords': (1, 1), 'kind': 'curve_left', 'angle': 3, 'drivable': True, 'curves': array([[[1.17  , 0.    , 0.7605],
+        [0.8775, 0.    , 0.7605],
+        [0.7605, 0.    , 0.8775],
+        [0.7605, 0.    , 1.17  ]],
+
+       [[0.9945, 0.    , 1.17  ],
+        [0.9945, 0.    , 1.053 ],
+        [1.053 , 0.    , 0.9945],
+        [1.17  , 0.    , 0.9945]]]), 'texture': <gym_duckietown.graphics.Texture object at 0x7f9bb40b1be0>, 'color': array([1, 1, 1])}
+time=1637055960.2114289 road_tile_size=0.585
+time=1637055960.2117662 Starting at [0.73983429 0.         0.8487585 ] -1.3355489339493793
+time=1637055960.21207 Pos: [0.73983429 0.         0.8487585 ] angle -1.3355489339493793
+time=1637055960.4703882 using DuckietownEnv
+/usr/local/lib/python3.6/dist-packages/gym/spaces/box.py:74: UserWarning: [33mWARN: Box bound precision lowered by casting to float32[0m
+  "Box bound precision lowered by casting to {}".format(self.dtype)
+time=1637055960.7041955 Pos: [0.73983429 0.         0.8487585 ] angle -1.3355489339493793
+time=1637055960.9866898 Pos: [0.73983429 0.         0.8487585 ] angle -1.3355489339493793
+time=1637055961.1047022 Pos: [0.74915764 0.         0.88765677] angle -1.3355489339493793
+time=1637055961.2330012 Pos: [0.75848098 0.         0.92655504] angle -1.3355489339493793
+time=1637055961.347658 Pos: [0.76780432 0.         0.96545331] angle -1.3355489339493793
+time=1637055961.4593596 Pos: [0.77712766 0.         1.00435157] angle -1.3355489339493793
+time=1637055961.572038 Pos: [0.78645101 0.         1.04324984] angle -1.3355489339493793
+time=1637055961.6807692 Pos: [0.79577435 0.         1.08214811] angle -1.3355489339493793
+time=1637055961.7909107 Pos: [0.80509769 0.         1.12104638] angle -1.3355489339493793
+time=1637055961.9002836 Pos: [0.81442104 0.         1.15994465] angle -1.3355489339493793
+time=1637055962.0132759 Pos: [0.82374438 0.         1.19884292] angle -1.3355489339493793
+time=1637055962.122241 Pos: [0.83306772 0.         1.23774118] angle -1.3355489339493793
+time=1637055962.239205 Pos: [0.84239106 0.         1.27663945] angle -1.3355489339493793
+time=1637055962.3502872 Pos: [0.85171441 0.         1.31553772] angle -1.3355489339493793
+time=1637055962.462414 Pos: [0.86103775 0.         1.35443599] angle -1.3355489339493793
+time=1637055962.5720603 Pos: [0.87036109 0.         1.39333426] angle -1.3355489339493793
+time=1637055962.6817915 Pos: [0.87968444 0.         1.43223253] angle -1.3355489339493793
+time=1637055962.7910335 Pos: [0.88900778 0.         1.47113079] angle -1.3355489339493793
+time=1637055962.9006054 Pos: [0.89833112 0.         1.51002906] angle -1.3355489339493793
+time=1637055963.0116723 Pos: [0.90765446 0.         1.54892733] angle -1.3355489339493793
+time=1637055963.1231263 Pos: [0.91697781 0.         1.5878256 ] angle -1.3355489339493793
+time=1637055963.2354648 Pos: [0.92630115 0.         1.62672387] angle -1.3355489339493793
+time=1637055963.349672 Pos: [0.93562449 0.         1.66562214] angle -1.3355489339493793
+time=1637055963.4602375 Pos: [0.94494784 0.         1.7045204 ] angle -1.3355489339493793
+time=1637055963.5682728 Pos: [0.95427118 0.         1.74341867] angle -1.3355489339493793
+time=1637055963.6774151 Pos: [0.96359452 0.         1.78231694] angle -1.3355489339493793
+time=1637055963.789972 Pos: [0.97291786 0.         1.82121521] angle -1.3355489339493793
+time=1637055963.8991566 Pos: [0.98224121 0.         1.86011348] angle -1.3355489339493793
+time=1637055964.010933 Pos: [0.99156455 0.         1.89901175] angle -1.3355489339493793
+time=1637055964.121454 Pos: [1.00088789 0.         1.93791001] angle -1.3355489339493793
+time=1637055964.230597 Pos: [1.01021124 0.         1.97680828] angle -1.3355489339493793
+time=1637055964.3410857 Pos: [1.01953458 0.         2.01570655] angle -1.3355489339493793
+time=1637055964.4482667 Pos: [1.02885792 0.         2.05460482] angle -1.3355489339493793
+time=1637055964.556786 Pos: [1.03818126 0.         2.09350309] angle -1.3355489339493793
+time=1637055964.6637967 Pos: [1.04750461 0.         2.13240136] angle -1.3355489339493793
+time=1637055964.7711723 Pos: [1.05682795 0.         2.17129962] angle -1.3355489339493793
+time=1637055964.880152 Pos: [1.06615129 0.         2.21019789] angle -1.3355489339493793
+time=1637055964.986839 Pos: [1.07547464 0.         2.24909616] angle -1.3355489339493793
+time=1637055965.0970535 Pos: [1.08479798 0.         2.28799443] angle -1.3355489339493793
+time=1637055965.2056034 Pos: [1.09412132 0.         2.3268927 ] angle -1.3355489339493793
+time=1637055965.3116367 [1.17078491 0.         2.32497074] corresponds to tile at (2, 3) which is not drivable: {'coords': (2, 3), 'kind': 'asphalt', 'angle': 0, 'drivable': False, 'texture': <gym_duckietown.graphics.Texture object at 0x7f9bb40b1eb8>, 'color': array([1, 1, 1])}
+time=1637055965.3123972 Invalid pose. Collision free: True On drivable area: False
+time=1637055965.3124757 safety_factor: 1.0
+time=1637055965.3128498 pos: [1.09785066 0.         2.342452  ]
+time=1637055965.3131783 l_pos: [1.17078491 0.         2.32497074]
+time=1637055965.3134801 r_pos: [1.02491641 0.         2.35993327]
+time=1637055965.31378 f_pos: [1.11882818 0.         2.42997311]
+time=1637055965.313867 Stopping the simulator because we are at an invalid pose.
+time=1637055965.314193 Pos: [1.10344466 0.         2.36579097] angle -1.3355489339493793
+# avr-spbu-public
+
+`usermod -aG dialout <username>`
+
+```
+avr-gcc -g -std=c99 -O1 -mmcu=atmega328p -o out.elf example.c
+avrdude -v -patmega328p -P /dev/ttyACM0 -c arduino -U flash:w:"out.elf"
+```
+
+# avr-spbu-public
+
+`usermod -aG dialout <username>`
+
+```
+avr-gcc -g -std=c99 -O1 -mmcu=atmega328p -o out.elf example.c
+avrdude -v -patmega328p -P /dev/ttyACM0 -c arduino -U flash:w:"out.elf"
+```
+
+# avr-spbu-public
+
+`usermod -aG dialout <username>`
+
+```
+avr-gcc -g -std=c99 -O1 -mmcu=atmega328p -o out.elf example.c
+avrdude -v -patmega328p -P /dev/ttyACM0 -c arduino -U flash:w:"out.elf"
+```
+
+# avr-spbu-public
+
+`usermod -aG dialout <username>`
+
+```
+avr-gcc -g -std=c99 -O1 -mmcu=atmega328p -o out.elf example.c
+avrdude -v -patmega328p -P /dev/ttyACM0 -c arduino -U flash:w:"out.elf"
+```
+
+# avr-spbu-public
+
+`usermod -aG dialout <username>`
+
+```
+avr-gcc -g -std=c99 -O1 -mmcu=atmega328p -o out.elf example.c
+avrdude -v -patmega328p -P /dev/ttyACM0 -c arduino -U flash:w:"out.elf"
+```
+
+# avr-spbu-public
+
+`usermod -aG dialout <username>`
+
+```
+avr-gcc -g -std=c99 -O1 -mmcu=atmega328p -o out.elf example.c
+avrdude -v -patmega328p -P /dev/ttyACM0 -c arduino -U flash:w:"out.elf"
+```
+
+# avr-spbu-public
+
+`usermod -aG dialout <username>`
+
+```
+avr-gcc -g -std=c99 -O1 -mmcu=atmega328p -o out.elf example.c
+avrdude -v -patmega328p -P /dev/ttyACM0 -c arduino -U flash:w:"out.elf"
+```
+
+# avr-spbu-public
+
+`usermod -aG dialout <username>`
+
+```
+avr-gcc -g -std=c99 -O1 -mmcu=atmega328p -o out.elf example.c
+avrdude -v -patmega328p -P /dev/ttyACM0 -c arduino -U flash:w:"out.elf"
+```
+
+# avr-spbu-public
+
+`usermod -aG dialout <username>`
+
+```
+avr-gcc -g -std=c99 -O1 -mmcu=atmega328p -o out.elf example.c
+avrdude -v -patmega328p -P /dev/ttyACM0 -c arduino -U flash:w:"out.elf"
+```
+
+# avr-spbu-public
+
+`usermod -aG dialout <username>`
+
+```
+avr-gcc -g -std=c99 -O1 -mmcu=atmega328p -o out.elf example.c
+avrdude -v -patmega328p -P /dev/ttyACM0 -c arduino -U flash:w:"out.elf"
+```
+
+# avr-spbu-public
+
+`usermod -aG dialout <username>`
+
+```
+avr-gcc -g -std=c99 -O1 -mmcu=atmega328p -o out.elf example.c
+avrdude -v -patmega328p -P /dev/ttyACM0 -c arduino -U flash:w:"out.elf"
+```
+
+# avr-spbu-public
+
+`usermod -aG dialout <username>`
+
+```
+avr-gcc -g -std=c99 -O1 -mmcu=atmega328p -o out.elf example.c
+avrdude -v -patmega328p -P /dev/ttyACM0 -c arduino -U flash:w:"out.elf"
+```
+
+# avr-spbu-public
+
+`usermod -aG dialout <username>`
+
+```
+avr-gcc -g -std=c99 -O1 -mmcu=atmega328p -o out.elf example.c
+avrdude -v -patmega328p -P /dev/ttyACM0 -c arduino -U flash:w:"out.elf"
+```
+
+# avr-spbu-public
+
+`usermod -aG dialout <username>`
+
+```
+avr-gcc -g -std=c99 -O1 -mmcu=atmega328p -o out.elf example.c
+avrdude -v -patmega328p -P /dev/ttyACM0 -c arduino -U flash:w:"out.elf"
+```
+
+# avr-spbu-public
+
+`usermod -aG dialout <username>`
+
+```
+avr-gcc -g -std=c99 -O1 -mmcu=atmega328p -o out.elf example.c
+avrdude -v -patmega328p -P /dev/ttyACM0 -c arduino -U flash:w:"out.elf"
+```
+
+# avr-spbu-public
+
+`usermod -aG dialout <username>`
+
+```
+avr-gcc -g -std=c99 -O1 -mmcu=atmega328p -o out.elf example.c
+avrdude -v -patmega328p -P /dev/ttyACM0 -c arduino -U flash:w:"out.elf"
+```
+
+# avr-spbu-public
+
+`usermod -aG dialout <username>`
+
+```
+avr-gcc -g -std=c99 -O1 -mmcu=atmega328p -o out.elf example.c
+avrdude -v -patmega328p -P /dev/ttyACM0 -c arduino -U flash:w:"out.elf"
+```
+
+# avr-spbu-public
+
+`usermod -aG dialout <username>`
+
+```
+avr-gcc -g -std=c99 -O1 -mmcu=atmega328p -o out.elf example.c
+avrdude -v -patmega328p -P /dev/ttyACM0 -c arduino -U flash:w:"out.elf"
+```
+
+# avr-spbu-public
+
+`usermod -aG dialout <username>`
+
+```
+avr-gcc -g -std=c99 -O1 -mmcu=atmega328p -o out.elf example.c
+avrdude -v -patmega328p -P /dev/ttyACM0 -c arduino -U flash:w:"out.elf"
+```
+
+# avr-spbu-public
+
+`usermod -aG dialout <username>`
+
+```
+avr-gcc -g -std=c99 -O1 -mmcu=atmega328p -o out.elf example.c
+avrdude -v -patmega328p -P /dev/ttyACM0 -c arduino -U flash:w:"out.elf"
+```
+
+# avr-spbu-public
+
+`usermod -aG dialout <username>`
+
+```
+avr-gcc -g -std=c99 -O1 -mmcu=atmega328p -o out.elf example.c
+avrdude -v -patmega328p -P /dev/ttyACM0 -c arduino -U flash:w:"out.elf"
+```
+
+# avr-spbu-public
+
+`usermod -aG dialout <username>`
+
+```
+avr-gcc -g -std=c99 -O1 -mmcu=atmega328p -o out.elf example.c
+avrdude -v -patmega328p -P /dev/ttyACM0 -c arduino -U flash:w:"out.elf"
+```
+
+# avr-spbu-public
+
+`usermod -aG dialout <username>`
+
+```
+avr-gcc -g -std=c99 -O1 -mmcu=atmega328p -o out.elf example.c
+avrdude -v -patmega328p -P /dev/ttyACM0 -c arduino -U flash:w:"out.elf"
+```
+
+# avr-spbu-public
+
+`usermod -aG dialout <username>`
+
+```
+avr-gcc -g -std=c99 -O1 -mmcu=atmega328p -o out.elf example.c
+avrdude -v -patmega328p -P /dev/ttyACM0 -c arduino -U flash:w:"out.elf"
+```
+
+# avr-spbu-public
+
+`usermod -aG dialout <username>`
+
+```
+avr-gcc -g -std=c99 -O1 -mmcu=atmega328p -o out.elf example.c
+avrdude -v -patmega328p -P /dev/ttyACM0 -c arduino -U flash:w:"out.elf"
+```
+
+# avr-spbu-public
+
+`usermod -aG dialout <username>`
+
+```
+avr-gcc -g -std=c99 -O1 -mmcu=atmega328p -o out.elf example.c
+avrdude -v -patmega328p -P /dev/ttyACM0 -c arduino -U flash:w:"out.elf"
+```
+
+# avr-spbu-public
+
+`usermod -aG dialout <username>`
+
+```
+avr-gcc -g -std=c99 -O1 -mmcu=atmega328p -o out.elf example.c
+avrdude -v -patmega328p -P /dev/ttyACM0 -c arduino -U flash:w:"out.elf"
+```
+
+# avr-spbu-public
+
+`usermod -aG dialout <username>`
+
+```
+avr-gcc -g -std=c99 -O1 -mmcu=atmega328p -o out.elf example.c
+avrdude -v -patmega328p -P /dev/ttyACM0 -c arduino -U flash:w:"out.elf"
+```
+
+# avr-spbu-public
+
+`usermod -aG dialout <username>`
+
+```
+avr-gcc -g -std=c99 -O1 -mmcu=atmega328p -o out.elf example.c
+avrdude -v -patmega328p -P /dev/ttyACM0 -c arduino -U flash:w:"out.elf"
+```
+
+# avr-spbu-public
+
+`usermod -aG dialout <username>`
+
+```
+avr-gcc -g -std=c99 -O1 -mmcu=atmega328p -o out.elf example.c
+avrdude -v -patmega328p -P /dev/ttyACM0 -c arduino -U flash:w:"out.elf"
+```
+
+# avr-spbu-public
+
+`usermod -aG dialout <username>`
+
+```
+avr-gcc -g -std=c99 -O1 -mmcu=atmega328p -o out.elf example.c
+avrdude -v -patmega328p -P /dev/ttyACM0 -c arduino -U flash:w:"out.elf"
+```
+
+# avr-spbu-public
+
+`usermod -aG dialout <username>`
+
+```
+avr-gcc -g -std=c99 -O1 -mmcu=atmega328p -o out.elf example.c
+avrdude -v -patmega328p -P /dev/ttyACM0 -c arduino -U flash:w:"out.elf"
+```
+
+# avr-spbu-public
+
+`usermod -aG dialout <username>`
+
+```
+avr-gcc -g -std=c99 -O1 -mmcu=atmega328p -o out.elf example.c
+avrdude -v -patmega328p -P /dev/ttyACM0 -c arduino -U flash:w:"out.elf"
+```
+
+# avr-spbu-public
+
+`usermod -aG dialout <username>`
+
+```
+avr-gcc -g -std=c99 -O1 -mmcu=atmega328p -o out.elf example.c
+avrdude -v -patmega328p -P /dev/ttyACM0 -c arduino -U flash:w:"out.elf"
+```
+
+# avr-spbu-public
+
+`usermod -aG dialout <username>`
+
+```
+avr-gcc -g -std=c99 -O1 -mmcu=atmega328p -o out.elf example.c
+avrdude -v -patmega328p -P /dev/ttyACM0 -c arduino -U flash:w:"out.elf"
+```
+
+# avr-spbu-public
+
+`usermod -aG dialout <username>`
+
+```
+avr-gcc -g -std=c99 -O1 -mmcu=atmega328p -o out.elf example.c
+avrdude -v -patmega328p -P /dev/ttyACM0 -c arduino -U flash:w:"out.elf"
+```
+
+# avr-spbu-public
+
+`usermod -aG dialout <username>`
+
+```
+avr-gcc -g -std=c99 -O1 -mmcu=atmega328p -o out.elf example.c
+avrdude -v -patmega328p -P /dev/ttyACM0 -c arduino -U flash:w:"out.elf"
+```
+
+# avr-spbu-public
+
+`usermod -aG dialout <username>`
+
+```
+avr-gcc -g -std=c99 -O1 -mmcu=atmega328p -o out.elf example.c
+avrdude -v -patmega328p -P /dev/ttyACM0 -c arduino -U flash:w:"out.elf"
+```
+
+# avr-spbu-public
+
+`usermod -aG dialout <username>`
+
+```
+avr-gcc -g -std=c99 -O1 -mmcu=atmega328p -o out.elf example.c
+avrdude -v -patmega328p -P /dev/ttyACM0 -c arduino -U flash:w:"out.elf"
+```
+
+total reward =  -20.679670409722362
+False: Incorrect solution execution: Stopping the simulator because we are at an invalid pose.
