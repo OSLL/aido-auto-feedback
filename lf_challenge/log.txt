@@ -1,0 +1,64 @@
+False: Non-zero return code, probably a syntax error occurred\ntime=1637050096.6829834 gym-duckietown 2019.0.0
+
+time=1637050097.6766644 Registering gym environment id: Duckietown-4way-v0
+time=1637050097.676889 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1637050097.6772447 Registering gym environment id: Duckietown-loop_empty-v0
+time=1637050097.6774106 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1637050097.6775167 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1637050097.6776147 Registering gym environment id: Duckietown-small_loop-v0
+time=1637050097.6777017 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1637050097.6777825 Registering gym environment id: Duckietown-straight_road-v0
+time=1637050097.6779156 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1637050097.6780102 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1637050097.6781263 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1637050097.6782525 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1637050097.6783834 Registering gym environment id: Duckietown-udem1-v0
+time=1637050097.678496 Registering gym environment id: Duckietown-zigzag_dists-v0
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib/python3.6/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/lf_challenge/checker.py", line 6, in <module>
+    checkers=[RewardChecker()]
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/solution_evaluator.py", line 25, in __init__
+    'gym_duckietown.tasks.{}.task_generator'.format(self.args.task_id)
+  File "/usr/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/lf_challenge/task_generator.py", line 2, in <module>
+    from gym_duckietown.tasks.cv_task_env import CVTaskEnv
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/cv_task_env.py", line 1, in <module>
+    from gym_duckietown.tasks.tracking_duckietown_env_with_rec import TrackingDuckietownEnvWithRec
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/tracking_duckietown_env_with_rec.py", line 3, in <module>
+    from gym_duckietown.envs import DuckietownEnv
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/envs/__init__.py", line 4, in <module>
+    from gym_duckietown.envs.duckietown_env import DuckietownEnv
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/envs/duckietown_env.py", line 5, in <module>
+    from ..simulator import Simulator
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/simulator.py", line 9, in <module>
+    import geometry
+  File "/usr/local/lib/python3.6/dist-packages/geometry/__init__.py", line 48, in <module>
+    from .basic_utils import *
+  File "/usr/local/lib/python3.6/dist-packages/geometry/basic_utils.py", line 4, in <module>
+    from contracts import contract, new_contract
+  File "/usr/local/lib/python3.6/dist-packages/contracts/__init__.py", line 44, in <module>
+    from .useful_contracts import *
+  File "/usr/local/lib/python3.6/dist-packages/contracts/useful_contracts/__init__.py", line 8, in <module>
+    from .numpy_specific import *    
+  File "/usr/local/lib/python3.6/dist-packages/contracts/useful_contracts/numpy_specific.py", line 7, in <module>
+    @new_contract
+  File "/usr/local/lib/python3.6/dist-packages/contracts/__init__.py", line 28, in new_contract
+    return new_contract_main(*args)
+  File "/usr/local/lib/python3.6/dist-packages/contracts/main.py", line 553, in new_contract
+    new_contract_impl(identifier, function)
+  File "/usr/local/lib/python3.6/dist-packages/contracts/main.py", line 563, in new_contract_impl
+    from .syntax import ParseException
+  File "/usr/local/lib/python3.6/dist-packages/contracts/syntax.py", line 6, in <module>
+    from pyparsing import (delimitedList, Forward, Literal,
+ImportError: cannot import name 'operatorPrecedence'
