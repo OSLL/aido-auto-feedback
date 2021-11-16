@@ -1,0 +1,282 @@
+False: Incorrect solution execution: Stopping the simulator because we are at an invalid pose.
+time=1637056059.759103 gym-duckietown 2019.0.0
+
+time=1637056060.0338945 Registering gym environment id: Duckietown-4way-v0
+time=1637056060.0341008 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1637056060.0341883 Registering gym environment id: Duckietown-loop_empty-v0
+time=1637056060.0342739 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1637056060.0343556 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1637056060.0344667 Registering gym environment id: Duckietown-small_loop-v0
+time=1637056060.0345705 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1637056060.0346599 Registering gym environment id: Duckietown-straight_road-v0
+time=1637056060.034768 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1637056060.0348468 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1637056060.0349572 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1637056060.035044 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1637056060.0351233 Registering gym environment id: Duckietown-udem1-v0
+time=1637056060.035199 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1637056062.070129 Falling back to non-multisampled frame buffer
+time=1637056062.0742419 Falling back to non-multisampled frame buffer
+time=1637056062.0786712 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/zigzag_dists.yaml"
+time=1637056062.096334 loading mesh "duckiebot.obj"
+time=1637056062.0967207 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1637056062.5461323 loading mesh "bus.obj"
+time=1637056062.5602486 loading texture "bus.png"
+time=1637056062.9526756 loading mesh "truck.obj"
+time=1637056062.9683633 loading texture "truck.png"
+time=1637056063.4219234 loading mesh "tree.obj"
+time=1637056063.4224546 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/tree.mtl"
+time=1637056063.4286096 loading mesh "sign_blank.obj"
+time=1637056063.432699 loading texture "sign_blank.png"
+time=1637056063.5796587 loading texture "asphalt_1.png"
+time=1637056063.9062145 loading texture "curve_left_1.png"
+time=1637056063.9174695 loading texture "straight_1.png"
+time=1637056063.9273677 loading texture "curve_right_1.png"
+time=1637056063.9548209 using user tile start: (1, 1)
+time=1637056063.956316 tile: {'coords': (1, 1), 'kind': 'curve_left', 'angle': 3, 'drivable': True, 'curves': array([[[1.17  , 0.    , 0.7605],
+        [0.8775, 0.    , 0.7605],
+        [0.7605, 0.    , 0.8775],
+        [0.7605, 0.    , 1.17  ]],
+
+       [[0.9945, 0.    , 1.17  ],
+        [0.9945, 0.    , 1.053 ],
+        [1.053 , 0.    , 0.9945],
+        [1.17  , 0.    , 0.9945]]]), 'texture': <gym_duckietown.graphics.Texture object at 0x7f3f44080be0>, 'color': array([1, 1, 1])}
+time=1637056063.9587488 road_tile_size=0.585
+time=1637056063.959167 Starting at [0.72911468 0.         0.89120815] -1.652432517400137
+time=1637056063.9595382 Pos: [0.72911468 0.         0.89120815] angle -1.652432517400137
+time=1637056064.3168652 using DuckietownEnv
+/usr/local/lib/python3.6/dist-packages/gym/spaces/box.py:74: UserWarning: [33mWARN: Box bound precision lowered by casting to float32[0m
+  "Box bound precision lowered by casting to {}".format(self.dtype)
+time=1637056064.5736206 Pos: [0.72911468 0.         0.89120815] angle -1.652432517400137
+time=1637056064.880939 Pos: [0.72911468 0.         0.89120815] angle -1.652432517400137
+time=1637056065.0188897 Pos: [0.72585286 0.         0.93107493] angle -1.652432517400137
+time=1637056065.1327605 Pos: [0.72259104 0.         0.97094172] angle -1.652432517400137
+time=1637056065.2399774 Pos: [0.71932922 0.         1.0108085 ] angle -1.652432517400137
+time=1637056065.3687081 Pos: [0.7160674  0.         1.05067529] angle -1.652432517400137
+time=1637056065.507175 Pos: [0.71280557 0.         1.09054207] angle -1.652432517400137
+time=1637056065.6336071 Pos: [0.70954375 0.         1.13040886] angle -1.652432517400137
+time=1637056065.766326 Pos: [0.70628193 0.         1.17027564] angle -1.652432517400137
+time=1637056065.875608 Pos: [0.70302011 0.         1.21014243] angle -1.652432517400137
+time=1637056065.9799407 Pos: [0.69975829 0.         1.25000921] angle -1.652432517400137
+time=1637056066.087403 Pos: [0.69649647 0.         1.28987599] angle -1.652432517400137
+time=1637056066.1925874 Pos: [0.69323464 0.         1.32974278] angle -1.652432517400137
+time=1637056066.3000164 Pos: [0.68997282 0.         1.36960956] angle -1.652432517400137
+time=1637056066.407579 Pos: [0.686711   0.         1.40947635] angle -1.652432517400137
+time=1637056066.5142047 Pos: [0.68344918 0.         1.44934313] angle -1.652432517400137
+time=1637056066.620778 Pos: [0.68018736 0.         1.48920992] angle -1.652432517400137
+time=1637056066.7262256 Pos: [0.67692554 0.         1.5290767 ] angle -1.652432517400137
+time=1637056066.834375 Pos: [0.67366371 0.         1.56894349] angle -1.652432517400137
+time=1637056066.9396915 Pos: [0.67040189 0.         1.60881027] angle -1.652432517400137
+time=1637056067.047124 Pos: [0.66714007 0.         1.64867706] angle -1.652432517400137
+time=1637056067.1505623 Pos: [0.66387825 0.         1.68854384] angle -1.652432517400137
+time=1637056067.2563255 Pos: [0.66061643 0.         1.72841063] angle -1.652432517400137
+time=1637056067.3589313 [0.58456148 0.         1.73824142] corresponds to tile at (0, 2) which is not drivable: {'coords': (0, 2), 'kind': 'asphalt', 'angle': 0, 'drivable': False, 'texture': <gym_duckietown.graphics.Texture object at 0x7f3f44080eb8>, 'color': array([1, 1, 1])}
+time=1637056067.3597429 Invalid pose. Collision free: True On drivable area: False
+time=1637056067.359824 safety_factor: 1.0
+time=1637056067.3601656 pos: [0.6593117  0.         1.74435734]
+time=1637056067.360472 l_pos: [0.73406192 0.         1.75047326]
+time=1637056067.3608017 r_pos: [0.58456148 0.         1.73824142]
+time=1637056067.361081 f_pos: [0.6519726 0.        1.8340576]
+time=1637056067.3611543 Stopping the simulator because we are at an invalid pose.
+time=1637056067.3614833 Pos: [0.6573546  0.         1.76827741] angle -1.652432517400137
+# avr-spbu-public
+
+`usermod -aG dialout <username>`
+
+```
+avr-gcc -g -std=c99 -O1 -mmcu=atmega328p -o out.elf example.c
+avrdude -v -patmega328p -P /dev/ttyACM0 -c arduino -U flash:w:"out.elf"
+```
+
+# avr-spbu-public
+
+`usermod -aG dialout <username>`
+
+```
+avr-gcc -g -std=c99 -O1 -mmcu=atmega328p -o out.elf example.c
+avrdude -v -patmega328p -P /dev/ttyACM0 -c arduino -U flash:w:"out.elf"
+```
+
+# avr-spbu-public
+
+`usermod -aG dialout <username>`
+
+```
+avr-gcc -g -std=c99 -O1 -mmcu=atmega328p -o out.elf example.c
+avrdude -v -patmega328p -P /dev/ttyACM0 -c arduino -U flash:w:"out.elf"
+```
+
+# avr-spbu-public
+
+`usermod -aG dialout <username>`
+
+```
+avr-gcc -g -std=c99 -O1 -mmcu=atmega328p -o out.elf example.c
+avrdude -v -patmega328p -P /dev/ttyACM0 -c arduino -U flash:w:"out.elf"
+```
+
+# avr-spbu-public
+
+`usermod -aG dialout <username>`
+
+```
+avr-gcc -g -std=c99 -O1 -mmcu=atmega328p -o out.elf example.c
+avrdude -v -patmega328p -P /dev/ttyACM0 -c arduino -U flash:w:"out.elf"
+```
+
+# avr-spbu-public
+
+`usermod -aG dialout <username>`
+
+```
+avr-gcc -g -std=c99 -O1 -mmcu=atmega328p -o out.elf example.c
+avrdude -v -patmega328p -P /dev/ttyACM0 -c arduino -U flash:w:"out.elf"
+```
+
+# avr-spbu-public
+
+`usermod -aG dialout <username>`
+
+```
+avr-gcc -g -std=c99 -O1 -mmcu=atmega328p -o out.elf example.c
+avrdude -v -patmega328p -P /dev/ttyACM0 -c arduino -U flash:w:"out.elf"
+```
+
+# avr-spbu-public
+
+`usermod -aG dialout <username>`
+
+```
+avr-gcc -g -std=c99 -O1 -mmcu=atmega328p -o out.elf example.c
+avrdude -v -patmega328p -P /dev/ttyACM0 -c arduino -U flash:w:"out.elf"
+```
+
+# avr-spbu-public
+
+`usermod -aG dialout <username>`
+
+```
+avr-gcc -g -std=c99 -O1 -mmcu=atmega328p -o out.elf example.c
+avrdude -v -patmega328p -P /dev/ttyACM0 -c arduino -U flash:w:"out.elf"
+```
+
+# avr-spbu-public
+
+`usermod -aG dialout <username>`
+
+```
+avr-gcc -g -std=c99 -O1 -mmcu=atmega328p -o out.elf example.c
+avrdude -v -patmega328p -P /dev/ttyACM0 -c arduino -U flash:w:"out.elf"
+```
+
+# avr-spbu-public
+
+`usermod -aG dialout <username>`
+
+```
+avr-gcc -g -std=c99 -O1 -mmcu=atmega328p -o out.elf example.c
+avrdude -v -patmega328p -P /dev/ttyACM0 -c arduino -U flash:w:"out.elf"
+```
+
+# avr-spbu-public
+
+`usermod -aG dialout <username>`
+
+```
+avr-gcc -g -std=c99 -O1 -mmcu=atmega328p -o out.elf example.c
+avrdude -v -patmega328p -P /dev/ttyACM0 -c arduino -U flash:w:"out.elf"
+```
+
+# avr-spbu-public
+
+`usermod -aG dialout <username>`
+
+```
+avr-gcc -g -std=c99 -O1 -mmcu=atmega328p -o out.elf example.c
+avrdude -v -patmega328p -P /dev/ttyACM0 -c arduino -U flash:w:"out.elf"
+```
+
+# avr-spbu-public
+
+`usermod -aG dialout <username>`
+
+```
+avr-gcc -g -std=c99 -O1 -mmcu=atmega328p -o out.elf example.c
+avrdude -v -patmega328p -P /dev/ttyACM0 -c arduino -U flash:w:"out.elf"
+```
+
+# avr-spbu-public
+
+`usermod -aG dialout <username>`
+
+```
+avr-gcc -g -std=c99 -O1 -mmcu=atmega328p -o out.elf example.c
+avrdude -v -patmega328p -P /dev/ttyACM0 -c arduino -U flash:w:"out.elf"
+```
+
+# avr-spbu-public
+
+`usermod -aG dialout <username>`
+
+```
+avr-gcc -g -std=c99 -O1 -mmcu=atmega328p -o out.elf example.c
+avrdude -v -patmega328p -P /dev/ttyACM0 -c arduino -U flash:w:"out.elf"
+```
+
+# avr-spbu-public
+
+`usermod -aG dialout <username>`
+
+```
+avr-gcc -g -std=c99 -O1 -mmcu=atmega328p -o out.elf example.c
+avrdude -v -patmega328p -P /dev/ttyACM0 -c arduino -U flash:w:"out.elf"
+```
+
+# avr-spbu-public
+
+`usermod -aG dialout <username>`
+
+```
+avr-gcc -g -std=c99 -O1 -mmcu=atmega328p -o out.elf example.c
+avrdude -v -patmega328p -P /dev/ttyACM0 -c arduino -U flash:w:"out.elf"
+```
+
+# avr-spbu-public
+
+`usermod -aG dialout <username>`
+
+```
+avr-gcc -g -std=c99 -O1 -mmcu=atmega328p -o out.elf example.c
+avrdude -v -patmega328p -P /dev/ttyACM0 -c arduino -U flash:w:"out.elf"
+```
+
+# avr-spbu-public
+
+`usermod -aG dialout <username>`
+
+```
+avr-gcc -g -std=c99 -O1 -mmcu=atmega328p -o out.elf example.c
+avrdude -v -patmega328p -P /dev/ttyACM0 -c arduino -U flash:w:"out.elf"
+```
+
+# avr-spbu-public
+
+`usermod -aG dialout <username>`
+
+```
+avr-gcc -g -std=c99 -O1 -mmcu=atmega328p -o out.elf example.c
+avrdude -v -patmega328p -P /dev/ttyACM0 -c arduino -U flash:w:"out.elf"
+```
+
+# avr-spbu-public
+
+`usermod -aG dialout <username>`
+
+```
+avr-gcc -g -std=c99 -O1 -mmcu=atmega328p -o out.elf example.c
+avrdude -v -patmega328p -P /dev/ttyACM0 -c arduino -U flash:w:"out.elf"
+```
+
+total reward =  8.39706894758017
+False: Incorrect solution execution: Stopping the simulator because we are at an invalid pose.
