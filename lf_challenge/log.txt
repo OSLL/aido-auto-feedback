@@ -1,0 +1,512 @@
+False: Incorrect solution execution: Stopping the simulator because we are at an invalid pose.
+time=1638805304.7737353 gym-duckietown 2019.0.0
+
+time=1638805305.0376117 Registering gym environment id: Duckietown-4way-v0
+time=1638805305.0377672 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1638805305.0378609 Registering gym environment id: Duckietown-loop_empty-v0
+time=1638805305.0379446 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1638805305.0380208 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1638805305.0381067 Registering gym environment id: Duckietown-small_loop-v0
+time=1638805305.0382235 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1638805305.0383089 Registering gym environment id: Duckietown-straight_road-v0
+time=1638805305.038384 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1638805305.0384545 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1638805305.0385377 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1638805305.038613 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1638805305.038716 Registering gym environment id: Duckietown-udem1-v0
+time=1638805305.0388002 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1638805306.995877 Falling back to non-multisampled frame buffer
+time=1638805306.999627 Falling back to non-multisampled frame buffer
+time=1638805307.0045755 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/zigzag_dists.yaml"
+time=1638805307.0224154 loading mesh "duckiebot.obj"
+time=1638805307.0227568 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1638805307.457254 loading mesh "bus.obj"
+time=1638805307.469948 loading texture "bus.png"
+time=1638805307.853495 loading mesh "truck.obj"
+time=1638805307.8689368 loading texture "truck.png"
+time=1638805308.255181 loading mesh "tree.obj"
+time=1638805308.2554846 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/tree.mtl"
+time=1638805308.258662 loading mesh "sign_blank.obj"
+time=1638805308.260962 loading texture "sign_blank.png"
+time=1638805308.3547618 loading texture "asphalt_1.png"
+time=1638805308.5802565 loading texture "curve_left_1.png"
+time=1638805308.5903718 loading texture "straight_1.png"
+time=1638805308.5994232 loading texture "curve_right_1.png"
+time=1638805308.6157997 using user tile start: (1, 1)
+time=1638805308.616791 tile: {'coords': (1, 1), 'kind': 'curve_left', 'angle': 3, 'drivable': True, 'curves': array([[[1.17  , 0.    , 0.7605],
+        [0.8775, 0.    , 0.7605],
+        [0.7605, 0.    , 0.8775],
+        [0.7605, 0.    , 1.17  ]],
+
+       [[0.9945, 0.    , 1.17  ],
+        [0.9945, 0.    , 1.053 ],
+        [1.053 , 0.    , 0.9945],
+        [1.17  , 0.    , 0.9945]]]), 'texture': <gym_duckietown.graphics.Texture object at 0x7efeb00edac8>, 'color': array([1, 1, 1])}
+time=1638805308.6183743 road_tile_size=0.585
+time=1638805308.6187205 Starting at [0.71932029 0.         0.90166071] -1.7822041276627263
+time=1638805308.619024 Pos: [0.71932029 0.         0.90166071] angle -1.7822041276627263
+time=1638805308.865719 using DuckietownEnv
+/usr/local/lib/python3.6/dist-packages/gym/spaces/box.py:74: UserWarning: [33mWARN: Box bound precision lowered by casting to float32[0m
+  "Box bound precision lowered by casting to {}".format(self.dtype)
+time=1638805309.0718534 Pos: [0.71932029 0.         0.90166071] angle -1.7822041276627263
+time=1638805309.3365884 Pos: [0.71932029 0.         0.90166071] angle -1.7822041276627263
+time=1638805309.4575665 Pos: [0.71932029 0.         0.90166071] angle -1.7822041276627263
+time=1638805309.571442 Pos: [0.71932029 0.         0.90166071] angle -1.7412071558481443
+time=1638805309.6888685 Pos: [0.71932029 0.         0.90166071] angle -1.7002101840335624
+time=1638805309.8067799 Pos: [0.71932029 0.         0.90166071] angle -1.6592132122189804
+time=1638805309.9232295 Pos: [0.71932029 0.         0.90166071] angle -1.6182162404043985
+time=1638805310.0416832 Pos: [0.71840052 0.         0.92211876] angle -1.6132337408852262
+time=1638805310.159044 Pos: [0.71754879 0.         0.94330172] angle -1.6087321502122025
+time=1638805310.276065 Pos: [0.71681101 0.         0.9640524 ] angle -1.603939708694644
+time=1638805310.3967104 Pos: [0.7161749  0.         0.98474729] angle -1.599107841522931
+time=1638805310.5130177 Pos: [0.71562118 0.         1.00597941] angle -1.5946324250395945
+time=1638805310.6276147 Pos: [0.71516035 0.         1.02728777] angle -1.5902063450395512
+time=1638805310.7430263 Pos: [0.71479553 0.         1.04852882] angle -1.5857341583228655
+time=1638805310.8592877 Pos: [0.71452421 0.         1.06984624] angle -1.5813119483388522
+time=1638805310.9735012 Pos: [0.71434501 0.         1.09130419] angle -1.5769827676705686
+time=1638805311.0919895 Pos: [0.71425878 0.         1.11275608] angle -1.5726491707057513
+time=1638805311.2087238 Pos: [0.71426282 0.         1.13459444] angle -1.5685730968244074
+time=1638805311.3254538 Pos: [0.7143554  0.         1.15658858] angle -1.5646010133874142
+time=1638805311.4435523 Pos: [0.71453547 0.         1.17873871] angle -1.560733274706337
+time=1638805311.5557659 Pos: [0.71480199 0.         1.20105927] angle -1.5569797317028522
+time=1638805311.67089 Pos: [0.71515682 0.         1.22394158] angle -1.5536014591716134
+time=1638805311.7877584 Pos: [0.71559114 0.         1.24701759] angle -1.5503532089062553
+time=1638805311.9055166 Pos: [0.716103   0.         1.27027288] angle -1.5472255056574902
+time=1638805312.0224884 Pos: [0.71667258 0.         1.29267633] angle -1.5435309875003036
+time=1638805312.1372957 Pos: [0.71774252 0.         1.3150599 ] angle -1.5025340156857216
+time=1638805312.255755 Pos: [0.71947719 0.         1.34008026] angle -1.500619309714149
+time=1638805312.370884 Pos: [0.72128115 0.         1.36543818] angle -1.4989323294590797
+time=1638805312.489319 Pos: [0.72311605 0.         1.39060894] angle -1.497122379553995
+time=1638805312.620376 Pos: [0.72498467 0.         1.41559816] angle -1.4951933871953886
+time=1638805312.7391572 Pos: [0.72693564 0.         1.44108459] angle -1.4935990605137104
+time=1638805312.85383 Pos: [0.72892755 0.         1.46657241] angle -1.4920077697351253
+time=1638805312.967957 Pos: [0.73098752 0.         1.49244418] angle -1.490675217785367
+time=1638805313.0821126 Pos: [0.73310467 0.         1.5186278 ] angle -1.489552942646567
+time=1638805313.2002668 Pos: [0.73526986 0.         1.54506433] angle -1.4886013243333522
+time=1638805313.3177664 Pos: [0.73746525 0.         1.57156691] angle -1.4876952386718567
+time=1638805313.4332714 Pos: [0.73971485 0.         1.59847187] angle -1.4870594812789624
+time=1638805313.550246 Pos: [0.74200447 0.         1.62568048] angle -1.4866276823016757
+time=1638805313.6666036 Pos: [0.74432322 0.         1.65311878] angle -1.486350095364917
+time=1638805313.7795558 Pos: [0.74665788 0.         1.68066622] angle -1.48614590577058
+time=1638805313.896396 Pos: [0.74900725 0.         1.70833343] angle -1.4860221031405008
+time=1638805314.011355 Pos: [0.75135492 0.         1.73598245] angle -1.4861580852419927
+time=1638805314.1243224 Pos: [0.75366675 0.         1.7632906 ] angle -1.4865225172739909
+time=1638805314.2366357 Pos: [0.75595068 0.         1.79040733] angle -1.4870156729034147
+time=1638805314.3524892 Pos: [0.75823317 0.         1.8176538 ] angle -1.487422720798315
+time=1638805314.4655244 Pos: [0.76042293 0.         1.84401604] angle -1.4884223600995885
+time=1638805314.585987 Pos: [0.76260458 0.         1.870581  ] angle -1.489287745544522
+time=1638805314.6994867 Pos: [0.76475223 0.         1.89702567] angle -1.4902349139240765
+time=1638805314.8129451 Pos: [0.76686407 0.         1.92335166] angle -1.4912628615949437
+time=1638805314.9297256 Pos: [0.76892851 0.         1.94944864] angle -1.4924455090618263
+time=1638805315.048643 Pos: [0.77094616 0.         1.97536418] angle -1.4937511804957215
+time=1638805315.160399 Pos: [0.77292693 0.         2.00124674] angle -1.4950806748451637
+time=1638805315.2724273 Pos: [0.77485201 0.         2.02687798] angle -1.496580041630441
+time=1638805315.386018 Pos: [0.77674498 0.         2.05258899] angle -1.4980279558188672
+time=1638805315.4989362 Pos: [0.7786184  0.         2.07852127] angle -1.4993297041992775
+time=1638805315.6381469 Pos: [0.78043694 0.         2.10419057] angle -1.500808931360399
+time=1638805315.7539237 Pos: [0.78218799 0.         2.12948324] angle -1.5025417747917666
+time=1638805315.8680723 Pos: [0.78391133 0.         2.15499098] angle -1.504132832177447
+time=1638805315.982371 Pos: [0.78557381 0.         2.18022898] angle -1.5059060194926597
+time=1638805316.0998046 Pos: [0.78719566 0.         2.20552683] angle -1.5076411511076961
+time=1638805316.214387 Pos: [0.7887584  0.         2.23061242] angle -1.509519987264556
+time=1638805316.3259282 Pos: [0.79026723 0.         2.25560254] angle -1.5114645552986237
+time=1638805316.445011 Pos: [0.79172289 0.         2.28052701] angle -1.5134549119114742
+time=1638805316.5570643 Pos: [0.79312645 0.         2.30541584] angle -1.5154709777768909
+time=1638805316.6752088 Pos: [0.79445732 0.         2.32994782] angle -1.5177272565690976
+time=1638805316.7888753 Pos: [0.79574089 0.         2.35461645] angle -1.5198942424840984
+time=1638805316.901165 Pos: [0.79694361 0.         2.37881534] angle -1.522376720237489
+time=1638805317.0139554 Pos: [0.79809682 0.         2.40320775] angle -1.5247319302353282
+time=1638805317.1290035 Pos: [0.79919897 0.         2.42772331] angle -1.527006698539921
+time=1638805317.243604 Pos: [0.80021712 0.         2.45168439] angle -1.5296532166734915
+time=1638805317.3558943 Pos: [0.80117721 0.         2.47575996] angle -1.5322250628585636
+time=1638805317.465318 Pos: [0.80207254 0.         2.49977518] angle -1.5348387729160982
+time=1638805317.578388 Pos: [0.8029093 0.        2.523891 ] angle -1.5373868668215604
+time=1638805317.6945617 Pos: [0.80368081 0.         2.54791445] angle -1.5399979638464902
+time=1638805317.8083484 Pos: [0.80438989 0.         2.57194778] angle -1.542603750665626
+time=1638805317.921597 Pos: [0.80505058 0.         2.59638912] angle -1.5449385538390037
+time=1638805318.0368931 Pos: [0.80564933 0.         2.62068322] angle -1.547372556302743
+time=1638805318.1479044 Pos: [0.8061992  0.         2.64531577] angle -1.549581747537547
+time=1638805318.2586365 Pos: [0.80669688 0.         2.670028  ] angle -1.551738574758432
+time=1638805318.3703115 Pos: [0.80713273 0.         2.69441494] angle -1.5541129986095197
+time=1638805318.4842613 Pos: [0.80750897 0.         2.71873036] angle -1.5565357604032066
+time=1638805318.6000204 Pos: [0.80783551 0.         2.74347933] angle -1.5586699959013561
+time=1638805318.7104547 Pos: [0.80810748 0.         2.76813791] angle -1.5608649296102426
+time=1638805318.824983 Pos: [0.80832275 0.         2.79264601] angle -1.5631605439740368
+time=1638805318.9384325 Pos: [0.80848841 0.         2.81760362] angle -1.5651567612239377
+time=1638805319.053352 Pos: [0.80859376 0.         2.84173429] angle -1.5677044730053864
+time=1638805319.1691642 Pos: [0.80864216 0.         2.86631759] angle -1.5699505585430942
+time=1638805319.2832227 Pos: [0.80863668 0.         2.89106818] angle -1.572085150431805
+time=1638805319.393955 Pos: [0.80857642 0.         2.91548249] angle -1.5744438744688305
+time=1638805319.504114 Pos: [0.80845893 0.         2.94000358] angle -1.5767312771755204
+time=1638805319.618317 Pos: [0.80828605 0.         2.96506754] angle -1.5786565615238828
+time=1638805319.7298138 Pos: [0.80806486 0.         2.99024029] angle -1.5805090661499908
+time=1638805319.8619568 Pos: [0.80779806 0.         3.01498944] angle -1.5826436580387016
+time=1638805319.975021 Pos: [0.80747715 0.         3.04001497] angle -1.584593579886536
+time=1638805320.08879 Pos: [0.80710471 0.         3.06547736] angle -1.5862518236740297
+time=1638805320.2022145 Pos: [0.80669155 0.         3.09074665] angle -1.5880383637437185
+time=1638805320.3144643 Pos: [0.8062365  0.         3.11568412] angle -1.5900456034105732
+time=1638805320.4294858 Pos: [0.80573087 0.         3.14066397] angle -1.5920239395854812
+time=1638805320.5456629 Pos: [0.80517222 0.         3.16590494] angle -1.5938274921447624
+time=1638805320.662679 Pos: [0.80456778 0.         3.19116099] angle -1.5956202890151956
+time=1638805320.7758617 Pos: [0.8039172  0.         3.21646645] angle -1.5973793900467101
+time=1638805320.9102466 Pos: [0.80321294 0.         3.24225676] angle -1.5988144275639722
+time=1638805321.0259893 Pos: [0.80246439 0.         3.26840908] angle -1.6000073958387293
+time=1638805321.1375291 Pos: [0.80168368 0.         3.29460686] angle -1.6011694415250837
+time=1638805321.252079 Pos: [0.80087185 0.         3.32083377] angle -1.602311448185544
+time=1638805321.3659441 Pos: [0.80002926 0.         3.34709433] angle -1.6034303840043789
+time=1638805321.478981 Pos: [0.79915386 0.         3.37349484] angle -1.6044553598060651
+time=1638805321.5943785 Pos: [0.79824793 0.         3.40003119] angle -1.6053891391205188
+time=1638805321.7122667 Pos: [0.79731407 0.         3.42668693] angle -1.606242728489526
+time=1638805321.8308961 Pos: [0.79635712 0.         3.45335451] angle -1.6070878878973491
+time=1638805321.964759 Pos: [0.795374   0.         3.48015229] angle -1.6078456680178415
+time=1638805322.0820541 Pos: [0.79436991 0.         3.50697227] angle -1.608588139449031
+time=1638805322.19908 Pos: [0.79334431 0.         3.53384602] angle -1.6092942514991915
+time=1638805322.3145134 Pos: [0.79229427 0.         3.56090266] angle -1.6098778976303734
+time=1638805322.4292603 Pos: [0.79122759 0.         3.5879864 ] angle -1.6104430655779363
+time=1638805322.542883 Pos: [0.79013867 0.         3.61529443] angle -1.6108582274470529
+time=1638805322.6591275 Pos: [0.78903868 0.         3.64259347] angle -1.611279086220034
+time=1638805322.775517 Pos: [0.78792544 0.         3.66994786] angle -1.6116627168079518
+time=1638805322.8882437 Pos: [0.78680407 0.         3.69722762] angle -1.6120958429274113
+time=1638805323.0092056 Pos: [0.78566564 0.         3.72466904] angle -1.6124208098280675
+time=1638805323.1235359 Pos: [0.78452997 0.         3.75175375] angle -1.6129834604074287
+time=1638805323.237346 Pos: [0.78336696 0.         3.7792008 ] angle -1.6133039910292941
+time=1638805323.3516507 Pos: [0.78219324 0.         3.80670473] angle -1.613586339320028
+time=1638805323.466125 Pos: [0.78100648 0.         3.83436481] angle -1.6137643074663133
+time=1638805323.5806355 Pos: [0.78038449 0.         3.86204141] angle -1.5727673356517313
+time=1638805323.6934633 Pos: [0.78089737 0.         3.88972025] angle -1.5317703638371494
+time=1638805323.808677 Pos: [0.78193491 0.         3.91654642] angle -1.5325078689042506
+time=1638805323.9191985 Pos: [0.7835121  0.         3.94334439] angle -1.4915108970896687
+time=1638805324.038086 Pos: [0.78618629 0.         3.9700552 ] angle -1.4505139252750867
+time=1638805324.1517875 Pos: [0.78995299 0.         3.99663396] angle -1.4095169534605048
+time=1638805324.2631233 Pos: [0.79480587 0.         4.02303602] angle -1.3685199816459228
+time=1638805324.3747 Pos: [0.80073677 0.         4.04921698] angle -1.3275230098313409
+time=1638805324.486028 Pos: [0.80773573 0.         4.07513287] angle -1.286526038016759
+time=1638805324.5986953 Pos: [0.81579098 0.         4.10074013] angle -1.245529066202177
+time=1638805324.7152274 Pos: [0.82488899 0.         4.12599573] angle -1.204532094387595
+time=1638805324.8299177 Pos: [0.83501447 0.         4.15085721] angle -1.163535122573013
+time=1638805324.94495 Pos: [0.8461504  0.         4.17528281] angle -1.122538150758431
+time=1638805325.0592234 Pos: [0.85827807 0.         4.19923147] angle -1.0815411789438492
+time=1638805325.175618 Pos: [0.87137709 0.         4.22266295] angle -1.0405442071292672
+time=1638805325.2898319 Pos: [0.88542546 0.         4.24553787] angle -0.9995472353146853
+time=1638805325.4016645 Pos: [0.90039957 0.         4.2678178 ] angle -0.9585502635001033
+time=1638805325.5146346 Pos: [0.91627424 0.         4.28946528] angle -0.9175532916855214
+time=1638805325.6251504 Pos: [0.93302281 0.         4.31044394] angle -0.8765563198709394
+time=1638805325.7385845 Pos: [0.95061713 0.         4.33071852] angle -0.8355593480563575
+time=1638805325.8485527 Pos: [0.96902763 0.         4.35025496] angle -0.7945623762417755
+time=1638805325.9602053 Pos: [0.98822337 0.         4.36902041] angle -0.7535654044271936
+time=1638805326.102188 Pos: [1.00817209 0.         4.38698336] angle -0.7125684326126116
+time=1638805326.2356436 Pos: [1.02884027 0.         4.4041136 ] angle -0.6715714607980297
+time=1638805326.36199 Pos: [1.05019317 0.         4.42038235] angle -0.6305744889834477
+time=1638805326.4803274 Pos: [1.07219491 0.         4.43576227] angle -0.5895775171688658
+time=1638805326.5921423 Pos: [1.09480852 0.         4.45022752] angle -0.5485805453542838
+time=1638805326.7038357 Pos: [1.117996   0.         4.46375378] angle -0.5075835735397018
+time=1638805326.8170598 Pos: [1.14171837 0.         4.47631833] angle -0.46658660172511995
+time=1638805326.9308205 Pos: [1.16593577 0.         4.48790005] angle -0.42558962991053806
+time=1638805327.0438306 Pos: [1.19060751 0.         4.49847947] angle -0.38459265809595616
+time=1638805327.1563563 Pos: [1.21569211 0.         4.50803882] angle -0.34359568628137427
+time=1638805327.2743752 Pos: [1.24114744 0.         4.51656204] angle -0.3025987144667924
+time=1638805327.386129 Pos: [1.2669307  0.         4.52403479] angle -0.2616017426522105
+time=1638805327.5022018 Pos: [1.29299858 0.         4.53044452] angle -0.22060477083762858
+time=1638805327.6153705 Pos: [1.31930725 0.         4.53578047] angle -0.1796077990230467
+time=1638805327.7267442 Pos: [1.34581252 0.         4.54003366] angle -0.1386108272084648
+time=1638805327.8398783 Pos: [1.37246984 0.         4.54319694] angle -0.0976138553938829
+time=1638805327.9525554 Pos: [1.3992344 0.        4.545265 ] angle -0.056616883579301
+time=1638805328.0702755 Pos: [1.42606124 0.         4.54623436] angle -0.015619911764719108
+time=1638805328.1848018 Pos: [1.45290526 0.         4.5461034 ] angle 0.025377060049862787
+time=1638805328.305879 Pos: [1.47972136 0.         4.54487233] angle 0.06637403186444468
+time=1638805328.4191308 Pos: [1.50646447 0.         4.54254323] angle 0.10737100367902658
+time=1638805328.531768 Pos: [1.53308965 0.         4.53912   ] angle 0.14836797549360847
+time=1638805328.645858 Pos: [1.56059561 0.         4.53501011] angle 0.14827385939669716
+time=1638805328.7618527 Pos: [1.58777011 0.         4.53095547] angle 0.1479557575049018
+time=1638805328.8740168 Pos: [1.61448662 0.         4.52698209] angle 0.14732767661326898
+time=1638805328.9859953 Pos: [1.63990438 0.         4.52322958] angle 0.14582153558046784
+time=1638805329.1033103 Pos: [1.66524132 0.         4.51897625] angle 0.18681850739504982
+time=1638805329.2220917 Pos: [1.69038265 0.         4.51368804] angle 0.2278154792096318
+time=1638805329.351132 Pos: [1.71528612 0.         4.50737385] angle 0.26881245102421375
+time=1638805329.4678824 Pos: [1.73990987 0.         4.50004428] angle 0.3098094228387957
+time=1638805329.5831442 Pos: [1.76421252 0.         4.49171165] angle 0.35080639465337765
+time=1638805329.7004774 Pos: [1.78815324 0.         4.48238997] angle 0.3918033664679596
+/usr/local/lib/python3.6/dist-packages/numpy/lib/function_base.py:380: RuntimeWarning: Mean of empty slice.
+  avg = a.mean(axis)
+/usr/local/lib/python3.6/dist-packages/numpy/core/_methods.py:170: RuntimeWarning: invalid value encountered in double_scalars
+  ret = ret.dtype.type(ret / rcount)
+time=1638805329.817465 Pos: [1.81169179 0.         4.47209491] angle 0.43280033828254155
+time=1638805329.937058 Pos: [1.83478861 0.         4.46084375] angle 0.4737973100971235
+time=1638805330.0551414 Pos: [1.85740488 0.         4.44865541] angle 0.5147942819117055
+time=1638805330.1738098 Pos: [1.87950261 0.         4.43555037] angle 0.5557912537262875
+time=1638805330.2912395 Pos: [1.90104466 0.         4.42155066] angle 0.5967882255408694
+time=1638805330.4236033 Pos: [1.92199482 0.         4.40667981] angle 0.6377851973554514
+der_set 1White - 0.90625 Yellow -None
+strait with sides 2White - 0.90625 Yellow -None
+strait with sides 3White - 0.875 Yellow -None
+strait with sides 4White - 0.8875 Yellow -None
+strait with sides 5White - 0.89375 Yellow -None
+strait_prop 6White - 0.88125 Yellow -1.45625
+strait_prop 7White - 0.95625 Yellow -1.4625
+strait_prop 8White - 0.91875 Yellow -1.575
+strait_prop 9White - 0.90625 Yellow -1.6
+strait_prop 10White - 0.90625 Yellow -1.49375
+strait_prop 11White - 0.9 Yellow -1.49375
+strait_prop 12White - 0.9 Yellow -1.5625
+strait_prop 13White - 0.90625 Yellow -1.61875
+strait_prop 14White - 0.88125 Yellow -1.575
+strait_prop 15White - 0.8875 Yellow -1.61875
+strait_prop 16White - 0.8875 Yellow -1.5625
+strait_prop 17White - 0.8875 Yellow -1.5625
+strait_prop 18White - 0.8875 Yellow -1.55
+strait_prop 19White - 0.89375 Yellow -1.55
+strait_prop 20White - 0.90625 Yellow -1.46875
+strait_prop 21White - 0.9125 Yellow -1.45625
+strait_prop 22White - 0.91875 Yellow -1.4625
+strait_prop 23White - 0.9 Yellow -1.64375
+strait with sides 24White - 0.90625 Yellow -None
+strait_prop 25White - 0.9375 Yellow -1.3875
+strait_prop 26White - 0.95625 Yellow -1.33125
+strait_prop 27White - 0.975 Yellow -1.40625
+strait_prop 28White - 1.0 Yellow -1.4625
+strait_prop 29White - 1.05 Yellow -1.40625
+strait_prop 30White - 1.05 Yellow -1.4375
+strait_prop 31White - 1.06875 Yellow -1.38125
+strait_prop 32White - 1.08125 Yellow -1.34375
+strait_prop 33White - 1.09375 Yellow -1.325
+strait_prop 34White - 1.09375 Yellow -1.31875
+strait_prop 35White - 1.125 Yellow -1.3
+strait_prop 36White - 1.14375 Yellow -1.29375
+strait_prop 37White - 1.15 Yellow -1.25
+strait_prop 38White - 1.1375 Yellow -1.2125
+strait_prop 39White - 1.13125 Yellow -1.21875
+strait_prop 40White - 1.15 Yellow -1.175
+strait_prop 41White - 1.16875 Yellow -1.1375
+strait_prop 42White - 1.2375 Yellow -1.1875
+strait_prop 43White - 1.15 Yellow -1.1375
+strait_prop 44White - 1.3 Yellow -1.0875
+strait_prop 45White - 1.29375 Yellow -1.13125
+strait_prop 46White - 1.2875 Yellow -1.0875
+strait_prop 47White - 1.30625 Yellow -1.09375
+strait_prop 48White - 1.3125 Yellow -1.06875
+strait_prop 49White - 1.31875 Yellow -1.03125
+strait_prop 50White - 1.34375 Yellow -1.01875
+strait_prop 51White - 1.4 Yellow -1.0
+strait_prop 52White - 1.34375 Yellow -0.9625
+strait_prop 53White - 1.3625 Yellow -0.98125
+strait_prop 54White - 1.35625 Yellow -0.94375
+strait_prop 55White - 1.38125 Yellow -0.89375
+strait_prop 56White - 1.38125 Yellow -0.91875
+strait_prop 57White - 1.3875 Yellow -0.88125
+strait_prop 58White - 1.39375 Yellow -0.91875
+strait_prop 59White - 1.40625 Yellow -0.9
+strait_prop 60White - 1.4125 Yellow -0.875
+strait_prop 61White - 1.425 Yellow -0.875
+strait_prop 62White - 1.43125 Yellow -0.875
+strait_prop 63White - 1.45625 Yellow -0.8375
+strait_prop 64White - 1.4625 Yellow -0.85
+strait_prop 65White - 1.55625 Yellow -0.8125
+strait_prop 66White - 1.51875 Yellow -0.8375
+strait_prop 67White - 1.5875 Yellow -0.85
+strait_prop 68White - 1.60625 Yellow -0.78125
+strait_prop 69White - 1.60625 Yellow -0.79375
+strait_prop 70White - 1.61875 Yellow -0.78125
+strait_prop 71White - 1.60625 Yellow -0.79375
+strait_prop 72White - 1.61875 Yellow -0.76875
+strait_prop 73White - 1.6 Yellow -0.75
+strait_prop 74White - 1.59375 Yellow -0.76875
+strait_prop 75White - 1.6 Yellow -0.75625
+strait_prop 76White - 1.59375 Yellow -0.76875
+strait_prop 77White - 1.59375 Yellow -0.76875
+strait_prop 78White - 1.65625 Yellow -0.73125
+strait_prop 79White - 1.65625 Yellow -0.7125
+strait_prop 80White - 1.575 Yellow -0.71875
+strait_prop 81White - 1.5875 Yellow -0.70625
+strait_prop 82White - 1.68125 Yellow -0.74375
+strait_prop 83White - 1.575 Yellow -0.74375
+strait_prop 84White - 1.73125 Yellow -0.7125
+strait_prop 85White - 1.6375 Yellow -0.7125
+strait_prop 86White - 1.63125 Yellow -0.725
+strait_prop 87White - 1.66875 Yellow -0.70625
+strait_prop 88White - 1.6875 Yellow -0.725
+strait_prop 89White - 1.575 Yellow -0.725
+strait_prop 90White - 1.5875 Yellow -0.74375
+strait_prop 91White - 1.66875 Yellow -0.71875
+strait_prop 92White - 1.64375 Yellow -0.74375
+strait_prop 93White - 1.64375 Yellow -0.76875
+strait_prop 94White - 1.64375 Yellow -0.7375
+strait_prop 95White - 1.775 Yellow -0.78125
+strait_prop 96White - 1.7375 Yellow -0.7625
+strait_prop 97White - 1.7375 Yellow -0.7625
+strait_prop 98White - 1.78125 Yellow -0.775
+strait_prop 99White - 1.7125 Yellow -0.725
+strait_prop 100White - 1.70625 Yellow -0.775
+strait_prop 101White - 1.68125 Yellow -0.7875
+strait_prop 102White - 1.63125 Yellow -0.75625
+strait_prop 103White - 1.61875 Yellow -0.75
+strait_prop 104White - 1.64375 Yellow -0.7625
+strait_prop 105White - 1.65 Yellow -0.8125
+strait_prop 106White - 1.6625 Yellow -0.83125
+strait_prop 107White - 1.625 Yellow -0.8375
+strait_prop 108White - 1.6125 Yellow -0.81875
+strait_prop 109White - 1.5625 Yellow -0.79375
+strait_prop 110White - 1.5875 Yellow -0.83125
+strait_prop 111White - 1.56875 Yellow -0.81875
+strait_prop 112White - 1.575 Yellow -0.875
+strait_prop 113White - 1.5875 Yellow -0.875
+strait_prop 114White - 1.55 Yellow -0.875
+strait_prop 115White - 1.54375 Yellow -0.86875
+strait_prop 116White - 1.55625 Yellow -0.89375
+strait_prop 117White - 1.58125 Yellow -0.875
+strait_prop 118White - 1.59375 Yellow -0.88125
+strait_prop 119White - 1.55625 Yellow -0.78125
+strait_prop 120White - 1.55 Yellow -0.81875
+strait_prop 121White - 1.50625 Yellow -0.79375
+strait_prop 122White - 1.49375 Yellow -0.76875
+strait with sides 123White - 1.475 Yellow -None
+strait with sides 124White - 1.45625 Yellow -None
+strait_prop 125White - 1.59375 Yellow -0.78125
+strait with sides 126White - 1.95 Yellow -None
+strait with sides 127White - 3.23125 Yellow -None
+strait with sides 128White - 4.275 Yellow -None
+to_left 129White - 6.29375 Yellow -None
+to_left 130White - 6.80625 Yellow -7.5375
+to_left 131White - 8.90625 Yellow -5.8375
+to_left 132White - 9.26875 Yellow -0.625
+to_left 133White - 9.13125 Yellow -None
+to_left 134White - 10.6875 Yellow -3.23125
+to_left 135White - 10.80625 Yellow -1.4375
+to_left 136White - 9.36875 Yellow -2.175
+to_left 137White - 7.9875 Yellow -1.71875
+to_left 138White - 6.99375 Yellow -None
+to_left 139White - 6.10625 Yellow -None
+to_left 140White - 5.43125 Yellow -None
+strait with sides 141White - 4.8375 Yellow -None
+strait with sides 142White - 4.2625 Yellow -None
+strait with sides 143White - 3.79375 Yellow -None
+strait with sides 144White - 3.38125 Yellow -None
+strait with sides 145White - 3.10625 Yellow -None
+strait with sides 146White - 2.7875 Yellow -None
+strait with sides 147White - 2.575 Yellow -None
+strait with sides 148White - 2.26875 Yellow -None
+strait with sides 149White - 2.0875 Yellow -None
+strait with sides 150White - 1.91875 Yellow -None
+strait with sides 151White - 1.73125 Yellow -None
+strait with sides 152White - 1.575 Yellow -None
+strait with sides 153White - 1.4375 Yellow -None
+strait with sides 154White - 1.34375 Yellow -None
+strait with sides 155White - 1.2 Yellow -None
+strait with sides 156White - 1.1375 Yellow -None
+strait with sides 157White - 1.06875 Yellow -None
+strait with sides 158White - 1.025 Yellow -None
+strait with sides 159White - 0.9875 Yellow -None
+strait with sides 160White - 0.9625 Yellow -None
+strait with sides 161White - 0.95625 Yellow -None
+strait with sides 162White - 0.94375 Yellow -None
+strait with sides 163White - 0.93125 Yellow -None
+strait with sides 164White - 0.9375 Yellow -None
+strait with sides 165White - 0.98125 Yellow -None
+strait with sides 166White - 0.975 Yellow -None
+strait_prop 167White - 1.0125 Yellow -1.00625
+strait_prop 168White - 1.14375 Yellow -0.96875
+strait_prop 169White - 1.15625 Yellow -0.99375
+strait_prop 170White - 2.05625 Yellow -0.68125
+strait with sides 171White - 3.65 Yellow -None
+to_left 172White - 5.2875 Yellow -0.6875
+to_left 173White - 6.48125 Yellow -None
+to_left 174White - 7.58125 Yellow -None
+to_left 175White - 9.0125 Yellow -0.5
+to_left 176White - 8.84375 Yellow -None
+to_left 177White - 7.88125 Yellow -None
+to_left 178White - 7.6125 Yellow -None
+to_left 179White - 8.575 Yellow -2.2625
+to_left 180White - 7.75625 Yellow -1.9
+to_left 181White - 6.7125 Yellow -1.51875
+to_left 182White - 6.025 Yellow -None
+to_left 183White - 5.375 Yellow -Nonetime=1638805330.5442123 Pos: [1.94231789 0.         4.39096279] angle 0.6787821691700333
+time=1638805330.6602573 Pos: [1.96197971 0.         4.37442603] angle 0.7197791409846153
+time=1638805330.7789066 Pos: [1.98094724 0.         4.35709732] angle 0.7607761127991972
+time=1638805330.8973098 Pos: [1.99918861 0.         4.33900577] angle 0.8017730846137792
+time=1638805331.017471 Pos: [2.01667316 0.         4.32018179] angle 0.8427700564283611
+time=1638805331.135894 Pos: [2.03337151 0.         4.30065702] angle 0.8837670282429431
+time=1638805331.255072 Pos: [2.0492556  0.         4.28046426] angle 0.924764000057525
+time=1638805331.3738322 Pos: [2.06429873 0.         4.25963746] angle 0.965760971872107
+time=1638805331.5075018 Pos: [2.07847562 0.         4.2382116 ] angle 1.006757943686689
+time=1638805331.626871 Pos: [2.09176245 0.         4.2162227 ] angle 1.0477549155012709
+time=1638805331.7490382 Pos: [2.10413689 0.         4.19370771] angle 1.0887518873158528
+time=1638805331.8702931 Pos: [2.11557814 0.         4.17070446] angle 1.1297488591304348
+time=1638805331.993849 Pos: [2.12606699 0.         4.14725162] angle 1.1707458309450167
+time=1638805332.114762 Pos: [2.13558579 0.         4.12338859] angle 1.2117428027595987
+time=1638805332.2347496 Pos: [2.14411856 0.         4.09915548] angle 1.2527397745741806
+time=1638805332.3522398 Pos: [2.15165095 0.         4.07459302] angle 1.2937367463887626
+time=1638805332.4731288 Pos: [2.1581703  0.         4.04974247] angle 1.3347337182033445
+time=1638805332.5931087 Pos: [2.16366567 0.         4.02464561] angle 1.3757306900179265
+time=1638805332.7110915 Pos: [2.16812781 0.         3.9993446 ] angle 1.4167276618325084
+time=1638805332.829448 Pos: [2.17154923 0.         3.97388197] angle 1.4577246336470904
+time=1638805332.9484637 Pos: [2.17392418 0.         3.94830051] angle 1.4987216054616723
+time=1638805333.0675054 Pos: [2.17524866 0.         3.9226432 ] angle 1.5397185772762543
+time=1638805333.1905985 Pos: [2.17599084 0.         3.89791657] angle 1.5418617154092429
+time=1638805333.310771 Pos: [2.17619951 0.         3.87318141] angle 1.5828586872238248
+time=1638805333.4284828 Pos: [2.1758692  0.         3.84723774] angle 1.5841964930719517
+time=1638805333.564213 Pos: [2.17605335 0.         3.82129444] angle 1.5431995212573697
+time=1638805333.6809587 Pos: [2.17730066 0.         3.79538049] angle 1.5022025494427877
+time=1638805333.801698 Pos: [2.179609   0.         3.76953943] angle 1.4612055776282058
+time=1638805333.9219975 Pos: [2.18297452 0.         3.74381469] angle 1.4202086058136238
+time=1638805334.0465784 Pos: [2.18739155 0.         3.71824951] angle 1.379211633999042
+time=1638805334.1667974 Pos: [2.19285267 0.         3.69288684] angle 1.33821466218446
+time=1638805334.2912378 Pos: [2.19934871 0.         3.66776931] angle 1.297217690369878
+time=1638805334.4084089 Pos: [2.20686874 0.         3.64293912] angle 1.256220718555296
+time=1638805334.5277555 Pos: [2.21540013 0.         3.61843802] angle 1.215223746740714
+time=1638805334.6561334 Pos: [2.22492853 0.         3.59430716] angle 1.1742267749261321
+time=1638805334.7760925 Pos: [2.23543795 0.         3.57058711] angle 1.1332298031115502
+time=1638805334.8982313 Pos: [2.24691072 0.         3.54731772] angle 1.0922328312969682
+time=1638805335.021837 Pos: [2.25932755 0.         3.5245381 ] angle 1.0512358594823863
+time=1638805335.1428697 Pos: [2.27266758 0.         3.50228653] angle 1.0102388876678043
+time=1638805335.262285 Pos: [2.2869084  0.         3.48060041] angle 0.9692419158532224
+time=1638805335.3825774 [2.34768702 0.         3.52367283] corresponds to tile at (4, 6) which is not drivable: {'coords': (4, 6), 'kind': 'asphalt', 'angle': 0, 'drivable': False, 'texture': <gym_duckietown.graphics.Texture object at 0x7efeb00ed7f0>, 'color': array([1, 1, 1])}
+time=1638805335.383369 Invalid pose. Collision free: True On drivable area: False
+time=1638805335.383451 safety_factor: 1.0
+time=1638805335.383774 pos: [2.28764431 0.         3.47872984]
+time=1638805335.3840897 l_pos: [2.22760159 0.         3.43378684]
+time=1638805335.3843703 r_pos: [2.34768702 0.         3.52367283]
+time=1638805335.384698 f_pos: [2.3415759  0.         3.40667859]
+time=1638805335.3847911 Stopping the simulator because we are at an invalid pose.
+time=1638805335.3850935 Pos: [2.30202606 0.         3.45951617] angle 0.9282449440386404
+
+strait with sides 184White - 4.8 Yellow -None
+strait with sides 185White - 4.3 Yellow -None
+strait with sides 186White - 3.9125 Yellow -None
+strait with sides 187White - 3.50625 Yellow -None
+strait with sides 188White - 3.1125 Yellow -None
+strait with sides 189White - 2.90625 Yellow -None
+strait with sides 190White - 2.64375 Yellow -None
+strait with sides 191White - 2.475 Yellow -None
+strait with sides 192White - 2.25625 Yellow -None
+strait with sides 193White - 2.05 Yellow -None
+strait with sides 194White - 1.9125 Yellow -None
+strait with sides 195White - 1.7625 Yellow -None
+strait with sides 196White - 1.6375 Yellow -None
+strait with sides 197White - 1.5125 Yellow -None
+strait with sides 198White - 1.46875 Yellow -None
+strait with sides 199White - 1.35625 Yellow -None
+strait with sides 200White - 1.3 Yellow -None
+strait with sides 201White - 1.28125 Yellow -None
+strait with sides 202White - 1.2375 Yellow -None
+strait with sides 203White - 1.2 Yellow -None
+strait with sides 204White - 1.18125 Yellow -None
+strait_prop 205White - 1.10625 Yellow -1.10625
+strait with sides 206White - 1.0375 Yellow -None
+strait_prop 207White - 1.0625 Yellow -1.09375
+to_right 208White - None Yellow -18.70625
+to_right 209White - None Yellow -18.16875
+to_right 210White - 1.025 Yellow -16.125
+to_right 211White - 17.65625 Yellow -12.63125
+to_right 212White - 3.9625 Yellow -13.2375
+to_right 213White - 2.48125 Yellow -10.9
+to_right 214White - 0.3125 Yellow -10.78125
+to_right 215White - None Yellow -10.325
+to_right 216White - None Yellow -8.75625
+to_right 217White - 15.38125 Yellow -7.3375
+to_right 218White - 14.1875 Yellow -6.18125
+to_right 219White - 12.2125 Yellow -5.2875
+strait with sides 220White - 10.94375 Yellow -4.5
+strait with sides 221White - None Yellow -4.01875
+strait with sides 222White - 3.2875 Yellow -3.35625
+strait with sides 223White - None Yellow -2.85625
+total reward =  67.53959764878725
+False: Incorrect solution execution: Stopping the simulator because we are at an invalid pose.
