@@ -1,0 +1,290 @@
+False: Incorrect solution execution: Stopping the simulator because we are at an invalid pose.
+time=1638882073.0302434 gym-duckietown 2019.0.0
+
+time=1638882074.1789064 Registering gym environment id: Duckietown-4way-v0
+time=1638882074.1790495 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1638882074.1791499 Registering gym environment id: Duckietown-loop_empty-v0
+time=1638882074.1792686 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1638882074.1793737 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1638882074.1794767 Registering gym environment id: Duckietown-small_loop-v0
+time=1638882074.1795664 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1638882074.1796384 Registering gym environment id: Duckietown-straight_road-v0
+time=1638882074.17972 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1638882074.179804 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1638882074.179877 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1638882074.1799588 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1638882074.1800315 Registering gym environment id: Duckietown-udem1-v0
+time=1638882074.1801012 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1638882076.8144617 Falling back to non-multisampled frame buffer
+time=1638882076.8286247 Falling back to non-multisampled frame buffer
+time=1638882076.8328047 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/zigzag_dists.yaml"
+time=1638882076.8556125 loading mesh "duckiebot.obj"
+time=1638882076.856008 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1638882077.275745 loading mesh "bus.obj"
+time=1638882077.2892876 loading texture "bus.png"
+time=1638882077.7080548 loading mesh "truck.obj"
+time=1638882077.7259157 loading texture "truck.png"
+time=1638882078.111781 loading mesh "tree.obj"
+time=1638882078.1121252 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/tree.mtl"
+time=1638882078.1167867 loading mesh "sign_blank.obj"
+time=1638882078.1198003 loading texture "sign_blank.png"
+time=1638882078.2144861 loading texture "asphalt_1.png"
+time=1638882078.442312 loading texture "curve_left_1.png"
+time=1638882078.4546127 loading texture "straight_1.png"
+time=1638882078.4675922 loading texture "curve_right_1.png"
+time=1638882078.4857874 using user tile start: (1, 1)
+time=1638882078.4866245 tile: {'coords': (1, 1), 'kind': 'curve_left', 'angle': 3, 'drivable': True, 'curves': array([[[1.17  , 0.    , 0.7605],
+        [0.8775, 0.    , 0.7605],
+        [0.7605, 0.    , 0.8775],
+        [0.7605, 0.    , 1.17  ]],
+
+       [[0.9945, 0.    , 1.17  ],
+        [0.9945, 0.    , 1.053 ],
+        [1.053 , 0.    , 0.9945],
+        [1.17  , 0.    , 0.9945]]]), 'texture': <gym_duckietown.graphics.Texture object at 0x7f2514039e48>, 'color': array([1, 1, 1])}
+time=1638882078.4881234 road_tile_size=0.585
+time=1638882078.4884539 Starting at [0.71005363 0.         0.91032544] -1.4560213257900012
+time=1638882078.488755 Pos: [0.71005363 0.         0.91032544] angle -1.4560213257900012
+time=1638882078.9631734 using DuckietownEnv
+/usr/local/lib/python3.6/dist-packages/gym/spaces/box.py:74: UserWarning: [33mWARN: Box bound precision lowered by casting to float32[0m
+  "Box bound precision lowered by casting to {}".format(self.dtype)
+time=1638882079.2278452 Pos: [0.71005363 0.         0.91032544] angle -1.4560213257900012
+time=1638882079.6080534 Pos: [0.71005363 0.         0.91032544] angle -1.4560213257900012
+time=1638882079.7575328 Pos: [0.71453069 0.         0.92121659] angle -0.9055401503242407
+time=1638882079.8720233 Pos: [0.72562965 0.         0.9296844 ] angle -0.3979194453919067
+time=1638882079.981818 Pos: [0.74349512 0.         0.93483174] angle -0.16311860681748322
+time=1638882080.1022208 Pos: [0.76206377 0.         0.9359415 ] angle 0.04372975097427076
+time=1638882080.2376842 Pos: [0.77541069 0.         0.93184876] angle 0.5513504559066048
+time=1638882080.3495047 Pos: [0.79099359 0.         0.92163411] angle 0.6091189161907884
+time=1638882080.4611948 Pos: [0.8000708  0.         0.91102775] angle 1.1167396211231224
+time=1638882080.5736356 Pos: [0.80284766 0.         0.89734638] angle 1.6243603260554564
+time=1638882080.6881526 Pos: [0.79862387 0.         0.88404036] angle 2.1319810309877907
+time=1638882080.8012064 Pos: [0.78817069 0.         0.86861777] angle 2.200930483585042
+time=1638882080.9125803 Pos: [0.77663925 0.         0.85398466] angle 2.275470432338827
+time=1638882081.035006 Pos: [0.76370178 0.         0.84058988] angle 2.402188345220262
+time=1638882081.1483128 Pos: [0.74917522 0.         0.82893753] angle 2.528906258101697
+time=1638882081.2608328 Pos: [0.73315498 0.         0.81945564] angle 2.685440150484646
+time=1638882081.370525 Pos: [0.71581692 0.         0.81268503] angle 2.8531550351806625
+time=1638882081.4759736 Pos: [0.70186496 0.         0.81220172] angle 3.3607757401129965
+time=1638882081.5857117 Pos: [0.68943736 0.         0.81856139] angle 3.8683964450453305
+time=1638882081.6945944 Pos: [0.68166827 0.         0.83016017] angle 4.376017149977665
+time=1638882081.8009138 Pos: [0.68051699 0.         0.84407294] angle 4.883637854909999
+time=1638882081.9075727 Pos: [0.68509722 0.         0.86211712] angle 5.038308248574103
+time=1638882082.0189672 Pos: [0.69160043 0.         0.87153323] angle 5.59531166955582
+time=1638882082.1281486 Pos: [0.70426613 0.         0.87740439] angle 6.102932374488154
+time=1638882082.2409549 Pos: [0.7228123  0.         0.87884947] angle 6.307917233561064
+time=1638882082.3563325 Pos: [0.73623455 0.         0.87501101] angle 6.815537938493398
+time=1638882082.4697943 Pos: [0.74609844 0.         0.86513203] angle 7.323158643425732
+time=1638882082.57984 Pos: [0.74991635 0.         0.85170392] angle 7.830779348358066
+time=1638882082.691345 Pos: [0.74963692 0.         0.83307556] angle 7.907182795830695
+time=1638882082.8029876 Pos: [0.74764325 0.         0.81455665] angle 8.015265721523685
+time=1638882082.9143124 Pos: [0.74354546 0.         0.79638947] angle 8.136393138248586
+time=1638882083.0244255 Pos: [0.73731498 0.         0.77883825] angle 8.253793557535797
+time=1638882083.13533 Pos: [0.7289027  0.         0.76222661] angle 8.3916924627303
+time=1638882083.2463684 Pos: [0.71869889 0.         0.74664003] angle 8.475549905078308
+time=1638882083.3741465 Pos: [0.70729322 0.         0.73190868] angle 8.550089853832093
+time=1638882083.4827359 Pos: [0.69486048 0.         0.71803236] angle 8.619039306429345
+time=1638882083.5928392 Pos: [0.68153722 0.         0.70500787] angle 8.682398262870063
+time=1638882083.7028906 Pos: [0.66741603 0.         0.6928531 ] angle 8.74575721931078
+time=1638882083.815249 Pos: [0.65257426 0.         0.68158893] angle 8.805389178313808
+time=1638882083.924692 [0.58116019 0.         0.63618461] corresponds to tile at (0, 1) which is not drivable: {'coords': (0, 1), 'kind': 'asphalt', 'angle': 0, 'drivable': False, 'texture': <gym_duckietown.graphics.Texture object at 0x7f2514039588>, 'color': array([1, 1, 1])}
+time=1638882083.9254 Invalid pose. Collision free: True On drivable area: False
+time=1638882083.9254758 safety_factor: 1.0
+time=1638882083.9257953 pos: [0.65742478 0.         0.68397282]
+time=1638882083.9260895 l_pos: [0.61760127 0.         0.74752664]
+time=1638882083.9263792 r_pos: [0.69724829 0.         0.620419  ]
+time=1638882083.926673 f_pos: [0.58116019 0.         0.63618461]
+time=1638882083.9267666 Stopping the simulator because we are at an invalid pose.
+time=1638882083.9270732 Pos: [0.63708755 0.         0.6712293 ] angle 8.865021137316836
+point_yellow[[0, 339], [0, 329], [0, 319], [40, 289], [50, 279], [90, 259], [100, 249], [140, 229], [160, 219], [170, 209], [210, 189], [240, 179]]
+point_Waite[]
+error_waite0
+center_road-46
+pr14.64
+point_yellow[]
+point_Waite[]
+error_waite0
+center_road0
+pr12.8
+point_yellow[[0, 479], [0, 469], [0, 459], [0, 449], [10, 199], [60, 189], [130, 179]]
+point_Waite[[630, 479], [610, 469]]
+error_waite413
+center_road194
+pr5.04
+point_yellow[[80, 479], [80, 469], [70, 459], [70, 449], [60, 439], [60, 429], [80, 419], [110, 409], [40, 379], [40, 369], [40, 359], [40, 349], [40, 339], [60, 329], [50, 309], [60, 299], [60, 289], [100, 279], [80, 269], [120, 259], [120, 249], [130, 239], [130, 229], [140, 209], [160, 199], [230, 189], [300, 179]]
+point_Waite[[620, 269], [600, 259], [580, 249], [630, 239], [630, 229]]
+error_waite510
+center_road209
+pr4.44
+point_yellow[]
+point_Waite[]
+error_waite0
+center_road0
+pr12.8
+point_yellow[]
+point_Waite[[630, 429], [630, 419], [630, 409], [630, 399], [630, 389], [630, 379], [620, 369], [630, 339], [630, 329], [630, 319], [620, 309], [610, 289]]
+error_waite578
+center_road289
+pr1.24
+point_yellow[]
+point_Waite[]
+error_waite0
+center_road0
+pr12.8
+point_yellow[]
+point_Waite[]
+error_waite0
+center_road0
+pr12.8
+point_yellow[]
+point_Waite[]
+error_waite0
+center_road0
+pr12.8
+point_yellow[]
+point_Waite[[630, 479], [630, 469], [630, 459], [630, 449], [630, 439], [630, 429], [610, 419], [570, 409], [550, 399], [630, 189], [610, 179], [620, 169]]
+error_waite566
+center_road283
+pr1.48
+point_yellow[]
+point_Waite[[630, 479], [630, 469], [630, 459], [630, 449], [630, 439], [630, 189], [630, 179], [630, 169]]
+error_waite560
+center_road280
+pr1.6
+point_yellow[]
+point_Waite[[630, 199], [630, 189], [630, 179], [630, 169]]
+error_waite504
+center_road252
+pr2.72
+point_yellow[]
+point_Waite[[630, 199], [630, 189], [630, 179], [630, 169]]
+error_waite504
+center_road252
+pr2.72
+point_yellow[]
+point_Waite[[630, 189], [630, 179], [630, 169]]
+error_waite472
+center_road236
+pr3.36
+point_yellow[]
+point_Waite[[610, 189], [610, 179], [620, 169]]
+error_waite460
+center_road230
+pr3.6
+point_yellow[]
+point_Waite[]
+error_waite0
+center_road0
+pr12.8
+point_yellow[]
+point_Waite[]
+error_waite0
+center_road0
+pr12.8
+point_yellow[]
+point_Waite[]
+error_waite0
+center_road0
+pr12.8
+point_yellow[]
+point_Waite[]
+error_waite0
+center_road0
+pr12.8
+point_yellow[[0, 319], [0, 309], [30, 279], [50, 269], [90, 249], [110, 239], [150, 219], [170, 209], [190, 199], [210, 189], [230, 179], [250, 169]]
+point_Waite[[630, 469], [630, 459], [630, 449], [630, 439], [630, 429], [630, 419], [630, 409], [630, 399], [630, 389], [630, 379], [630, 369], [630, 359], [630, 349], [620, 339]]
+error_waite587
+center_road237
+pr3.3200000000000003
+point_yellow[[0, 389], [0, 379], [0, 369], [20, 349], [10, 339], [30, 329], [50, 319], [70, 309], [140, 279], [160, 269], [200, 249], [220, 239], [250, 229], [260, 219], [280, 209]]
+point_Waite[]
+error_waite0
+center_road-53
+pr14.92
+point_yellow[]
+point_Waite[]
+error_waite0
+center_road0
+pr12.8
+point_yellow[]
+point_Waite[[630, 479], [560, 469], [530, 459], [490, 449], [460, 439], [430, 429], [350, 399], [340, 389]]
+error_waite421
+center_road210
+pr4.4
+point_yellow[]
+point_Waite[]
+error_waite0
+center_road0
+pr12.8
+point_yellow[]
+point_Waite[]
+error_waite0
+center_road0
+pr12.8
+point_yellow[]
+point_Waite[]
+error_waite0
+center_road0
+pr12.8
+point_yellow[]
+point_Waite[[630, 479], [630, 469], [630, 459], [630, 449], [630, 439], [630, 429], [630, 419], [630, 409], [630, 399], [590, 389], [500, 179], [510, 169]]
+error_waite559
+center_road279
+pr1.6400000000000001
+point_yellow[]
+point_Waite[[630, 479], [630, 469], [630, 459], [630, 449], [630, 439]]
+error_waite525
+center_road262
+pr2.32
+point_yellow[]
+point_Waite[[540, 209], [630, 199], [630, 189], [630, 179], [630, 169]]
+error_waite510
+center_road255
+pr2.6
+point_yellow[]
+point_Waite[[600, 209], [610, 199], [620, 189], [630, 179], [630, 169]]
+error_waite515
+center_road257
+pr2.52
+point_yellow[]
+point_Waite[[570, 219], [570, 209], [570, 199], [580, 189], [580, 179], [580, 169]]
+error_waite492
+center_road246
+pr2.96
+point_yellow[]
+point_Waite[[630, 229], [630, 219], [630, 209], [630, 199], [630, 189], [630, 179], [630, 169]]
+error_waite551
+center_road275
+pr1.8
+point_yellow[]
+point_Waite[[630, 239], [630, 229], [630, 219], [630, 209], [630, 199], [630, 189], [630, 179], [630, 169]]
+error_waite560
+center_road280
+pr1.6
+point_yellow[]
+point_Waite[[630, 249], [630, 239], [630, 229], [630, 219], [630, 209], [630, 199], [630, 189], [630, 179], [630, 169]]
+error_waite567
+center_road283
+pr1.48
+point_yellow[]
+point_Waite[[630, 259], [630, 249], [630, 239], [630, 229], [630, 219], [630, 209], [630, 199], [630, 189], [630, 179], [630, 169]]
+error_waite572
+center_road286
+pr1.36
+point_yellow[]
+point_Waite[[630, 259], [630, 249], [630, 239], [630, 229], [630, 219], [630, 209], [630, 199], [630, 189], [630, 179], [630, 169]]
+error_waite572
+center_road286
+pr1.36
+point_yellow[]
+point_Waite[[630, 269], [630, 259], [630, 249], [630, 239], [630, 229], [630, 219], [630, 209], [630, 199], [630, 189], [630, 179], [630, 169]]
+error_waite577
+center_road288
+pr1.28
+point_yellow[]
+point_Waite[[630, 269], [630, 259], [630, 249], [630, 239], [630, 229], [630, 219], [630, 209], [630, 199], [630, 189], [630, 179], [630, 169]]
+error_waite577
+center_road288
+pr1.28
+total reward =  -96.5477651226805
+False: Incorrect solution execution: Stopping the simulator because we are at an invalid pose.
