@@ -1,0 +1,155 @@
+False: Accepted
+time=1639615145.6982167 gym-duckietown 2019.0.0
+
+time=1639615145.9629347 Registering gym environment id: Duckietown-4way-v0
+time=1639615145.9630668 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1639615145.9631636 Registering gym environment id: Duckietown-loop_empty-v0
+time=1639615145.9632907 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1639615145.9634004 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1639615145.9635136 Registering gym environment id: Duckietown-small_loop-v0
+time=1639615145.963626 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1639615145.9637165 Registering gym environment id: Duckietown-straight_road-v0
+time=1639615145.9637973 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1639615145.9638865 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1639615145.9639626 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1639615145.9640381 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1639615145.9641185 Registering gym environment id: Duckietown-udem1-v0
+time=1639615145.9642444 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1639615147.78779 Falling back to non-multisampled frame buffer
+time=1639615147.7918155 Falling back to non-multisampled frame buffer
+time=1639615147.7965436 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/straight_road.yaml"
+time=1639615147.803544 loading mesh "duckiebot.obj"
+time=1639615147.8038323 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1639615148.219073 loading texture "straight_1.png"
+time=1639615148.2359552 road_tile_size=0.585
+time=1639615148.236428 Starting at [0.2925  0.      0.43875] 0
+time=1639615148.2367864 Pos: [0.2925  0.      0.43875] angle 0
+time=1639615148.397452 using DuckietownEnv
+/usr/local/lib/python3.6/dist-packages/gym/spaces/box.py:74: UserWarning: [33mWARN: Box bound precision lowered by casting to float32[0m
+  "Box bound precision lowered by casting to {}".format(self.dtype)
+time=1639615148.398762 loading mesh "duckie.obj"
+time=1639615148.4488163 loading texture "duckie.png"
+time=1639615149.119237 Pos: [0.2925  0.      0.43875] angle 0
+time=1639615149.3956447 Pos: [0.3325  0.      0.43875] angle 0
+time=1639615149.5116274 Pos: [0.3725  0.      0.43875] angle 0
+time=1639615149.6154907 Pos: [0.4125  0.      0.43875] angle 0
+env.road_tile_size = 0.585
+begin [[[115 209 255]
+  [115 209 255]
+  [115 209 255]
+  ...
+  [115 209 255]
+  [115 209 255]
+  [115 209 255]]
+
+ [[115 209 255]
+  [115 209 255]
+  [115 209 255]
+  ...
+  [115 209 255]
+  [115 209 255]
+  [115 209 255]]
+
+ [[115 209 255]
+  [115 209 255]
+  [115 209 255]
+  ...
+  [115 209 255]
+  [115 209 255]
+  [115 209 255]]
+
+ ...
+
+ [[ 59  56  54]
+  [ 59  56  54]
+  [ 59  56  54]
+  ...
+  [ 51  51  46]
+  [ 52  52  46]
+  [ 52  52  46]]
+
+ [[ 60  55  54]
+  [ 59  55  54]
+  [ 59  55  54]
+  ...
+  [ 51  51  46]
+  [ 51  51  46]
+  [ 52  52  46]]
+
+ [[ 59  55  53]
+  [ 58  55  53]
+  [ 58  55  53]
+  ...
+  [ 50  50  45]
+  [ 50  50  45]
+  [ 51  51  46]]]
+imgGray  [[212 212 212 ... 212 212 212]
+ [212 212 212 ... 212 212 212]
+ [212 212 212 ... 212 212 212]
+ ...
+ [ 56  55  55 ...  52  52  52]
+ [ 55  54  54 ...  53  52  52]
+ [ 55  54  53 ...  53  53  52]]
+thresh2  [[0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]]
+crop  [[0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]]
+count_nonzero  24
+condition 2 True
+imgGray  [[212 212 212 ... 212 212 212]
+ [212 212 212 ... 212 212 212]
+ [212 212 212 ... 212 212 212]
+ ...
+ [ 28  28  28 ...  36  35  35]
+ [ 26  26  26 ...  37  37  37]
+ [ 24  24  24 ...  38  38  38]]
+thresh2  [[0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]]
+crop  [[255 255 255 ...   0   0   0]
+ [255 255 255 ...   0   0   0]
+ [255 255 255 ...   0   0   0]
+ ...
+ [  0   0   0 ...   0   0   0]
+ [  0   0   0 ...   0   0   0]
+ [  0   0   0 ...   0   0   0]]
+count_nonzero  46
+condition 2 True
+imgGray  [[212 212 212 ... 212 212 212]
+ [212 212 212 ... 212 212 212]
+ [212 212 212 ... 212 212 212]
+ ...
+ [ 43  44  44 ...  42  43  44]
+ [ 44  44  45 ...  42  43  43]
+ [ 44  45  45 ...  43  43  43]]
+thresh2  [[0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]]
+crop  [[255 255 255 ...   0   0   0]
+ [255 255 255 ...   0   0   0]
+ [255 255 255 ...   0   0   0]
+ ...
+ [  0   0   0 ...   0   0   0]
+ [  0   0   0 ...   0   0   0]
+ [  0   0   0 ...   0   0   0]]
+count_nonzero  76
+condition 2 False
+False: Accepted
