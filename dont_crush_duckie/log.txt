@@ -1,0 +1,72 @@
+False: Incorrect solution execution: cannot convert float NaN to integer
+time=1640137748.4987738 gym-duckietown 2019.0.0
+
+time=1640137749.6147583 Registering gym environment id: Duckietown-4way-v0
+time=1640137749.6149347 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1640137749.6150293 Registering gym environment id: Duckietown-loop_empty-v0
+time=1640137749.615109 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1640137749.6151993 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1640137749.6153345 Registering gym environment id: Duckietown-small_loop-v0
+time=1640137749.6154306 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1640137749.6155522 Registering gym environment id: Duckietown-straight_road-v0
+time=1640137749.6156445 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1640137749.6157346 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1640137749.6158226 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1640137749.6159108 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1640137749.6160057 Registering gym environment id: Duckietown-udem1-v0
+time=1640137749.6160843 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1640137752.3894398 Falling back to non-multisampled frame buffer
+time=1640137752.430223 Falling back to non-multisampled frame buffer
+time=1640137752.4341583 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/straight_road.yaml"
+time=1640137752.4459088 loading mesh "duckiebot.obj"
+time=1640137752.448331 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1640137752.8603432 loading texture "straight_1.png"
+time=1640137752.9102821 road_tile_size=0.585
+time=1640137752.9108212 Starting at [0.2925  0.      0.43875] 0
+time=1640137752.9111426 Pos: [0.2925  0.      0.43875] angle 0
+time=1640137753.298126 using DuckietownEnv
+/usr/local/lib/python3.6/dist-packages/gym/spaces/box.py:74: UserWarning: [33mWARN: Box bound precision lowered by casting to float32[0m
+  "Box bound precision lowered by casting to {}".format(self.dtype)
+time=1640137753.300838 loading mesh "duckie.obj"
+time=1640137753.354108 loading texture "duckie.png"
+time=1640137754.0881739 Pos: [0.2925  0.      0.43875] angle 0
+time=1640137754.4520266 Pos: [0.3325  0.      0.43875] angle 0
+time=1640137754.5807729 Pos: [0.3725  0.      0.43875] angle 0
+time=1640137754.6676004 Pos: [0.4125  0.      0.43875] angle 0
+time=1640137754.7522733 Pos: [0.4525  0.      0.43875] angle 0
+time=1640137754.8379622 Pos: [0.4925  0.      0.43875] angle 0
+time=1640137754.9217827 Pos: [0.5325  0.      0.43875] angle 0
+time=1640137755.008168 Pos: [0.5725  0.      0.43875] angle 0
+time=1640137755.094108 Pos: [0.6125  0.      0.43875] angle 0
+time=1640137755.179341 Pos: [0.6525  0.      0.43875] angle 0
+time=1640137755.265396 Pos: [0.6925  0.      0.43875] angle 0
+time=1640137755.3496418 Pos: [0.7325  0.      0.43875] angle 0
+time=1640137755.4332988 Pos: [0.7725  0.      0.43875] angle 0
+time=1640137755.5264587 Pos: [0.8125  0.      0.43875] angle 0
+time=1640137755.6132398 Pos: [0.8525  0.      0.43875] angle 0
+time=1640137755.6977901 Pos: [0.8925  0.      0.43875] angle 0
+/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/dont_crush_duckie/solutions/solution.py:125: RuntimeWarning: divide by zero encountered in true_divide
+  vertical = np.abs(np.arange(height, dtype=np.float32).reshape(-1, 1) - right_x) / np.abs(np.arange(width, dtype=np.float32).reshape(1, -1) - (right_y + 10))
+/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/dont_crush_duckie/solutions/solution.py:125: RuntimeWarning: invalid value encountered in true_divide
+  vertical = np.abs(np.arange(height, dtype=np.float32).reshape(-1, 1) - right_x) / np.abs(np.arange(width, dtype=np.float32).reshape(1, -1) - (right_y + 10))
+/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/dont_crush_duckie/solutions/solution.py:135: RuntimeWarning: divide by zero encountered in true_divide
+  vertical = np.abs(np.arange(height, dtype=np.float32).reshape(-1, 1) - left_x) / np.abs(np.arange(width, dtype=np.float32).reshape(1, -1) - (left_y - 10))
+/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/dont_crush_duckie/solutions/solution.py:135: RuntimeWarning: invalid value encountered in true_divide
+  vertical = np.abs(np.arange(height, dtype=np.float32).reshape(-1, 1) - left_x) / np.abs(np.arange(width, dtype=np.float32).reshape(1, -1) - (left_y - 10))
+/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/dont_crush_duckie/solutions/solution.py:146: RuntimeWarning: divide by zero encountered in true_divide
+  horisontal = np.abs(np.arange(width, dtype=np.float32).reshape(1, -1) - up_y) / np.abs(np.arange(height, dtype=np.float32).reshape(-1, 1) - (up_x - 10))
+/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/dont_crush_duckie/solutions/solution.py:146: RuntimeWarning: invalid value encountered in true_divide
+  horisontal = np.abs(np.arange(width, dtype=np.float32).reshape(1, -1) - up_y) / np.abs(np.arange(height, dtype=np.float32).reshape(-1, 1) - (up_x - 10))
+/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/dont_crush_duckie/solutions/solution.py:155: RuntimeWarning: divide by zero encountered in true_divide
+  horisontal = np.abs(np.arange(width, dtype=np.float32).reshape(1, -1) - down_y) / np.abs(np.arange(height, dtype=np.float32).reshape(-1, 1) - (down_x + 10))
+/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/dont_crush_duckie/solutions/solution.py:155: RuntimeWarning: invalid value encountered in true_divide
+  horisontal = np.abs(np.arange(width, dtype=np.float32).reshape(1, -1) - down_y) / np.abs(np.arange(height, dtype=np.float32).reshape(-1, 1) - (down_x + 10))
+/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/dont_crush_duckie/solutions/solution.py:169: RuntimeWarning: invalid value encountered in true_divide
+  x = (A1[2] * A2[0] - A2[2] * A1[0]) / (A1[0] * A2[1] - A2[0] * A1[1])
+/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/dont_crush_duckie/solutions/solution.py:170: RuntimeWarning: invalid value encountered in double_scalars
+  y = (A1[2] * A2[1] - A2[2] * A1[1]) / (A2[0] * A1[1] - A1[0] * A2[1])
+/home/appuser/aido-auto/gym-duckietown/gym_duckietown/simulator.py:1886: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray
+  pos = np.array([npx, py, npz])
+env.road_tile_size = 0.585
+total reward =  13.320000000000007
+False: Incorrect solution execution: cannot convert float NaN to integer
