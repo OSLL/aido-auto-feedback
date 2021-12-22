@@ -1,0 +1,116 @@
+False: Incorrect solution execution: Stopping the simulator because we are at an invalid pose.
+time=1640202949.4354215 gym-duckietown 2019.0.0
+
+time=1640202949.7147503 Registering gym environment id: Duckietown-4way-v0
+time=1640202949.7149065 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1640202949.7150028 Registering gym environment id: Duckietown-loop_empty-v0
+time=1640202949.7150815 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1640202949.7151651 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1640202949.7152336 Registering gym environment id: Duckietown-small_loop-v0
+time=1640202949.7153163 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1640202949.7153895 Registering gym environment id: Duckietown-straight_road-v0
+time=1640202949.7155015 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1640202949.7155862 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1640202949.7156599 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1640202949.7157366 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1640202949.7158182 Registering gym environment id: Duckietown-udem1-v0
+time=1640202949.7158906 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1640202952.1343176 Falling back to non-multisampled frame buffer
+time=1640202952.1385815 Falling back to non-multisampled frame buffer
+time=1640202952.143128 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/straight_road.yaml"
+time=1640202952.152483 loading mesh "duckiebot.obj"
+time=1640202952.1528976 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1640202952.8044167 loading texture "straight_1.png"
+time=1640202952.823858 road_tile_size=0.585
+time=1640202952.8244066 Starting at [0.2925  0.      0.43875] 0
+time=1640202952.8249714 Pos: [0.2925  0.      0.43875] angle 0
+time=1640202953.03729 using DuckietownEnv
+/usr/local/lib/python3.6/dist-packages/gym/spaces/box.py:74: UserWarning: [33mWARN: Box bound precision lowered by casting to float32[0m
+  "Box bound precision lowered by casting to {}".format(self.dtype)
+time=1640202953.039038 loading mesh "duckie.obj"
+time=1640202953.1136823 loading texture "duckie.png"
+time=1640202953.87233 Pos: [0.2925  0.      0.43875] angle 0
+time=1640202954.194406 Pos: [0.3325  0.      0.43875] angle 0
+/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/dont_crush_duckie/solutions/solution.py:158: RuntimeWarning: divide by zero encountered in true_divide
+  vertical = np.abs(np.arange(height, dtype=np.float32).reshape(-1, 1) - right_x) / np.abs(np.arange(width, dtype=np.float32).reshape(1, -1) - (right_y + 10))
+/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/dont_crush_duckie/solutions/solution.py:158: RuntimeWarning: invalid value encountered in true_divide
+  vertical = np.abs(np.arange(height, dtype=np.float32).reshape(-1, 1) - right_x) / np.abs(np.arange(width, dtype=np.float32).reshape(1, -1) - (right_y + 10))
+/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/dont_crush_duckie/solutions/solution.py:168: RuntimeWarning: divide by zero encountered in true_divide
+  vertical = np.abs(np.arange(height, dtype=np.float32).reshape(-1, 1) - left_x) / np.abs(np.arange(width, dtype=np.float32).reshape(1, -1) - (left_y - 10))
+/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/dont_crush_duckie/solutions/solution.py:168: RuntimeWarning: invalid value encountered in true_divide
+  vertical = np.abs(np.arange(height, dtype=np.float32).reshape(-1, 1) - left_x) / np.abs(np.arange(width, dtype=np.float32).reshape(1, -1) - (left_y - 10))
+/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/dont_crush_duckie/solutions/solution.py:179: RuntimeWarning: divide by zero encountered in true_divide
+  horisontal = np.abs(np.arange(width, dtype=np.float32).reshape(1, -1) - up_y) / np.abs(np.arange(height, dtype=np.float32).reshape(-1, 1) - (up_x - 10))
+/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/dont_crush_duckie/solutions/solution.py:179: RuntimeWarning: invalid value encountered in true_divide
+  horisontal = np.abs(np.arange(width, dtype=np.float32).reshape(1, -1) - up_y) / np.abs(np.arange(height, dtype=np.float32).reshape(-1, 1) - (up_x - 10))
+/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/dont_crush_duckie/solutions/solution.py:188: RuntimeWarning: divide by zero encountered in true_divide
+  horisontal = np.abs(np.arange(width, dtype=np.float32).reshape(1, -1) - down_y) / np.abs(np.arange(height, dtype=np.float32).reshape(-1, 1) - (down_x + 10))
+/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/dont_crush_duckie/solutions/solution.py:188: RuntimeWarning: invalid value encountered in true_divide
+  horisontal = np.abs(np.arange(width, dtype=np.float32).reshape(1, -1) - down_y) / np.abs(np.arange(height, dtype=np.float32).reshape(-1, 1) - (down_x + 10))
+time=1640202954.4441679 x=1.1785451899962798
+time=1640202954.548702 Pos: [0.3725  0.      0.43875] angle 0
+time=1640202954.7421162 x=1.1190548621272447
+time=1640202954.8008027 Pos: [0.4125  0.      0.43875] angle 0
+time=1640202955.0122664 x=1.0255132603184363
+time=1640202955.0699592 Pos: [0.4525  0.      0.43875] angle 0
+time=1640202955.255902 x=1.2057416671051508
+time=1640202955.2957647 Pos: [0.4925  0.      0.43875] angle 0
+time=1640202955.4515789 x=1.984990470857339
+time=1640202955.5124688 Pos: [0.5325  0.      0.43875] angle 0
+time=1640202955.7082841 x=1.1298446738355896
+time=1640202955.7859573 Pos: [0.5725  0.      0.43875] angle 0
+time=1640202955.9601352 x=1.097319494734596
+time=1640202956.0195696 Pos: [0.6125  0.      0.43875] angle 0
+time=1640202956.1978695 x=1.1616076278822174
+time=1640202956.2581456 Pos: [0.6525  0.      0.43875] angle 0
+time=1640202956.4353662 x=1.850152962780596
+time=1640202956.5010378 Pos: [0.6925  0.      0.43875] angle 0
+time=1640202956.6755908 x=2.5118282748393304
+time=1640202956.7306542 Pos: [0.7325  0.      0.43875] angle 0
+time=1640202956.9346187 x=2.0607889914382986
+time=1640202956.9936023 Pos: [0.7725  0.      0.43875] angle 0
+time=1640202957.1785452 x=1.0958994674206277
+time=1640202957.2385328 Pos: [0.8125  0.      0.43875] angle 0
+time=1640202957.4152553 x=1.1840854922052
+time=1640202957.4618976 Pos: [0.8525  0.      0.43875] angle 0
+time=1640202957.6307206 x=1.1703065564000579
+time=1640202957.690225 Pos: [0.8925  0.      0.43875] angle 0
+time=1640202957.883267 x=1.1885583835057987
+time=1640202957.9518151 Pos: [0.9325  0.      0.43875] angle 0
+time=1640202958.1451373 x=1.9779451922631888
+time=1640202958.1929908 Pos: [0.9725  0.      0.43875] angle 0
+time=1640202958.3513703 x=0.7441876601184121
+time=1640202958.398891 Pos: [1.0125  0.      0.43875] angle 0
+time=1640202958.564199 x=1.1943923237261478
+time=1640202958.6274178 Pos: [1.0525  0.      0.43875] angle 0
+time=1640202958.824952 x=1.6737887294668015
+time=1640202958.8722522 Pos: [1.06181665 0.         0.43864149] angle 0.023293733985557886
+time=1640202959.1917415 Pos: [1.07112825 0.         0.438316  ] angle 0.04658746797111577
+time=1640202959.509707 Pos: [1.08042974 0.         0.43777372] angle 0.06988120195667366
+time=1640202959.7704144 Pos: [1.08971607 0.         0.43701494] angle 0.09317493594223154
+time=1640202960.0293407 Pos: [1.09898221 0.         0.43604008] angle 0.11646866992778943
+time=1640202960.3102927 Pos: [1.10822314 0.         0.43484965] angle 0.13976240391334732
+time=1640202960.5500872 Pos: [1.11743382 0.         0.43344431] angle 0.16305613789890522
+time=1640202960.777115 Pos: [1.12660928 0.         0.43182482] angle 0.18634987188446311
+time=1640202961.0153701 Pos: [1.13574453 0.         0.42999206] angle 0.209643605870021
+time=1640202961.31477 Pos: [1.14483461 0.         0.42794702] angle 0.2329373398555789
+time=1640202961.5955997 Pos: [1.15387459 0.         0.42569081] angle 0.2562310738411368
+time=1640202961.863887 Pos: [1.16285957 0.         0.42322466] angle 0.2795248078266947
+time=1640202962.1404445 Pos: [1.17178467 0.         0.4205499 ] angle 0.3028185418122526
+time=1640202962.4334133 Pos: [1.18064505 0.         0.41766799] angle 0.3261122757978105
+time=1640202962.693988 Pos: [1.18943591 0.         0.41458049] angle 0.3494060097833684
+time=1640202962.9391222 Pos: [1.19815246 0.         0.41128907] angle 0.3726997437689263
+time=1640202963.1703932 Pos: [1.20678999 0.         0.40779552] angle 0.3959934777544842
+time=1640202963.406431 Pos: [1.2153438  0.         0.40410174] angle 0.4192872117400421
+time=1640202963.6417515 Pos: [1.22380926 0.         0.40020973] angle 0.4425809457256
+time=1640202963.877937 Invalid pose. Collision free: False On drivable area: True
+time=1640202963.8780913 safety_factor: 1.0
+time=1640202963.8785033 pos: [1.21073948 0.         0.40690251]
+time=1640202963.8788562 l_pos: [1.17704915 0.         0.33989533]
+time=1640202963.8791854 r_pos: [1.24442981 0.         0.47390968]
+time=1640202963.8795142 f_pos: [1.29114809 0.         0.36647411]
+time=1640202963.8795905 Stopping the simulator because we are at an invalid pose.
+time=1640202963.8799922 Pos: [1.23218177 0.         0.3961216 ] angle 0.46587467971115787
+env.road_tile_size = 0.585
+total reward =  -11.198637293131256
+False: Incorrect solution execution: Stopping the simulator because we are at an invalid pose.
