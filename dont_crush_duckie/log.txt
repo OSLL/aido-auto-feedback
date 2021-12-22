@@ -1,0 +1,68 @@
+False: Incorrect solution execution: name 'logger' is not defined
+time=1640139504.9705262 gym-duckietown 2019.0.0
+
+time=1640139505.2441485 Registering gym environment id: Duckietown-4way-v0
+time=1640139505.2443163 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1640139505.2444098 Registering gym environment id: Duckietown-loop_empty-v0
+time=1640139505.244562 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1640139505.244653 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1640139505.2447734 Registering gym environment id: Duckietown-small_loop-v0
+time=1640139505.2448776 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1640139505.2449965 Registering gym environment id: Duckietown-straight_road-v0
+time=1640139505.2450833 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1640139505.2451613 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1640139505.2452826 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1640139505.2454004 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1640139505.2455235 Registering gym environment id: Duckietown-udem1-v0
+time=1640139505.2456083 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1640139507.1906898 Falling back to non-multisampled frame buffer
+time=1640139507.194856 Falling back to non-multisampled frame buffer
+time=1640139507.1992311 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/straight_road.yaml"
+time=1640139507.2065675 loading mesh "duckiebot.obj"
+time=1640139507.2068596 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1640139507.6221662 loading texture "straight_1.png"
+time=1640139507.639438 road_tile_size=0.585
+time=1640139507.6399932 Starting at [0.2925  0.      0.43875] 0
+time=1640139507.6403487 Pos: [0.2925  0.      0.43875] angle 0
+time=1640139507.8094034 using DuckietownEnv
+/usr/local/lib/python3.6/dist-packages/gym/spaces/box.py:74: UserWarning: [33mWARN: Box bound precision lowered by casting to float32[0m
+  "Box bound precision lowered by casting to {}".format(self.dtype)
+time=1640139507.810811 loading mesh "duckie.obj"
+time=1640139507.8609436 loading texture "duckie.png"
+time=1640139508.4974635 Pos: [0.2925  0.      0.43875] angle 0
+time=1640139508.7743347 Pos: [0.3325  0.      0.43875] angle 0
+time=1640139508.8976264 Pos: [0.3725  0.      0.43875] angle 0
+time=1640139508.9911544 Pos: [0.4125  0.      0.43875] angle 0
+time=1640139509.0782933 Pos: [0.4525  0.      0.43875] angle 0
+time=1640139509.172852 Pos: [0.4925  0.      0.43875] angle 0
+time=1640139509.2606864 Pos: [0.5325  0.      0.43875] angle 0
+time=1640139509.3465176 Pos: [0.5725  0.      0.43875] angle 0
+time=1640139509.4321563 Pos: [0.6125  0.      0.43875] angle 0
+time=1640139509.5191507 Pos: [0.6525  0.      0.43875] angle 0
+time=1640139509.6061323 Pos: [0.6925  0.      0.43875] angle 0
+time=1640139509.6923003 Pos: [0.7325  0.      0.43875] angle 0
+time=1640139509.7779713 Pos: [0.7725  0.      0.43875] angle 0
+time=1640139509.8678439 Pos: [0.8125  0.      0.43875] angle 0
+time=1640139509.9580932 Pos: [0.8525  0.      0.43875] angle 0
+time=1640139510.0466301 Pos: [0.8925  0.      0.43875] angle 0
+time=1640139510.132294 Pos: [0.9325  0.      0.43875] angle 0
+time=1640139510.215376 Pos: [0.9725  0.      0.43875] angle 0
+/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/dont_crush_duckie/solutions/solution.py:135: RuntimeWarning: divide by zero encountered in true_divide
+  vertical = np.abs(np.arange(height, dtype=np.float32).reshape(-1, 1) - right_x) / np.abs(np.arange(width, dtype=np.float32).reshape(1, -1) - (right_y + 10))
+/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/dont_crush_duckie/solutions/solution.py:135: RuntimeWarning: invalid value encountered in true_divide
+  vertical = np.abs(np.arange(height, dtype=np.float32).reshape(-1, 1) - right_x) / np.abs(np.arange(width, dtype=np.float32).reshape(1, -1) - (right_y + 10))
+/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/dont_crush_duckie/solutions/solution.py:145: RuntimeWarning: divide by zero encountered in true_divide
+  vertical = np.abs(np.arange(height, dtype=np.float32).reshape(-1, 1) - left_x) / np.abs(np.arange(width, dtype=np.float32).reshape(1, -1) - (left_y - 10))
+/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/dont_crush_duckie/solutions/solution.py:145: RuntimeWarning: invalid value encountered in true_divide
+  vertical = np.abs(np.arange(height, dtype=np.float32).reshape(-1, 1) - left_x) / np.abs(np.arange(width, dtype=np.float32).reshape(1, -1) - (left_y - 10))
+/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/dont_crush_duckie/solutions/solution.py:156: RuntimeWarning: divide by zero encountered in true_divide
+  horisontal = np.abs(np.arange(width, dtype=np.float32).reshape(1, -1) - up_y) / np.abs(np.arange(height, dtype=np.float32).reshape(-1, 1) - (up_x - 10))
+/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/dont_crush_duckie/solutions/solution.py:156: RuntimeWarning: invalid value encountered in true_divide
+  horisontal = np.abs(np.arange(width, dtype=np.float32).reshape(1, -1) - up_y) / np.abs(np.arange(height, dtype=np.float32).reshape(-1, 1) - (up_x - 10))
+/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/dont_crush_duckie/solutions/solution.py:165: RuntimeWarning: divide by zero encountered in true_divide
+  horisontal = np.abs(np.arange(width, dtype=np.float32).reshape(1, -1) - down_y) / np.abs(np.arange(height, dtype=np.float32).reshape(-1, 1) - (down_x + 10))
+/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/dont_crush_duckie/solutions/solution.py:165: RuntimeWarning: invalid value encountered in true_divide
+  horisontal = np.abs(np.arange(width, dtype=np.float32).reshape(1, -1) - down_y) / np.abs(np.arange(height, dtype=np.float32).reshape(-1, 1) - (down_x + 10))
+env.road_tile_size = 0.585
+total reward =  15.13500000000001
+False: Incorrect solution execution: name 'logger' is not defined
