@@ -1,0 +1,39 @@
+False: Non-zero return code, probably a syntax error occurred\ntime=1640135007.653086 gym-duckietown 2019.0.0
+
+time=1640135008.885807 Registering gym environment id: Duckietown-4way-v0
+time=1640135008.8859775 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1640135008.8860831 Registering gym environment id: Duckietown-loop_empty-v0
+time=1640135008.8862047 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1640135008.8863022 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1640135008.8863826 Registering gym environment id: Duckietown-small_loop-v0
+time=1640135008.8864927 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1640135008.8866072 Registering gym environment id: Duckietown-straight_road-v0
+time=1640135008.8866954 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1640135008.8867688 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1640135008.8868532 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1640135008.8869653 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1640135008.887072 Registering gym environment id: Duckietown-udem1-v0
+time=1640135008.8871806 Registering gym environment id: Duckietown-zigzag_dists-v0
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib/python3.6/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/dont_crush_duckie/checker.py", line 6, in <module>
+    checkers=[StopAtCoordinatesChecker()]
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/solution_evaluator.py", line 31, in __init__
+    solution_file_as_module = importlib.import_module(self.args.solution_file_as_module)
+  File "/usr/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/dont_crush_duckie/solutions/solution.py", line 84
+    if size < 0.04 and size > 0.0005 and \n            (not np.any(components[:, 0] == i)) and \n            (not np.any(components[0, :] == i)) and \n            (not np.any(components[:, -1] == i)) and \n            (not np.any(components[-1, :] == i)):
+                                                                                                                                                                                                                                                              ^
+SyntaxError: unexpected character after line continuation character
