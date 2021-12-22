@@ -1,0 +1,830 @@
+False: Incorrect solution execution: Stopping the simulator because we are at an invalid pose.
+time=1640199873.0478702 gym-duckietown 2019.0.0
+
+time=1640199873.440355 Registering gym environment id: Duckietown-4way-v0
+time=1640199873.440545 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1640199873.4406402 Registering gym environment id: Duckietown-loop_empty-v0
+time=1640199873.440713 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1640199873.4408007 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1640199873.440931 Registering gym environment id: Duckietown-small_loop-v0
+time=1640199873.441055 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1640199873.4411452 Registering gym environment id: Duckietown-straight_road-v0
+time=1640199873.4412253 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1640199873.4413354 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1640199873.441448 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1640199873.441539 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1640199873.4416647 Registering gym environment id: Duckietown-udem1-v0
+time=1640199873.441752 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1640199875.9807017 Falling back to non-multisampled frame buffer
+time=1640199875.986173 Falling back to non-multisampled frame buffer
+time=1640199875.990833 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/straight_road.yaml"
+time=1640199875.9995265 loading mesh "duckiebot.obj"
+time=1640199875.9998505 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1640199876.5557158 loading texture "straight_1.png"
+time=1640199876.5758479 road_tile_size=0.585
+time=1640199876.5764563 Starting at [0.2925  0.      0.43875] 0
+time=1640199876.5768301 Pos: [0.2925  0.      0.43875] angle 0
+time=1640199876.8090382 using DuckietownEnv
+/usr/local/lib/python3.6/dist-packages/gym/spaces/box.py:74: UserWarning: [33mWARN: Box bound precision lowered by casting to float32[0m
+  "Box bound precision lowered by casting to {}".format(self.dtype)
+time=1640199876.8103595 loading mesh "duckie.obj"
+time=1640199876.8815832 loading texture "duckie.png"
+time=1640199877.7203908 Pos: [0.2925  0.      0.43875] angle 0
+time=1640199878.0165308 Pos: [0.3325  0.      0.43875] angle 0
+time=1640199878.1122556 Pos: [0.3725  0.      0.43875] angle 0
+time=1640199878.2068746 Pos: [0.4125  0.      0.43875] angle 0
+time=1640199878.2937343 Pos: [0.4525  0.      0.43875] angle 0
+time=1640199878.373576 Pos: [0.4925  0.      0.43875] angle 0
+time=1640199878.4515958 Pos: [0.5325  0.      0.43875] angle 0
+time=1640199878.530787 Pos: [0.5725  0.      0.43875] angle 0
+time=1640199878.613112 Pos: [0.6125  0.      0.43875] angle 0
+time=1640199878.6917372 Pos: [0.6525  0.      0.43875] angle 0
+time=1640199878.7693102 Pos: [0.6925  0.      0.43875] angle 0
+time=1640199878.846378 Pos: [0.7325  0.      0.43875] angle 0
+time=1640199878.9231021 Pos: [0.7725  0.      0.43875] angle 0
+time=1640199879.0035272 Pos: [0.8125  0.      0.43875] angle 0
+time=1640199879.0824676 Pos: [0.8525  0.      0.43875] angle 0
+time=1640199879.1585836 Pos: [0.8925  0.      0.43875] angle 0
+time=1640199879.2363837 Pos: [0.9325  0.      0.43875] angle 0
+time=1640199879.3140805 Pos: [0.9725  0.      0.43875] angle 0
+time=1640199879.3917227 Pos: [1.0125  0.      0.43875] angle 0
+time=1640199879.4669502 Pos: [1.0525  0.      0.43875] angle 0
+time=1640199879.5437627 Pos: [1.0925  0.      0.43875] angle 0
+time=1640199879.6364462 Pos: [1.1325  0.      0.43875] angle 0
+time=1640199879.7162476 Pos: [1.1725  0.      0.43875] angle 0
+time=1640199879.7929552 Pos: [1.2125  0.      0.43875] angle 0
+time=1640199879.8694835 Pos: [1.2525  0.      0.43875] angle 0
+time=1640199879.9474258 Pos: [1.2925  0.      0.43875] angle 0
+time=1640199880.0298119 Pos: [1.3325  0.      0.43875] angle 0
+time=1640199880.109532 Pos: [1.3725  0.      0.43875] angle 0
+time=1640199880.1858878 Pos: [1.4125  0.      0.43875] angle 0
+time=1640199880.2620277 Pos: [1.4525  0.      0.43875] angle 0
+time=1640199880.3375027 Pos: [1.4925  0.      0.43875] angle 0
+time=1640199880.4150329 Pos: [1.5325  0.      0.43875] angle 0
+time=1640199880.4939737 Pos: [1.5725  0.      0.43875] angle 0
+time=1640199880.5713968 Pos: [1.6125  0.      0.43875] angle 0
+time=1640199880.649718 Pos: [1.6525  0.      0.43875] angle 0
+time=1640199880.7302618 Pos: [1.6925  0.      0.43875] angle 0
+time=1640199880.8072684 Pos: [1.7325  0.      0.43875] angle 0
+time=1640199880.8903275 Pos: [1.7725  0.      0.43875] angle 0
+time=1640199880.967787 Pos: [1.8125  0.      0.43875] angle 0
+time=1640199881.0499256 Pos: [1.8525  0.      0.43875] angle 0
+time=1640199881.1272862 Pos: [1.8925  0.      0.43875] angle 0
+time=1640199881.2051163 Pos: [1.9325  0.      0.43875] angle 0
+time=1640199881.2833526 Pos: [1.9725  0.      0.43875] angle 0
+time=1640199881.3600543 Pos: [2.0125  0.      0.43875] angle 0
+time=1640199881.438783 Pos: [2.0525  0.      0.43875] angle 0
+time=1640199881.5171185 Pos: [2.0925  0.      0.43875] angle 0
+time=1640199881.5927334 Pos: [2.1325  0.      0.43875] angle 0
+time=1640199881.669943 Pos: [2.1725  0.      0.43875] angle 0
+env.road_tile_size = 0.585
+YELLOW COLOR IN HSV:  [[[ 60 255 255]]]
+I:  0
+Img:  480 640
+Rect:  159 184 1 1
+Coverage:  3.2552083333333335e-06
+I:  0
+Img:  480 640
+Rect:  149 191 1 1
+Coverage:  3.2552083333333335e-06
+I:  0
+Img:  480 640
+Rect:  145 213 1 1
+Coverage:  3.2552083333333335e-06
+I:  1
+Img:  480 640
+Rect:  136 200 1 1
+Coverage:  3.2552083333333335e-06
+I:  2
+Img:  480 640
+Rect:  185 181 1 1
+Coverage:  3.2552083333333335e-06
+I:  0
+Img:  480 640
+Rect:  122 209 2 2
+Coverage:  1.3020833333333334e-05
+I:  1
+Img:  480 640
+Rect:  226 137 1 1
+Coverage:  3.2552083333333335e-06
+I:  2
+Img:  480 640
+Rect:  265 116 1 1
+Coverage:  3.2552083333333335e-06
+I:  0
+Img:  480 640
+Rect:  113 239 1 1
+Coverage:  3.2552083333333335e-06
+I:  1
+Img:  480 640
+Rect:  106 220 1 2
+Coverage:  6.510416666666667e-06
+I:  0
+Img:  480 640
+Rect:  92 256 1 1
+Coverage:  3.2552083333333335e-06
+I:  1
+Img:  480 640
+Rect:  86 234 3 2
+Coverage:  1.953125e-05
+I:  2
+Img:  480 640
+Rect:  134 222 1 1
+Coverage:  3.2552083333333335e-06
+I:  3
+Img:  480 640
+Rect:  156 205 1 1
+Coverage:  3.2552083333333335e-06
+I:  4
+Img:  480 640
+Rect:  219 142 1 1
+Coverage:  3.2552083333333335e-06
+I:  0
+Img:  480 640
+Rect:  67 276 1 2
+Coverage:  6.510416666666667e-06
+I:  1
+Img:  480 640
+Rect:  27 276 1 1
+Coverage:  3.2552083333333335e-06
+I:  2
+Img:  480 640
+Rect:  63 249 3 3
+Coverage:  2.9296875e-05
+I:  3
+Img:  480 640
+Rect:  215 145 1 1
+Coverage:  3.2552083333333335e-06
+I:  0
+Img:  480 640
+Rect:  35 268 4 3
+Coverage:  3.90625e-05
+I:  1
+Img:  480 640
+Rect:  211 148 1 1
+Coverage:  3.2552083333333335e-06
+I:  0
+Img:  480 640
+Rect:  0 292 5 4
+Coverage:  6.510416666666667e-05
+I:  1
+Img:  480 640
+Rect:  74 271 1 1
+Coverage:  3.2552083333333335e-06
+I:  0
+Img:  480 640
+Rect:  42 296 1 1
+Coverage:  3.2552083333333335e-06
+I:  1
+Img:  480 640
+Rect:  200 155 2 1
+Coverage:  6.510416666666667e-06
+I:  0
+Img:  480 640
+Rect:  3 327 3 2
+Coverage:  1.953125e-05
+I:  1
+Img:  480 640
+Rect:  194 159 2 1
+Coverage:  6.510416666666667e-06
+I:  2
+Img:  480 640
+Rect:  254 125 1 1
+Coverage:  3.2552083333333335e-06
+I:  3
+Img:  480 640
+Rect:  246 123 1 1
+Coverage:  3.2552083333333335e-06
+I:  0
+Img:  480 640
+Rect:  26 310 1 1
+Coverage:  3.2552083333333335e-06
+I:  0
+Img:  480 640
+Rect:  181 168 1 1
+Coverage:  3.2552083333333335e-06
+I:  0
+Img:  480 640
+Rect:  173 174 2 1
+Coverage:  6.510416666666667e-06
+I:  0
+Img:  480 640
+Rect:  175 189 1 1
+Coverage:  3.2552083333333335e-06
+I:  1
+Img:  480 640
+Rect:  165 180 1 1
+Coverage:  3.2552083333333335e-06
+I:  2
+Img:  480 640
+Rect:  285 96 1 1
+Coverage:  3.2552083333333335e-06
+I:  0
+Img:  480 640
+Rect:  165 197 1 1
+Coverage:  3.2552083333333335e-06
+I:  1
+Img:  480 640
+Rect:  154 187 2 1
+Coverage:  6.510416666666667e-06
+I:  0
+Img:  480 640
+Rect:  109 238 1 1
+Coverage:  3.2552083333333335e-06
+I:  1
+Img:  480 640
+Rect:  145 194 1 1
+Coverage:  3.2552083333333335e-06
+I:  2
+Img:  480 640
+Rect:  143 194 1 1
+Coverage:  3.2552083333333335e-06
+I:  0
+Img:  480 640
+Rect:  140 217 1 1
+Coverage:  3.2552083333333335e-06
+I:  1
+Img:  480 640
+Rect:  130 203 3 1
+Coverage:  9.765625e-06
+I:  2
+Img:  480 640
+Rect:  167 195 1 1
+Coverage:  3.2552083333333335e-06
+I:  0
+Img:  480 640
+Rect:  124 230 1 1
+Coverage:  3.2552083333333335e-06
+I:  1
+Img:  480 640
+Rect:  116 213 3 2
+Coverage:  1.953125e-05
+I:  2
+Img:  480 640
+Rect:  156 204 2 1
+Coverage:  6.510416666666667e-06
+I:  3
+Img:  480 640
+Rect:  225 138 1 1
+Coverage:  3.2552083333333335e-06
+I:  4
+Img:  480 640
+Rect:  258 115 1 1
+Coverage:  3.2552083333333335e-06
+I:  0
+Img:  480 640
+Rect:  98 225 4 2
+Coverage:  2.604166666666667e-05
+I:  1
+Img:  480 640
+Rect:  256 116 1 1
+Coverage:  3.2552083333333335e-06
+I:  0
+Img:  480 640
+Rect:  83 263 1 1
+Coverage:  3.2552083333333335e-06
+I:  1
+Img:  480 640
+Rect:  78 239 4 2
+Coverage:  2.604166666666667e-05
+I:  2
+Img:  480 640
+Rect:  212 147 1 1
+Coverage:  3.2552083333333335e-06
+I:  3
+Img:  480 640
+Rect:  217 143 1 1
+Coverage:  3.2552083333333335e-06
+I:  0
+Img:  480 640
+Rect:  55 285 2 2
+Coverage:  1.3020833333333334e-05
+I:  1
+Img:  480 640
+Rect:  14 285 1 1
+Coverage:  3.2552083333333335e-06
+I:  2
+Img:  480 640
+Rect:  54 256 3 3
+Coverage:  2.9296875e-05
+I:  3
+Img:  480 640
+Rect:  110 241 2 1
+Coverage:  6.510416666666667e-06
+I:  0
+Img:  480 640
+Rect:  19 314 3 2
+Coverage:  1.953125e-05
+I:  1
+Img:  480 640
+Rect:  22 277 5 3
+Coverage:  4.8828125e-05
+I:  0
+Img:  480 640
+Rect:  61 280 2 1
+Coverage:  6.510416666666667e-06
+I:  0
+Img:  480 640
+Rect:  28 307 3 1
+Coverage:  9.765625e-06
+I:  1
+Img:  480 640
+Rect:  78 268 2 1
+Coverage:  6.510416666666667e-06
+Couldn't find contours
+I:  0
+Img:  480 640
+Rect:  196 172 1 1
+Coverage:  3.2552083333333335e-06
+I:  1
+Img:  480 640
+Rect:  186 165 1 1
+Coverage:  3.2552083333333335e-06
+I:  2
+Img:  480 640
+Rect:  209 161 1 1
+Coverage:  3.2552083333333335e-06
+I:  0
+Img:  480 640
+Rect:  178 170 2 1
+Coverage:  6.510416666666667e-06
+I:  1
+Img:  480 640
+Rect:  249 129 1 1
+Coverage:  3.2552083333333335e-06
+I:  2
+Img:  480 640
+Rect:  278 101 1 1
+Coverage:  3.2552083333333335e-06
+I:  0
+Img:  480 640
+Rect:  170 176 2 1
+Coverage:  6.510416666666667e-06
+I:  0
+Img:  480 640
+Rect:  161 182 2 1
+Coverage:  6.510416666666667e-06
+I:  1
+Img:  480 640
+Rect:  253 126 1 1
+Coverage:  3.2552083333333335e-06
+I:  0
+Img:  480 640
+Rect:  151 189 2 1
+Coverage:  6.510416666666667e-06
+I:  0
+Img:  480 640
+Rect:  149 210 1 1
+Coverage:  3.2552083333333335e-06
+I:  1
+Img:  480 640
+Rect:  139 197 1 2
+Coverage:  6.510416666666667e-06
+I:  2
+Img:  480 640
+Rect:  173 190 2 1
+Coverage:  6.510416666666667e-06
+I:  3
+Img:  480 640
+Rect:  275 103 1 1
+Coverage:  3.2552083333333335e-06
+I:  0
+Img:  480 640
+Rect:  79 262 1 1
+Coverage:  3.2552083333333335e-06
+I:  1
+Img:  480 640
+Rect:  126 207 1 1
+Coverage:  3.2552083333333335e-06
+I:  0
+Img:  480 640
+Rect:  118 235 1 1
+Coverage:  3.2552083333333335e-06
+I:  1
+Img:  480 640
+Rect:  110 217 1 2
+Coverage:  6.510416666666667e-06
+I:  0
+Img:  480 640
+Rect:  98 251 1 1
+Coverage:  3.2552083333333335e-06
+I:  1
+Img:  480 640
+Rect:  91 230 3 2
+Coverage:  1.953125e-05
+I:  0
+Img:  480 640
+Rect:  73 271 1 1
+Coverage:  3.2552083333333335e-06
+I:  1
+Img:  480 640
+Rect:  70 245 3 2
+Coverage:  1.953125e-05
+I:  0
+Img:  480 640
+Rect:  44 295 1 1
+Coverage:  3.2552083333333335e-06
+I:  1
+Img:  480 640
+Rect:  0 295 1 1
+Coverage:  3.2552083333333335e-06
+I:  2
+Img:  480 640
+Rect:  42 263 4 3
+Coverage:  3.90625e-05
+I:  3
+Img:  480 640
+Rect:  103 247 1 1
+Coverage:  3.2552083333333335e-06
+I:  4
+Img:  480 640
+Rect:  211 147 1 1
+Coverage:  3.2552083333333335e-06
+I:  0
+Img:  480 640
+Rect:  4 326 2 2
+Coverage:  1.3020833333333334e-05
+I:  1
+Img:  480 640
+Rect:  10 285 5 4
+Coverage:  6.510416666666667e-05
+I:  2
+Img:  480 640
+Rect:  81 266 1 1
+Coverage:  3.2552083333333335e-06
+I:  3
+Img:  480 640
+Rect:  79 266 1 1
+Coverage:  3.2552083333333335e-06
+I:  0
+Img:  480 640
+Rect:  51 289 1 1
+Coverage:  3.2552083333333335e-06
+I:  1
+Img:  480 640
+Rect:  202 154 1 1
+Coverage:  3.2552083333333335e-06
+I:  0
+Img:  480 640
+Rect:  15 319 2 1
+Coverage:  6.510416666666667e-06
+I:  1
+Img:  480 640
+Rect:  13 319 1 1
+Coverage:  3.2552083333333335e-06
+I:  2
+Img:  480 640
+Rect:  196 158 1 1
+Coverage:  3.2552083333333335e-06
+I:  3
+Img:  480 640
+Rect:  268 108 1 1
+Coverage:  3.2552083333333335e-06
+Couldn't find contours
+I:  0
+Img:  480 640
+Rect:  183 167 1 1
+Coverage:  3.2552083333333335e-06
+I:  0
+Img:  480 640
+Rect:  157 200 1 1
+Coverage:  3.2552083333333335e-06
+I:  1
+Img:  480 640
+Rect:  186 180 1 1
+Coverage:  3.2552083333333335e-06
+I:  2
+Img:  480 640
+Rect:  175 172 2 1
+Coverage:  6.510416666666667e-06
+I:  3
+Img:  480 640
+Rect:  298 87 1 1
+Coverage:  3.2552083333333335e-06
+I:  0
+Img:  480 640
+Rect:  168 178 1 1
+Coverage:  3.2552083333333335e-06
+I:  0
+Img:  480 640
+Rect:  235 131 1 1
+Coverage:  3.2552083333333335e-06
+I:  0
+Img:  480 640
+Rect:  147 192 2 1
+Coverage:  6.510416666666667e-06
+I:  1
+Img:  480 640
+Rect:  232 133 1 1
+Coverage:  3.2552083333333335e-06
+I:  2
+Img:  480 640
+Rect:  270 112 1 1
+Coverage:  3.2552083333333335e-06
+I:  0
+Img:  480 640
+Rect:  144 214 1 1
+Coverage:  3.2552083333333335e-06
+I:  1
+Img:  480 640
+Rect:  116 214 1 1
+Coverage:  3.2552083333333335e-06
+I:  2
+Img:  480 640
+Rect:  134 201 2 1
+Coverage:  6.510416666666667e-06
+I:  3
+Img:  480 640
+Rect:  170time=1640199881.778055 Pos: [2.2125  0.      0.43875] angle 0
+time=1640199881.8584158 Pos: [2.2525  0.      0.43875] angle 0
+time=1640199881.9590862 Pos: [2.2925  0.      0.43875] angle 0
+time=1640199882.0747893 Pos: [2.3325  0.      0.43875] angle 0
+time=1640199882.1630175 Pos: [2.3725  0.      0.43875] angle 0
+time=1640199882.2651346 Pos: [2.4125  0.      0.43875] angle 0
+time=1640199882.3574896 Pos: [2.4525  0.      0.43875] angle 0
+time=1640199882.4489934 Pos: [2.4925  0.      0.43875] angle 0
+time=1640199882.5350995 Pos: [2.5325  0.      0.43875] angle 0
+time=1640199882.6267781 Pos: [2.5725  0.      0.43875] angle 0
+time=1640199882.726084 Pos: [2.6125  0.      0.43875] angle 0
+time=1640199882.826784 Pos: [2.6525  0.      0.43875] angle 0
+time=1640199882.9194665 Pos: [2.6925  0.      0.43875] angle 0
+time=1640199883.0139706 Pos: [2.7325  0.      0.43875] angle 0
+time=1640199883.1005032 Pos: [2.7725  0.      0.43875] angle 0
+time=1640199883.1802835 Pos: [2.8125  0.      0.43875] angle 0
+time=1640199883.2584307 Pos: [2.8525  0.      0.43875] angle 0
+time=1640199883.3370738 Pos: [2.8925  0.      0.43875] angle 0
+time=1640199883.4151728 Pos: [2.9325  0.      0.43875] angle 0
+time=1640199883.495583 Pos: [2.9725  0.      0.43875] angle 0
+time=1640199883.5768661 Pos: [3.0125  0.      0.43875] angle 0
+time=1640199883.660221 Pos: [3.0525  0.      0.43875] angle 0
+time=1640199883.7433963 Pos: [3.0925  0.      0.43875] angle 0
+time=1640199883.829561 Pos: [3.1325  0.      0.43875] angle 0
+time=1640199883.9219875 Pos: [3.1725  0.      0.43875] angle 0
+time=1640199884.0118477 Pos: [3.2125  0.      0.43875] angle 0
+time=1640199884.090118 Pos: [3.2525  0.      0.43875] angle 0
+time=1640199884.1658669 Invalid pose. Collision free: False On drivable area: True
+time=1640199884.1660235 safety_factor: 1.0
+time=1640199884.1665237 pos: [3.2685  0.      0.43875]
+time=1640199884.1669152 l_pos: [3.2685  0.      0.36375]
+time=1640199884.167236 r_pos: [3.2685  0.      0.51375]
+time=1640199884.1675718 f_pos: [3.3585  0.      0.43875]
+time=1640199884.167658 Stopping the simulator because we are at an invalid pose.
+time=1640199884.168013 Pos: [3.2925  0.      0.43875] angle 0
+ 193 1 1
+Coverage:  3.2552083333333335e-06
+I:  4
+Img:  480 640
+Rect:  227 145 1 1
+Coverage:  3.2552083333333335e-06
+I:  5
+Img:  480 640
+Rect:  229 135 1 1
+Coverage:  3.2552083333333335e-06
+I:  0
+Img:  480 640
+Rect:  120 210 1 2
+Coverage:  6.510416666666667e-06
+I:  0
+Img:  480 640
+Rect:  111 241 1 1
+Coverage:  3.2552083333333335e-06
+I:  1
+Img:  480 640
+Rect:  103 222 3 2
+Coverage:  1.953125e-05
+I:  2
+Img:  480 640
+Rect:  165 197 1 1
+Coverage:  3.2552083333333335e-06
+I:  0
+Img:  480 640
+Rect:  90 258 1 1
+Coverage:  3.2552083333333335e-06
+I:  1
+Img:  480 640
+Rect:  53 258 1 1
+Coverage:  3.2552083333333335e-06
+I:  2
+Img:  480 640
+Rect:  84 235 2 2
+Coverage:  1.3020833333333334e-05
+I:  0
+Img:  480 640
+Rect:  63 279 1 1
+Coverage:  3.2552083333333335e-06
+I:  1
+Img:  480 640
+Rect:  59 251 4 3
+Coverage:  3.90625e-05
+I:  2
+Img:  480 640
+Rect:  115 237 1 1
+Coverage:  3.2552083333333335e-06
+I:  0
+Img:  480 640
+Rect:  29 306 2 2
+Coverage:  1.3020833333333334e-05
+I:  1
+Img:  480 640
+Rect:  31 271 4 3
+Coverage:  3.90625e-05
+I:  2
+Img:  480 640
+Rect:  94 254 1 1
+Coverage:  3.2552083333333335e-06
+I:  3
+Img:  480 640
+Rect:  288 94 1 1
+Coverage:  3.2552083333333335e-06
+I:  0
+Img:  480 640
+Rect:  71 274 1 1
+Coverage:  3.2552083333333335e-06
+I:  1
+Img:  480 640
+Rect:  69 274 1 1
+Coverage:  3.2552083333333335e-06
+I:  2
+Img:  480 640
+Rect:  205 152 1 1
+Coverage:  3.2552083333333335e-06
+I:  0
+Img:  480 640
+Rect:  37 300 1 1
+Coverage:  3.2552083333333335e-06
+I:  0
+Img:  480 640
+Rect:  279 100 1 1
+Coverage:  3.2552083333333335e-06
+I:  1
+Img:  480 640
+Rect:  308 80 1 1
+Coverage:  3.2552083333333335e-06
+I:  0
+Img:  480 640
+Rect:  22 314 1 1
+Coverage:  3.2552083333333335e-06
+I:  1
+Img:  480 640
+Rect:  187 164 2 1
+Coverage:  6.510416666666667e-06
+I:  0
+Img:  480 640
+Rect:  180 169 2 1
+Coverage:  6.510416666666667e-06
+I:  0
+Img:  480 640
+Rect:  239 128 1 1
+Coverage:  3.2552083333333335e-06
+I:  0
+Img:  480 640
+Rect:  163 181 1 1
+Coverage:  3.2552083333333335e-06
+I:  1
+Img:  480 640
+Rect:  192 175 1 1
+Coverage:  3.2552083333333335e-06
+I:  2
+Img:  480 640
+Rect:  236 138 1 1
+Coverage:  3.2552083333333335e-06
+Couldn't find contours
+I:  0
+Img:  480 640
+Rect:  143 195 1 1
+Coverage:  3.2552083333333335e-06
+I:  0
+Img:  480 640
+Rect:  129 204 3 2
+Coverage:  1.953125e-05
+I:  1
+Img:  480 640
+Rect:  166 196 1 1
+Coverage:  3.2552083333333335e-06
+I:  0
+Img:  480 640
+Rect:  114 215 2 1
+Coverage:  6.510416666666667e-06
+I:  0
+Img:  480 640
+Rect:  103 247 1 1
+Coverage:  3.2552083333333335e-06
+I:  1
+Img:  480 640
+Rect:  97 227 2 1
+Coverage:  6.510416666666667e-06
+I:  2
+Img:  480 640
+Rect:  141 216 2 1
+Coverage:  6.510416666666667e-06
+I:  0
+Img:  480 640
+Rect:  80 266 1 1
+Coverage:  3.2552083333333335e-06
+I:  1
+Img:  480 640
+Rect:  43 265 1 1
+Coverage:  3.2552083333333335e-06
+I:  2
+Img:  480 640
+Rect:  75 241 4 2
+Coverage:  2.604166666666667e-05
+I:  3
+Img:  480 640
+Rect:  149 210 2 1
+Coverage:  6.510416666666667e-06
+I:  4
+Img:  480 640
+Rect:  234 141 1 1
+Coverage:  3.2552083333333335e-06
+I:  0
+Img:  480 640
+Rect:  51 289 1 1
+Coverage:  3.2552083333333335e-06
+I:  1
+Img:  480 640
+Rect:  50 258 3 3
+Coverage:  2.9296875e-05
+I:  2
+Img:  480 640
+Rect:  109 243 1 1
+Coverage:  3.2552083333333335e-06
+I:  3
+Img:  480 640
+Rect:  107 243 1 1
+Coverage:  3.2552083333333335e-06
+I:  0
+Img:  480 640
+Rect:  14 318 3 2
+Coverage:  1.953125e-05
+I:  1
+Img:  480 640
+Rect:  18 280 5 3
+Coverage:  4.8828125e-05
+I:  2
+Img:  480 640
+Rect:  85 261 2 1
+Coverage:  6.510416666666667e-06
+I:  3
+Img:  480 640
+Rect:  296 91 1 1
+Coverage:  3.2552083333333335e-06
+I:  0
+Img:  480 640
+Rect:  58 283 2 1
+Coverage:  6.510416666666667e-06
+I:  1
+Img:  480 640
+Rect:  99 251 1 1
+Coverage:  3.2552083333333335e-06
+I:  2
+Img:  480 640
+Rect:  203 153 1 1
+Coverage:  3.2552083333333335e-06
+I:  3
+Img:  480 640
+Rect:  249 121 1 1
+Coverage:  3.2552083333333335e-06
+I:  0
+Img:  480 640
+Rect:  24 311 1 1
+Coverage:  3.2552083333333335e-06
+I:  1
+Img:  480 640
+Rect:  197 157 2 1
+Coverage:  6.510416666666667e-06
+I:  0
+Img:  480 640
+Rect:  45 295 1 1
+Coverage:  3.2552083333333335e-06
+I:  1
+Img:  480 640
+Rect:  191 161 2 1
+Coverage:  6.510416666666667e-06
+I:  0
+Img:  480 640
+Rect:  185 166 1 1
+Coverage:  3.2552083333333335e-06
+I:  0
+Img:  480 640
+Rect:  178 171 1 1
+Coverage:  3.2552083333333335e-06
+I:  1
+Img:  480 640
+Rect:  241 127 1 1
+Coverage:  3.2552083333333335e-06
+I:  2
+Img:  480 640
+Rect:  265 110 1 1
+Coverage:  3.2552083333333335e-06
+Couldn't find contours
+I:  0
+Img:  480 640
+Rect:  170 193 1 1
+Coverage:  3.2552083333333335e-06
+I:  1
+Img:  480 640
+Rect:  159 183 3 1
+Coverage:  9.765625e-06
+total reward =  59.807440095584994
+False: Incorrect solution execution: Stopping the simulator because we are at an invalid pose.
