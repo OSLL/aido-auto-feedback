@@ -1,0 +1,26 @@
+False: Non-zero return code, probably a syntax error occurred\ntime=1648474359.3591073 gym-duckietown 2019.0.0
+
+time=1648474360.7913952 Registering gym environment id: Duckietown-4way-v0
+time=1648474360.7915535 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1648474360.7917092 Registering gym environment id: Duckietown-loop_empty-v0
+time=1648474360.791803 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1648474360.7919075 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1648474360.7920144 Registering gym environment id: Duckietown-small_loop-v0
+time=1648474360.7921007 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1648474360.7921867 Registering gym environment id: Duckietown-straight_road-v0
+time=1648474360.792267 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1648474360.792343 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1648474360.7924604 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1648474360.7925425 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1648474360.7926416 Registering gym environment id: Duckietown-udem1-v0
+time=1648474360.7927165 Registering gym environment id: Duckietown-zigzag_dists-v0
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib/python3.6/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/ride_1_m/checker.py", line 6, in <module>
+    checkers=[StopAtCoordinatesChecker()]
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/solution_evaluator.py", line 33, in __init__
+    self.solution_class = getattr(solution_file_as_module, solution_class_name)
+AttributeError: module 'gym_duckietown.tasks.ride_1_m.solutions.solution' has no attribute 'Ride1MTaskSolution'
