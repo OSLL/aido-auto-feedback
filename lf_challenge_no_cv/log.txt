@@ -1,0 +1,3156 @@
+False: Incorrect solution execution: Stopping the simulator because we are at an invalid pose.
+time=1651342479.2876887 gym-duckietown 2019.0.0
+
+time=1651342479.5541763 Registering gym environment id: Duckietown-4way-v0
+time=1651342479.5543213 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1651342479.5543997 Registering gym environment id: Duckietown-loop_empty-v0
+time=1651342479.55449 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1651342479.554568 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1651342479.5546436 Registering gym environment id: Duckietown-small_loop-v0
+time=1651342479.554767 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1651342479.5548558 Registering gym environment id: Duckietown-straight_road-v0
+time=1651342479.5549235 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1651342479.5550463 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1651342479.5551283 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1651342479.5552084 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1651342479.555288 Registering gym environment id: Duckietown-udem1-v0
+time=1651342479.5554054 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1651342481.4870176 Falling back to non-multisampled frame buffer
+time=1651342481.4913862 Falling back to non-multisampled frame buffer
+time=1651342481.4957423 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/zigzag_dists.yaml"
+time=1651342481.5133252 loading mesh "duckiebot.obj"
+time=1651342481.5136404 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1651342481.9394138 loading mesh "bus.obj"
+time=1651342481.952051 loading texture "bus.png"
+time=1651342482.3424797 loading mesh "truck.obj"
+time=1651342482.357998 loading texture "truck.png"
+time=1651342482.7395656 loading mesh "tree.obj"
+time=1651342482.7398727 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/tree.mtl"
+time=1651342482.743259 loading mesh "sign_blank.obj"
+time=1651342482.7455835 loading texture "sign_blank.png"
+time=1651342482.839563 loading texture "asphalt_1.png"
+time=1651342483.072597 loading texture "curve_left_1.png"
+time=1651342483.0826287 loading texture "straight_1.png"
+time=1651342483.091826 loading texture "curve_right_1.png"
+time=1651342483.1081612 using user tile start: (1, 1)
+time=1651342483.1091273 tile: {'coords': (1, 1), 'kind': 'curve_left', 'angle': 3, 'drivable': True, 'curves': array([[[1.17  , 0.    , 0.7605],
+        [0.8775, 0.    , 0.7605],
+        [0.7605, 0.    , 0.8775],
+        [0.7605, 0.    , 1.17  ]],
+
+       [[0.9945, 0.    , 1.17  ],
+        [0.9945, 0.    , 1.053 ],
+        [1.053 , 0.    , 0.9945],
+        [1.17  , 0.    , 0.9945]]]), 'texture': <gym_duckietown.graphics.Texture object at 0x7f060c034320>, 'color': array([1, 1, 1])}
+time=1651342483.1107147 road_tile_size=0.585
+time=1651342483.1110659 Starting at [0.76042456 0.         0.85809735] -1.6274919395606644
+time=1651342483.1113892 Pos: [0.76042456 0.         0.85809735] angle -1.6274919395606644
+time=1651342483.367023 using DuckietownEnv
+/usr/local/lib/python3.6/dist-packages/gym/spaces/box.py:74: UserWarning: [33mWARN: Box bound precision lowered by casting to float32[0m
+  "Box bound precision lowered by casting to {}".format(self.dtype)
+time=1651342483.5796874 Pos: [0.76016058 0.         0.86274861] angle -1.6274919395606644
+time=1651342483.8942053 Pos: [0.75989659 0.         0.86739987] angle -1.6274919395606644
+time=1651342484.004503 Pos: [0.7596326  0.         0.87205113] angle -1.6274919395606644
+time=1651342484.106162 Pos: [0.75936861 0.         0.87670239] angle -1.6274919395606644
+time=1651342484.2108028 Pos: [0.75910462 0.         0.88135365] angle -1.6274919395606644
+time=1651342484.3112364 Pos: [0.75884063 0.         0.88600492] angle -1.6274919395606644
+time=1651342484.4135816 Pos: [0.75857664 0.         0.89065618] angle -1.6274919395606644
+time=1651342484.5161881 Pos: [0.75831265 0.         0.89530744] angle -1.6274919395606644
+time=1651342484.6215296 Pos: [0.75804866 0.         0.8999587 ] angle -1.6274919395606644
+time=1651342484.721831 Pos: [0.75778467 0.         0.90460996] angle -1.6274919395606644
+time=1651342484.8245215 Pos: [0.75752069 0.         0.90926122] angle -1.6274919395606644
+time=1651342484.927595 Pos: [0.7572567  0.         0.91391248] angle -1.6274919395606644
+time=1651342485.0295982 Pos: [0.75699271 0.         0.91856374] angle -1.6274919395606644
+time=1651342485.1340692 Pos: [0.75672872 0.         0.92321501] angle -1.6274919395606644
+time=1651342485.2378209 Pos: [0.75646473 0.         0.92786627] angle -1.6274919395606644
+time=1651342485.3455992 Pos: [0.75620074 0.         0.93251753] angle -1.6274919395606644
+time=1651342485.4468563 Pos: [0.75593675 0.         0.93716879] angle -1.6274919395606644
+time=1651342485.5472598 Pos: [0.75567276 0.         0.94182005] angle -1.6274919395606644
+time=1651342485.6475325 Pos: [0.75540877 0.         0.94647131] angle -1.6274919395606644
+time=1651342485.7499232 Pos: [0.75514478 0.         0.95112257] angle -1.6274919395606644
+time=1651342485.8492208 Pos: [0.7548808  0.         0.95577384] angle -1.6274919395606644
+time=1651342485.951738 Pos: [0.75461681 0.         0.9604251 ] angle -1.6274919395606644
+time=1651342486.0540648 Pos: [0.75435282 0.         0.96507636] angle -1.6274919395606644
+time=1651342486.1574018 Pos: [0.75408883 0.         0.96972762] angle -1.6274919395606644
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.76042456 0.         0.85809735] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.0728406386614964
+angle_from_straight_in_rads= -0.5199761089805738
+speed= 0.1 steering= 0
+distance_to_road_center= 0.0728406386614964 angle_from_straight_in_rads= -0.5199761089805738
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.76016058 0.         0.86274861] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.0705535582606116
+angle_from_straight_in_rads= -0.5036369684725969
+speed= 0.1 steering= 0
+distance_to_road_center= 0.0705535582606116 angle_from_straight_in_rads= -0.5036369684725969
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.75989659 0.         0.86739987] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.06831772968056517
+angle_from_straight_in_rads= -0.4955253645924976
+speed= 0.1 steering= 0
+distance_to_road_center= 0.06831772968056517 angle_from_straight_in_rads= -0.4955253645924976
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.7596326  0.         0.87205113] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.06612596650999551
+angle_from_straight_in_rads= -0.4794236438336611
+speed= 0.1 steering= 0
+distance_to_road_center= 0.06612596650999551 angle_from_straight_in_rads= -0.4794236438336611
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.75936861 0.         0.87670239] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.06398825918771917
+angle_from_straight_in_rads= -0.47143564368796165
+speed= 0.1 steering= 0
+distance_to_road_center= 0.06398825918771917 angle_from_straight_in_rads= -0.47143564368796165
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.75910462 0.         0.88135365] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.061894536342972276
+angle_from_straight_in_rads= -0.4634909022820076
+speed= 0.1 steering= 0
+distance_to_road_center= 0.061894536342972276 angle_from_straight_in_rads= -0.4634909022820076
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.75884063 0.         0.88600492] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.05985618477685178
+angle_from_straight_in_rads= -0.4477350357033556
+speed= 0.1 steering= 0
+distance_to_road_center= 0.05985618477685178 angle_from_straight_in_rads= -0.4477350357033556
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.75857664 0.         0.89065618] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.057863020918331606
+angle_from_straight_in_rads= -0.432163361391573
+speed= 0.1 steering= 0
+distance_to_road_center= 0.057863020918331606 angle_from_straight_in_rads= -0.432163361391573
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.75831265 0.         0.89530744] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.05592439684383044
+angle_from_straight_in_rads= -0.42444872374668136
+speed= 0.1 steering= 0
+distance_to_road_center= 0.05592439684383044 angle_from_straight_in_rads= -0.42444872374668136
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.75804866 0.         0.8999587 ] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.054033248516990665
+angle_from_straight_in_rads= -0.4091657834316953
+speed= 0.1 steering= 0
+distance_to_road_center= 0.054033248516990665 angle_from_straight_in_rads= -0.4091657834316953
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.75778467 0.         0.90460996] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.052194744947614065
+angle_from_straight_in_rads= -0.4015989461599133
+speed= 0.1 steering= 0
+distance_to_road_center= 0.052194744947614065 angle_from_straight_in_rads= -0.4015989461599133
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.75752069 0.         0.90926122] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.05040660701162469
+angle_from_straight_in_rads= -0.3866179303658542
+speed= 0.1 steering= 0
+distance_to_road_center= 0.05040660701162469 angle_from_straight_in_rads= -0.3866179303658542
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.7572567  0.         0.91391248] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.0486680792373948
+angle_from_straight_in_rads= -0.3792050018248117
+speed= 0.1 steering= 0
+distance_to_road_center= 0.0486680792373948 angle_from_straight_in_rads= -0.3792050018248117
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.75699271 0.         0.91856374] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.04698336956021631
+angle_from_straight_in_rads= -0.36453716407529
+speed= 0.1 steering= 0
+distance_to_road_center= 0.04698336956021631 angle_from_straight_in_rads= -0.36453716407529
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.75672872 0.         0.92321501] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.04534654794001221
+angle_from_straight_in_rads= -0.35008342883052135
+speed= 0.1 steering= 0
+distance_to_road_center= 0.04534654794001221 angle_from_straight_in_rads= -0.35008342883052135
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.75646473 0.         0.92786627] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.043762900347216936
+angle_from_straight_in_rads= -0.34293800116156
+speed= 0.1 steering= 0
+distance_to_road_center= 0.043762900347216936 angle_from_straight_in_rads= -0.34293800116156
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.75620074 0.         0.93251753] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.042229339491691595
+angle_from_straight_in_rads= -0.32881203878346954
+speed= 0.1 steering= 0
+distance_to_road_center= 0.042229339491691595 angle_from_straight_in_rads= -0.32881203878346954
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.75593675 0.         0.93716879] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.040743724044942455
+angle_from_straight_in_rads= -0.3218322124890045
+speed= 0.1 steering= 0
+distance_to_road_center= 0.040743724044942455 angle_from_straight_in_rads= -0.3218322124890045
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.75567276 0.         0.94182005] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.03931252384095659
+angle_from_straight_in_rads= -0.3080404057963681
+speed= 0.1 steering= 0
+distance_to_road_center= 0.03931252384095659 angle_from_straight_in_rads= -0.3080404057963681
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.75540877 0.         0.94647131] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.03792873327820857
+angle_from_straight_in_rads= -0.29447408808590175
+speed= 0.1 steering= 0
+distance_to_road_center= 0.03792873327820857 angle_from_straight_in_rads= -0.29447408808590175
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.75514478 0.         0.95112257] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.036593435732845826
+angle_from_straight_in_rads= -0.2877760132917563
+speed= 0.1 steering= 0
+distance_to_road_center= 0.036593435732845826 angle_from_straight_in_rads= -0.2877760132917563
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.7548808  0.         0.95577384] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.03530997040676646
+angle_from_straight_in_rads= -0.2745508368005872
+speed= 0.1 steering= 0
+distance_to_road_center= 0.03530997040676646 angle_from_straight_in_rads= -0.2745508368005872
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.75461681 0.         0.9604251 ] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.03407288633855215
+angle_from_straight_in_rads= -0.26155438407020554
+speed= 0.1 steering= 0
+distance_to_road_center= 0.03407288633855215 angle_from_straight_in_rads= -0.26155438407020554
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.75435282 0.         0.96507636] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.03288372505321762
+angle_from_straight_in_rads= -0.2551421175029417
+speed= 0.1 steering= 0
+distance_to_road_center= 0.03288372505321762 angle_from_straight_in_rads= -0.2551421175029417
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.75408883 0.         0.96972762] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.03174403429246346
+angle_from_straight_in_rads=time=1651342486.2595057 Pos: [0.75382484 0.         0.97437888] angle -1.6274919395606644
+time=1651342486.3658001 Pos: [0.75356085 0.         0.97903014] angle -1.6274919395606644
+time=1651342486.4679718 Pos: [0.75329686 0.         0.9836814 ] angle -1.6274919395606644
+time=1651342486.56912 Pos: [0.75303287 0.         0.98833266] angle -1.6274919395606644
+time=1651342486.6720383 Pos: [0.75276888 0.         0.99298393] angle -1.6274919395606644
+time=1651342486.7727494 Pos: [0.75250489 0.         0.99763519] angle -1.6274919395606644
+time=1651342486.8758278 Pos: [0.75224091 0.         1.00228645] angle -1.6274919395606644
+time=1651342486.9760373 Pos: [0.75197692 0.         1.00693771] angle -1.6274919395606644
+time=1651342487.0808647 Pos: [0.75171293 0.         1.01158897] angle -1.6274919395606644
+time=1651342487.1827438 Pos: [0.75144894 0.         1.01624023] angle -1.6274919395606644
+time=1651342487.2860403 Pos: [0.75118495 0.         1.02089149] angle -1.6274919395606644
+time=1651342487.3975239 Pos: [0.75092096 0.         1.02554275] angle -1.6274919395606644
+time=1651342487.4987967 Pos: [0.75065697 0.         1.03019402] angle -1.6274919395606644
+time=1651342487.6024618 Pos: [0.75039298 0.         1.03484528] angle -1.6274919395606644
+time=1651342487.7032251 Pos: [0.75012899 0.         1.03949654] angle -1.6274919395606644
+time=1651342487.8065457 Pos: [0.749865  0.        1.0441478] angle -1.6274919395606644
+time=1651342487.9082122 Pos: [0.74960101 0.         1.04879906] angle -1.6274919395606644
+time=1651342488.0176494 Pos: [0.74933703 0.         1.05345032] angle -1.6274919395606644
+time=1651342488.1185353 Pos: [0.74907304 0.         1.05810158] angle -1.6274919395606644
+time=1651342488.220654 Pos: [0.74880905 0.         1.06275284] angle -1.6274919395606644
+time=1651342488.3210862 Pos: [0.74854506 0.         1.06740411] angle -1.6274919395606644
+time=1651342488.4455378 Pos: [0.74828107 0.         1.07205537] angle -1.6274919395606644
+time=1651342488.5451999 Pos: [0.74801708 0.         1.07670663] angle -1.6274919395606644
+time=1651342488.6474137 Pos: [0.74775309 0.         1.08135789] angle -1.6274919395606644
+ -0.24248966592962976
+speed= 0.1 steering= 0
+distance_to_road_center= 0.03174403429246346 angle_from_straight_in_rads= -0.24248966592962976
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.75382484 0.         0.97437888] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.030645840083433053
+angle_from_straight_in_rads= -0.23624947561770812
+speed= 0.1 steering= 0
+distance_to_road_center= 0.030645840083433053 angle_from_straight_in_rads= -0.23624947561770812
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.75356085 0.         0.97903014] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.029555423421902045
+angle_from_straight_in_rads= -0.23624947561770812
+speed= 0.1 steering= 0
+distance_to_road_center= 0.029555423421902045 angle_from_straight_in_rads= -0.23624947561770812
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.75329686 0.         0.9836814 ] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.028465006760371038
+angle_from_straight_in_rads= -0.23624947561770812
+speed= 0.1 steering= 0
+distance_to_road_center= 0.028465006760371038 angle_from_straight_in_rads= -0.23624947561770812
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.75303287 0.         0.98833266] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.02737459009884003
+angle_from_straight_in_rads= -0.23624947561770812
+speed= 0.1 steering= 0
+distance_to_road_center= 0.02737459009884003 angle_from_straight_in_rads= -0.23624947561770812
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.75276888 0.         0.99298393] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.026284173437309023
+angle_from_straight_in_rads= -0.23624947561770812
+speed= 0.1 steering= 0
+distance_to_road_center= 0.026284173437309023 angle_from_straight_in_rads= -0.23624947561770812
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.75250489 0.         0.99763519] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.02586101777444862
+angle_from_straight_in_rads= -0.1826559811054992
+speed= 0.1 steering= 0
+distance_to_road_center= 0.02586101777444862 angle_from_straight_in_rads= -0.1826559811054992
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.75224091 0.         1.00228645] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.025033403567689638
+angle_from_straight_in_rads= -0.17136804338574896
+speed= 0.1 steering= 0
+distance_to_road_center= 0.025033403567689638 angle_from_straight_in_rads= -0.17136804338574896
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.75197692 0.         1.00693771] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.024250227850450883
+angle_from_straight_in_rads= -0.1658077014049544
+speed= 0.1 steering= 0
+distance_to_road_center= 0.024250227850450883 angle_from_straight_in_rads= -0.1658077014049544
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.75171293 0.         1.01158897] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.023507707811296453
+angle_from_straight_in_rads= -0.1548530510949672
+speed= 0.1 steering= 0
+distance_to_road_center= 0.023507707811296453 angle_from_straight_in_rads= -0.1548530510949672
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.75144894 0.         1.01624023] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.022804095353938042
+angle_from_straight_in_rads= -0.14945821635507128
+speed= 0.1 steering= 0
+distance_to_road_center= 0.022804095353938042 angle_from_straight_in_rads= -0.14945821635507128
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.75118495 0.         1.02089149] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.022143577145263472
+angle_from_straight_in_rads= -0.138832123214862
+speed= 0.1 steering= 0
+distance_to_road_center= 0.022143577145263472 angle_from_straight_in_rads= -0.138832123214862
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.75092096 0.         1.02554275] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.0215199628587045
+angle_from_straight_in_rads= -0.12842213277025788
+speed= 0.1 steering= 0
+distance_to_road_center= 0.0215199628587045 angle_from_straight_in_rads= -0.12842213277025788
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.75065697 0.         1.03019402] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.020935270424437113
+angle_from_straight_in_rads= -0.12329738922437623
+speed= 0.1 steering= 0
+distance_to_road_center= 0.020935270424437113 angle_from_straight_in_rads= -0.12329738922437623
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.75039298 0.         1.03484528] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.020388874690404787
+angle_from_straight_in_rads= -0.1132067528217321
+speed= 0.1 steering= 0
+distance_to_road_center= 0.020388874690404787 angle_from_straight_in_rads= -0.1132067528217321
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.75012899 0.         1.03949654] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.019877011936743908
+angle_from_straight_in_rads= -0.10824017436657186
+speed= 0.1 steering= 0
+distance_to_road_center= 0.019877011936743908 angle_from_straight_in_rads= -0.10824017436657186
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.749865  0.        1.0441478] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.019404673275617425
+angle_from_straight_in_rads= -0.09846272770287501
+speed= 0.1 steering= 0
+distance_to_road_center= 0.019404673275617425 angle_from_straight_in_rads= -0.09846272770287501
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.74960101 0.         1.04879906] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.01896515774065337
+angle_from_straight_in_rads= -0.08889045876518982
+speed= 0.1 steering= 0
+distance_to_road_center= 0.01896515774065337 angle_from_straight_in_rads= -0.08889045876518982
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.74933703 0.         1.05345032] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.01856160659895092
+angle_from_straight_in_rads= -0.0841803304973669
+speed= 0.1 steering= 0
+distance_to_road_center= 0.01856160659895092 angle_from_straight_in_rads= -0.0841803304973669
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.74907304 0.         1.05810158] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.018191376830121758
+angle_from_straight_in_rads= -0.0749101703101074
+speed= 0.1 steering= 0
+distance_to_road_center= 0.018191376830121758 angle_from_straight_in_rads= -0.0749101703101074
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.74880905 0.         1.06275284] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.017853983286944538
+angle_from_straight_in_rads= -0.07034935847414148
+speed= 0.1 steering= 0
+distance_to_road_center= 0.017853983286944538 angle_from_straight_in_rads= -0.07034935847414148
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.74854506 0.         1.06740411] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.017545069623842637
+angle_from_straight_in_rads= -0.06583753228555213
+speed= 0.1 steering= 0
+distance_to_road_center= 0.017545069623842637 angle_from_straight_in_rads= -0.06583753228555213
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.74828107 0.         1.07205537] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.017238570767205797
+angle_from_straight_in_rads= -0.06583753228555213
+speed= 0.1 steering= 0
+distance_to_road_center= 0.017238570767205797 angle_from_straight_in_rads= -0.06583753228555213
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.74801708 0.         1.07670663] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.017035360694536327
+angle_from_straight_in_rads= -0.04827205469878641
+speed= 0.1 steering= 0
+distance_to_road_center= 0.017035360694536327 angle_from_straight_in_rads= -0.04827205469878641
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.74775309 0.         1.08135789] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.016822764919174248
+angle_from_straight_in_rads= -0.043999111454974656
+speed= 0.1 steering= 0
+distance_to_road_center= 0.016822764919174248 angle_from_straight_in_rads= -0.043999111454974656time=1651342488.7487013 Pos: [0.7474891  0.         1.08600915] angle -1.6274919395606644
+time=1651342488.8507037 Pos: [0.74722511 0.         1.09066041] angle -1.6274919395606644
+time=1651342488.9511976 Pos: [0.74696112 0.         1.09531167] angle -1.6274919395606644
+time=1651342489.0565052 Pos: [0.74669714 0.         1.09996293] angle -1.6274919395606644
+time=1651342489.1591632 Pos: [0.74643315 0.         1.1046142 ] angle -1.6274919395606644
+time=1651342489.2609253 Pos: [0.74616916 0.         1.10926546] angle -1.6274919395606644
+time=1651342489.3636544 Pos: [0.74590517 0.         1.11391672] angle -1.6274919395606644
+time=1651342489.4775033 Pos: [0.74564118 0.         1.11856798] angle -1.6274919395606644
+time=1651342489.6005979 Pos: [0.74537719 0.         1.12321924] angle -1.6274919395606644
+time=1651342489.7015436 Pos: [0.7451132 0.        1.1278705] angle -1.6274919395606644
+time=1651342489.804936 Pos: [0.74484921 0.         1.13252176] angle -1.6274919395606644
+time=1651342489.9065895 Pos: [0.74458522 0.         1.13717303] angle -1.6274919395606644
+time=1651342490.011556 Pos: [0.74432123 0.         1.14182429] angle -1.6274919395606644
+time=1651342490.1140654 Pos: [0.74405725 0.         1.14647555] angle -1.6274919395606644
+time=1651342490.2182448 Pos: [0.74379326 0.         1.15112681] angle -1.6274919395606644
+time=1651342490.318536 Pos: [0.74352927 0.         1.15577807] angle -1.6274919395606644
+time=1651342490.421231 Pos: [0.74326528 0.         1.16042933] angle -1.6274919395606644
+time=1651342490.521488 Pos: [0.74300129 0.         1.16508059] angle -1.6274919395606644
+time=1651342490.6264615 Pos: [0.7427373  0.         1.16973185] angle -1.6274919395606644
+time=1651342490.726194 Pos: [0.74247331 0.         1.17438312] angle -1.6274919395606644
+time=1651342490.8274417 Pos: [0.74220932 0.         1.17903438] angle -1.6274919395606644
+time=1651342490.92979 Pos: [0.74194533 0.         1.18368564] angle -1.6274919395606644
+time=1651342491.0344229 Pos: [0.74168134 0.         1.1883369 ] angle -1.6274919395606644
+time=1651342491.1358225 Pos: [0.74141736 0.         1.19298816] angle -1.6274919395606644
+time=1651342491.2365746 Pos: [0.74115337 0.         1.19763942] angle -1.6274919395606644
+
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.7474891  0.         1.08600915] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.01664216372293903
+angle_from_straight_in_rads= -0.03559246425887037
+speed= 0.1 steering= 0
+distance_to_road_center= 0.01664216372293903 angle_from_straight_in_rads= -0.03559246425887037
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.74722511 0.         1.09066041] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.016488315768357763
+angle_from_straight_in_rads= -0.031457933530821144
+speed= 0.1 steering= 0
+distance_to_road_center= 0.016488315768357763 angle_from_straight_in_rads= -0.031457933530821144
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.74696112 0.         1.09531167] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.016365088052723627
+angle_from_straight_in_rads= -0.023324383466672087
+speed= 0.1 steering= 0
+distance_to_road_center= 0.016365088052723627 angle_from_straight_in_rads= -0.023324383466672087
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.74669714 0.         1.09996293] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.016267636014388773
+angle_from_straight_in_rads= -0.019324532507256895
+speed= 0.1 steering= 0
+distance_to_road_center= 0.016267636014388773 angle_from_straight_in_rads= -0.019324532507256895
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.74643315 0.         1.1046142 ] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.016199006966201003
+angle_from_straight_in_rads= -0.011456597849310244
+speed= 0.1 steering= 0
+distance_to_road_center= 0.016199006966201003 angle_from_straight_in_rads= -0.011456597849310244
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.74616916 0.         1.10926546] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.0161556663851716
+angle_from_straight_in_rads= -0.007587682008534454
+speed= 0.1 steering= 0
+distance_to_road_center= 0.0161556663851716 angle_from_straight_in_rads= -0.007587682008534454
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.74590517 0.         1.11391672] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.016138956839300306
+angle_from_straight_in_rads= 2.2124019538430176e-05
+speed= 0.1 steering= 0
+distance_to_road_center= 0.016138956839300306 angle_from_straight_in_rads= 2.2124019538430176e-05
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.74564118 0.         1.11856798] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.01614751402956801
+angle_from_straight_in_rads= 0.003763843097430159
+speed= 0.1 steering= 0
+distance_to_road_center= 0.01614751402956801 angle_from_straight_in_rads= 0.003763843097430159
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.74537719 0.         1.12321924] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.0161801446133096
+angle_from_straight_in_rads= 0.011122978405409585
+speed= 0.1 steering= 0
+distance_to_road_center= 0.0161801446133096 angle_from_straight_in_rads= 0.011122978405409585
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.7451132 0.        1.1278705] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.016238459024835672
+angle_from_straight_in_rads= 0.014741217039614986
+speed= 0.1 steering= 0
+distance_to_road_center= 0.016238459024835672 angle_from_straight_in_rads= 0.014741217039614986
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.74484921 0.         1.13252176] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.016318451786135606
+angle_from_straight_in_rads= 0.01831911557267849
+speed= 0.1 steering= 0
+distance_to_road_center= 0.016318451786135606 angle_from_straight_in_rads= 0.01831911557267849
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.74458522 0.         1.13717303] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.016423958656729905
+angle_from_straight_in_rads= 0.02535552037464383
+speed= 0.1 steering= 0
+distance_to_road_center= 0.016423958656729905 angle_from_straight_in_rads= 0.02535552037464383
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.74432123 0.         1.14182429] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.016550785506980505
+angle_from_straight_in_rads= 0.028814836158262865
+speed= 0.1 steering= 0
+distance_to_road_center= 0.016550785506980505 angle_from_straight_in_rads= 0.028814836158262865
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.74405725 0.         1.14647555] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.016699649779148125
+angle_from_straight_in_rads= 0.03561770348561701
+speed= 0.1 steering= 0
+distance_to_road_center= 0.016699649779148125 angle_from_straight_in_rads= 0.03561770348561701
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.74379326 0.         1.15112681] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.01687135069466431
+angle_from_straight_in_rads= 0.03896205223885839
+speed= 0.1 steering= 0
+distance_to_road_center= 0.01687135069466431 angle_from_straight_in_rads= 0.03896205223885839
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.74352927 0.         1.15577807] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.017062718120923692
+angle_from_straight_in_rads= 0.04226887206787512
+speed= 0.1 steering= 0
+distance_to_road_center= 0.017062718120923692 angle_from_straight_in_rads= 0.04226887206787512
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.74326528 0.         1.16042933] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.017276040076458853
+angle_from_straight_in_rads= 0.0487714935680337
+speed= 0.1 steering= 0
+distance_to_road_center= 0.017276040076458853 angle_from_straight_in_rads= 0.0487714935680337
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.74300129 0.         1.16508059] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.01750961244852214
+angle_from_straight_in_rads= 0.05196807323228737
+speed= 0.1 steering= 0
+distance_to_road_center= 0.01750961244852214 angle_from_straight_in_rads= 0.05196807323228737
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.7427373  0.         1.16973185] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.01776175517082296
+angle_from_straight_in_rads= 0.05512867980207061
+speed= 0.1 steering= 0
+distance_to_road_center= 0.01776175517082296 angle_from_straight_in_rads= 0.05512867980207061
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.74247331 0.         1.17438312] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.018026688809078872
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.018026688809078872 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.74220932 0.         1.17903438] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.018290677833016633
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.018290677833016633 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.74194533 0.         1.18368564] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.018554666856954394
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.018554666856954394 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.74168134 0.         1.1883369 ] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.018818655880892154
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.018818655880892154 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.74141736 0.         1.19298816] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.019082644904829915
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.019082644904829915 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.74115337 0.         1.19763942] env.cur_angle= -1.6274919395606644
+distance_to_road_center=time=1651342491.3419642 Pos: [0.74088938 0.         1.20229068] angle -1.6274919395606644
+time=1651342491.4451654 Pos: [0.74062539 0.         1.20694194] angle -1.6274919395606644
+time=1651342491.5622222 Pos: [0.7403614  0.         1.21159321] angle -1.6274919395606644
+time=1651342491.714656 Pos: [0.74009741 0.         1.21624447] angle -1.6274919395606644
+time=1651342491.8405573 Pos: [0.73983342 0.         1.22089573] angle -1.6274919395606644
+time=1651342491.951061 Pos: [0.73956943 0.         1.22554699] angle -1.6274919395606644
+time=1651342492.0566344 Pos: [0.73930544 0.         1.23019825] angle -1.6274919395606644
+time=1651342492.157171 Pos: [0.73904145 0.         1.23484951] angle -1.6274919395606644
+time=1651342492.2590904 Pos: [0.73877746 0.         1.23950077] angle -1.6274919395606644
+time=1651342492.3598797 Pos: [0.73851348 0.         1.24415203] angle -1.6274919395606644
+time=1651342492.4607067 Pos: [0.73824949 0.         1.2488033 ] angle -1.6274919395606644
+time=1651342492.561394 Pos: [0.7379855  0.         1.25345456] angle -1.6274919395606644
+time=1651342492.6655498 Pos: [0.73772151 0.         1.25810582] angle -1.6274919395606644
+time=1651342492.7680445 Pos: [0.73745752 0.         1.26275708] angle -1.6274919395606644
+time=1651342492.869791 Pos: [0.73719353 0.         1.26740834] angle -1.6274919395606644
+time=1651342492.9722934 Pos: [0.73692954 0.         1.2720596 ] angle -1.6274919395606644
+time=1651342493.0773106 Pos: [0.73666555 0.         1.27671086] angle -1.6274919395606644
+time=1651342493.1799603 Pos: [0.73640156 0.         1.28136212] angle -1.6274919395606644
+time=1651342493.2814353 Pos: [0.73613757 0.         1.28601339] angle -1.6274919395606644
+time=1651342493.381861 Pos: [0.73587359 0.         1.29066465] angle -1.6274919395606644
+time=1651342493.4835324 Pos: [0.7356096  0.         1.29531591] angle -1.6274919395606644
+time=1651342493.5866983 Pos: [0.73534561 0.         1.29996717] angle -1.6274919395606644
+time=1651342493.6886978 Pos: [0.73508162 0.         1.30461843] angle -1.6274919395606644
+time=1651342493.7973216 Pos: [0.73481763 0.         1.30926969] angle -1.6274919395606644
+ 0.019346633928767676
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.019346633928767676 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.74088938 0.         1.20229068] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.019610622952705437
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.019610622952705437 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.74062539 0.         1.20694194] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.019874611976643197
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.019874611976643197 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.7403614  0.         1.21159321] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.020138601000580958
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.020138601000580958 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.74009741 0.         1.21624447] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.02040259002451872
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.02040259002451872 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.73983342 0.         1.22089573] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.02066657904845648
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.02066657904845648 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.73956943 0.         1.22554699] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.02093056807239424
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.02093056807239424 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.73930544 0.         1.23019825] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.02119455709633189
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.02119455709633189 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.73904145 0.         1.23484951] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.02145854612026965
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.02145854612026965 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.73877746 0.         1.23950077] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.021722535144207633
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.021722535144207633 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.73851348 0.         1.24415203] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.021986524168145172
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.021986524168145172 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.73824949 0.         1.2488033 ] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.022250513192083154
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.022250513192083154 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.7379855  0.         1.25345456] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.022514502216020804
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.022514502216020804 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.73772151 0.         1.25810582] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.022778491239958565
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.022778491239958565 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.73745752 0.         1.26275708] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.023042480263896326
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.023042480263896326 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.73719353 0.         1.26740834] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.023306469287834086
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.023306469287834086 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.73692954 0.         1.2720596 ] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.023570458311771847
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.023570458311771847 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.73666555 0.         1.27671086] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.023834447335709608
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.023834447335709608 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.73640156 0.         1.28136212] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.02409843635964737
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.02409843635964737 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.73613757 0.         1.28601339] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.02436242538358513
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.02436242538358513 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.73587359 0.         1.29066465] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.02462641440752278
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.02462641440752278 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.7356096  0.         1.29531591] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.02489040343146054
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.02489040343146054 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.73534561 0.         1.29996717] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.02515439245539841
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.02515439245539841 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.73508162 0.         1.30461843] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.025418381479336283
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.025418381479336283 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.73481763 0.         1.30926969] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.025682370503274043
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.025682370503274043 angle_from_straight_in_rads= 0.05669561276576752time=1651342493.902062 Pos: [0.73455364 0.         1.31392095] angle -1.6274919395606644
+time=1651342494.0095956 Pos: [0.73428965 0.         1.31857222] angle -1.6274919395606644
+time=1651342494.1137066 Pos: [0.73402566 0.         1.32322348] angle -1.6274919395606644
+time=1651342494.2166636 Pos: [0.73376167 0.         1.32787474] angle -1.6274919395606644
+time=1651342494.3184435 Pos: [0.73349768 0.         1.332526  ] angle -1.6274919395606644
+time=1651342494.418416 Pos: [0.7332337  0.         1.33717726] angle -1.6274919395606644
+time=1651342494.5225508 Pos: [0.73296971 0.         1.34182852] angle -1.6274919395606644
+time=1651342494.6255972 Pos: [0.73270572 0.         1.34647978] angle -1.6274919395606644
+time=1651342494.7291613 Pos: [0.73244173 0.         1.35113104] angle -1.6274919395606644
+time=1651342494.8380764 Pos: [0.73217774 0.         1.35578231] angle -1.6274919395606644
+time=1651342494.9428816 Pos: [0.73191375 0.         1.36043357] angle -1.6274919395606644
+time=1651342495.046852 Pos: [0.73164976 0.         1.36508483] angle -1.6274919395606644
+time=1651342495.148502 Pos: [0.73138577 0.         1.36973609] angle -1.6274919395606644
+time=1651342495.2529805 Pos: [0.73112178 0.         1.37438735] angle -1.6274919395606644
+time=1651342495.355491 Pos: [0.73085779 0.         1.37903861] angle -1.6274919395606644
+time=1651342495.457181 Pos: [0.73059381 0.         1.38368987] angle -1.6274919395606644
+time=1651342495.5577338 Pos: [0.73032982 0.         1.38834113] angle -1.6274919395606644
+time=1651342495.6598518 Pos: [0.73006583 0.         1.3929924 ] angle -1.6274919395606644
+time=1651342495.7620504 Pos: [0.72980184 0.         1.39764366] angle -1.6274919395606644
+time=1651342495.8769486 Pos: [0.72953785 0.         1.40229492] angle -1.6274919395606644
+time=1651342495.9806297 Pos: [0.72927386 0.         1.40694618] angle -1.6274919395606644
+time=1651342496.0854888 Pos: [0.72900987 0.         1.41159744] angle -1.6274919395606644
+time=1651342496.1869586 Pos: [0.72874588 0.         1.4162487 ] angle -1.6274919395606644
+time=1651342496.2903004 Pos: [0.72848189 0.         1.42089996] angle -1.6274919395606644
+time=1651342496.3929677 Pos: [0.7282179  0.         1.42555122] angle -1.6274919395606644
+
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.73455364 0.         1.31392095] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.025946359527211804
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.025946359527211804 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.73428965 0.         1.31857222] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.026210348551149454
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.026210348551149454 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.73402566 0.         1.32322348] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.026474337575087326
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.026474337575087326 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.73376167 0.         1.32787474] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.026738326599024975
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.026738326599024975 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.73349768 0.         1.332526  ] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.027002315622962847
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.027002315622962847 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.7332337  0.         1.33717726] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.027266304646900386
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.027266304646900386 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.73296971 0.         1.34182852] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.02753029367083837
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.02753029367083837 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.73270572 0.         1.34647978] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.027794282694776018
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.027794282694776018 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.73244173 0.         1.35113104] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.028058271718713668
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.028058271718713668 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.73217774 0.         1.35578231] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.02832226074265154
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.02832226074265154 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.73191375 0.         1.36043357] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.0285862497665893
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.0285862497665893 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.73164976 0.         1.36508483] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.02885023879052695
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.02885023879052695 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.73138577 0.         1.36973609] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.02911422781446482
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.02911422781446482 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.73112178 0.         1.37438735] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.029378216838402693
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.029378216838402693 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.73085779 0.         1.37903861] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.029642205862340343
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.029642205862340343 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.73059381 0.         1.38368987] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.029906194886278104
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.029906194886278104 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.73032982 0.         1.38834113] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.030170183910215864
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.030170183910215864 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.73006583 0.         1.3929924 ] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.030434172934153625
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.030434172934153625 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.72980184 0.         1.39764366] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.030698161958091386
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.030698161958091386 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.72953785 0.         1.40229492] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.030962150982029257
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.030962150982029257 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.72927386 0.         1.40694618] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.031226140005966907
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.031226140005966907 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.72900987 0.         1.41159744] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.03149012902990467
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.03149012902990467 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.72874588 0.         1.4162487 ] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.03175411805384243
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.03175411805384243 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.72848189 0.         1.42089996] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.03201810707778019
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.03201810707778019 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.7282179  0.         1.42555122] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.03228209610171795
+angle_from_straight_in_rads=time=1651342496.4985883 Pos: [0.72795391 0.         1.43020249] angle -1.6274919395606644
+time=1651342496.5977523 Pos: [0.72768993 0.         1.43485375] angle -1.6274919395606644
+time=1651342496.6985383 Pos: [0.72742594 0.         1.43950501] angle -1.6274919395606644
+time=1651342496.802806 Pos: [0.72716195 0.         1.44415627] angle -1.6274919395606644
+time=1651342496.9078074 Pos: [0.72689796 0.         1.44880753] angle -1.6274919395606644
+time=1651342497.0147426 Pos: [0.72663397 0.         1.45345879] angle -1.6274919395606644
+time=1651342497.1161773 Pos: [0.72636998 0.         1.45811005] angle -1.6274919395606644
+time=1651342497.2182488 Pos: [0.72610599 0.         1.46276131] angle -1.6274919395606644
+time=1651342497.318478 Pos: [0.725842   0.         1.46741258] angle -1.6274919395606644
+time=1651342497.420074 Pos: [0.72557801 0.         1.47206384] angle -1.6274919395606644
+time=1651342497.5199811 Pos: [0.72531402 0.         1.4767151 ] angle -1.6274919395606644
+time=1651342497.6214797 Pos: [0.72505004 0.         1.48136636] angle -1.6274919395606644
+time=1651342497.7258105 Pos: [0.72478605 0.         1.48601762] angle -1.6274919395606644
+time=1651342497.828441 Pos: [0.72452206 0.         1.49066888] angle -1.6274919395606644
+time=1651342497.9430337 Pos: [0.72425807 0.         1.49532014] angle -1.6274919395606644
+time=1651342498.0485096 Pos: [0.72399408 0.         1.49997141] angle -1.6274919395606644
+time=1651342498.1476564 Pos: [0.72373009 0.         1.50462267] angle -1.6274919395606644
+time=1651342498.248981 Pos: [0.7234661  0.         1.50927393] angle -1.6274919395606644
+time=1651342498.3529975 Pos: [0.72320211 0.         1.51392519] angle -1.6274919395606644
+time=1651342498.4523675 Pos: [0.72293812 0.         1.51857645] angle -1.6274919395606644
+time=1651342498.5545788 Pos: [0.72267413 0.         1.52322771] angle -1.6274919395606644
+time=1651342498.6557279 Pos: [0.72241015 0.         1.52787897] angle -1.6274919395606644
+time=1651342498.7591882 Pos: [0.72214616 0.         1.53253023] angle -1.6274919395606644
+time=1651342498.8624973 Pos: [0.72188217 0.         1.5371815 ] angle -1.6274919395606644
+time=1651342498.968253 Pos: [0.72161818 0.         1.54183276] angle -1.6274919395606644
+ 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.03228209610171795 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.72795391 0.         1.43020249] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.03254608512565571
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.03254608512565571 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.72768993 0.         1.43485375] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.03281007414959347
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.03281007414959347 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.72742594 0.         1.43950501] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.03307406317353123
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.03307406317353123 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.72716195 0.         1.44415627] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.03333805219746899
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.03333805219746899 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.72689796 0.         1.44880753] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.03360204122140675
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.03360204122140675 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.72663397 0.         1.45345879] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.033866030245344514
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.033866030245344514 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.72636998 0.         1.45811005] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.034130019269282386
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.034130019269282386 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.72610599 0.         1.46276131] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.034394008293220035
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.034394008293220035 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.725842   0.         1.46741258] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.034657997317157796
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.034657997317157796 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.72557801 0.         1.47206384] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.03492198634109556
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.03492198634109556 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.72531402 0.         1.4767151 ] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.03518597536503332
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.03518597536503332 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.72505004 0.         1.48136636] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.03544996438897108
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.03544996438897108 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.72478605 0.         1.48601762] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.03571395341290884
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.03571395341290884 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.72452206 0.         1.49066888] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.0359779424368466
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.0359779424368466 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.72425807 0.         1.49532014] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.03624193146078436
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.03624193146078436 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.72399408 0.         1.49997141] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.03650592048472212
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.03650592048472212 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.72373009 0.         1.50462267] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.03676990950865988
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.03676990950865988 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.7234661  0.         1.50927393] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.03703389853259764
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.03703389853259764 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.72320211 0.         1.51392519] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.0372978875565354
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.0372978875565354 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.72293812 0.         1.51857645] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.037561876580473164
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.037561876580473164 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.72267413 0.         1.52322771] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.037825865604410924
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.037825865604410924 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.72241015 0.         1.52787897] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.038089854628348796
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.038089854628348796 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.72214616 0.         1.53253023] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.038353843652286446
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.038353843652286446 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.72188217 0.         1.5371815 ] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.038617832676224206
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.038617832676224206 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos=time=1651342499.088668 Pos: [0.72135419 0.         1.54648402] angle -1.6274919395606644
+time=1651342499.1889877 Pos: [0.7210902  0.         1.55113528] angle -1.6274919395606644
+time=1651342499.2889292 Pos: [0.72082621 0.         1.55578654] angle -1.6274919395606644
+time=1651342499.3912733 Pos: [0.72056222 0.         1.5604378 ] angle -1.6274919395606644
+time=1651342499.4896274 Pos: [0.72029823 0.         1.56508906] angle -1.6274919395606644
+time=1651342499.591351 Pos: [0.72003424 0.         1.56974032] angle -1.6274919395606644
+time=1651342499.6916163 Pos: [0.71977026 0.         1.57439159] angle -1.6274919395606644
+time=1651342499.791428 Pos: [0.71950627 0.         1.57904285] angle -1.6274919395606644
+time=1651342499.8928246 Pos: [0.71924228 0.         1.58369411] angle -1.6274919395606644
+time=1651342499.9957433 Pos: [0.71897829 0.         1.58834537] angle -1.6274919395606644
+time=1651342500.1053505 Pos: [0.7187143  0.         1.59299663] angle -1.6274919395606644
+time=1651342500.207337 Pos: [0.71845031 0.         1.59764789] angle -1.6274919395606644
+time=1651342500.3085043 Pos: [0.71818632 0.         1.60229915] angle -1.6274919395606644
+time=1651342500.4077938 Pos: [0.71792233 0.         1.60695041] angle -1.6274919395606644
+time=1651342500.5094984 Pos: [0.71765834 0.         1.61160168] angle -1.6274919395606644
+time=1651342500.6103156 Pos: [0.71739435 0.         1.61625294] angle -1.6274919395606644
+time=1651342500.713527 Pos: [0.71713036 0.         1.6209042 ] angle -1.6274919395606644
+time=1651342500.8153512 Pos: [0.71686638 0.         1.62555546] angle -1.6274919395606644
+time=1651342500.915875 Pos: [0.71660239 0.         1.63020672] angle -1.6274919395606644
+time=1651342501.018994 Pos: [0.7163384  0.         1.63485798] angle -1.6274919395606644
+time=1651342501.124379 Pos: [0.71607441 0.         1.63950924] angle -1.6274919395606644
+time=1651342501.2266974 Pos: [0.71581042 0.         1.6441605 ] angle -1.6274919395606644
+time=1651342501.3300068 Pos: [0.71554643 0.         1.64881177] angle -1.6274919395606644
+time=1651342501.4379396 Pos: [0.71528244 0.         1.65346303] angle -1.6274919395606644
+ [0.72161818 0.         1.54183276] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.03888182170016197
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.03888182170016197 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.72135419 0.         1.54648402] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.03914581072409973
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.03914581072409973 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.7210902  0.         1.55113528] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.03940979974803749
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.03940979974803749 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.72082621 0.         1.55578654] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.03967378877197525
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.03967378877197525 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.72056222 0.         1.5604378 ] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.03993777779591301
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.03993777779591301 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.72029823 0.         1.56508906] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.04020176681985077
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.04020176681985077 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.72003424 0.         1.56974032] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.04046575584378853
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.04046575584378853 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.71977026 0.         1.57439159] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.04072974486772629
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.04072974486772629 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.71950627 0.         1.57904285] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.04099373389166394
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.04099373389166394 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.71924228 0.         1.58369411] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.04125772291560181
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.04125772291560181 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.71897829 0.         1.58834537] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.041521711939539574
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.041521711939539574 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.7187143  0.         1.59299663] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.041785700963477335
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.041785700963477335 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.71845031 0.         1.59764789] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.042049689987415095
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.042049689987415095 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.71818632 0.         1.60229915] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.042313679011352856
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.042313679011352856 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.71792233 0.         1.60695041] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.04257766803529062
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.04257766803529062 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.71765834 0.         1.61160168] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.04284165705922838
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.04284165705922838 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.71739435 0.         1.61625294] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.04310564608316614
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.04310564608316614 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.71713036 0.         1.6209042 ] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.0433696351071039
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.0433696351071039 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.71686638 0.         1.62555546] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.04363362413104166
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.04363362413104166 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.71660239 0.         1.63020672] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.04389761315497942
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.04389761315497942 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.7163384  0.         1.63485798] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.04416160217891718
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.04416160217891718 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.71607441 0.         1.63950924] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.04442559120285494
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.04442559120285494 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.71581042 0.         1.6441605 ] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.0446895802267927
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.0446895802267927 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.71554643 0.         1.64881177] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.04495356925073046
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.04495356925073046 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.71528244 0.         1.65346303] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.045217558274668224
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center=time=1651342501.5401144 Pos: [0.71501845 0.         1.65811429] angle -1.6274919395606644
+time=1651342501.6460068 Pos: [0.71475446 0.         1.66276555] angle -1.6274919395606644
+time=1651342501.7503 Pos: [0.71449047 0.         1.66741681] angle -1.6274919395606644
+time=1651342501.8536503 Pos: [0.71422649 0.         1.67206807] angle -1.6274919395606644
+time=1651342501.9586153 Pos: [0.7139625  0.         1.67671933] angle -1.6274919395606644
+time=1651342502.0651817 Pos: [0.71369851 0.         1.6813706 ] angle -1.6274919395606644
+time=1651342502.1830664 Pos: [0.71343452 0.         1.68602186] angle -1.6274919395606644
+time=1651342502.2867372 Pos: [0.71317053 0.         1.69067312] angle -1.6274919395606644
+time=1651342502.387621 Pos: [0.71290654 0.         1.69532438] angle -1.6274919395606644
+time=1651342502.489239 Pos: [0.71264255 0.         1.69997564] angle -1.6274919395606644
+time=1651342502.593575 Pos: [0.71237856 0.         1.7046269 ] angle -1.6274919395606644
+time=1651342502.6955173 Pos: [0.71211457 0.         1.70927816] angle -1.6274919395606644
+time=1651342502.8002594 Pos: [0.71185058 0.         1.71392942] angle -1.6274919395606644
+time=1651342502.9023309 Pos: [0.7115866  0.         1.71858069] angle -1.6274919395606644
+time=1651342503.0100958 Pos: [0.71132261 0.         1.72323195] angle -1.6274919395606644
+time=1651342503.1114624 Pos: [0.71105862 0.         1.72788321] angle -1.6274919395606644
+time=1651342503.2229385 Pos: [0.71079463 0.         1.73253447] angle -1.6274919395606644
+time=1651342503.328973 Pos: [0.71053064 0.         1.73718573] angle -1.6274919395606644
+time=1651342503.4316247 Pos: [0.71026665 0.         1.74183699] angle -1.6274919395606644
+time=1651342503.5348055 Pos: [0.71000266 0.         1.74648825] angle -1.6274919395606644
+time=1651342503.6362028 Pos: [0.70973867 0.         1.75113951] angle -1.6274919395606644
+time=1651342503.7392566 Pos: [0.70947468 0.         1.75579078] angle -1.6274919395606644
+time=1651342503.844155 Pos: [0.70921069 0.         1.76044204] angle -1.6274919395606644
+time=1651342503.9473596 Pos: [0.70894671 0.         1.7650933 ] angle -1.6274919395606644
+time=1651342504.0535755 Pos: [0.70868272 0.         1.76974456] angle -1.6274919395606644
+ 0.045217558274668224 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.71501845 0.         1.65811429] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.045481547298605984
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.045481547298605984 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.71475446 0.         1.66276555] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.045745536322543745
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.045745536322543745 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.71449047 0.         1.66741681] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.046009525346481506
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.046009525346481506 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.71422649 0.         1.67206807] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.046273514370419266
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.046273514370419266 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.7139625  0.         1.67671933] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.04653750339435703
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.04653750339435703 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.71369851 0.         1.6813706 ] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.04680149241829479
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.04680149241829479 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.71343452 0.         1.68602186] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.04706548144223255
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.04706548144223255 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.71317053 0.         1.69067312] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.04732947046617031
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.04732947046617031 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.71290654 0.         1.69532438] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.04759345949010807
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.04759345949010807 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.71264255 0.         1.69997564] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.04785744851404583
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.04785744851404583 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.71237856 0.         1.7046269 ] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.04812143753798359
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.04812143753798359 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.71211457 0.         1.70927816] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.04838542656192135
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.04838542656192135 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.71185058 0.         1.71392942] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.04864941558585911
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.04864941558585911 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.7115866  0.         1.71858069] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.04891340460979687
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.04891340460979687 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.71132261 0.         1.72323195] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.049177393633734634
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.049177393633734634 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.71105862 0.         1.72788321] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.049441382657672395
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.049441382657672395 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.71079463 0.         1.73253447] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.049705371681610155
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.049705371681610155 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.71053064 0.         1.73718573] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.049969360705547916
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.049969360705547916 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.71026665 0.         1.74183699] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.05023334972948568
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.05023334972948568 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.71000266 0.         1.74648825] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.05049733875342344
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.05049733875342344 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.70973867 0.         1.75113951] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.0507613277773612
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.0507613277773612 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.70947468 0.         1.75579078] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.05102531680129885
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.05102531680129885 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.70921069 0.         1.76044204] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.05128930582523683
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.05128930582523683 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.70894671 0.         1.7650933 ] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.05155329484917448
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.05155329484917448 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.70868272 0.         1.76974456] env.cur_angle= -1.6274919395606644time=1651342504.1560614 Pos: [0.70841873 0.         1.77439582] angle -1.6274919395606644
+time=1651342504.2618883 Pos: [0.70815474 0.         1.77904708] angle -1.6274919395606644
+time=1651342504.3658187 Pos: [0.70789075 0.         1.78369834] angle -1.6274919395606644
+time=1651342504.4676929 Pos: [0.70762676 0.         1.7883496 ] angle -1.6274919395606644
+time=1651342504.5703492 Pos: [0.70736277 0.         1.79300087] angle -1.6274919395606644
+time=1651342504.671409 Pos: [0.70709878 0.         1.79765213] angle -1.6274919395606644
+time=1651342504.7743576 Pos: [0.70683479 0.         1.80230339] angle -1.6274919395606644
+time=1651342504.875457 Pos: [0.7065708  0.         1.80695465] angle -1.6274919395606644
+time=1651342504.9778492 Pos: [0.70630681 0.         1.81160591] angle -1.6274919395606644
+time=1651342505.08206 Pos: [0.70604283 0.         1.81625717] angle -1.6274919395606644
+time=1651342505.1879547 Pos: [0.70577884 0.         1.82090843] angle -1.6274919395606644
+time=1651342505.2926145 Pos: [0.70551485 0.         1.82555969] angle -1.6274919395606644
+time=1651342505.4200106 Pos: [0.70525086 0.         1.83021096] angle -1.6274919395606644
+time=1651342505.5197563 Pos: [0.70498687 0.         1.83486222] angle -1.6274919395606644
+time=1651342505.623925 Pos: [0.70472288 0.         1.83951348] angle -1.6274919395606644
+time=1651342505.7256334 Pos: [0.70445889 0.         1.84416474] angle -1.6274919395606644
+time=1651342505.8312497 Pos: [0.7041949 0.        1.848816 ] angle -1.6274919395606644
+time=1651342505.9339592 Pos: [0.70393091 0.         1.85346726] angle -1.6274919395606644
+time=1651342506.0379345 Pos: [0.70366692 0.         1.85811852] angle -1.6274919395606644
+time=1651342506.1402469 Pos: [0.70340294 0.         1.86276979] angle -1.6274919395606644
+time=1651342506.2423642 Pos: [0.70313895 0.         1.86742105] angle -1.6274919395606644
+time=1651342506.3579142 Pos: [0.70287496 0.         1.87207231] angle -1.6274919395606644
+time=1651342506.492939 Pos: [0.70261097 0.         1.87672357] angle -1.6274919395606644
+time=1651342506.5973003 Pos: [0.70234698 0.         1.88137483] angle -1.6274919395606644
+
+distance_to_road_center= 0.05181728387311235
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.05181728387311235 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.70841873 0.         1.77439582] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.05208127289705
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.05208127289705 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.70815474 0.         1.77904708] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.05234526192098776
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.05234526192098776 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.70789075 0.         1.78369834] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.05260925094492552
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.05260925094492552 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.70762676 0.         1.7883496 ] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.052873239968863284
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.052873239968863284 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.70736277 0.         1.79300087] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.053137228992801044
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.053137228992801044 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.70709878 0.         1.79765213] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.053401218016738805
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.053401218016738805 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.70683479 0.         1.80230339] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.053665207040676566
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.053665207040676566 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.7065708  0.         1.80695465] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.053929196064614326
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.053929196064614326 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.70630681 0.         1.81160591] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.05419318508855209
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.05419318508855209 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.70604283 0.         1.81625717] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.05445717411248974
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.05445717411248974 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.70577884 0.         1.82090843] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.0547211631364275
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.0547211631364275 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.70551485 0.         1.82555969] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.05498515216036537
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.05498515216036537 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.70525086 0.         1.83021096] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.05524914118430302
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.05524914118430302 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.70498687 0.         1.83486222] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.055513130208241
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.055513130208241 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.70472288 0.         1.83951348] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.05577711923217865
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.05577711923217865 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.70445889 0.         1.84416474] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.05604110825611641
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.05604110825611641 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.7041949 0.        1.848816 ] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.05630509728005417
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.05630509728005417 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.70393091 0.         1.85346726] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.056569086303992044
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.056569086303992044 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.70366692 0.         1.85811852] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.05683307532792958
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.05683307532792958 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.70340294 0.         1.86276979] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.057097064351867455
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.057097064351867455 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.70313895 0.         1.86742105] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.057361053375805215
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.057361053375805215 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.70287496 0.         1.87207231] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.057625042399742976
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.057625042399742976 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.70261097 0.         1.87672357] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.05788903142368074
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.05788903142368074 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.70234698 0.         1.88137483] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.058153020447618387
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.058153020447618387 angle_from_straight_in_rads= 0.05669561276576752time=1651342506.699292 Pos: [0.70208299 0.         1.88602609] angle -1.6274919395606644
+time=1651342506.8024015 Pos: [0.701819   0.         1.89067735] angle -1.6274919395606644
+time=1651342506.9044204 Pos: [0.70155501 0.         1.89532861] angle -1.6274919395606644
+time=1651342507.0127187 Pos: [0.70129102 0.         1.89997988] angle -1.6274919395606644
+time=1651342507.1148825 Pos: [0.70102703 0.         1.90463114] angle -1.6274919395606644
+time=1651342507.2144732 Pos: [0.70076305 0.         1.9092824 ] angle -1.6274919395606644
+time=1651342507.3166392 Pos: [0.70049906 0.         1.91393366] angle -1.6274919395606644
+time=1651342507.4214437 Pos: [0.70023507 0.         1.91858492] angle -1.6274919395606644
+time=1651342507.550538 Pos: [0.69997108 0.         1.92323618] angle -1.6274919395606644
+time=1651342507.6523545 Pos: [0.69970709 0.         1.92788744] angle -1.6274919395606644
+time=1651342507.754794 Pos: [0.6994431 0.        1.9325387] angle -1.6274919395606644
+time=1651342507.8564298 Pos: [0.69917911 0.         1.93718997] angle -1.6274919395606644
+time=1651342507.9579213 Pos: [0.69891512 0.         1.94184123] angle -1.6274919395606644
+time=1651342508.0636032 Pos: [0.69865113 0.         1.94649249] angle -1.6274919395606644
+time=1651342508.1658762 Pos: [0.69838714 0.         1.95114375] angle -1.6274919395606644
+time=1651342508.2690258 Pos: [0.69812316 0.         1.95579501] angle -1.6274919395606644
+time=1651342508.3711078 Pos: [0.69785917 0.         1.96044627] angle -1.6274919395606644
+time=1651342508.4710338 Pos: [0.69759518 0.         1.96509753] angle -1.6274919395606644
+time=1651342508.5966427 Pos: [0.69733119 0.         1.96974879] angle -1.6274919395606644
+time=1651342508.6984344 Pos: [0.6970672  0.         1.97440006] angle -1.6274919395606644
+time=1651342508.7996774 Pos: [0.69680321 0.         1.97905132] angle -1.6274919395606644
+time=1651342508.9029412 Pos: [0.69653922 0.         1.98370258] angle -1.6274919395606644
+time=1651342509.0081403 Pos: [0.69627523 0.         1.98835384] angle -1.6274919395606644
+time=1651342509.1085703 Pos: [0.69601124 0.         1.9930051 ] angle -1.6274919395606644
+time=1651342509.2089872 Pos: [0.69574725 0.         1.99765636] angle -1.6274919395606644
+
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.70208299 0.         1.88602609] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.05841700947155637
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.05841700947155637 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.701819   0.         1.89067735] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.05868099849549413
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.05868099849549413 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.70155501 0.         1.89532861] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.05894498751943189
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.05894498751943189 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.70129102 0.         1.89997988] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.05920897654336965
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.05920897654336965 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.70102703 0.         1.90463114] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.0594729655673073
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.0594729655673073 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.70076305 0.         1.9092824 ] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.05973695459124517
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.05973695459124517 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.70049906 0.         1.91393366] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.06000094361518282
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.06000094361518282 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.70023507 0.         1.91858492] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.060264932639120694
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.060264932639120694 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.69997108 0.         1.92323618] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.06052892166305823
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.06052892166305823 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.69970709 0.         1.92788744] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.060792910686996215
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.060792910686996215 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.6994431 0.        1.9325387] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.061056899710933865
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.061056899710933865 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.69917911 0.         1.93718997] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.061320888734871515
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.061320888734871515 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.69891512 0.         1.94184123] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.061584877758809387
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.061584877758809387 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.69865113 0.         1.94649249] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.06184886678274715
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.06184886678274715 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.69838714 0.         1.95114375] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.0621128558066848
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.0621128558066848 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.69812316 0.         1.95579501] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.06237684483062267
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.06237684483062267 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.69785917 0.         1.96044627] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.06264083385456054
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.06264083385456054 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.69759518 0.         1.96509753] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.06290482287849819
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.06290482287849819 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.69733119 0.         1.96974879] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.06316881190243595
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.06316881190243595 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.6970672  0.         1.97440006] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.06343280092637371
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.06343280092637371 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.69680321 0.         1.97905132] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.06369678995031147
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.06369678995031147 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.69653922 0.         1.98370258] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.06396077897424923
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.06396077897424923 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.69627523 0.         1.98835384] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.0642247679981871
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.0642247679981871 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.69601124 0.         1.9930051 ] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.06448875702212475
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.06448875702212475 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.69574725 0.         1.99765636] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.06475274604606251
+angle_from_straight_in_rads= 0.05669561276576752time=1651342509.3109233 Pos: [0.69548326 0.         2.00230762] angle -1.6274919395606644
+time=1651342509.4123933 Pos: [0.69521928 0.         2.00695888] angle -1.6274919395606644
+time=1651342509.5153265 Pos: [0.69495529 0.         2.01161015] angle -1.6274919395606644
+time=1651342509.6217248 Pos: [0.6946913  0.         2.01626141] angle -1.6274919395606644
+time=1651342509.723098 Pos: [0.69442731 0.         2.02091267] angle -1.6274919395606644
+time=1651342509.8234959 Pos: [0.69416332 0.         2.02556393] angle -1.6274919395606644
+time=1651342509.92341 Pos: [0.69389933 0.         2.03021519] angle -1.6274919395606644
+time=1651342510.0262463 Pos: [0.69363534 0.         2.03486645] angle -1.6274919395606644
+time=1651342510.1277008 Pos: [0.69337135 0.         2.03951771] angle -1.6274919395606644
+time=1651342510.2308764 Pos: [0.69310736 0.         2.04416898] angle -1.6274919395606644
+time=1651342510.3333604 Pos: [0.69284337 0.         2.04882024] angle -1.6274919395606644
+time=1651342510.4356985 Pos: [0.69257939 0.         2.0534715 ] angle -1.6274919395606644
+time=1651342510.535989 Pos: [0.6923154  0.         2.05812276] angle -1.6274919395606644
+time=1651342510.650532 Pos: [0.69205141 0.         2.06277402] angle -1.6274919395606644
+time=1651342510.7509842 Pos: [0.69178742 0.         2.06742528] angle -1.6274919395606644
+time=1651342510.854057 Pos: [0.69152343 0.         2.07207654] angle -1.6274919395606644
+time=1651342510.9561856 Pos: [0.69125944 0.         2.0767278 ] angle -1.6274919395606644
+time=1651342511.0631008 Pos: [0.69099545 0.         2.08137907] angle -1.6274919395606644
+time=1651342511.1632328 Pos: [0.69073146 0.         2.08603033] angle -1.6274919395606644
+time=1651342511.2642565 Pos: [0.69046747 0.         2.09068159] angle -1.6274919395606644
+time=1651342511.365673 Pos: [0.69020348 0.         2.09533285] angle -1.6274919395606644
+time=1651342511.467447 Pos: [0.6899395  0.         2.09998411] angle -1.6274919395606644
+time=1651342511.5694559 Pos: [0.68967551 0.         2.10463537] angle -1.6274919395606644
+time=1651342511.6714754 Pos: [0.68941152 0.         2.10928663] angle -1.6274919395606644
+time=1651342511.7755485 Pos: [0.68914753 0.         2.11393789] angle -1.6274919395606644
+
+speed= 0.1 steering= 0
+distance_to_road_center= 0.06475274604606251 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.69548326 0.         2.00230762] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.06501673507000028
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.06501673507000028 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.69521928 0.         2.00695888] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.06528072409393804
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.06528072409393804 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.69495529 0.         2.01161015] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.0655447131178758
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.0655447131178758 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.6946913  0.         2.01626141] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.06580870214181356
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.06580870214181356 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.69442731 0.         2.02091267] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.06607269116575132
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.06607269116575132 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.69416332 0.         2.02556393] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.06633668018968908
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.06633668018968908 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.69389933 0.         2.03021519] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.06660066921362684
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.06660066921362684 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.69363534 0.         2.03486645] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.0668646582375646
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.0668646582375646 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.69337135 0.         2.03951771] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.06712864726150236
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.06712864726150236 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.69310736 0.         2.04416898] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.06739263628544023
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.06739263628544023 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.69284337 0.         2.04882024] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.06765662530937788
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.06765662530937788 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.69257939 0.         2.0534715 ] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.06792061433331564
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.06792061433331564 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.6923154  0.         2.05812276] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.0681846033572534
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.0681846033572534 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.69205141 0.         2.06277402] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.06844859238119116
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.06844859238119116 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.69178742 0.         2.06742528] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.06871258140512893
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.06871258140512893 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.69152343 0.         2.07207654] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.06897657042906669
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.06897657042906669 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.69125944 0.         2.0767278 ] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.06924055945300434
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.06924055945300434 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.69099545 0.         2.08137907] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.06950454847694221
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.06950454847694221 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.69073146 0.         2.08603033] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.06976853750087997
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.06976853750087997 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.69046747 0.         2.09068159] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.07003252652481773
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.07003252652481773 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.69020348 0.         2.09533285] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.07029651554875549
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.07029651554875549 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.6899395  0.         2.09998411] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.07056050457269325
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.07056050457269325 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.68967551 0.         2.10463537] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.07082449359663101
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.07082449359663101 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.68941152 0.         2.10928663] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.07108848262056877
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.07108848262056877 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.68914753 0.         2.11393789] env.cur_angle=time=1651342511.876546 Pos: [0.68888354 0.         2.11858916] angle -1.6274919395606644
+time=1651342511.98214 Pos: [0.68861955 0.         2.12324042] angle -1.6274919395606644
+time=1651342512.1485972 Pos: [0.68835556 0.         2.12789168] angle -1.6274919395606644
+time=1651342512.2882144 Pos: [0.68809157 0.         2.13254294] angle -1.6274919395606644
+time=1651342512.4015763 Pos: [0.68782758 0.         2.1371942 ] angle -1.6274919395606644
+time=1651342512.5132704 Pos: [0.68756359 0.         2.14184546] angle -1.6274919395606644
+time=1651342512.61156 Pos: [0.68729961 0.         2.14649672] angle -1.6274919395606644
+time=1651342512.714949 Pos: [0.68703562 0.         2.15114798] angle -1.6274919395606644
+time=1651342512.8192036 Pos: [0.68677163 0.         2.15579925] angle -1.6274919395606644
+time=1651342512.9213128 Pos: [0.68650764 0.         2.16045051] angle -1.6274919395606644
+time=1651342513.025478 Pos: [0.68624365 0.         2.16510177] angle -1.6274919395606644
+time=1651342513.1266434 Pos: [0.68597966 0.         2.16975303] angle -1.6274919395606644
+time=1651342513.2280955 Pos: [0.68571567 0.         2.17440429] angle -1.6274919395606644
+time=1651342513.3290653 Pos: [0.68545168 0.         2.17905555] angle -1.6274919395606644
+time=1651342513.428868 Pos: [0.68518769 0.         2.18370681] angle -1.6274919395606644
+time=1651342513.529311 Pos: [0.6849237  0.         2.18835807] angle -1.6274919395606644
+time=1651342513.6316903 Pos: [0.68465971 0.         2.19300934] angle -1.6274919395606644
+time=1651342513.7307956 Pos: [0.68439573 0.         2.1976606 ] angle -1.6274919395606644
+time=1651342513.8610325 Pos: [0.68413174 0.         2.20231186] angle -1.6274919395606644
+time=1651342513.964873 Pos: [0.68386775 0.         2.20696312] angle -1.6274919395606644
+time=1651342514.072142 Pos: [0.68360376 0.         2.21161438] angle -1.6274919395606644
+time=1651342514.1710005 Pos: [0.68333977 0.         2.21626564] angle -1.6274919395606644
+time=1651342514.2736444 Pos: [0.68307578 0.         2.2209169 ] angle -1.6274919395606644
+time=1651342514.375202 Pos: [0.68281179 0.         2.22556817] angle -1.6274919395606644
+ -1.6274919395606644
+distance_to_road_center= 0.07135247164450664
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.07135247164450664 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.68888354 0.         2.11858916] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.07161646066844429
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.07161646066844429 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.68861955 0.         2.12324042] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.07188044969238205
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.07188044969238205 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.68835556 0.         2.12789168] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.07214443871631981
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.07214443871631981 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.68809157 0.         2.13254294] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.07240842774025757
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.07240842774025757 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.68782758 0.         2.1371942 ] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.07267241676419522
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.07267241676419522 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.68756359 0.         2.14184546] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.0729364057881331
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.0729364057881331 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.68729961 0.         2.14649672] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.07320039481207086
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.07320039481207086 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.68703562 0.         2.15114798] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.07346438383600862
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.07346438383600862 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.68677163 0.         2.15579925] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.07372837285994638
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.07372837285994638 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.68650764 0.         2.16045051] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.07399236188388414
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.07399236188388414 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.68624365 0.         2.16510177] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.0742563509078219
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.0742563509078219 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.68597966 0.         2.16975303] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.07452033993175966
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.07452033993175966 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.68571567 0.         2.17440429] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.07478432895569742
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.07478432895569742 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.68545168 0.         2.17905555] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.07504831797963518
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.07504831797963518 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.68518769 0.         2.18370681] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.07531230700357294
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.07531230700357294 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.6849237  0.         2.18835807] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.0755762960275107
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.0755762960275107 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.68465971 0.         2.19300934] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.07584028505144846
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.07584028505144846 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.68439573 0.         2.1976606 ] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.07610427407538622
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.07610427407538622 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.68413174 0.         2.20231186] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.07636826309932399
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.07636826309932399 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.68386775 0.         2.20696312] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.07663225212326175
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.07663225212326175 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.68360376 0.         2.21161438] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.0768962411471995
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.0768962411471995 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.68333977 0.         2.21626564] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.07716023017113727
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.07716023017113727 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.68307578 0.         2.2209169 ] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.07742421919507503
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.07742421919507503 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.68281179 0.         2.22556817] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.07768820821901279
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.07768820821901279 angle_from_straight_in_rads=time=1651342514.4784646 Pos: [0.6825478  0.         2.23021943] angle -1.6274919395606644
+time=1651342514.5788949 Pos: [0.68228381 0.         2.23487069] angle -1.6274919395606644
+time=1651342514.679917 Pos: [0.68201982 0.         2.23952195] angle -1.6274919395606644
+time=1651342514.7823813 Pos: [0.68175584 0.         2.24417321] angle -1.6274919395606644
+time=1651342514.8918402 Pos: [0.68149185 0.         2.24882447] angle -1.6274919395606644
+time=1651342514.9930625 Pos: [0.68122786 0.         2.25347573] angle -1.6274919395606644
+time=1651342515.096418 Pos: [0.68096387 0.         2.25812699] angle -1.6274919395606644
+time=1651342515.1976476 Pos: [0.68069988 0.         2.26277826] angle -1.6274919395606644
+time=1651342515.2985833 Pos: [0.68043589 0.         2.26742952] angle -1.6274919395606644
+time=1651342515.4012089 Pos: [0.6801719  0.         2.27208078] angle -1.6274919395606644
+time=1651342515.502195 Pos: [0.67990791 0.         2.27673204] angle -1.6274919395606644
+time=1651342515.6032593 Pos: [0.67964392 0.         2.2813833 ] angle -1.6274919395606644
+time=1651342515.70193 Pos: [0.67937993 0.         2.28603456] angle -1.6274919395606644
+time=1651342515.8025222 Pos: [0.67911595 0.         2.29068582] angle -1.6274919395606644
+time=1651342515.9063857 Pos: [0.67885196 0.         2.29533708] angle -1.6274919395606644
+time=1651342516.011235 Pos: [0.67858797 0.         2.29998835] angle -1.6274919395606644
+time=1651342516.111989 Pos: [0.67832398 0.         2.30463961] angle -1.6274919395606644
+time=1651342516.2123039 Pos: [0.67805999 0.         2.30929087] angle -1.6274919395606644
+time=1651342516.3149962 Pos: [0.677796   0.         2.31394213] angle -1.6274919395606644
+time=1651342516.4159472 Pos: [0.67753201 0.         2.31859339] angle -1.6274919395606644
+time=1651342516.5183442 Pos: [0.67726802 0.         2.32324465] angle -1.6274919395606644
+time=1651342516.618687 Pos: [0.67700403 0.         2.32789591] angle -1.6274919395606644
+time=1651342516.7222712 Pos: [0.67674004 0.         2.33254717] angle -1.6274919395606644
+time=1651342516.8246074 Pos: [0.67647606 0.         2.33719844] angle -1.6274919395606644
+time=1651342516.9293575 Pos: [0.67621207 0.         2.3418497 ] angle -1.6274919395606644
+ 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.6825478  0.         2.23021943] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.07795219724295055
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.07795219724295055 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.68228381 0.         2.23487069] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.07821618626688831
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.07821618626688831 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.68201982 0.         2.23952195] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.07848017529082607
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.07848017529082607 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.68175584 0.         2.24417321] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.07874416431476383
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.07874416431476383 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.68149185 0.         2.24882447] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.07900815333870159
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.07900815333870159 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.68122786 0.         2.25347573] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.07927214236263935
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.07927214236263935 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.68096387 0.         2.25812699] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.07953613138657711
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.07953613138657711 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.68069988 0.         2.26277826] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.07980012041051487
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.07980012041051487 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.68043589 0.         2.26742952] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.08006410943445263
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.08006410943445263 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.6801719  0.         2.27208078] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.0803280984583904
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.0803280984583904 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.67990791 0.         2.27673204] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.08059208748232816
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.08059208748232816 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.67964392 0.         2.2813833 ] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.08085607650626592
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.08085607650626592 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.67937993 0.         2.28603456] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.08112006553020368
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.08112006553020368 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.67911595 0.         2.29068582] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.08138405455414144
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.08138405455414144 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.67885196 0.         2.29533708] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.0816480435780792
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.0816480435780792 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.67858797 0.         2.29998835] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.08191203260201696
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.08191203260201696 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.67832398 0.         2.30463961] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.08217602162595472
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.08217602162595472 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.67805999 0.         2.30929087] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.08244001064989248
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.08244001064989248 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.677796   0.         2.31394213] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.08270399967383024
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.08270399967383024 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.67753201 0.         2.31859339] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.082967988697768
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.082967988697768 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.67726802 0.         2.32324465] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.08323197772170576
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.08323197772170576 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.67700403 0.         2.32789591] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.08349596674564352
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.08349596674564352 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.67674004 0.         2.33254717] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.08375995576958128
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.08375995576958128 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.67647606 0.         2.33719844] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.08402394479351905
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.08402394479351905 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.67621207 0.         2.3418497 ] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.0842879338174567
+angle_from_straight_in_rads=time=1651342517.0384393 Pos: [0.67594808 0.         2.34650096] angle -1.6274919395606644
+time=1651342517.140402 Pos: [0.67568409 0.         2.35115222] angle -1.6274919395606644
+time=1651342517.240596 Pos: [0.6754201  0.         2.35580348] angle -1.6274919395606644
+time=1651342517.3433232 Pos: [0.67515611 0.         2.36045474] angle -1.6274919395606644
+time=1651342517.443662 Pos: [0.67489212 0.         2.365106  ] angle -1.6274919395606644
+time=1651342517.5450127 Pos: [0.67462813 0.         2.36975726] angle -1.6274919395606644
+time=1651342517.6483026 Pos: [0.67436414 0.         2.37440853] angle -1.6274919395606644
+time=1651342517.7508898 Pos: [0.67410015 0.         2.37905979] angle -1.6274919395606644
+time=1651342517.8521533 Pos: [0.67383616 0.         2.38371105] angle -1.6274919395606644
+time=1651342517.9531338 Pos: [0.67357218 0.         2.38836231] angle -1.6274919395606644
+time=1651342518.0644102 Pos: [0.67330819 0.         2.39301357] angle -1.6274919395606644
+time=1651342518.1667743 Pos: [0.6730442  0.         2.39766483] angle -1.6274919395606644
+time=1651342518.3148751 Pos: [0.67278021 0.         2.40231609] angle -1.6274919395606644
+time=1651342518.4164233 Pos: [0.67251622 0.         2.40696736] angle -1.6274919395606644
+time=1651342518.516021 Pos: [0.67225223 0.         2.41161862] angle -1.6274919395606644
+time=1651342518.6170266 Pos: [0.67198824 0.         2.41626988] angle -1.6274919395606644
+time=1651342518.7192857 Pos: [0.67172425 0.         2.42092114] angle -1.6274919395606644
+time=1651342518.819599 Pos: [0.67146026 0.         2.4255724 ] angle -1.6274919395606644
+time=1651342518.92409 Pos: [0.67119627 0.         2.43022366] angle -1.6274919395606644
+time=1651342519.0266948 Pos: [0.67093229 0.         2.43487492] angle -1.6274919395606644
+time=1651342519.130473 Pos: [0.6706683  0.         2.43952618] angle -1.6274919395606644
+time=1651342519.2465167 Pos: [0.67040431 0.         2.44417745] angle -1.6274919395606644
+time=1651342519.3502529 Pos: [0.67014032 0.         2.44882871] angle -1.6274919395606644
+time=1651342519.4541194 Pos: [0.66987633 0.         2.45347997] angle -1.6274919395606644
+time=1651342519.5553687 Pos: [0.66961234 0.         2.45813123] angle -1.6274919395606644
+ 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.0842879338174567 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.67594808 0.         2.34650096] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.08455192284139468
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.08455192284139468 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.67568409 0.         2.35115222] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.08481591186533233
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.08481591186533233 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.6754201  0.         2.35580348] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.0850799008892702
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.0850799008892702 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.67515611 0.         2.36045474] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.08534388991320785
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.08534388991320785 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.67489212 0.         2.365106  ] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.08560787893714561
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.08560787893714561 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.67462813 0.         2.36975726] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.08587186796108337
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.08587186796108337 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.67436414 0.         2.37440853] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.08613585698502113
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.08613585698502113 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.67410015 0.         2.37905979] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.086399846008959
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.086399846008959 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.67383616 0.         2.38371105] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.08666383503289665
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.08666383503289665 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.67357218 0.         2.38836231] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.08692782405683441
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.08692782405683441 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.67330819 0.         2.39301357] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.08719181308077228
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.08719181308077228 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.6730442  0.         2.39766483] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.08745580210470993
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.08745580210470993 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.67278021 0.         2.40231609] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.08771979112864758
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.08771979112864758 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.67251622 0.         2.40696736] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.08798378015258557
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.08798378015258557 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.67225223 0.         2.41161862] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.08824776917652322
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.08824776917652322 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.67198824 0.         2.41626988] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.08851175820046098
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.08851175820046098 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.67172425 0.         2.42092114] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.08877574722439874
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.08877574722439874 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.67146026 0.         2.4255724 ] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.0890397362483365
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.0890397362483365 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.67119627 0.         2.43022366] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.08930372527227426
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.08930372527227426 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.67093229 0.         2.43487492] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.08956771429621202
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.08956771429621202 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.6706683  0.         2.43952618] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.08983170332014989
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.08983170332014989 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.67040431 0.         2.44417745] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.09009569234408743
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.09009569234408743 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.67014032 0.         2.44882871] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.0903596813680253
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.0903596813680253 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.66987633 0.         2.45347997] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.09062367039196306
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.09062367039196306 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.66961234 0.         2.45813123]time=1651342519.6574042 Pos: [0.66934835 0.         2.46278249] angle -1.6274919395606644
+time=1651342519.7565706 Pos: [0.66908436 0.         2.46743375] angle -1.6274919395606644
+time=1651342519.858318 Pos: [0.66882037 0.         2.47208501] angle -1.6274919395606644
+time=1651342519.9573262 Pos: [0.66855638 0.         2.47673627] angle -1.6274919395606644
+time=1651342520.0614474 Pos: [0.6682924  0.         2.48138754] angle -1.6274919395606644
+time=1651342520.1684396 Pos: [0.66802841 0.         2.4860388 ] angle -1.6274919395606644
+time=1651342520.2724934 Pos: [0.66776442 0.         2.49069006] angle -1.6274919395606644
+time=1651342520.3737564 Pos: [0.66750043 0.         2.49534132] angle -1.6274919395606644
+time=1651342520.4750354 Pos: [0.66723644 0.         2.49999258] angle -1.6274919395606644
+time=1651342520.5754578 Pos: [0.66697245 0.         2.50464384] angle -1.6274919395606644
+time=1651342520.6769335 Pos: [0.66670846 0.         2.5092951 ] angle -1.6274919395606644
+time=1651342520.7795064 Pos: [0.66644447 0.         2.51394636] angle -1.6274919395606644
+time=1651342520.8814366 Pos: [0.66618048 0.         2.51859763] angle -1.6274919395606644
+time=1651342520.983389 Pos: [0.66591649 0.         2.52324889] angle -1.6274919395606644
+time=1651342521.0883768 Pos: [0.66565251 0.         2.52790015] angle -1.6274919395606644
+time=1651342521.1944358 Pos: [0.66538852 0.         2.53255141] angle -1.6274919395606644
+time=1651342521.2948532 Pos: [0.66512453 0.         2.53720267] angle -1.6274919395606644
+time=1651342521.3966525 Pos: [0.66486054 0.         2.54185393] angle -1.6274919395606644
+time=1651342521.4998584 Pos: [0.66459655 0.         2.54650519] angle -1.6274919395606644
+time=1651342521.6035392 Pos: [0.66433256 0.         2.55115645] angle -1.6274919395606644
+time=1651342521.703552 Pos: [0.66406857 0.         2.55580772] angle -1.6274919395606644
+time=1651342521.80373 Pos: [0.66380458 0.         2.56045898] angle -1.6274919395606644
+time=1651342521.9069102 Pos: [0.66354059 0.         2.56511024] angle -1.6274919395606644
+time=1651342522.0119996 Pos: [0.6632766 0.        2.5697615] angle -1.6274919395606644
+ env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.09088765941590082
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.09088765941590082 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.66934835 0.         2.46278249] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.09115164843983858
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.09115164843983858 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.66908436 0.         2.46743375] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.09141563746377623
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.09141563746377623 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.66882037 0.         2.47208501] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.09167962648771422
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.09167962648771422 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.66855638 0.         2.47673627] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.09194361551165198
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.09194361551165198 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.6682924  0.         2.48138754] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.09220760453558974
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.09220760453558974 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.66802841 0.         2.4860388 ] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.0924715935595275
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.0924715935595275 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.66776442 0.         2.49069006] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.09273558258346515
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.09273558258346515 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.66750043 0.         2.49534132] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.09299957160740302
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.09299957160740302 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.66723644 0.         2.49999258] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.09326356063134067
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.09326356063134067 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.66697245 0.         2.50464384] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.09352754965527854
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.09352754965527854 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.66670846 0.         2.5092951 ] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.09379153867921619
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.09379153867921619 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.66644447 0.         2.51394636] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.09405552770315406
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.09405552770315406 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.66618048 0.         2.51859763] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.0943195167270916
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.0943195167270916 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.66591649 0.         2.52324889] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.09458350575102936
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.09458350575102936 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.66565251 0.         2.52790015] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.09484749477496723
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.09484749477496723 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.66538852 0.         2.53255141] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.095111483798905
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.095111483798905 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.66512453 0.         2.53720267] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.09537547282284264
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.09537547282284264 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.66486054 0.         2.54185393] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.09563946184678052
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.09563946184678052 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.66459655 0.         2.54650519] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.09590345087071828
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.09590345087071828 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.66433256 0.         2.55115645] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.09616743989465604
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.09616743989465604 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.66406857 0.         2.55580772] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.0964314289185938
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.0964314289185938 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.66380458 0.         2.56045898] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.09669541794253156
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.09669541794253156 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.66354059 0.         2.56511024] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.09695940696646932
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.09695940696646932 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.6632766 0.        2.5697615] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.09722339599040708
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.09722339599040708 angle_from_straight_in_rads=time=1651342522.1133206 Pos: [0.66301261 0.         2.57441276] angle -1.6274919395606644
+time=1651342522.2372952 Pos: [0.66274863 0.         2.57906402] angle -1.6274919395606644
+time=1651342522.3394682 Pos: [0.66248464 0.         2.58371528] angle -1.6274919395606644
+time=1651342522.439258 Pos: [0.66222065 0.         2.58836655] angle -1.6274919395606644
+time=1651342522.5390065 Pos: [0.66195666 0.         2.59301781] angle -1.6274919395606644
+time=1651342522.6390333 Pos: [0.66169267 0.         2.59766907] angle -1.6274919395606644
+time=1651342522.7424252 Pos: [0.66142868 0.         2.60232033] angle -1.6274919395606644
+time=1651342522.8440607 Pos: [0.66116469 0.         2.60697159] angle -1.6274919395606644
+time=1651342522.9441547 Pos: [0.6609007  0.         2.61162285] angle -1.6274919395606644
+time=1651342523.0467818 Pos: [0.66063671 0.         2.61627411] angle -1.6274919395606644
+time=1651342523.1498218 Pos: [0.66037272 0.         2.62092537] angle -1.6274919395606644
+time=1651342523.253957 Pos: [0.66010874 0.         2.62557664] angle -1.6274919395606644
+time=1651342523.3569438 Pos: [0.65984475 0.         2.6302279 ] angle -1.6274919395606644
+time=1651342523.4560375 Pos: [0.65958076 0.         2.63487916] angle -1.6274919395606644
+time=1651342523.5552707 Pos: [0.65931677 0.         2.63953042] angle -1.6274919395606644
+time=1651342523.6548045 Pos: [0.65905278 0.         2.64418168] angle -1.6274919395606644
+time=1651342523.755541 Pos: [0.65878879 0.         2.64883294] angle -1.6274919395606644
+time=1651342523.8586595 Pos: [0.6585248 0.        2.6534842] angle -1.6274919395606644
+time=1651342523.9591074 [0.58474129 0.         2.62992413] corresponds to tile at (0, 4) which is not drivable: {'coords': (0, 4), 'kind': 'asphalt', 'angle': 0, 'drivable': False, 'texture': <gym_duckietown.graphics.Texture object at 0x7f060c0342e8>, 'color': array([1, 1, 1])}
+time=1651342523.9598331 Invalid pose. Collision free: True On drivable area: False
+time=1651342523.9599128 safety_factor: 1.0
+time=1651342523.960256 pos: [0.65962078 0.         2.63417403]
+time=1651342523.960557 l_pos: [0.73450027 0.         2.63842392]
+time=1651342523.9608827 r_pos: [0.58474129 0.         2.62992413]
+time=1651342523.9611604 f_pos: [0.65452091 0.         2.72402942]
+time=1651342523.9612584 Stopping the simulator because we are at an invalid pose.
+time=1651342523.961598 Pos: [0.65826081 0.         2.65813546] angle -1.6274919395606644
+ 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.66301261 0.         2.57441276] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.09748738501434484
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.09748738501434484 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.66274863 0.         2.57906402] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.0977513740382826
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.0977513740382826 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.66248464 0.         2.58371528] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.09801536306222036
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.09801536306222036 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.66222065 0.         2.58836655] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.09827935208615812
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.09827935208615812 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.66195666 0.         2.59301781] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.09854334111009588
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.09854334111009588 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.66169267 0.         2.59766907] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.09880733013403364
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.09880733013403364 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.66142868 0.         2.60232033] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.0990713191579713
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.0990713191579713 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.66116469 0.         2.60697159] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.09933530818190928
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.09933530818190928 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.6609007  0.         2.61162285] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.09959929720584693
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.09959929720584693 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.66063671 0.         2.61627411] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.09986328622978469
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.09986328622978469 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.66037272 0.         2.62092537] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.10012727525372245
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.10012727525372245 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.66010874 0.         2.62557664] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.10039126427766021
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.10039126427766021 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.65984475 0.         2.6302279 ] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.10065525330159797
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.10065525330159797 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.65958076 0.         2.63487916] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.10091924232553573
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.10091924232553573 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.65931677 0.         2.63953042] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.10118323134947349
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.10118323134947349 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.65905278 0.         2.64418168] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.10144722037341125
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.10144722037341125 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.65878879 0.         2.64883294] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.10171120939734901
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.10171120939734901 angle_from_straight_in_rads= 0.05669561276576752
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+env.cur_pos= [0.6585248 0.        2.6534842] env.cur_angle= -1.6274919395606644
+distance_to_road_center= 0.10197519842128677
+angle_from_straight_in_rads= 0.05669561276576752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.10197519842128677 angle_from_straight_in_rads= 0.05669561276576752
+total reward =  -158.02743969223175
+False: Incorrect solution execution: Stopping the simulator because we are at an invalid pose.
