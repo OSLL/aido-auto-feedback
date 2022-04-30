@@ -1,0 +1,268 @@
+False: Incorrect solution execution: Stopping the simulator because we are at an invalid pose.
+time=1651339233.918018 gym-duckietown 2019.0.0
+
+time=1651339234.1855872 Registering gym environment id: Duckietown-4way-v0
+time=1651339234.185735 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1651339234.1858234 Registering gym environment id: Duckietown-loop_empty-v0
+time=1651339234.185909 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1651339234.1859934 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1651339234.186079 Registering gym environment id: Duckietown-small_loop-v0
+time=1651339234.1862118 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1651339234.1863258 Registering gym environment id: Duckietown-straight_road-v0
+time=1651339234.186441 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1651339234.186552 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1651339234.186641 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1651339234.1867077 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1651339234.1868057 Registering gym environment id: Duckietown-udem1-v0
+time=1651339234.186898 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1651339236.0545604 Falling back to non-multisampled frame buffer
+time=1651339236.0585928 Falling back to non-multisampled frame buffer
+time=1651339236.0627239 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/zigzag_dists.yaml"
+time=1651339236.079859 loading mesh "duckiebot.obj"
+time=1651339236.0801344 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1651339236.4904904 loading mesh "bus.obj"
+time=1651339236.5030375 loading texture "bus.png"
+time=1651339236.8785424 loading mesh "truck.obj"
+time=1651339236.8936336 loading texture "truck.png"
+time=1651339237.2704933 loading mesh "tree.obj"
+time=1651339237.270837 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/tree.mtl"
+time=1651339237.2739062 loading mesh "sign_blank.obj"
+time=1651339237.2762105 loading texture "sign_blank.png"
+time=1651339237.3674264 loading texture "asphalt_1.png"
+time=1651339237.5912654 loading texture "curve_left_1.png"
+time=1651339237.6016824 loading texture "straight_1.png"
+time=1651339237.6114926 loading texture "curve_right_1.png"
+time=1651339237.6278756 using user tile start: (1, 1)
+time=1651339237.6288846 tile: {'coords': (1, 1), 'kind': 'curve_left', 'angle': 3, 'drivable': True, 'curves': array([[[1.17  , 0.    , 0.7605],
+        [0.8775, 0.    , 0.7605],
+        [0.7605, 0.    , 0.8775],
+        [0.7605, 0.    , 1.17  ]],
+
+       [[0.9945, 0.    , 1.17  ],
+        [0.9945, 0.    , 1.053 ],
+        [1.053 , 0.    , 0.9945],
+        [1.17  , 0.    , 0.9945]]]), 'texture': <gym_duckietown.graphics.Texture object at 0x7fcac0078320>, 'color': array([1, 1, 1])}
+time=1651339237.6306026 road_tile_size=0.585
+time=1651339237.6309493 Starting at [0.7232891  0.         0.88444564] -1.7948136473090603
+time=1651339237.6312773 Pos: [0.7232891  0.         0.88444564] angle -1.7948136473090603
+time=1651339237.8780324 using DuckietownEnv
+/usr/local/lib/python3.6/dist-packages/gym/spaces/box.py:74: UserWarning: [33mWARN: Box bound precision lowered by casting to float32[0m
+  "Box bound precision lowered by casting to {}".format(self.dtype)
+time=1651339238.0902655 Pos: [0.72225417 0.         0.88898797] angle -1.7948136473090603
+time=1651339238.3806858 Pos: [0.72121924 0.         0.89353031] angle -1.7948136473090603
+time=1651339238.4800148 Pos: [0.7201843  0.         0.89807265] angle -1.7948136473090603
+time=1651339238.5798562 Pos: [0.71914937 0.         0.90261499] angle -1.7948136473090603
+time=1651339238.6758356 Pos: [0.71811444 0.         0.90715733] angle -1.7948136473090603
+time=1651339238.7716289 Pos: [0.71707951 0.         0.91169966] angle -1.7948136473090603
+time=1651339238.868304 Pos: [0.71604457 0.         0.916242  ] angle -1.7948136473090603
+time=1651339238.9657815 Pos: [0.71500964 0.         0.92078434] angle -1.7948136473090603
+time=1651339239.0662098 Pos: [0.71397471 0.         0.92532668] angle -1.7948136473090603
+time=1651339239.1654181 Pos: [0.71293977 0.         0.92986902] angle -1.7948136473090603
+time=1651339239.261044 Pos: [0.71190484 0.         0.93441136] angle -1.7948136473090603
+time=1651339239.3564944 Pos: [0.71086991 0.         0.93895369] angle -1.7948136473090603
+time=1651339239.4560995 Pos: [0.70983498 0.         0.94349603] angle -1.7948136473090603
+time=1651339239.5531902 Pos: [0.70880004 0.         0.94803837] angle -1.7948136473090603
+time=1651339239.6540253 Pos: [0.70776511 0.         0.95258071] angle -1.7948136473090603
+time=1651339239.7482703 Pos: [0.70673018 0.         0.95712305] angle -1.7948136473090603
+time=1651339239.8472085 Pos: [0.70569524 0.         0.96166538] angle -1.7948136473090603
+time=1651339239.9477842 Pos: [0.70466031 0.         0.96620772] angle -1.7948136473090603
+time=1651339240.0482366 Pos: [0.70362538 0.         0.97075006] angle -1.7948136473090603
+time=1651339240.1477149 Pos: [0.70259045 0.         0.9752924 ] angle -1.7948136473090603
+time=1651339240.2445695 Pos: [0.70155551 0.         0.97983474] angle -1.7948136473090603
+time=1651339240.3412795 Pos: [0.70052058 0.         0.98437707] angle -1.7948136473090603
+time=1651339240.440427 Pos: [0.69948565 0.         0.98891941] angle -1.7948136473090603
+time=1651339240.537883 Pos: [0.69845071 0.         0.99346175] angle -1.7948136473090603
+time=1651339240.632585 Pos: [0.69741578 0.         0.99800409] angle -1.7948136473090603
+time=1651339240.728966 Pos: [0.69638085 0.         1.00254643] angle -1.7948136473090603
+time=1651339240.8270292 Pos: [0.69534592 0.         1.00708877] angle -1.7948136473090603
+time=1651339240.9268608 Pos: [0.69431098 0.         1.0116311 ] angle -1.7948136473090603
+time=1651339241.0267324 Pos: [0.69327605 0.         1.01617344] angle -1.7948136473090603
+time=1651339241.125281 Pos: [0.69224112 0.         1.02071578] angle -1.7948136473090603
+time=1651339241.2221448 Pos: [0.69120618 0.         1.02525812] angle -1.7948136473090603
+time=1651339241.3184125 Pos: [0.69017125 0.         1.02980046] angle -1.7948136473090603
+time=1651339241.4139779 Pos: [0.68913632 0.         1.03434279] angle -1.7948136473090603
+time=1651339241.5108151 Pos: [0.68810138 0.         1.03888513] angle -1.7948136473090603
+time=1651339241.607021 Pos: [0.68706645 0.         1.04342747] angle -1.7948136473090603
+time=1651339241.7013073 Pos: [0.68603152 0.         1.04796981] angle -1.7948136473090603
+time=1651339241.7986703 Pos: [0.68499659 0.         1.05251215] angle -1.7948136473090603
+time=1651339241.8966749 Pos: [0.68396165 0.         1.05705448] angle -1.7948136473090603
+time=1651339241.994528 Pos: [0.68292672 0.         1.06159682] angle -1.7948136473090603
+time=1651339242.0949357 Pos: [0.68189179 0.         1.06613916] angle -1.7948136473090603
+time=1651339242.1908183 Pos: [0.68085685 0.         1.0706815 ] angle -1.7948136473090603
+time=1651339242.292463 Pos: [0.67982192 0.         1.07522384] angle -1.7948136473090603
+time=1651339242.3880484 Pos: [0.67878699 0.         1.07976618] angle -1.7948136473090603
+time=1651339242.4818776 Pos: [0.67775206 0.         1.08430851] angle -1.7948136473090603
+time=1651339242.5793428 Pos: [0.67671712 0.         1.08885085] angle -1.7948136473090603
+time=1651339242.676596 Pos: [0.67568219 0.         1.09339319] angle -1.7948136473090603
+time=1651339242.772245 Pos: [0.67464726 0.         1.09793553] angle -1.7948136473090603
+time=1651339242.8686137 Pos: [0.67361232 0.         1.10247787] angle -1.7948136473090603
+time=1651339242.9650612 Pos: [0.67257739 0.         1.1070202 ] angle -1.7948136473090603
+time=1651339243.0672235 Pos: [0.67154246 0.         1.11156254] angle -1.7948136473090603
+time=1651339243.164894 Pos: [0.67050753 0.         1.11610488] angle -1.7948136473090603
+time=1651339243.2615507 Pos: [0.66947259 0.         1.12064722] angle -1.7948136473090603
+time=1651339243.3591962 Pos: [0.66843766 0.         1.12518956] angle -1.7948136473090603
+time=1651339243.457824 Pos: [0.66740273 0.         1.12973189] angle -1.7948136473090603
+time=1651339243.5518916 Pos: [0.66636779 0.         1.13427423] angle -1.7948136473090603
+time=1651339243.6489446 Pos: [0.66533286 0.         1.13881657] angle -1.7948136473090603
+time=1651339243.7473896 Pos: [0.66429793 0.         1.14335891] angle -1.7948136473090603
+time=1651339243.845706 Pos: [0.663263   0.         1.14790125] angle -1.7948136473090603
+time=1651339243.9445243 Pos: [0.66222806 0.         1.15244359] angle -1.7948136473090603
+time=1651339244.059197 Pos: [0.66119313 0.         1.15698592] angle -1.7948136473090603
+time=1651339244.1590354 Pos: [0.6601582  0.         1.16152826] angle -1.7948136473090603
+time=1651339244.2562323 Pos: [0.65912326 0.         1.1660706 ] angle -1.7948136473090603
+time=1651339244.3672512 Pos: [0.65808833 0.         1.17061294] angle -1.7948136473090603
+time=1651339244.46234 Pos: [0.6570534  0.         1.17515528] angle -1.7948136473090603
+time=1651339244.5608296 Pos: [0.65601847 0.         1.17969761] angle -1.7948136473090603
+time=1651339244.6565385 Pos: [0.65498353 0.         1.18423995] angle -1.7948136473090603
+time=1651339244.7535768 Pos: [0.6539486  0.         1.18878229] angle -1.7948136473090603
+time=1651339244.851111 Pos: [0.65291367 0.         1.19332463] angle -1.7948136473090603
+time=1651339244.9463756 [0.58408433 0.         1.15780553] corresponds to tile at (0, 1) which is not drivable: {'coords': (0, 1), 'kind': 'asphalt', 'angle': 0, 'drivable': False, 'texture': <gym_duckietown.graphics.Texture object at 0x7fcac00782e8>, 'color': array([1, 1, 1])}
+time=1651339244.9471097 Invalid pose. Collision free: True On drivable area: False
+time=1651339244.947196 safety_factor: 1.0
+time=1651339244.9475145 pos: [0.65721029 0.         1.17446666]
+time=1651339244.9478285 l_pos: [0.73033626 0.         1.19112778]
+time=1651339244.9481456 r_pos: [0.58408433 0.         1.15780553]
+time=1651339244.9484348 f_pos: [0.63721694 0.         1.26221782]
+time=1651339244.948518 Stopping the simulator because we are at an invalid pose.
+time=1651339244.948874 Pos: [0.65187873 0.         1.19786697] angle -1.7948136473090603
+kv= 0.5 kw= 0.3
+speed= 0.1 steering= 0
+distance_to_road_center= 0.09205700816973372 angle_from_straight_in_rads= -0.2418440756832994
+speed= 0.1 steering= 0
+distance_to_road_center= 0.09097641451357698 angle_from_straight_in_rads= -0.22676107314026603
+speed= 0.1 steering= 0
+distance_to_road_center= 0.08994652649493613 angle_from_straight_in_rads= -0.2192962226174582
+speed= 0.1 steering= 0
+distance_to_road_center= 0.08896829548875392 angle_from_straight_in_rads= -0.20452285956656566
+speed= 0.1 steering= 0
+distance_to_road_center= 0.08803987148569989 angle_from_straight_in_rads= -0.19721545632689355
+speed= 0.1 steering= 0
+distance_to_road_center= 0.08716317447205779 angle_from_straight_in_rads= -0.18276172108212554
+speed= 0.1 steering= 0
+distance_to_road_center= 0.08633482611962712 angle_from_straight_in_rads= -0.17561629341316393
+speed= 0.1 steering= 0
+distance_to_road_center= 0.08555843106982626 angle_from_straight_in_rads= -0.1614903310350736
+speed= 0.1 steering= 0
+distance_to_road_center= 0.08482851332984194 angle_from_straight_in_rads= -0.15451050474060818
+speed= 0.1 steering= 0
+distance_to_road_center= 0.08415082606175875 angle_from_straight_in_rads= -0.14071869804797216
+speed= 0.1 steering= 0
+distance_to_road_center= 0.08351746723318021 angle_from_straight_in_rads= -0.13390724075173516
+speed= 0.1 steering= 0
+distance_to_road_center= 0.082936574006817 angle_from_straight_in_rads= -0.12045430554336004
+speed= 0.1 steering= 0
+distance_to_road_center= 0.08239860408326503 angle_from_straight_in_rads= -0.1072291290521907
+speed= 0.1 steering= 0
+distance_to_road_center= 0.08191141630737765 angle_from_straight_in_rads= -0.10070226825420132
+speed= 0.1 steering= 0
+distance_to_road_center= 0.08146694598044105 angle_from_straight_in_rads= -0.08782040975454437
+speed= 0.1 steering= 0
+distance_to_road_center= 0.08107069319835664 angle_from_straight_in_rads= -0.08146550079708416
+speed= 0.1 steering= 0
+distance_to_road_center= 0.08071717583393198 angle_from_straight_in_rads= -0.06892776786931108
+speed= 0.1 steering= 0
+distance_to_road_center= 0.08039631302889122 angle_from_straight_in_rads= -0.06892776786931108
+speed= 0.1 steering= 0
+distance_to_road_center= 0.08007545022385044 angle_from_straight_in_rads= -0.06892776786931108
+speed= 0.1 steering= 0
+distance_to_road_center= 0.07975458741880968 angle_from_straight_in_rads= -0.06892776786931108
+speed= 0.1 steering= 0
+distance_to_road_center= 0.07943372461376891 angle_from_straight_in_rads= -0.06892776786931108
+speed= 0.1 steering= 0
+distance_to_road_center= 0.07911286180872815 angle_from_straight_in_rads= -0.06892776786931108
+speed= 0.1 steering= 0
+distance_to_road_center= 0.07950649531464353 angle_from_straight_in_rads= -0.01533427335710443
+speed= 0.1 steering= 0
+distance_to_road_center= 0.0794487093489508 angle_from_straight_in_rads= -0.00966235200578634
+speed= 0.1 steering= 0
+distance_to_road_center= 0.07943067275888333 angle_from_straight_in_rads= 0.0015140063433977402
+speed= 0.1 steering= 0
+distance_to_road_center= 0.07945088693687914 angle_from_straight_in_rads= 0.007018918086098848
+speed= 0.1 steering= 0
+distance_to_road_center= 0.07950921989427424 angle_from_straight_in_rads= 0.017863491393329135
+speed= 0.1 steering= 0
+distance_to_road_center= 0.07960474150571638 angle_from_straight_in_rads= 0.02320370332412206
+speed= 0.1 steering= 0
+distance_to_road_center= 0.07973637919380988 angle_from_straight_in_rads= 0.03372143759163817
+speed= 0.1 steering= 0
+distance_to_road_center= 0.07990452320332285 angle_from_straight_in_rads= 0.03889957497813656
+speed= 0.1 steering= 0
+distance_to_road_center= 0.08010641116008911 angle_from_straight_in_rads= 0.04909599886783661
+speed= 0.1 steering= 0
+distance_to_road_center= 0.0803445144448596 angle_from_straight_in_rads= 0.05411495492666484
+speed= 0.1 steering= 0
+distance_to_road_center= 0.08061362808463865 angle_from_straight_in_rads= 0.06399608817939716
+speed= 0.1 steering= 0
+distance_to_road_center= 0.0809190617177992 angle_from_straight_in_rads= 0.06885898004552307
+speed= 0.1 steering= 0
+distance_to_road_center= 0.08125381507226677 angle_from_straight_in_rads= 0.07367057601643635
+speed= 0.1 steering= 0
+distance_to_road_center= 0.08162260271822422 angle_from_straight_in_rads= 0.08314137725102866
+speed= 0.1 steering= 0
+distance_to_road_center= 0.08202100926799126 angle_from_straight_in_rads= 0.08780134411301366
+speed= 0.1 steering= 0
+distance_to_road_center= 0.0824496891353054 angle_from_straight_in_rads= 0.09697234927425483
+speed= 0.1 steering= 0
+distance_to_road_center= 0.08290924225937799 angle_from_straight_in_rads= 0.10148417546284205
+speed= 0.1 steering= 0
+distance_to_road_center= 0.08338122020914206 angle_from_straight_in_rads= 0.10148417546284205
+speed= 0.1 steering= 0
+distance_to_road_center= 0.08391326150426738 angle_from_straight_in_rads= 0.11472974780668604
+speed= 0.1 steering= 0
+distance_to_road_center= 0.0844572165323022 angle_from_straight_in_rads= 0.11904965304961115
+speed= 0.1 steering= 0
+distance_to_road_center= 0.08502796761834458 angle_from_straight_in_rads= 0.1275489888442717
+speed= 0.1 steering= 0
+distance_to_road_center= 0.08562724874804734 angle_from_straight_in_rads= 0.13172924348952944
+speed= 0.1 steering= 0
+distance_to_road_center= 0.08625082637188188 angle_from_straight_in_rads= 0.1358637742175752
+speed= 0.1 steering= 0
+distance_to_road_center= 0.08690075969372012 angle_from_straight_in_rads= 0.14399732428172438
+speed= 0.1 steering= 0
+distance_to_road_center= 0.08757643231587278 angle_from_straight_in_rads= 0.14799717524113642
+speed= 0.1 steering= 0
+distance_to_road_center= 0.08827505909819355 angle_from_straight_in_rads= 0.1519529650493851
+speed= 0.1 steering= 0
+distance_to_road_center= 0.0889986645273288 angle_from_straight_in_rads= 0.15973402573986145
+speed= 0.1 steering= 0
+distance_to_road_center= 0.0897463075077838 angle_from_straight_in_rads= 0.16356012807440354
+speed= 0.1 steering= 0
+distance_to_road_center= 0.0905156243797401 angle_from_straight_in_rads= 0.16734383176440057
+speed= 0.1 steering= 0
+distance_to_road_center= 0.09130769731605293 angle_from_straight_in_rads= 0.17478569835334667
+speed= 0.1 steering= 0
+distance_to_road_center= 0.09212310727338498 angle_from_straight_in_rads= 0.178444686153805
+speed= 0.1 steering= 0
+distance_to_road_center= 0.09295897375025056 angle_from_straight_in_rads= 0.18206292478801409
+speed= 0.1 steering= 0
+distance_to_road_center= 0.09381495330351801 angle_from_straight_in_rads= 0.18564082332107648
+speed= 0.1 steering= 0
+distance_to_road_center= 0.09469381183995504 angle_from_straight_in_rads= 0.19267722812303553
+speed= 0.1 steering= 0
+distance_to_road_center= 0.09559230674425175 angle_from_straight_in_rads= 0.1961365439066588
+speed= 0.1 steering= 0
+distance_to_road_center= 0.09650977780871581 angle_from_straight_in_rads= 0.19955713837293718
+speed= 0.1 steering= 0
+distance_to_road_center= 0.09744614689712447 angle_from_straight_in_rads= 0.2062837599872578
+speed= 0.1 steering= 0
+distance_to_road_center= 0.09840356628673445 angle_from_straight_in_rads= 0.2095905798162722
+speed= 0.1 steering= 0
+distance_to_road_center= 0.09937888665219533 angle_from_straight_in_rads= 0.21286026349809253
+speed= 0.1 steering= 0
+distance_to_road_center= 0.10037180424749181 angle_from_straight_in_rads= 0.21609320131643125
+speed= 0.1 steering= 0
+distance_to_road_center= 0.10138202004863411 angle_from_straight_in_rads= 0.21928978098068158
+speed= 0.1 steering= 0
+distance_to_road_center= 0.10241166884838082 angle_from_straight_in_rads= 0.22401732051416354
+speed= 0.1 steering= 0
+distance_to_road_center= 0.10344660173629927 angle_from_straight_in_rads= 0.22401732051416354
+speed= 0.1 steering= 0
+distance_to_road_center= 0.10448153462421761 angle_from_straight_in_rads= 0.22401732051416354
+speed= 0.1 steering= 0
+distance_to_road_center= 0.10551646751213595 angle_from_straight_in_rads= 0.22401732051416354
+speed= 0.1 steering= 0
+distance_to_road_center= 0.10655140040005429 angle_from_straight_in_rads= 0.22401732051416354
+speed= 0.1 steering= 0
+distance_to_road_center= 0.10758633328797262 angle_from_straight_in_rads= 0.22401732051416354
+total reward =  -50.121501296641895
+False: Incorrect solution execution: Stopping the simulator because we are at an invalid pose.
