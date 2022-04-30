@@ -1,0 +1,244 @@
+False: Incorrect solution execution: Stopping the simulator because we are at an invalid pose.
+time=1651352070.0238209 gym-duckietown 2019.0.0
+
+time=1651352070.9944587 Registering gym environment id: Duckietown-4way-v0
+time=1651352070.9946458 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1651352070.994748 Registering gym environment id: Duckietown-loop_empty-v0
+time=1651352070.994867 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1651352070.9949768 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1651352070.9950626 Registering gym environment id: Duckietown-small_loop-v0
+time=1651352070.9951696 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1651352070.9952583 Registering gym environment id: Duckietown-straight_road-v0
+time=1651352070.9953346 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1651352070.995415 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1651352070.9955015 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1651352070.9955761 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1651352070.9956605 Registering gym environment id: Duckietown-udem1-v0
+time=1651352070.9957747 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1651352073.5616388 Falling back to non-multisampled frame buffer
+time=1651352073.5660474 Falling back to non-multisampled frame buffer
+time=1651352073.570448 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/zigzag_dists.yaml"
+time=1651352073.5922685 loading mesh "duckiebot.obj"
+time=1651352073.5926516 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1651352074.0170524 loading mesh "bus.obj"
+time=1651352074.0296538 loading texture "bus.png"
+time=1651352074.4304545 loading mesh "truck.obj"
+time=1651352074.446758 loading texture "truck.png"
+time=1651352074.8283815 loading mesh "tree.obj"
+time=1651352074.828696 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/tree.mtl"
+time=1651352074.8316832 loading mesh "sign_blank.obj"
+time=1651352074.8341346 loading texture "sign_blank.png"
+time=1651352074.9275146 loading texture "asphalt_1.png"
+time=1651352075.154357 loading texture "curve_left_1.png"
+time=1651352075.1640847 loading texture "straight_1.png"
+time=1651352075.1732576 loading texture "curve_right_1.png"
+time=1651352075.1895032 using user tile start: (1, 1)
+time=1651352075.1904514 tile: {'coords': (1, 1), 'kind': 'curve_left', 'angle': 3, 'drivable': True, 'curves': array([[[1.17  , 0.    , 0.7605],
+        [0.8775, 0.    , 0.7605],
+        [0.7605, 0.    , 0.8775],
+        [0.7605, 0.    , 1.17  ]],
+
+       [[0.9945, 0.    , 1.17  ],
+        [0.9945, 0.    , 1.053 ],
+        [1.053 , 0.    , 0.9945],
+        [1.17  , 0.    , 0.9945]]]), 'texture': <gym_duckietown.graphics.Texture object at 0x7f4dff486080>, 'color': array([1, 1, 1])}
+time=1651352075.1922002 road_tile_size=0.585
+time=1651352075.1925251 Starting at [0.72775336 0.         0.88894045] -1.7347286126211663
+time=1651352075.1928568 Pos: [0.72775336 0.         0.88894045] angle -1.7347286126211663
+time=1651352075.4718213 using DuckietownEnv
+/usr/local/lib/python3.6/dist-packages/gym/spaces/box.py:74: UserWarning: [33mWARN: Box bound precision lowered by casting to float32[0m
+  "Box bound precision lowered by casting to {}".format(self.dtype)
+time=1651352075.7046523 Pos: [0.72707357 0.         0.89260333] angle -1.773864742647146
+time=1651352076.0952156 Pos: [0.72555583 0.         0.89941005] angle -1.8065038416894295
+time=1651352076.2072053 Pos: [0.72302607 0.         0.90937036] angle -1.8325376333228736
+time=1651352076.3131557 Pos: [0.71924977 0.         0.92296623] angle -1.8509035702835444
+time=1651352076.4181511 Pos: [0.71422631 0.         0.94007652] angle -1.8618259080377713
+time=1651352076.5226424 Pos: [0.70804654 0.         0.96056668] angle -1.865609782158353
+time=1651352076.6267552 Pos: [0.70160398 0.         0.98186283] angle -1.8635209708566793
+time=1651352076.728961 Pos: [0.69618633 0.         1.00011931] angle -1.8550203718847662
+time=1651352076.832308 Pos: [0.69144039 0.         1.01673569] angle -1.8429948171720099
+time=1651352076.9357111 Pos: [0.68717975 0.         1.03242532] angle -1.8289233099505051
+time=1651352077.0442038 Pos: [0.68334802 0.         1.04741266] angle -1.8132749715144405
+time=1651352077.1484153 Pos: [0.67989668 0.         1.06188755] angle -1.7964491779300733
+time=1651352077.249836 Pos: [0.67664309 0.         1.07661411] angle -1.7800254360276677
+time=1651352077.3528898 Pos: [0.67378005 0.         1.09071446] angle -1.7622145164192053
+time=1651352077.4557328 Pos: [0.67115366 0.         1.10493844] angle -1.7445562675110067
+time=1651352077.560172 Pos: [0.66875821 0.         1.11932021] angle -1.7271289657626117
+time=1651352077.663352 Pos: [0.66663124 0.         1.13363459] angle -1.7094849585144092
+time=1651352077.7658255 Pos: [0.6647254  0.         1.14820231] angle -1.6922815627899317
+time=1651352077.869907 Pos: [0.66304068 0.         1.16303234] angle -1.675545278537836
+time=1651352077.9726808 Pos: [0.66157731 0.         1.17813021] angle -1.6592953954123866
+time=1651352078.0856445 Pos: [0.66028362 0.         1.19403471] angle -1.6446222739681249
+time=1651352078.191762 Pos: [0.65913919 0.         1.21096344] angle -1.631969768352155
+kv= 0.5 kw= 3
+speed= 0 steering= 0
+env.cur_pos= [0.72775336 0.         0.88894045] env.cur_angle= -1.7347286126211663
+distance_to_road_center= 0.08605957658115768
+angle_from_straight_in_rads= -0.294362273099412
+speed= 0.07997148449617142 steering= -0.8400570310076572
+distance_to_road_center= 0.08605957658115768 angle_from_straight_in_rads= -0.294362273099412
+kv= 0.5 kw= 3
+speed= 0 steering= 0
+env.cur_pos= [0.72707357 0.         0.89260333] env.cur_angle= -1.773864742647146
+distance_to_road_center= 0.08506334492785449
+angle_from_straight_in_rads= -0.2477099778021804
+speed= 0.149700869528693 steering= -0.700598260942614
+distance_to_road_center= 0.08506334492785449 angle_from_straight_in_rads= -0.2477099778021804
+kv= 0.5 kw= 3
+speed= 0 steering= 0
+env.cur_pos= [0.72555583 0.         0.89941005] env.cur_angle= -1.8065038416894295
+distance_to_road_center= 0.08352792335252422
+angle_from_straight_in_rads= -0.2001930996960466
+speed= 0.22059233129406114 steering= -0.5588153374118777
+distance_to_road_center= 0.08352792335252422 angle_from_straight_in_rads= -0.2001930996960466
+kv= 0.5 kw= 3
+speed= 0 steering= 0
+env.cur_pos= [0.72302607 0.         0.90937036] env.cur_angle= -1.8325376333228736
+distance_to_road_center= 0.08177673668827568
+angle_from_straight_in_rads= -0.1450377350683128
+speed= 0.3028875815695997 steering= -0.39422483686080056
+distance_to_road_center= 0.08177673668827568 angle_from_straight_in_rads= -0.1450377350683128
+kv= 0.5 kw= 3
+speed= 0 steering= 0
+env.cur_pos= [0.71924977 0.         0.92296623] env.cur_angle= -1.8509035702835444
+distance_to_road_center= 0.08008371180016229
+angle_from_straight_in_rads= -0.09149661193152071
+speed= 0.3827760100527595 steering= -0.23444797989448102
+distance_to_road_center= 0.08008371180016229 angle_from_straight_in_rads= -0.09149661193152071
+kv= 0.5 kw= 3
+speed= 0 steering= 0
+env.cur_pos= [0.71422631 0.         0.94007652] env.cur_angle= -1.8618259080377713
+distance_to_road_center= 0.07885949394432308
+angle_from_straight_in_rads= -0.040216868323482514
+speed= 0.459389571000857 steering= -0.08122085799828602
+distance_to_road_center= 0.07885949394432308 angle_from_straight_in_rads= -0.040216868323482514
+kv= 0.5 kw= 3
+speed= 0 steering= 0
+env.cur_pos= [0.70804654 0.         0.96056668] env.cur_angle= -1.865609782158353
+distance_to_road_center= 0.07846246730098833
+angle_from_straight_in_rads= 0.0018683669799782325
+speed= 0.47758183270478555 steering= 0.044836334590428864
+distance_to_road_center= 0.07846246730098833 angle_from_straight_in_rads= 0.0018683669799782325
+kv= 0.5 kw= 3
+speed= 0 steering= 0
+env.cur_pos= [0.70160398 0.         0.98186283] env.cur_angle= -1.8635209708566793
+distance_to_road_center= 0.07906066904957064
+angle_from_straight_in_rads= 0.047645007469110774
+speed= 0.4087673215339412 steering= 0.18246535693211766
+distance_to_road_center= 0.07906066904957064 angle_from_straight_in_rads= 0.047645007469110774
+kv= 0.5 kw= 3
+speed= 0 steering= 0
+env.cur_pos= [0.69618633 0.         1.00011931] env.cur_angle= -1.8550203718847662
+distance_to_road_center= 0.08020477644384323
+angle_from_straight_in_rads= 0.07267538122913193
+speed= 0.3709357340453413 steering= 0.25812853190931745
+distance_to_road_center= 0.08020477644384323 angle_from_straight_in_rads= 0.07267538122913193
+kv= 0.5 kw= 3
+speed= 0 steering= 0
+env.cur_pos= [0.69144039 0.         1.01673569] env.cur_angle= -1.8429948171720099
+distance_to_road_center= 0.08160533597267058
+angle_from_straight_in_rads= 0.08708074484108813
+speed= 0.34897754874520015 steering= 0.3020449025095997
+distance_to_road_center= 0.08160533597267058 angle_from_straight_in_rads= 0.08708074484108813
+kv= 0.5 kw= 3
+speed= 0 steering= 0
+env.cur_pos= [0.68717975 0.         1.03242532] env.cur_angle= -1.8289233099505051
+distance_to_road_center= 0.08314866413520604
+angle_from_straight_in_rads= 0.09810575082084118
+speed= 0.3320542077349367 steering= 0.3358915845301266
+distance_to_road_center= 0.08314866413520604 angle_from_straight_in_rads= 0.09810575082084118
+kv= 0.5 kw= 3
+speed= 0 steering= 0
+env.cur_pos= [0.68334802 0.         1.04741266] env.cur_angle= -1.8132749715144405
+distance_to_road_center= 0.0847553086665221
+angle_from_straight_in_rads= 0.10626266831839337
+speed= 0.31941717035577943 steering= 0.3611656592884412
+distance_to_road_center= 0.0847553086665221 angle_from_straight_in_rads= 0.10626266831839337
+kv= 0.5 kw= 3
+speed= 0 steering= 0
+env.cur_pos= [0.67989668 0.         1.06188755] env.cur_angle= -1.7964491779300733
+distance_to_road_center= 0.08635300336714388
+angle_from_straight_in_rads= 0.10311970608385498
+speed= 0.3237321900324316 steering= 0.3525356199351369
+distance_to_road_center= 0.08635300336714388 angle_from_straight_in_rads= 0.10311970608385498
+kv= 0.5 kw= 3
+speed= 0 steering= 0
+env.cur_pos= [0.67664309 0.         1.07661411] env.cur_angle= -1.7800254360276677
+distance_to_road_center= 0.08805811341401454
+angle_from_straight_in_rads= 0.11276077756287985
+speed= 0.3088443053021766 steering= 0.3823113893956468
+distance_to_road_center= 0.08805811341401454 angle_from_straight_in_rads= 0.11276077756287985
+kv= 0.5 kw= 3
+speed= 0 steering= 0
+env.cur_pos= [0.67378005 0.         1.09071446] env.cur_angle= -1.7622145164192053
+distance_to_road_center= 0.0896794652777534
+angle_from_straight_in_rads= 0.11139819339186914
+speed= 0.3104828435927579 steering= 0.37903431281448413
+distance_to_road_center= 0.0896794652777534 angle_from_straight_in_rads= 0.11139819339186914
+kv= 0.5 kw= 3
+speed= 0 steering= 0
+env.cur_pos= [0.67115366 0.         1.10493844] env.cur_angle= -1.7445562675110067
+distance_to_road_center= 0.09129418840775189
+angle_from_straight_in_rads= 0.10947664594180812
+speed= 0.31296148398534984 steering= 0.3740770320293003
+distance_to_road_center= 0.09129418840775189 angle_from_straight_in_rads= 0.10947664594180812
+kv= 0.5 kw= 3
+speed= 0 steering= 0
+env.cur_pos= [0.66875821 0.         1.11932021] env.cur_angle= -1.7271289657626117
+distance_to_road_center= 0.09289720352119207
+angle_from_straight_in_rads= 0.11076000460735645
+speed= 0.3106356922086673 steering= 0.37872861558266535
+distance_to_road_center= 0.09289720352119207 angle_from_straight_in_rads= 0.11076000460735645
+kv= 0.5 kw= 3
+speed= 0 steering= 0
+env.cur_pos= [0.66663124 0.         1.13363459] env.cur_angle= -1.7094849585144092
+distance_to_road_center= 0.09445054248150715
+angle_from_straight_in_rads= 0.10734853932838528
+speed= 0.3153645553870453 steering= 0.36927088922590945
+distance_to_road_center= 0.09445054248150715 angle_from_straight_in_rads= 0.10734853932838528
+kv= 0.5 kw= 3
+speed= 0 steering= 0
+env.cur_pos= [0.6647254  0.         1.14820231] env.cur_angle= -1.6922815627899317
+distance_to_road_center= 0.09597863013370458
+angle_from_straight_in_rads= 0.10375167546812819
+speed= 0.3203778292643816 steering= 0.35924434147123685
+distance_to_road_center= 0.09597863013370458 angle_from_straight_in_rads= 0.10375167546812819
+kv= 0.5 kw= 3
+speed= 0 steering= 0
+env.cur_pos= [0.66304068 0.         1.16303234] env.cur_angle= -1.675545278537836
+distance_to_road_center= 0.09747900931878649
+angle_from_straight_in_rads= 0.10002141220945875
+speed= 0.32559812935611526 steering= 0.3488037412877695
+distance_to_road_center= 0.09747900931878649 angle_from_straight_in_rads= 0.10002141220945875
+kv= 0.5 kw= 3
+speed= 0 steering= 0
+env.cur_pos= [0.66157731 0.         1.17813021] env.cur_angle= -1.6592953954123866
+distance_to_road_center= 0.09892269189721103
+angle_from_straight_in_rads= 0.08849906861749011
+speed= 0.3425207240994621 steering= 0.31495855180107585
+distance_to_road_center= 0.09892269189721103 angle_from_straight_in_rads= 0.08849906861749011
+kv= 0.5 kw= 3
+speed= 0 steering= 0
+env.cur_pos= [0.66028362 0.         1.19403471] env.cur_angle= -1.6446222739681249
+distance_to_road_center= 0.1002163830542131
+angle_from_straight_in_rads= 0.07382594717322824
+speed= 0.36420698347660435 steering= 0.2715860330467913
+distance_to_road_center= 0.1002163830542131 angle_from_straight_in_rads= 0.07382594717322824
+kv= 0.5 kw= 3
+speed= 0 steering= 0
+env.cur_pos= [0.65913919 0.         1.21096344] env.cur_angle= -1.631969768352155
+distance_to_road_center= 0.10136080570818273
+angle_from_straight_in_rads= 0.061173441557258595
+speed= 0.3828996362370664time=1651352078.2957106 [0.58444631 0.         1.2010362 ] corresponds to tile at (0, 2) which is not drivable: {'coords': (0, 2), 'kind': 'asphalt', 'angle': 0, 'drivable': False, 'texture': <gym_duckietown.graphics.Texture object at 0x7f4dff486518>, 'color': array([1, 1, 1])}
+time=1651352078.296433 Invalid pose. Collision free: True On drivable area: False
+time=1651352078.296511 safety_factor: 1.0
+time=1651352078.2968814 pos: [0.65935159 0.         1.20480431]
+time=1651352078.2971804 l_pos: [0.73425687 0.         1.20857242]
+time=1651352078.297455 r_pos: [0.58444631 0.         1.2010362 ]
+time=1651352078.29775 f_pos: [0.65482986 0.         1.29469064]
+time=1651352078.2978284 Stopping the simulator because we are at an invalid pose.
+time=1651352078.298149 Pos: [0.6581458 0.        1.228774 ] angle -1.6210589494597316
+ steering= 0.23420072752586715
+distance_to_road_center= 0.10136080570818273 angle_from_straight_in_rads= 0.061173441557258595
+total reward =  -9.473008489273576
+False: Incorrect solution execution: Stopping the simulator because we are at an invalid pose.
