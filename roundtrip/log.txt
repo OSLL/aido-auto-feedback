@@ -1,0 +1,26 @@
+False: Non-zero return code, probably a syntax error occurred\ntime=1652449681.0154288 gym-duckietown 2019.0.0
+
+time=1652449682.342372 Registering gym environment id: Duckietown-4way-v0
+time=1652449682.3425245 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1652449682.3426256 Registering gym environment id: Duckietown-loop_empty-v0
+time=1652449682.3427224 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1652449682.3428118 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1652449682.3429356 Registering gym environment id: Duckietown-small_loop-v0
+time=1652449682.3430262 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1652449682.3431149 Registering gym environment id: Duckietown-straight_road-v0
+time=1652449682.3432033 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1652449682.343321 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1652449682.3434057 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1652449682.343495 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1652449682.3436267 Registering gym environment id: Duckietown-udem1-v0
+time=1652449682.3437214 Registering gym environment id: Duckietown-zigzag_dists-v0
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib/python3.6/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/roundtrip/checker.py", line 30, in <module>
+    AngleRangeAtLeastPiChecker()
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/solution_evaluator.py", line 33, in __init__
+    self.solution_class = getattr(solution_file_as_module, solution_class_name)
+AttributeError: module 'gym_duckietown.tasks.roundtrip.solutions.solution' has no attribute 'RoundtripTaskSolution'
