@@ -1,0 +1,4523 @@
+False: Execution aborted by timeout\ntime=1652810064.3044984 gym-duckietown 2019.0.0
+
+time=1652810064.603711 Registering gym environment id: Duckietown-4way-v0
+time=1652810064.6038432 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1652810064.6039314 Registering gym environment id: Duckietown-loop_empty-v0
+time=1652810064.6040084 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1652810064.6040862 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1652810064.6041968 Registering gym environment id: Duckietown-small_loop-v0
+time=1652810064.6042805 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1652810064.6043904 Registering gym environment id: Duckietown-straight_road-v0
+time=1652810064.6044617 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1652810064.6045132 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1652810064.6046226 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1652810064.6046915 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1652810064.604758 Registering gym environment id: Duckietown-udem1-v0
+time=1652810064.604888 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1652810066.601283 Falling back to non-multisampled frame buffer
+time=1652810066.605332 Falling back to non-multisampled frame buffer
+time=1652810066.6102288 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/straight_road.yaml"
+time=1652810066.6209059 loading mesh "duckiebot.obj"
+time=1652810066.621221 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1652810067.0287454 loading texture "straight_1.png"
+time=1652810067.0467076 road_tile_size=0.585
+time=1652810067.0471878 Starting at [0.2925  0.      0.43875] 0
+time=1652810067.0474966 Pos: [0.2925  0.      0.43875] angle 0
+time=1652810067.2104013 using DuckietownEnv
+/usr/local/lib/python3.6/dist-packages/gym/spaces/box.py:74: UserWarning: [33mWARN: Box bound precision lowered by casting to float32[0m
+  "Box bound precision lowered by casting to {}".format(self.dtype)
+time=1652810067.2116594 loading mesh "duckie.obj"
+time=1652810067.259162 loading texture "duckie.png"
+time=1652810067.9159243 Pos: [0.2925  0.      0.43875] angle 0
+time=1652810068.218898 Pos: [0.3325  0.      0.43875] angle 0
+time=1652810068.295509 Pos: [0.3725  0.      0.43875] angle 0
+time=1652810068.3705857 Pos: [0.4125  0.      0.43875] angle 0
+time=1652810068.4419205 Pos: [0.4525  0.      0.43875] angle 0
+time=1652810068.5159261 Pos: [0.4925  0.      0.43875] angle 0
+time=1652810068.588338 Pos: [0.5325  0.      0.43875] angle 0
+time=1652810068.661728 Pos: [0.5725  0.      0.43875] angle 0
+time=1652810068.7331114 Pos: [0.6125  0.      0.43875] angle 0
+time=1652810068.8052902 Pos: [0.6525  0.      0.43875] angle 0
+time=1652810068.8777404 Pos: [0.6925  0.      0.43875] angle 0
+time=1652810068.9477475 Pos: [0.7325  0.      0.43875] angle 0
+time=1652810069.0235376 Pos: [0.7725  0.      0.43875] angle 0
+time=1652810069.0970232 Pos: [0.8125  0.      0.43875] angle 0
+time=1652810069.171516 Pos: [0.8525  0.      0.43875] angle 0
+time=1652810069.260711 Pos: [0.8925  0.      0.43875] angle 0
+time=1652810069.3338563 Pos: [0.9325  0.      0.43875] angle 0
+time=1652810069.4065378 Pos: [0.9725  0.      0.43875] angle 0
+time=1652810069.476709 Pos: [1.0125  0.      0.43875] angle 0
+time=1652810069.5496657 Pos: [1.0525  0.      0.43875] angle 0
+time=1652810069.6210217 Pos: [1.0925  0.      0.43875] angle 0
+time=1652810069.6913283 Pos: [1.1325  0.      0.43875] angle 0
+time=1652810069.762373 Pos: [1.1725  0.      0.43875] angle 0
+time=1652810069.8355436 Pos: [1.2125  0.      0.43875] angle 0
+time=1652810069.906887 Pos: [1.2525  0.      0.43875] angle 0
+time=1652810069.980622 Pos: [1.2925  0.      0.43875] angle 0
+time=1652810070.0560853 Pos: [1.3325  0.      0.43875] angle 0
+time=1652810070.1292093 Pos: [1.3725  0.      0.43875] angle 0
+time=1652810070.2008376 Pos: [1.4125  0.      0.43875] angle 0
+time=1652810070.272628 Pos: [1.4525  0.      0.43875] angle 0
+time=1652810070.3470829 Pos: [1.4925  0.      0.43875] angle 0
+time=1652810070.4199216 Pos: [1.5325  0.      0.43875] angle 0
+time=1652810070.4904702 Pos: [1.5725  0.      0.43875] angle 0
+time=1652810070.5623758 Pos: [1.6125  0.      0.43875] angle 0
+time=1652810070.6357548 Pos: [1.6525  0.      0.43875] angle 0
+time=1652810070.7059093 Pos: [1.6925  0.      0.43875] angle 0
+time=1652810070.776344 Pos: [1.7325  0.      0.43875] angle 0
+time=1652810070.8497655 Pos: [1.7725  0.      0.43875] angle 0
+time=1652810070.9229777 Pos: [1.8125  0.      0.43875] angle 0
+time=1652810070.9944532 Pos: [1.8525  0.      0.43875] angle 0
+time=1652810071.0682569 Pos: [1.8925  0.      0.43875] angle 0
+time=1652810071.1393425 Pos: [1.9325  0.      0.43875] angle 0
+time=1652810071.2104633 Pos: [1.9725  0.      0.43875] angle 0
+time=1652810071.2812243 Pos: [2.0125  0.      0.43875] angle 0
+time=1652810071.361673 Pos: [2.0525  0.      0.43875] angle 0
+time=1652810071.441021 Pos: [2.0925  0.      0.43875] angle 0
+time=1652810071.5128114 Pos: [2.1325  0.      0.43875] angle 0
+time=1652810071.5826402 Pos: [2.1725  0.      0.43875] angle 0
+time=1652810071.65341 Pos: [2.2125  0.      0.43875] angle 0
+time=1652810071.7240365 Pos: [2.2525  0.      0.43875] angle 0
+time=1652810071.7951524 Pos: [2.2925  0.      0.43875] angle 0
+time=1652810071.8655915 Pos: [2.3325  0.      0.43875] angle 0
+time=1652810071.9354937 Pos: [2.3725  0.      0.43875] angle 0
+time=1652810072.010444 Pos: [2.4125  0.      0.43875] angle 0
+time=1652810072.0802612 Pos: [2.4525  0.      0.43875] angle 0
+time=1652810072.1513903 Pos: [2.4925  0.      0.43875] angle 0
+time=1652810072.221738 Pos: [2.5325  0.      0.43875] angle 0
+time=1652810072.2924838 Pos: [2.5725  0.      0.43875] angle 0
+time=1652810072.3647144 Pos: [2.6125  0.      0.43875] angle 0
+time=1652810072.442691 Pos: [2.6525  0.      0.43875] angle 0
+time=1652810072.516824 Pos: [2.6925  0.      0.43875] angle 0
+time=1652810072.5899084 Pos: [2.7325  0.      0.43875] angle 0
+time=1652810072.6622262 Pos: [2.7725  0.      0.43875] angle 0
+time=1652810072.7356713 Pos: [2.8125  0.      0.43875] angle 0
+time=1652810072.806155 Pos: [2.8525  0.      0.43875] angle 0
+time=1652810072.8771417 Pos: [2.8925  0.      0.43875] angle 0
+time=1652810072.9482553 Pos: [2.9325  0.      0.43875] angle 0
+time=1652810073.0228748 Pos: [2.9725  0.      0.43875] angle 0
+time=1652810073.0945318 Pos: [3.0125  0.      0.43875] angle 0
+time=1652810073.166473 Pos: [3.0525  0.      0.43875] angle 0
+time=1652810073.2391431 Pos: [3.0925  0.      0.43875] angle 0
+time=1652810073.3115396 Pos: [3.1325  0.      0.43875] angle 0
+time=1652810073.3819773 Pos: [3.1725  0.      0.43875] angle 0
+time=1652810073.460149 Pos: [3.2125  0.      0.43875] angle 0
+time=1652810073.5350392 Pos: [3.2525  0.      0.43875] angle 0
+time=1652810073.6110973 Pos: [3.2925  0.      0.43875] angle 0
+env.road_tile_size = 0.585
+yellow_nonZero: 0.17585611979166665;
+yellow_percentage: 17.59;
+yellow_percentage_max: 17.6;
+moving: True
+-----
+yellow_nonZero: 0.17585286458333332;
+yellow_percentage: 17.59;
+yellow_percentage_max: 17.6;
+moving: True
+-----
+yellow_nonZero: 0.175849609375;
+yellow_percentage: 17.58;
+yellow_percentage_max: 17.6;
+moving: True
+-----
+yellow_nonZero: 0.175849609375;
+yellow_percentage: 17.58;
+yellow_percentage_max: 17.6;
+moving: True
+-----
+yellow_nonZero: 0.17585611979166665;
+yellow_percentage: 17.59;
+yellow_percentage_max: 17.6;
+moving: True
+-----
+yellow_nonZero: 0.17585611979166665;
+yellow_percentage: 17.59;
+yellow_percentage_max: 17.6;
+moving: True
+-----
+yellow_nonZero: 0.17585611979166665;
+yellow_percentage: 17.59;
+yellow_percentage_max: 17.6;
+moving: True
+-----
+yellow_nonZero: 0.17585611979166665;
+yellow_percentage: 17.59;
+yellow_percentage_max: 17.6;
+moving: True
+-----
+yellow_nonZero: 0.17585286458333332;
+yellow_percentage: 17.59;
+yellow_percentage_max: 17.6;
+moving: True
+-----
+yellow_nonZero: 0.17585611979166665;
+yellow_percentage: 17.59;
+yellow_percentage_max: 17.6;
+moving: True
+-----
+yellow_nonZero: 0.175849609375;
+yellow_percentage: 17.58;
+yellow_percentage_max: 17.6;
+moving: True
+-----
+yellow_nonZero: 0.17585286458333332;
+yellow_percentage: 17.59;
+yellow_percentage_max: 17.6;
+moving: True
+-----
+yellow_nonZero: 0.17585286458333332;
+yellow_percentage: 17.59;
+yellow_percentage_max: 17.6;
+moving: True
+-----
+yellow_nonZero: 0.17585611979166665;
+yellow_percentage: 17.59;
+yellow_percentage_max: 17.6;
+moving: True
+-----
+yellow_nonZero: 0.17585286458333332;
+yellow_percentage: 17.59;
+yellow_percentage_max: 17.6;
+moving: True
+-----
+yellow_nonZero: 0.17585286458333332;
+yellow_percentage: 17.59;
+yellow_percentage_max: 17.6;
+moving: True
+-----
+yellow_nonZero: 0.175849609375;
+yellow_percentage: 17.58;
+yellow_percentage_max: 17.6;
+moving: True
+-----
+yellow_nonZero: 0.175849609375;
+yellow_percentage: 17.58;
+yellow_percentage_max: 17.6;
+moving: True
+-----
+yellow_nonZero: 0.17585611979166665;
+yellow_percentage: 17.59;
+yellow_percentage_max: 17.6;
+moving: True
+-----
+yellow_nonZero: 0.175849609375;
+yellow_percentage: 17.58;
+yellow_percentage_max: 17.6;
+moving: True
+-----
+yellow_nonZero: 0.17585611979166665;
+yellow_percentage: 17.59;
+yellow_percentage_max: 17.6;
+moving: True
+-----
+yellow_nonZero: 0.175849609375;
+yellow_percentage: 17.58;
+yellow_percentage_max: 17.6;
+moving: True
+-----
+yellow_nonZero: 0.17585611979166665;
+yellow_percentage: 17.59;
+yellow_percentage_max: 17.6;
+moving: True
+-----
+yellow_nonZero: 0.17585286458333332;
+yellow_percentage: 17.59;
+yellow_percentage_max: 17.6;
+moving: True
+-----
+yellow_nonZero: 0.175849609375;
+yellow_percentage: 17.58;
+yellow_percentage_max: 17.6;
+moving: True
+-----
+yellow_nonZero: 0.17585611979166665;
+yellow_percentage: 17.59;
+yellow_percentage_max: 17.6;
+moving: True
+-----
+yellow_nonZero: 0.175849609375;
+yellow_percentage: 17.58;
+yellow_percentage_max: 17.6;
+moving: True
+-----
+yellow_nonZero: 0.175849609375;
+yellow_percentage: 17.58;
+yellow_percentage_max: 17.6;
+moving: True
+-----
+yellow_nonZero: 0.175849609375;
+yellow_percentage: 17.58;
+yellow_percentage_max: 17.6;
+moving: True
+-----
+yellow_nonZero: 0.175849609375;
+yellow_percentage: 17.58;
+yellow_percentage_max: 17.6;
+moving: True
+-----
+yellow_nonZero: 0.175849609375;
+yellow_percentage: 17.58;
+yellow_percentage_max: 17.6;
+moving: True
+-----
+yellow_nonZero: 0.17585286458333332;
+yellow_percentage: 17.59;
+yellow_percentage_max: 17.6;
+moving: True
+-----
+yellow_nonZero: 0.17585286458333332;
+yellow_percentage: 17.59;
+yellow_percentage_max: 17.6;
+moving: True
+-----
+yellow_nonZero: 0.175849609375;
+yellow_percentage: 17.58;
+yellow_percentage_max: 17.6;
+moving: True
+-----
+yellow_nonZero: 0.17585611979166665;
+yellow_percentage: 17.59;
+yellow_percentage_max: 17.6;
+moving: True
+-----
+yellow_nonZero: 0.175849609375;
+yellow_percentage: 17.58;
+yellow_percentage_max: 17.6;
+moving: True
+-----
+yellow_nonZero: 0.17585286458333332;
+yellow_percentage: 17.59;
+yellow_percentage_max: 17.6;
+moving: True
+-----
+yellow_nonZero: 0.17585611979166665;
+yellow_percentage: 17.59;
+yellow_percentage_max: 17.6;
+moving: True
+-----
+yellow_nonZero: 0.17585286458333332;
+yellow_percentage: 17.59;
+yellow_percentage_max: 17.6;
+moving: True
+-----
+yellow_nonZero: 0.175849609375;
+yellow_percentage: 17.58;
+yellow_percentage_max: 17.6;
+moving: True
+-----
+yellow_nonZero: 0.17585286458333332;
+yellow_percentage: 17.59;
+yellow_percentage_max: 17.6;
+moving: True
+-----
+yellow_nonZero: 0.175849609375;
+yellow_percentage: 17.58;
+yellow_percentage_max: 17.6;
+moving: True
+-----
+yellow_nonZero: 0.17585611979166665;
+yellow_percentage: 17.59;
+yellow_percentage_max: 17.6;
+moving: True
+-----
+yellow_nonZero: 0.17585611979166665;
+yellow_percentage: 17.59;
+yellow_percentage_max: 17.6;
+moving: True
+-----
+yellow_nonZero: 0.17585611979166665;
+yellow_percentage: 17.59;
+yellow_percentage_max: 17.6;
+moving: True
+-----
+yellow_nonZero: 0.17585611979166665;
+yellow_percentage: 17.59;
+yellow_percentage_max: 17.6;
+moving: True
+-----
+yellow_nonZero: 0.175849609375;
+yellow_percentage: 17.58;
+yellow_percentage_max: 17.6;
+moving: True
+-----
+yellow_nonZero: 0.175849609375;
+yellow_percentage: 17.58;
+yellow_percentage_max: 17.6;
+moving: True
+-----
+yellow_nonZero: 0.175849609375;
+yellow_percentage: 17.58;
+yellow_percentage_max: 17.6;
+moving: True
+-----
+yellow_nonZero: 0.175849609375;
+yellow_percentage: 17.58;
+yellow_percentage_max: 17.6;
+moving: True
+-----
+yellow_nonZero: 0.17585611979166665;
+yellow_percentage: 17.59;
+yellow_percentage_max: 17.6;
+moving: True
+-----
+yellow_nonZero: 0.17585286458333332;
+yellow_percentage: 17.59;
+yellow_percentage_max: 17.6;
+moving: True
+-----
+yellow_nonZero: 0.175849609375;
+yellow_percentage: 17.58;
+yellow_percentage_max: 17.6;
+moving: True
+-----
+yellow_nonZero: 0.17585286458333332;
+yellow_percentage: 17.59;
+yellow_percentage_max: 17.6;
+moving: True
+-----
+yellow_nonZero: 0.175849609375;
+yellow_percentage: 17.58;
+yellow_percentage_max: 17.6;
+moving: True
+-----
+yellow_nonZero: 0.175849609375;
+yellow_percentage: 17.58;
+yellow_percentage_max: 17.6;
+moving: True
+-----
+yellow_nonZero: 0.175849609375;
+yellow_percentage: 17.58;
+yellow_percentage_max: 17.6;
+moving: True
+-----
+yellow_nonZero: 0.175849609375;
+yellow_percentage: 17.58;
+yellow_percentage_max: 17.6;
+moving: True
+-----
+yellow_nonZero: 0.175849609375;
+yellow_percentage: 17.58;
+yellow_percentage_max: 17.6;
+moving: True
+-----
+yellow_nonZero: 0.175849609375;
+yellow_percentage: 17.58;
+yellow_percentage_max: 17.6;
+moving: True
+-----
+yellow_nonZero: 0.175849609375;
+yellow_percentage: 17.58;
+yellow_percentage_max: 17.6;
+moving: True
+-----
+yellow_nonZero: 0.17585611979166665;
+yellow_percentage: 17.59;
+yellow_percentage_max: 17.6;
+moving: True
+-----
+yellow_nonZero: 0.175849609375;
+yellow_percentage: 17.58;
+yellow_percentage_max: 17.6;
+moving: True
+-----
+yellow_nonZero: 0.17585286458333332;
+yellow_percentage: 17.59;
+yellow_percentage_max: 17.6;
+moving: True
+-----
+yellow_nonZero: 0.17585611979166665;
+yellow_percentage: 17.59;
+yellow_percentage_max: 17.6;
+moving: True
+-----
+yellow_nonZero: 0.175849609375;
+yellow_percentage: 17.58;
+yellow_percentage_max: 17.6;
+moving: True
+-----
+yellow_nonZero: 0.17585611979166665;
+yellow_percentage: 17.59;
+yellow_percentage_max: 17.6;
+moving: True
+-----
+yellow_nonZero: 0.175849609375;
+yellow_percentage: 17.58;
+yellow_percentage_max: 17.6;
+moving: True
+-----
+yellow_nonZero: 0.17585611979166665;
+yellow_percentage: 17.59;
+yellow_percentage_max: 17.6;
+moving: True
+-----
+yellow_nonZero: 0.17592447916666668;
+yellow_percentage: 17.59;
+yellow_percentage_max: 17.6;
+moving: True
+-----
+yellow_nonZero: 0.17592447916666668;
+yellow_percentage: 17.59;
+yellow_percentage_max: 17.6;
+moving: True
+-----
+yellow_nonZero: 0.17591796875;
+yellow_percentage: 17.59;
+yellow_percentage_max: 17.6;
+moving: True
+-----
+yellow_nonZero: 0.17591796875;
+yellow_percentage: 17.59;
+yellow_percentage_max: 17.6;
+moving: True
+-----
+yellow_nonZero: 0.17591796875;
+yellow_percentage: 17.59;
+yellow_percentage_max: 17.6;
+moving: True
+-----
+yellow_nonZero: 0.17592447916666668;
+yellow_percentage: 17.59;
+yellow_percentage_max: 17.6;
+moving: True
+-----
+yellow_nonZero: 0.17592447916666668;
+yellow_percentage: 17.59;
+yellow_percentage_max: 17.6;
+moving: True
+-----time=1652810073.7066326 Pos: [3.3325  0.      0.43875] angle 0
+time=1652810073.782047 Pos: [3.3725  0.      0.43875] angle 0
+time=1652810073.8541949 Pos: [3.4125  0.      0.43875] angle 0
+time=1652810073.9248729 Pos: [3.4525  0.      0.43875] angle 0
+time=1652810073.9972026 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810074.0736032 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810074.1436245 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810074.2134533 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810074.2825897 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810074.3547437 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810074.4250305 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810074.4970748 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810074.568797 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810074.6392696 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810074.709679 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810074.7780707 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810074.8456786 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810074.9437473 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810075.0338874 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810075.1148243 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810075.1905744 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810075.2735379 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810075.3463097 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810075.4163015 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810075.486585 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810075.5609686 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810075.629492 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810075.699111 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810075.7695382 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810075.8376389 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810075.9070456 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810075.976376 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810076.0509589 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810076.1228008 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810076.1959944 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810076.2662928 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810076.3365996 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810076.4048054 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810076.474233 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810076.5459366 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810076.6230814 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810076.6926656 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810076.7606313 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810076.8289428 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810076.8966737 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810076.9687557 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810077.0405838 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810077.1093478 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810077.1801422 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810077.2507997 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810077.3204975 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810077.3908896 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810077.4602585 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810077.530357 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810077.6003532 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810077.6753058 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810077.7454479 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810077.8174942 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810077.887924 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810077.9570715 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810078.0321436 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810078.102158 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810078.171516 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810078.2405276 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810078.311401 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810078.3823686 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810078.452566 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810078.52235 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810078.5919404 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810078.6654716 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810078.7620087 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810078.8315034 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810078.9020138 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810078.9715116 Pos: [3.4925  0.      0.43875] angle 0
+
+yellow_nonZero: 0.17592122395833334;
+yellow_percentage: 17.59;
+yellow_percentage_max: 17.6;
+moving: True
+-----
+yellow_nonZero: 0.17591796875;
+yellow_percentage: 17.59;
+yellow_percentage_max: 17.6;
+moving: True
+-----
+yellow_nonZero: 0.17592447916666668;
+yellow_percentage: 17.59;
+yellow_percentage_max: 17.6;
+moving: True
+-----
+yellow_nonZero: 0.17591796875;
+yellow_percentage: 17.59;
+yellow_percentage_max: 17.6;
+moving: True
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----time=1652810079.0449533 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810079.1134615 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810079.1828413 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810079.2530603 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810079.3221414 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810079.3911765 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810079.4594152 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810079.5334315 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810079.6059086 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810079.6763093 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810079.7453234 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810079.8186483 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810079.8873084 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810079.9579725 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810080.0315537 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810080.1003277 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810080.1719723 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810080.2415047 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810080.3103044 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810080.3814845 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810080.4524693 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810080.5237358 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810080.5935717 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810080.663889 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810080.7346058 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810080.8061697 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810080.896548 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810080.9654896 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810081.0384905 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810081.1075168 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810081.1792696 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810081.2516344 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810081.3227556 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810081.391479 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810081.4598522 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810081.530448 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810081.601537 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810081.6698265 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810081.739765 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810081.8090198 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810081.882287 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810081.955637 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810082.0306265 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810082.1029701 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810082.1735566 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810082.242942 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810082.313577 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810082.3812113 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810082.4502683 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810082.5196874 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810082.5901322 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810082.6595888 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810082.7292635 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810082.8002696 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810082.8695948 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810082.9474444 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810083.0223901 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810083.0924895 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810083.1628995 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810083.2318227 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810083.3012886 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810083.3725731 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810083.4420536 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810083.5128162 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810083.5832515 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810083.6523125 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810083.7226746 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810083.7964551 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810083.8665876 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810083.9349842 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810084.0123239 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810084.0821137 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810084.1508613 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810084.2217991 Pos: [3.4925  0.      0.43875] angle 0
+
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----time=1652810084.2935977 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810084.364144 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810084.4345033 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810084.5051773 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810084.575688 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810084.6482837 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810084.7185674 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810084.7880025 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810084.8585973 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810084.929972 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810085.0044281 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810085.0972767 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810085.1693256 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810085.2387419 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810085.3077867 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810085.3781905 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810085.4489517 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810085.5226598 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810085.5940819 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810085.6649642 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810085.7367592 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810085.805577 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810085.8783827 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810085.9481893 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810086.0244055 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810086.0945454 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810086.1693199 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810086.2407427 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810086.3116574 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810086.3866458 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810086.4760115 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810086.5654316 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810086.6499913 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810086.7194555 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810086.7895596 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810086.8578832 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810086.9281573 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810086.9981067 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810087.0712671 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810087.1455526 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810087.2156196 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810087.287749 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810087.3594902 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810087.4287014 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810087.4986982 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810087.570093 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810087.6394649 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810087.708149 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810087.7799857 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810087.8494515 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810087.9209032 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810087.9903247 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810088.0624723 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810088.133413 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810088.212888 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810088.2839088 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810088.3534698 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810088.4237297 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810088.4926438 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810088.5618017 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810088.6330132 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810088.7029579 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810088.7734911 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810088.8410873 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810088.9116738 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810088.9829662 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810089.0562558 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810089.124915 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810089.1952097 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810089.2705219 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810089.3469908 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810089.4148467 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810089.4839797 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810089.5556161 Pos: [3.4925  0.      0.43875] angle 0
+
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----time=1652810089.6270728 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810089.6977644 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810089.767471 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810089.8400884 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810089.9105911 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810089.9806743 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810090.0547688 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810090.124865 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810090.1940632 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810090.2631404 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810090.3712778 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810090.4412208 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810090.5105608 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810090.582275 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810090.6524086 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810090.725536 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810090.7982168 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810090.868295 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810090.938867 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810091.0119698 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810091.080985 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810091.149645 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810091.2180028 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810091.2866733 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810091.3593209 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810091.4323645 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810091.5011742 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810091.575544 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810091.644971 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810091.7149096 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810091.7849958 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810091.854091 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810091.922217 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810091.990105 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810092.061953 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810092.131105 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810092.1999543 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810092.2689688 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810092.3385456 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810092.4124625 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810092.4862502 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810092.5575802 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810092.628953 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810092.6979537 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810092.7679596 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810092.8368356 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810092.9054003 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810092.9750555 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810093.047437 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810093.1158051 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810093.1848116 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810093.2570262 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810093.3295772 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810093.4010718 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810093.4770262 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810093.5471404 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810093.616436 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810093.6863825 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810093.756035 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810093.8246582 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810093.8936388 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810093.9622087 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810094.032525 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810094.1035442 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810094.1750467 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810094.2452688 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810094.3147235 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810094.3845224 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810094.4547687 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810094.5271256 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810094.5974247 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810094.6660492 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810094.7349713 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810094.8035915 Pos: [3.4925  0.      0.43875] angle 0
+
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----time=1652810094.873061 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810094.9439552 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810095.018313 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810095.0901866 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810095.1609063 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810095.229223 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810095.3045614 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810095.383502 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810095.4592376 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810095.5387259 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810095.6499062 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810095.7222445 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810095.7969906 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810095.871141 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810095.9439647 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810096.0210557 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810096.0909195 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810096.1598704 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810096.2289758 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810096.2981617 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810096.3670654 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810096.436955 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810096.5064054 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810096.5777526 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810096.6517088 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810096.7232904 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810096.7948608 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810096.8660665 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810096.9377227 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810097.0094185 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810097.081142 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810097.1522586 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810097.2218306 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810097.2910593 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810097.3604894 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810097.4302695 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810097.5015888 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810097.575476 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810097.6465337 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810097.7306168 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810097.8020566 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810097.8712187 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810097.9413486 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810098.0116708 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810098.0807176 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810098.1497614 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810098.2188914 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810098.2893367 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810098.3589873 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810098.430581 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810098.500938 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810098.5718088 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810098.6412313 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810098.7111397 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810098.7857838 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810098.8551729 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810098.9268186 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810098.9984446 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810099.076003 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810099.146462 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810099.2151966 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810099.2872996 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810099.3594453 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810099.4288857 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810099.4996126 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810099.5691571 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810099.6397257 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810099.7097826 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810099.7796323 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810099.8508818 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810099.9203398 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810099.991487 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810100.0646472 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810100.1365309 Pos: [3.4925  0.      0.43875] angle 0
+
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----time=1652810100.208254 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810100.2779126 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810100.3485138 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810100.4184554 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810100.4877677 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810100.5574038 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810100.62548 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810100.6942515 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810100.7661536 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810100.846608 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810100.9177015 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810100.9924226 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810101.0680878 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810101.1386902 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810101.2103782 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810101.2793984 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810101.350843 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810101.4209104 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810101.489147 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810101.5593476 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810101.6309974 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810101.7160048 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810101.7893384 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810101.864213 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810101.9649465 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810102.0385234 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810102.1087017 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810102.1778193 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810102.247363 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810102.318254 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810102.3868532 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810102.457055 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810102.52726 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810102.598471 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810102.6690173 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810102.7435179 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810102.8145428 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810102.8834844 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810102.9566853 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810103.039797 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810103.10884 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810103.178232 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810103.247259 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810103.3179789 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810103.38823 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810103.460159 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810103.5303705 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810103.6026287 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810103.6741066 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810103.7448938 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810103.8160958 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810103.88545 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810103.9545493 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810104.0297296 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810104.1003635 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810104.1712282 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810104.244267 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810104.3158853 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810104.3884342 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810104.4627998 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810104.535116 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810104.605429 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810104.67346 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810104.741847 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810104.8104334 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810104.8810039 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810104.9519541 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810105.0247188 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810105.1076143 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810105.1775148 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810105.2475576 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810105.3203523 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810105.3926752 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810105.4612439 Pos: [3.4925  0.      0.43875] angle 0
+
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----time=1652810105.5320885 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810105.600566 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810105.6690154 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810105.7380452 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810105.8065667 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810105.8766558 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810105.9452364 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810106.0195546 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810106.0886884 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810106.1775987 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810106.2491257 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810106.31882 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810106.3898053 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810106.4606216 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810106.52914 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810106.597943 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810106.666543 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810106.7373335 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810106.808146 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810106.8759804 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810106.9442375 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810107.018789 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810107.0903463 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810107.1607664 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810107.2361577 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810107.304561 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810107.3738134 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810107.44432 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810107.5144172 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810107.5848098 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810107.6534963 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810107.7231076 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810107.7927275 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810107.8648164 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810107.9356098 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810108.007544 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810108.078037 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810108.1472154 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810108.2159352 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810108.291012 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810108.3599246 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810108.4298046 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810108.499149 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810108.5699596 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810108.6389034 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810108.7103946 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810108.7803695 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810108.8484964 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810108.917535 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810108.9859436 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810109.0582175 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810109.1267517 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810109.1959863 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810109.2657452 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810109.3394988 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810109.4101825 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810109.4806433 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810109.554295 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810109.6262512 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810109.6954422 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810109.7652442 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810109.8342817 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810109.9035563 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810109.9731314 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810110.0454795 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810110.1141636 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810110.1833537 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810110.252722 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810110.3248777 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810110.4013858 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810110.4734545 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810110.5435174 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810110.6155179 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810110.6857426 Pos: [3.4925  0.      0.43875] angle 0
+
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----time=1652810110.7582169 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810110.8276253 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810110.8988101 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810110.9699554 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810111.0410833 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810111.112296 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810111.1830134 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810111.2559304 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810111.3265364 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810111.4034898 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810111.4740736 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810111.5436018 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810111.6140974 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810111.6836438 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810111.7527134 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810111.8218846 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810111.8924127 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810111.9617631 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810112.033395 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810112.105973 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810112.1773515 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810112.2450073 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810112.3144326 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810112.384474 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810112.4594533 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810112.5281463 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810112.596717 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810112.6667752 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810112.7364166 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810112.8060505 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810112.876279 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810112.950856 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810113.0254996 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810113.0949533 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810113.164565 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810113.2342956 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810113.3046017 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810113.3747203 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810113.444301 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810113.5205781 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810113.5911133 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810113.6586862 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810113.7277863 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810113.801203 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810113.8723412 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810113.9412026 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810114.011541 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810114.080296 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810114.1498485 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810114.2182405 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810114.2870286 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810114.3559053 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810114.4254277 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810114.495491 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810114.5724552 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810114.645273 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810114.7155743 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810114.7869668 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810114.8582954 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810114.9287493 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810114.9985616 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810115.0718706 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810115.141293 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810115.210185 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810115.2795694 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810115.3498678 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810115.4181237 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810115.4898424 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810115.5597816 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810115.6555986 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810115.726616 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810115.8143933 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810115.8915837 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810115.9725444 Pos: [3.4925  0.      0.43875] angle 0
+
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----time=1652810116.0600314 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810116.1467614 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810116.2249289 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810116.2956958 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810116.3678916 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810116.4424512 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810116.5132027 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810116.5832734 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810116.6621149 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810116.7348113 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810116.8047588 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810116.8754532 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810116.9464571 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810117.0169394 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810117.087957 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810117.1583636 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810117.22773 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810117.2997704 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810117.3719764 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810117.442244 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810117.5128825 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810117.5820217 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810117.6508617 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810117.723396 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810117.7929971 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810117.8638754 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810117.9339285 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810118.007615 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810118.0771394 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810118.1501372 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810118.2210126 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810118.28944 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810118.358107 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810118.4267175 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810118.4947696 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810118.5638204 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810118.633183 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810118.7007015 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810118.7738533 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810118.842348 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810118.9113688 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810118.982877 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810119.0562356 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810119.1271386 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810119.1955109 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810119.2638667 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810119.332503 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810119.4024358 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810119.473238 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810119.543595 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810119.6150334 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810119.6841533 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810119.7526615 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810119.8290138 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810119.8993745 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810119.9694462 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810120.0409474 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810120.1087027 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810120.1782205 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810120.2474523 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810120.3161523 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810120.3860726 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810120.455521 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810120.525937 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810120.5957053 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810120.667402 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810120.738072 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810120.8072112 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810120.8816655 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810120.9511507 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810121.0256476 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810121.0952911 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810121.1675904 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810121.2371175 Pos: [3.4925  0.      0.43875] angle 0
+
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 17.78;
+yellow_percentage_max: 17.6;
+moving: False
+-----time=1652810121.3075814 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810121.3779457 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810121.446726 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810121.5186563 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810121.589423 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810121.6585968 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810121.727713 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810121.798277 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810121.866468 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810121.9423978 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810122.0168402 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810122.0860293 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810122.1554441 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810122.2254207 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810122.295325 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810122.3688242 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810122.440454 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810122.5109959 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810122.580356 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810122.6504347 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810122.7189264 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810122.79287 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810122.862114 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810122.932064 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810123.0271535 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810123.0954466 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810123.1658165 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810123.2375076 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810123.307343 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810123.3768237 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810123.4473777 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810123.5168905 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810123.5856588 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810123.6538377 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810123.7222087 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810123.7918932 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810123.863349 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810123.9336154 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810124.005879 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810124.0927355 Pos: [3.4925  0.      0.43875] angle 0
+time=1652810124.162782 Pos: [3.4925  0.      0.43875] angle 0
