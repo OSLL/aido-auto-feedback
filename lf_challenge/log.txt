@@ -1,0 +1,26 @@
+False: Non-zero return code, probably a syntax error occurred\ntime=1652778172.4599302 gym-duckietown 2019.0.0
+
+time=1652778172.745592 Registering gym environment id: Duckietown-4way-v0
+time=1652778172.745724 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1652778172.7458193 Registering gym environment id: Duckietown-loop_empty-v0
+time=1652778172.7459085 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1652778172.746002 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1652778172.7461176 Registering gym environment id: Duckietown-small_loop-v0
+time=1652778172.7462256 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1652778172.7463286 Registering gym environment id: Duckietown-straight_road-v0
+time=1652778172.7464457 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1652778172.7465503 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1652778172.7466307 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1652778172.7467043 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1652778172.7467942 Registering gym environment id: Duckietown-udem1-v0
+time=1652778172.7468812 Registering gym environment id: Duckietown-zigzag_dists-v0
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib/python3.6/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/lf_challenge/checker.py", line 6, in <module>
+    checkers=[RewardChecker()]
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/solution_evaluator.py", line 33, in __init__
+    self.solution_class = getattr(solution_file_as_module, solution_class_name)
+AttributeError: module 'gym_duckietown.tasks.lf_challenge.solutions.solution' has no attribute 'LfChallengeTaskSolution'
