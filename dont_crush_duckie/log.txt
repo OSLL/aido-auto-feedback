@@ -1,0 +1,4630 @@
+False: Execution aborted by timeout\ntime=1652983736.777976 gym-duckietown 2019.0.0
+
+time=1652983738.2028127 Registering gym environment id: Duckietown-4way-v0
+time=1652983738.2029843 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1652983738.2031286 Registering gym environment id: Duckietown-loop_empty-v0
+time=1652983738.2032285 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1652983738.203306 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1652983738.2033813 Registering gym environment id: Duckietown-small_loop-v0
+time=1652983738.2034633 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1652983738.2035525 Registering gym environment id: Duckietown-straight_road-v0
+time=1652983738.20363 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1652983738.2037525 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1652983738.2038465 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1652983738.2039242 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1652983738.2040567 Registering gym environment id: Duckietown-udem1-v0
+time=1652983738.2041783 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1652983740.9012456 Falling back to non-multisampled frame buffer
+time=1652983740.9380846 Falling back to non-multisampled frame buffer
+time=1652983740.942432 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/straight_road.yaml"
+time=1652983740.9667795 loading mesh "duckiebot.obj"
+time=1652983740.982698 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1652983741.4020715 loading texture "straight_1.png"
+time=1652983741.458634 road_tile_size=0.585
+time=1652983741.4592462 Starting at [0.2925  0.      0.43875] 0
+time=1652983741.459602 Pos: [0.2925  0.      0.43875] angle 0
+time=1652983741.8413098 using DuckietownEnv
+/usr/local/lib/python3.6/dist-packages/gym/spaces/box.py:74: UserWarning: [33mWARN: Box bound precision lowered by casting to float32[0m
+  "Box bound precision lowered by casting to {}".format(self.dtype)
+time=1652983741.8438137 loading mesh "duckie.obj"
+time=1652983741.8950229 loading texture "duckie.png"
+time=1652983742.6166966 Pos: [0.2925  0.      0.43875] angle 0
+time=1652983743.048587 Pos: [0.3325  0.      0.43875] angle 0
+time=1652983743.1278958 Pos: [0.3725  0.      0.43875] angle 0
+time=1652983743.205486 Pos: [0.4125  0.      0.43875] angle 0
+time=1652983743.280523 Pos: [0.4525  0.      0.43875] angle 0
+time=1652983743.357563 Pos: [0.4925  0.      0.43875] angle 0
+time=1652983743.4310985 Pos: [0.5325  0.      0.43875] angle 0
+time=1652983743.5056643 Pos: [0.5725  0.      0.43875] angle 0
+time=1652983743.5798457 Pos: [0.6125  0.      0.43875] angle 0
+time=1652983743.656293 Pos: [0.6525  0.      0.43875] angle 0
+time=1652983743.7341576 Pos: [0.6925  0.      0.43875] angle 0
+time=1652983743.8091981 Pos: [0.7325  0.      0.43875] angle 0
+time=1652983743.8917203 Pos: [0.7725  0.      0.43875] angle 0
+time=1652983743.967597 Pos: [0.8125  0.      0.43875] angle 0
+time=1652983744.0453985 Pos: [0.8525  0.      0.43875] angle 0
+time=1652983744.1213233 Pos: [0.8925  0.      0.43875] angle 0
+time=1652983744.195489 Pos: [0.9325  0.      0.43875] angle 0
+time=1652983744.2688007 Pos: [0.9725  0.      0.43875] angle 0
+time=1652983744.3432171 Pos: [1.0125  0.      0.43875] angle 0
+time=1652983744.4163096 Pos: [1.0525  0.      0.43875] angle 0
+time=1652983744.4888022 Pos: [1.0925  0.      0.43875] angle 0
+time=1652983744.5652397 Pos: [1.1325  0.      0.43875] angle 0
+time=1652983744.6383564 Pos: [1.1725  0.      0.43875] angle 0
+time=1652983744.7121725 Pos: [1.2125  0.      0.43875] angle 0
+time=1652983744.78721 Pos: [1.2525  0.      0.43875] angle 0
+time=1652983744.8625643 Pos: [1.2925  0.      0.43875] angle 0
+time=1652983744.9457755 Pos: [1.3325  0.      0.43875] angle 0
+time=1652983745.0242937 Pos: [1.3725  0.      0.43875] angle 0
+time=1652983745.0986981 Pos: [1.4125  0.      0.43875] angle 0
+time=1652983745.1730225 Pos: [1.4525  0.      0.43875] angle 0
+time=1652983745.2467165 Pos: [1.4925  0.      0.43875] angle 0
+time=1652983745.320447 Pos: [1.5325  0.      0.43875] angle 0
+time=1652983745.3972712 Pos: [1.5725  0.      0.43875] angle 0
+time=1652983745.4712121 Pos: [1.6125  0.      0.43875] angle 0
+time=1652983745.5445054 Pos: [1.6525  0.      0.43875] angle 0
+time=1652983745.6176553 Pos: [1.6925  0.      0.43875] angle 0
+time=1652983745.6947093 Pos: [1.7325  0.      0.43875] angle 0
+time=1652983745.7712858 Pos: [1.7725  0.      0.43875] angle 0
+time=1652983745.8474264 Pos: [1.8125  0.      0.43875] angle 0
+time=1652983745.924512 Pos: [1.8525  0.      0.43875] angle 0
+time=1652983746.0155435 Pos: [1.8925  0.      0.43875] angle 0
+time=1652983746.0944521 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983746.1695793 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983746.24284 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983746.317685 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983746.3907502 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983746.4622116 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983746.5353816 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983746.6088905 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983746.688816 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983746.7642877 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983746.837473 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983746.909978 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983746.9821413 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983747.061114 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983747.1342938 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983747.207014 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983747.2806683 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983747.3534799 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983747.4267216 Pos: [1.9325  0.      0.43875] angle 0
+env.road_tile_size = 0.585
+yellow_nonZero_pixels: 3971;
+yellow_nonZero: 0.012926432291666666;
+yellow_percentage: 1.0;
+yellow_percentage_max: 6.5;
+moving: True
+-----
+yellow_nonZero_pixels: 4010;
+yellow_nonZero: 0.013053385416666667;
+yellow_percentage: 1.0;
+yellow_percentage_max: 6.5;
+moving: True
+-----
+yellow_nonZero_pixels: 3852;
+yellow_nonZero: 0.0125390625;
+yellow_percentage: 1.0;
+yellow_percentage_max: 6.5;
+moving: True
+-----
+yellow_nonZero_pixels: 3914;
+yellow_nonZero: 0.012740885416666667;
+yellow_percentage: 1.0;
+yellow_percentage_max: 6.5;
+moving: True
+-----
+yellow_nonZero_pixels: 3873;
+yellow_nonZero: 0.012607421875;
+yellow_percentage: 1.0;
+yellow_percentage_max: 6.5;
+moving: True
+-----
+yellow_nonZero_pixels: 3731;
+yellow_nonZero: 0.012145182291666667;
+yellow_percentage: 1.0;
+yellow_percentage_max: 6.5;
+moving: True
+-----
+yellow_nonZero_pixels: 3512;
+yellow_nonZero: 0.011432291666666667;
+yellow_percentage: 1.0;
+yellow_percentage_max: 6.5;
+moving: True
+-----
+yellow_nonZero_pixels: 3170;
+yellow_nonZero: 0.010319010416666666;
+yellow_percentage: 1.0;
+yellow_percentage_max: 6.5;
+moving: True
+-----
+yellow_nonZero_pixels: 2958;
+yellow_nonZero: 0.00962890625;
+yellow_percentage: 1.0;
+yellow_percentage_max: 6.5;
+moving: True
+-----
+yellow_nonZero_pixels: 2927;
+yellow_nonZero: 0.009527994791666666;
+yellow_percentage: 1.0;
+yellow_percentage_max: 6.5;
+moving: True
+-----
+yellow_nonZero_pixels: 2839;
+yellow_nonZero: 0.009241536458333333;
+yellow_percentage: 1.0;
+yellow_percentage_max: 6.5;
+moving: True
+-----
+yellow_nonZero_pixels: 3164;
+yellow_nonZero: 0.010299479166666667;
+yellow_percentage: 1.0;
+yellow_percentage_max: 6.5;
+moving: True
+-----
+yellow_nonZero_pixels: 3838;
+yellow_nonZero: 0.012493489583333333;
+yellow_percentage: 1.0;
+yellow_percentage_max: 6.5;
+moving: True
+-----
+yellow_nonZero_pixels: 4147;
+yellow_nonZero: 0.013499348958333334;
+yellow_percentage: 1.0;
+yellow_percentage_max: 6.5;
+moving: True
+-----
+yellow_nonZero_pixels: 4370;
+yellow_nonZero: 0.014225260416666666;
+yellow_percentage: 1.0;
+yellow_percentage_max: 6.5;
+moving: True
+-----
+yellow_nonZero_pixels: 4213;
+yellow_nonZero: 0.013714192708333333;
+yellow_percentage: 1.0;
+yellow_percentage_max: 6.5;
+moving: True
+-----
+yellow_nonZero_pixels: 4188;
+yellow_nonZero: 0.0136328125;
+yellow_percentage: 1.0;
+yellow_percentage_max: 6.5;
+moving: True
+-----
+yellow_nonZero_pixels: 4328;
+yellow_nonZero: 0.014088541666666666;
+yellow_percentage: 1.0;
+yellow_percentage_max: 6.5;
+moving: True
+-----
+yellow_nonZero_pixels: 4188;
+yellow_nonZero: 0.0136328125;
+yellow_percentage: 1.0;
+yellow_percentage_max: 6.5;
+moving: True
+-----
+yellow_nonZero_pixels: 4161;
+yellow_nonZero: 0.013544921875;
+yellow_percentage: 1.0;
+yellow_percentage_max: 6.5;
+moving: True
+-----
+yellow_nonZero_pixels: 3997;
+yellow_nonZero: 0.013011067708333334;
+yellow_percentage: 1.0;
+yellow_percentage_max: 6.5;
+moving: True
+-----
+yellow_nonZero_pixels: 3827;
+yellow_nonZero: 0.012457682291666666;
+yellow_percentage: 1.0;
+yellow_percentage_max: 6.5;
+moving: True
+-----
+yellow_nonZero_pixels: 3669;
+yellow_nonZero: 0.011943359375;
+yellow_percentage: 1.0;
+yellow_percentage_max: 6.5;
+moving: True
+-----
+yellow_nonZero_pixels: 3381;
+yellow_nonZero: 0.011005859375;
+yellow_percentage: 1.0;
+yellow_percentage_max: 6.5;
+moving: True
+-----
+yellow_nonZero_pixels: 3472;
+yellow_nonZero: 0.011302083333333334;
+yellow_percentage: 1.0;
+yellow_percentage_max: 6.5;
+moving: True
+-----
+yellow_nonZero_pixels: 3555;
+yellow_nonZero: 0.011572265625;
+yellow_percentage: 1.0;
+yellow_percentage_max: 6.5;
+moving: True
+-----
+yellow_nonZero_pixels: 4216;
+yellow_nonZero: 0.013723958333333333;
+yellow_percentage: 1.0;
+yellow_percentage_max: 6.5;
+moving: True
+-----
+yellow_nonZero_pixels: 4933;
+yellow_nonZero: 0.01605794270833333;
+yellow_percentage: 2.0;
+yellow_percentage_max: 6.5;
+moving: True
+-----
+yellow_nonZero_pixels: 5281;
+yellow_nonZero: 0.017190755208333332;
+yellow_percentage: 2.0;
+yellow_percentage_max: 6.5;
+moving: True
+-----
+yellow_nonZero_pixels: 5513;
+yellow_nonZero: 0.017945963541666665;
+yellow_percentage: 2.0;
+yellow_percentage_max: 6.5;
+moving: True
+-----
+yellow_nonZero_pixels: 5719;
+yellow_nonZero: 0.018616536458333333;
+yellow_percentage: 2.0;
+yellow_percentage_max: 6.5;
+moving: True
+-----
+yellow_nonZero_pixels: 5864;
+yellow_nonZero: 0.019088541666666667;
+yellow_percentage: 2.0;
+yellow_percentage_max: 6.5;
+moving: True
+-----
+yellow_nonZero_pixels: 6219;
+yellow_nonZero: 0.020244140625;
+yellow_percentage: 2.0;
+yellow_percentage_max: 6.5;
+moving: True
+-----
+yellow_nonZero_pixels: 6474;
+yellow_nonZero: 0.02107421875;
+yellow_percentage: 2.0;
+yellow_percentage_max: 6.5;
+moving: True
+-----
+yellow_nonZero_pixels: 6828;
+yellow_nonZero: 0.0222265625;
+yellow_percentage: 2.0;
+yellow_percentage_max: 6.5;
+moving: True
+-----
+yellow_nonZero_pixels: 7464;
+yellow_nonZero: 0.024296875;
+yellow_percentage: 2.0;
+yellow_percentage_max: 6.5;
+moving: True
+-----
+yellow_nonZero_pixels: 7829;
+yellow_nonZero: 0.025485026041666668;
+yellow_percentage: 3.0;
+yellow_percentage_max: 6.5;
+moving: True
+-----
+yellow_nonZero_pixels: 8973;
+yellow_nonZero: 0.029208984375;
+yellow_percentage: 3.0;
+yellow_percentage_max: 6.5;
+moving: True
+-----
+yellow_nonZero_pixels: 10546;
+yellow_nonZero: 0.034329427083333336;
+yellow_percentage: 3.0;
+yellow_percentage_max: 6.5;
+moving: True
+-----
+yellow_nonZero_pixels: 13047;
+yellow_nonZero: 0.042470703125;
+yellow_percentage: 4.0;
+yellow_percentage_max: 6.5;
+moving: True
+-----
+yellow_nonZero_pixels: 17354;
+yellow_nonZero: 0.056490885416666664;
+yellow_percentage: 6.0;
+yellow_percentage_max: 6.5;
+moving: True
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----time=1652983747.5024116 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983747.578996 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983747.6534827 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983747.7289572 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983747.80307 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983747.878709 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983747.9525473 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983748.0282183 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983748.1031203 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983748.1779652 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983748.2522066 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983748.3279688 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983748.4020503 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983748.4792197 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983748.5542781 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983748.6272688 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983748.7006557 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983748.7756286 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983748.84832 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983748.92209 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983748.99346 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983749.0685563 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983749.146911 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983749.2288578 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983749.3010309 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983749.3773537 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983749.4537687 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983749.5296588 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983749.6051514 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983749.6806047 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983749.754722 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983749.827701 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983749.901297 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983749.9740243 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983750.0493407 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983750.122734 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983750.197623 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983750.2789822 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983750.35547 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983750.4298027 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983750.501915 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983750.5758288 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983750.6515028 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983750.7255173 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983750.7994566 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983750.872821 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983750.9482386 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983751.0250294 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983751.0999353 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983751.1759293 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983751.2558107 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983751.3332539 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983751.4061382 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983751.4797661 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983751.5522435 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983751.6243095 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983751.6974812 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983751.7706604 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983751.8442676 Pos: [1.9325  0.      0.43875] angle 0
+
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----time=1652983751.9176652 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983751.9904313 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983752.0682924 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983752.1440413 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983752.2175496 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983752.290421 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983752.3671494 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983752.4425123 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983752.5163069 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983752.5907366 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983752.6654897 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983752.7390778 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983752.8143375 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983752.8905706 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983752.967529 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983753.0446453 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983753.118921 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983753.1912258 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983753.264815 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983753.3384361 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983753.4174984 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983753.4922903 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983753.5653355 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983753.6522152 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983753.732907 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983753.8113096 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983753.8884287 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983753.9666674 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983754.0489793 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983754.1414523 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983754.2306457 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983754.3184886 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983754.4016893 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983754.4877913 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983754.5624428 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983754.6374414 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983754.7109852 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983754.7844088 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983754.8604546 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983754.9365053 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983755.0119479 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983755.0857801 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983755.160952 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983755.2358422 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983755.3105426 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983755.3837976 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983755.4582503 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983755.5352669 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983755.6089907 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983755.681631 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983755.758065 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983755.8342977 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983755.908152 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983755.9816353 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983756.056986 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983756.1311202 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983756.2071638 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983756.279946 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983756.353537 Pos: [1.9325  0.      0.43875] angle 0
+
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----time=1652983756.4281933 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983756.5086524 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983756.5845985 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983756.6618693 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983756.7384384 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983756.8144999 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983756.8902164 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983756.9649255 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983757.041501 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983757.1145623 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983757.1917493 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983757.2646658 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983757.3382137 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983757.4128919 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983757.4863973 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983757.5673242 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983757.642921 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983757.7176948 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983757.7909615 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983757.8658075 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983757.9405687 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983758.0143652 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983758.0880115 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983758.1631572 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983758.2374585 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983758.311348 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983758.38651 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983758.4636052 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983758.5389693 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983758.6183367 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983758.6931586 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983758.7686477 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983758.8438585 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983758.9177685 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983758.9932828 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983759.0709186 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983759.1448236 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983759.2203884 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983759.2954793 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983759.372441 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983759.4494967 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983759.5262454 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983759.6023595 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983759.6825616 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983759.7559025 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983759.8317595 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983759.9089317 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983759.9891822 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983760.0687933 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983760.1432676 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983760.216989 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983760.293286 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983760.3709886 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983760.4456549 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983760.5210686 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983760.5958393 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983760.669664 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983760.7593632 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983760.8344872 Pos: [1.9325  0.      0.43875] angle 0
+
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----time=1652983760.909388 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983760.9823756 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983761.0577695 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983761.1324916 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983761.2118652 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983761.286824 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983761.3609717 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983761.4347527 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983761.5083988 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983761.5815005 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983761.6576629 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983761.733641 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983761.813243 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983761.8868692 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983761.9627357 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983762.0386872 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983762.1177728 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983762.1951795 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983762.2685337 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983762.3416018 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983762.4165325 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983762.4896123 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983762.563509 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983762.638515 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983762.7121954 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983762.785031 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983762.871806 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983762.946652 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983763.0263422 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983763.1022964 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983763.1774876 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983763.2513185 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983763.3263736 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983763.39961 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983763.4736912 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983763.5498514 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983763.6230035 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983763.6996086 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983763.7733214 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983763.8501103 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983763.932349 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983764.0079947 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983764.0828416 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983764.1568198 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983764.2319658 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983764.3059154 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983764.37839 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983764.451558 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983764.5271218 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983764.6020627 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983764.677858 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983764.7522142 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983764.83076 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983764.9094312 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983764.986649 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983765.062911 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983765.138938 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983765.212274 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983765.2888107 Pos: [1.9325  0.      0.43875] angle 0
+
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----time=1652983765.3656905 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983765.4425676 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983765.5177236 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983765.590749 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983765.6639202 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983765.7415965 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983765.817443 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983765.8923197 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983765.9732344 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983766.0529165 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983766.1266506 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983766.20026 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983766.3079796 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983766.3816273 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983766.4564798 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983766.5294037 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983766.6029007 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983766.679508 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983766.754644 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983766.829593 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983766.904438 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983766.9797075 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983767.06942 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983767.145517 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983767.2184834 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983767.2945287 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983767.368771 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983767.443072 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983767.518303 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983767.595132 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983767.6700037 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983767.7443397 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983767.8190882 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983767.8935401 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983767.968204 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983768.0427139 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983768.1287668 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983768.2047424 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983768.281368 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983768.355663 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983768.4300294 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983768.506837 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983768.5817733 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983768.65764 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983768.7345374 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983768.811171 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983768.8864233 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983768.9595013 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983769.036163 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983769.111675 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983769.1967592 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983769.270675 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983769.3463135 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983769.4260979 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983769.5042562 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983769.5793245 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983769.654476 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983769.7289383 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983769.8039234 Pos: [1.9325  0.      0.43875] angle 0
+
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----time=1652983769.882225 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983769.9591453 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983770.0385356 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983770.1145682 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983770.1915905 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983770.2698257 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983770.3489246 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983770.4276607 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983770.5030208 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983770.5795016 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983770.6547706 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983770.729643 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983770.8046951 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983770.8812926 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983770.9579835 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983771.0336328 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983771.1087794 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983771.1856287 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983771.2726421 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983771.350979 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983771.4248912 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983771.5008903 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983771.576349 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983771.6510608 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983771.7273457 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983771.8008852 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983771.8766725 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983771.9527042 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983772.0300145 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983772.1066818 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983772.184645 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983772.2604115 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983772.341995 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983772.418137 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983772.4934587 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983772.5668287 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983772.6412196 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983772.7173164 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983772.7919347 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983772.868377 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983772.9441555 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983773.019705 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983773.100405 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983773.178582 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983773.273208 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983773.3525698 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983773.4294686 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983773.5046368 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983773.5818422 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983773.6590955 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983773.7339103 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983773.8159354 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983773.8906014 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983773.9656723 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983774.0446193 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983774.119148 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983774.1926136 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983774.266888 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983774.3427029 Pos: [1.9325  0.      0.43875] angle 0
+
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----time=1652983774.4263716 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983774.5114 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983774.593003 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983774.6803865 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983774.7734528 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983774.8545601 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983774.9330564 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983775.0111506 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983775.0859938 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983775.1610713 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983775.2361124 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983775.3108494 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983775.38557 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983775.4713905 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983775.5471716 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983775.623741 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983775.6985717 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983775.7745073 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983775.8495367 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983775.9307346 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983776.0086498 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983776.0834987 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983776.158664 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983776.2344298 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983776.3103604 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983776.384679 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983776.458935 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983776.5384054 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983776.6148858 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983776.6896026 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983776.763787 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983776.8444004 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983776.9192169 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983776.9941547 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983777.0722606 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983777.1482375 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983777.2225125 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983777.2966928 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983777.3738172 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983777.4507053 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983777.529073 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983777.6151497 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983777.6959667 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983777.7836025 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983777.8613787 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983777.936468 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983778.0123012 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983778.091084 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983778.166665 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983778.2418692 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983778.3175254 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983778.3929822 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983778.4682107 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983778.5421665 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983778.6281788 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983778.7095711 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983778.7857358 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983778.8603916 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983778.9370844 Pos: [1.9325  0.      0.43875] angle 0
+
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----time=1652983779.0140321 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983779.0897644 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983779.1640847 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983779.2406876 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983779.3164637 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983779.391991 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983779.4656653 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983779.5405085 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983779.6191154 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983779.7040565 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983779.778626 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983779.853343 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983779.9301057 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983780.0054853 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983780.0817602 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983780.1569493 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983780.2297084 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983780.304431 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983780.378746 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983780.45337 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983780.5301797 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983780.6072714 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983780.6835034 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983780.7652214 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983780.8400123 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983780.916616 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983780.9911878 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983781.065418 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983781.1410866 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983781.2168894 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983781.2925286 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983781.3689575 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983781.447405 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983781.5217764 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983781.5951746 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983781.671926 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983781.7459466 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983781.8328645 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983781.9078267 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983781.9818647 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983782.0572257 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983782.1313863 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983782.2069843 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983782.2818477 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983782.3593938 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983782.4340332 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983782.5094242 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983782.584492 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983782.6586192 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983782.7329612 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983782.8065696 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983782.8847551 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983782.959647 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983783.0352473 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983783.1093912 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983783.1834817 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983783.2604551 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983783.336207 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983783.4113717 Pos: [1.9325  0.      0.43875] angle 0
+
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----time=1652983783.4950225 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983783.5877569 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983783.6735208 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983783.7481756 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983783.8248346 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983783.903574 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983783.9769096 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983784.0546901 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983784.1281102 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983784.2076359 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983784.2832127 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983784.3564038 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983784.430688 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983784.5059633 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983784.5824728 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983784.655904 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983784.7294972 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983784.8050828 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983784.8831277 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983784.9755955 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983785.05339 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983785.1325905 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983785.207886 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983785.2831056 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983785.35846 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983785.4345615 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983785.5105438 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983785.5847309 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983785.6625543 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983785.7367334 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983785.8134232 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983785.8880494 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983785.963215 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983786.0529344 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983786.1288521 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983786.2033792 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983786.2793167 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983786.3566337 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983786.432708 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983786.5091062 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983786.5840716 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983786.6566715 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983786.7303002 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983786.8038223 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983786.8789763 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983786.9564428 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983787.035741 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983787.1174269 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983787.1941643 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983787.2677402 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983787.3425984 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983787.4153726 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983787.491432 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983787.566388 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983787.640728 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983787.715873 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983787.7892995 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983787.8662136 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983787.9432356 Pos: [1.9325  0.      0.43875] angle 0
+
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----time=1652983788.019229 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983788.0966933 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983788.1736598 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983788.2473435 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983788.3208919 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983788.3944705 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983788.4676912 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983788.5412695 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983788.6149535 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983788.6897688 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983788.76794 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983788.843417 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983788.9186015 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983788.9929767 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983789.068556 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983789.1462529 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983789.2232535 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983789.29646 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983789.3696544 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983789.4445198 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983789.5176969 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983789.5910435 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983789.6682317 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983789.7428575 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983789.8164957 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983789.8911827 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983789.9665372 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983790.042904 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983790.1170306 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983790.1985438 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983790.2751186 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983790.3498297 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983790.423515 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983790.4994488 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983790.5772398 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983790.6536484 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983790.7297044 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983790.8049653 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983790.8798673 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983790.9556262 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983791.031383 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983791.1082695 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983791.183756 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983791.2739568 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983791.3519726 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983791.4255064 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983791.5027065 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983791.5798419 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983791.6537185 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983791.7285197 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983791.8035693 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983791.8820546 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983791.9572496 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983792.0325394 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983792.1074064 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983792.18403 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983792.2582934 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983792.3428168 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983792.4191258 Pos: [1.9325  0.      0.43875] angle 0
+
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----
+yellow_nonZero_pixels: 25102;
+yellow_nonZero: 0.08171223958333333;
+yellow_percentage: 8.0;
+yellow_percentage_max: 6.5;
+moving: False
+-----time=1652983792.497163 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983792.57306 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983792.6485107 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983792.7212636 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983792.7944815 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983792.8678522 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983792.9454713 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983793.0196095 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983793.0962737 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983793.1705267 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983793.2476077 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983793.3241239 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983793.4173596 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983793.4918542 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983793.5667763 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983793.6406171 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983793.7172327 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983793.791627 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983793.8660364 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983793.9418762 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983794.0189142 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983794.0949147 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983794.1682668 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983794.2471108 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983794.3215203 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983794.3947084 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983794.490675 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983794.5646675 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983794.639622 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983794.713428 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983794.7881281 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983794.8617687 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983794.9471364 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983795.0462728 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983795.138829 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983795.23439 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983795.325096 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983795.4157176 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983795.5156286 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983795.597388 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983795.6946487 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983795.7843876 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983795.8651812 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983795.9462621 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983796.0279663 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983796.1142156 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983796.1955013 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983796.287495 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983796.3706117 Pos: [1.9325  0.      0.43875] angle 0
+time=1652983796.4488232 Pos: [1.9325  0.      0.43875] angle 0
