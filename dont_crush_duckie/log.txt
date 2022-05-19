@@ -1,0 +1,609 @@
+False: Incorrect solution execution: Stopping the simulator because we are at an invalid pose.
+time=1652952857.70151 gym-duckietown 2019.0.0
+
+time=1652952859.1213596 Registering gym environment id: Duckietown-4way-v0
+time=1652952859.121502 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1652952859.1216486 Registering gym environment id: Duckietown-loop_empty-v0
+time=1652952859.121744 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1652952859.1218789 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1652952859.1220083 Registering gym environment id: Duckietown-small_loop-v0
+time=1652952859.1220877 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1652952859.1221669 Registering gym environment id: Duckietown-straight_road-v0
+time=1652952859.1222425 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1652952859.122322 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1652952859.122449 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1652952859.1225371 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1652952859.1226254 Registering gym environment id: Duckietown-udem1-v0
+time=1652952859.122714 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1652952861.922802 Falling back to non-multisampled frame buffer
+time=1652952861.951941 Falling back to non-multisampled frame buffer
+time=1652952861.9560475 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/straight_road.yaml"
+time=1652952861.9680674 loading mesh "duckiebot.obj"
+time=1652952861.9761858 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1652952862.3826222 loading texture "straight_1.png"
+time=1652952862.432458 road_tile_size=0.585
+time=1652952862.432915 Starting at [0.2925  0.      0.43875] 0
+time=1652952862.4332318 Pos: [0.2925  0.      0.43875] angle 0
+time=1652952862.7844238 using DuckietownEnv
+/usr/local/lib/python3.6/dist-packages/gym/spaces/box.py:74: UserWarning: [33mWARN: Box bound precision lowered by casting to float32[0m
+  "Box bound precision lowered by casting to {}".format(self.dtype)
+time=1652952862.787245 loading mesh "duckie.obj"
+time=1652952862.8378732 loading texture "duckie.png"
+time=1652952863.5932086 Pos: [0.2925  0.      0.43875] angle 0
+time=1652952864.0420322 Pos: [0.3325  0.      0.43875] angle 0
+time=1652952864.1180403 Pos: [0.3725  0.      0.43875] angle 0
+time=1652952864.1942346 Pos: [0.4125  0.      0.43875] angle 0
+time=1652952864.2639954 Pos: [0.4525  0.      0.43875] angle 0
+time=1652952864.3385067 Pos: [0.4925  0.      0.43875] angle 0
+time=1652952864.4095144 Pos: [0.5325  0.      0.43875] angle 0
+time=1652952864.4814525 Pos: [0.5725  0.      0.43875] angle 0
+time=1652952864.554307 Pos: [0.6125  0.      0.43875] angle 0
+time=1652952864.6316926 Pos: [0.6525  0.      0.43875] angle 0
+time=1652952864.7025518 Pos: [0.6925  0.      0.43875] angle 0
+time=1652952864.773068 Pos: [0.7325  0.      0.43875] angle 0
+time=1652952864.8434565 Pos: [0.7725  0.      0.43875] angle 0
+time=1652952864.9166546 Pos: [0.8125  0.      0.43875] angle 0
+time=1652952864.9889605 Pos: [0.8525  0.      0.43875] angle 0
+time=1652952865.0657332 Pos: [0.8925  0.      0.43875] angle 0
+time=1652952865.1370747 Pos: [0.9325  0.      0.43875] angle 0
+time=1652952865.207225 Pos: [0.9725  0.      0.43875] angle 0
+time=1652952865.2793388 Pos: [1.0125  0.      0.43875] angle 0
+time=1652952865.3501728 Pos: [1.0525  0.      0.43875] angle 0
+time=1652952865.4202335 Pos: [1.0925  0.      0.43875] angle 0
+time=1652952865.4931471 Pos: [1.1325  0.      0.43875] angle 0
+time=1652952865.5660543 Pos: [1.1725  0.      0.43875] angle 0
+time=1652952865.647351 Pos: [1.2125  0.      0.43875] angle 0
+time=1652952865.7212915 Pos: [1.2525  0.      0.43875] angle 0
+time=1652952865.7962651 Pos: [1.2925  0.      0.43875] angle 0
+time=1652952865.8701541 Pos: [1.3325  0.      0.43875] angle 0
+time=1652952865.948087 Pos: [1.3725  0.      0.43875] angle 0
+time=1652952866.0236707 Pos: [1.4125  0.      0.43875] angle 0
+time=1652952866.095961 Pos: [1.4525  0.      0.43875] angle 0
+time=1652952866.1740863 Pos: [1.4925  0.      0.43875] angle 0
+time=1652952866.2473223 Pos: [1.5325  0.      0.43875] angle 0
+time=1652952866.3208 Pos: [1.5725  0.      0.43875] angle 0
+time=1652952866.3949924 Pos: [1.6125  0.      0.43875] angle 0
+time=1652952866.4674792 Pos: [1.6525  0.      0.43875] angle 0
+time=1652952866.5399208 Pos: [1.6925  0.      0.43875] angle 0
+time=1652952866.6111028 Pos: [1.7325  0.      0.43875] angle 0
+time=1652952866.685831 Pos: [1.7725  0.      0.43875] angle 0
+time=1652952866.7616723 Pos: [1.8125  0.      0.43875] angle 0
+time=1652952866.8359432 Pos: [1.8525  0.      0.43875] angle 0
+time=1652952866.9102113 Pos: [1.8925  0.      0.43875] angle 0
+time=1652952866.983072 Pos: [1.9325  0.      0.43875] angle 0
+time=1652952867.0605912 Pos: [1.9725  0.      0.43875] angle 0
+time=1652952867.131592 Pos: [2.0125  0.      0.43875] angle 0
+time=1652952867.2022448 Pos: [2.0525  0.      0.43875] angle 0
+time=1652952867.274182 Pos: [2.0925  0.      0.43875] angle 0
+time=1652952867.3494897 Pos: [2.1325  0.      0.43875] angle 0
+time=1652952867.4230568 Pos: [2.1725  0.      0.43875] angle 0
+time=1652952867.4943132 Pos: [2.2125  0.      0.43875] angle 0
+time=1652952867.5668032 Pos: [2.2525  0.      0.43875] angle 0
+time=1652952867.640252 Pos: [2.2925  0.      0.43875] angle 0
+time=1652952867.7111301 Pos: [2.3325  0.      0.43875] angle 0
+time=1652952867.7985363 Pos: [2.3725  0.      0.43875] angle 0
+time=1652952867.8708792 Pos: [2.4125  0.      0.43875] angle 0
+time=1652952867.9428437 Pos: [2.4525  0.      0.43875] angle 0
+time=1652952868.0213907 Pos: [2.4925  0.      0.43875] angle 0
+time=1652952868.0942416 Pos: [2.5325  0.      0.43875] angle 0
+time=1652952868.1657622 Pos: [2.5725  0.      0.43875] angle 0
+time=1652952868.2374756 Pos: [2.6125  0.      0.43875] angle 0
+time=1652952868.310722 Pos: [2.6525  0.      0.43875] angle 0
+time=1652952868.3834324 Pos: [2.6925  0.      0.43875] angle 0
+env.road_tile_size = 0.585
+yellow_nonZero_pixels: 54023;
+yellow_nonZero: 0.17585611979166665;
+yellow_percentage: 18.0;
+yellow_percentage_max: 19;
+moving: True
+-----
+yellow_nonZero_pixels: 54022;
+yellow_nonZero: 0.17585286458333332;
+yellow_percentage: 18.0;
+yellow_percentage_max: 19;
+moving: True
+-----
+yellow_nonZero_pixels: 54021;
+yellow_nonZero: 0.175849609375;
+yellow_percentage: 18.0;
+yellow_percentage_max: 19;
+moving: True
+-----
+yellow_nonZero_pixels: 54021;
+yellow_nonZero: 0.175849609375;
+yellow_percentage: 18.0;
+yellow_percentage_max: 19;
+moving: True
+-----
+yellow_nonZero_pixels: 54023;
+yellow_nonZero: 0.17585611979166665;
+yellow_percentage: 18.0;
+yellow_percentage_max: 19;
+moving: True
+-----
+yellow_nonZero_pixels: 54023;
+yellow_nonZero: 0.17585611979166665;
+yellow_percentage: 18.0;
+yellow_percentage_max: 19;
+moving: True
+-----
+yellow_nonZero_pixels: 54023;
+yellow_nonZero: 0.17585611979166665;
+yellow_percentage: 18.0;
+yellow_percentage_max: 19;
+moving: True
+-----
+yellow_nonZero_pixels: 54023;
+yellow_nonZero: 0.17585611979166665;
+yellow_percentage: 18.0;
+yellow_percentage_max: 19;
+moving: True
+-----
+yellow_nonZero_pixels: 54022;
+yellow_nonZero: 0.17585286458333332;
+yellow_percentage: 18.0;
+yellow_percentage_max: 19;
+moving: True
+-----
+yellow_nonZero_pixels: 54023;
+yellow_nonZero: 0.17585611979166665;
+yellow_percentage: 18.0;
+yellow_percentage_max: 19;
+moving: True
+-----
+yellow_nonZero_pixels: 54021;
+yellow_nonZero: 0.175849609375;
+yellow_percentage: 18.0;
+yellow_percentage_max: 19;
+moving: True
+-----
+yellow_nonZero_pixels: 54022;
+yellow_nonZero: 0.17585286458333332;
+yellow_percentage: 18.0;
+yellow_percentage_max: 19;
+moving: True
+-----
+yellow_nonZero_pixels: 54022;
+yellow_nonZero: 0.17585286458333332;
+yellow_percentage: 18.0;
+yellow_percentage_max: 19;
+moving: True
+-----
+yellow_nonZero_pixels: 54023;
+yellow_nonZero: 0.17585611979166665;
+yellow_percentage: 18.0;
+yellow_percentage_max: 19;
+moving: True
+-----
+yellow_nonZero_pixels: 54022;
+yellow_nonZero: 0.17585286458333332;
+yellow_percentage: 18.0;
+yellow_percentage_max: 19;
+moving: True
+-----
+yellow_nonZero_pixels: 54022;
+yellow_nonZero: 0.17585286458333332;
+yellow_percentage: 18.0;
+yellow_percentage_max: 19;
+moving: True
+-----
+yellow_nonZero_pixels: 54021;
+yellow_nonZero: 0.175849609375;
+yellow_percentage: 18.0;
+yellow_percentage_max: 19;
+moving: True
+-----
+yellow_nonZero_pixels: 54021;
+yellow_nonZero: 0.175849609375;
+yellow_percentage: 18.0;
+yellow_percentage_max: 19;
+moving: True
+-----
+yellow_nonZero_pixels: 54023;
+yellow_nonZero: 0.17585611979166665;
+yellow_percentage: 18.0;
+yellow_percentage_max: 19;
+moving: True
+-----
+yellow_nonZero_pixels: 54021;
+yellow_nonZero: 0.175849609375;
+yellow_percentage: 18.0;
+yellow_percentage_max: 19;
+moving: True
+-----
+yellow_nonZero_pixels: 54023;
+yellow_nonZero: 0.17585611979166665;
+yellow_percentage: 18.0;
+yellow_percentage_max: 19;
+moving: True
+-----
+yellow_nonZero_pixels: 54021;
+yellow_nonZero: 0.175849609375;
+yellow_percentage: 18.0;
+yellow_percentage_max: 19;
+moving: True
+-----
+yellow_nonZero_pixels: 54023;
+yellow_nonZero: 0.17585611979166665;
+yellow_percentage: 18.0;
+yellow_percentage_max: 19;
+moving: True
+-----
+yellow_nonZero_pixels: 54022;
+yellow_nonZero: 0.17585286458333332;
+yellow_percentage: 18.0;
+yellow_percentage_max: 19;
+moving: True
+-----
+yellow_nonZero_pixels: 54021;
+yellow_nonZero: 0.175849609375;
+yellow_percentage: 18.0;
+yellow_percentage_max: 19;
+moving: True
+-----
+yellow_nonZero_pixels: 54023;
+yellow_nonZero: 0.17585611979166665;
+yellow_percentage: 18.0;
+yellow_percentage_max: 19;
+moving: True
+-----
+yellow_nonZero_pixels: 54021;
+yellow_nonZero: 0.175849609375;
+yellow_percentage: 18.0;
+yellow_percentage_max: 19;
+moving: True
+-----
+yellow_nonZero_pixels: 54021;
+yellow_nonZero: 0.175849609375;
+yellow_percentage: 18.0;
+yellow_percentage_max: 19;
+moving: True
+-----
+yellow_nonZero_pixels: 54021;
+yellow_nonZero: 0.175849609375;
+yellow_percentage: 18.0;
+yellow_percentage_max: 19;
+moving: True
+-----
+yellow_nonZero_pixels: 54021;
+yellow_nonZero: 0.175849609375;
+yellow_percentage: 18.0;
+yellow_percentage_max: 19;
+moving: True
+-----
+yellow_nonZero_pixels: 54021;
+yellow_nonZero: 0.175849609375;
+yellow_percentage: 18.0;
+yellow_percentage_max: 19;
+moving: True
+-----
+yellow_nonZero_pixels: 54022;
+yellow_nonZero: 0.17585286458333332;
+yellow_percentage: 18.0;
+yellow_percentage_max: 19;
+moving: True
+-----
+yellow_nonZero_pixels: 54022;
+yellow_nonZero: 0.17585286458333332;
+yellow_percentage: 18.0;
+yellow_percentage_max: 19;
+moving: True
+-----
+yellow_nonZero_pixels: 54021;
+yellow_nonZero: 0.175849609375;
+yellow_percentage: 18.0;
+yellow_percentage_max: 19;
+moving: True
+-----
+yellow_nonZero_pixels: 54023;
+yellow_nonZero: 0.17585611979166665;
+yellow_percentage: 18.0;
+yellow_percentage_max: 19;
+moving: True
+-----
+yellow_nonZero_pixels: 54021;
+yellow_nonZero: 0.175849609375;
+yellow_percentage: 18.0;
+yellow_percentage_max: 19;
+moving: True
+-----
+yellow_nonZero_pixels: 54022;
+yellow_nonZero: 0.17585286458333332;
+yellow_percentage: 18.0;
+yellow_percentage_max: 19;
+moving: True
+-----
+yellow_nonZero_pixels: 54023;
+yellow_nonZero: 0.17585611979166665;
+yellow_percentage: 18.0;
+yellow_percentage_max: 19;
+moving: True
+-----
+yellow_nonZero_pixels: 54022;
+yellow_nonZero: 0.17585286458333332;
+yellow_percentage: 18.0;
+yellow_percentage_max: 19;
+moving: True
+-----
+yellow_nonZero_pixels: 54021;
+yellow_nonZero: 0.175849609375;
+yellow_percentage: 18.0;
+yellow_percentage_max: 19;
+moving: True
+-----
+yellow_nonZero_pixels: 54022;
+yellow_nonZero: 0.17585286458333332;
+yellow_percentage: 18.0;
+yellow_percentage_max: 19;
+moving: True
+-----
+yellow_nonZero_pixels: 54021;
+yellow_nonZero: 0.175849609375;
+yellow_percentage: 18.0;
+yellow_percentage_max: 19;
+moving: True
+-----
+yellow_nonZero_pixels: 54023;
+yellow_nonZero: 0.17585611979166665;
+yellow_percentage: 18.0;
+yellow_percentage_max: 19;
+moving: True
+-----
+yellow_nonZero_pixels: 54023;
+yellow_nonZero: 0.17585611979166665;
+yellow_percentage: 18.0;
+yellow_percentage_max: 19;
+moving: True
+-----
+yellow_nonZero_pixels: 54023;
+yellow_nonZero: 0.17585611979166665;
+yellow_percentage: 18.0;
+yellow_percentage_max: 19;
+moving: True
+-----
+yellow_nonZero_pixels: 54023;
+yellow_nonZero: 0.17585611979166665;
+yellow_percentage: 18.0;
+yellow_percentage_max: 19;
+moving: True
+-----
+yellow_nonZero_pixels: 54021;
+yellow_nonZero: 0.175849609375;
+yellow_percentage: 18.0;
+yellow_percentage_max: 19;
+moving: True
+-----
+yellow_nonZero_pixels: 54021;
+yellow_nonZero: 0.175849609375;
+yellow_percentage: 18.0;
+yellow_percentage_max: 19;
+moving: True
+-----
+yellow_nonZero_pixels: 54021;
+yellow_nonZero: 0.175849609375;
+yellow_percentage: 18.0;
+yellow_percentage_max: 19;
+moving: True
+-----
+yellow_nonZero_pixels: 54021;
+yellow_nonZero: 0.175849609375;
+yellow_percentage: 18.0;
+yellow_percentage_max: 19;
+moving: True
+-----
+yellow_nonZero_pixels: 54023;
+yellow_nonZero: 0.17585611979166665;
+yellow_percentage: 18.0;
+yellow_percentage_max: 19;
+moving: True
+-----
+yellow_nonZero_pixels: 54022;
+yellow_nonZero: 0.17585286458333332;
+yellow_percentage: 18.0;
+yellow_percentage_max: 19;
+moving: True
+-----
+yellow_nonZero_pixels: 54021;
+yellow_nonZero: 0.175849609375;
+yellow_percentage: 18.0;
+yellow_percentage_max: 19;
+moving: True
+-----
+yellow_nonZero_pixels: 54022;
+yellow_nonZero: 0.17585286458333332;
+yellow_percentage: 18.0;
+yellow_percentage_max: 19;
+moving: True
+-----
+yellow_nonZero_pixels: 54021;
+yellow_nonZero: 0.175849609375;
+yellow_percentage: 18.0;
+yellow_percentage_max: 19;
+moving: True
+-----
+yellow_nonZero_pixels: 54021;
+yellow_nonZero: 0.175849609375;
+yellow_percentage: 18.0;
+yellow_percentage_max: 19;
+moving: True
+-----
+yellow_nonZero_pixels: 54021;
+yellow_nonZero: 0.175849609375;
+yellow_percentage: 18.0;
+yellow_percentage_max: 19;
+moving: True
+-----
+yellow_nonZero_pixels: 54021;
+yellow_nonZero: 0.175849609375;
+yellow_percentage: 18.0;
+yellow_percentage_max: 19;
+moving: True
+-----
+yellow_nonZero_pixels: 54021;
+yellow_nonZero: 0.175849609375;
+yellow_percentage: 18.0;
+yellow_percentage_max: 19;
+moving: True
+-----
+yellow_nonZero_pixels: 54021;
+yellow_nonZero: 0.175849609375;
+yellow_percentage: 18.0;
+yellow_percentage_max: 19;
+moving: True
+-----
+yellow_nonZero_pixels: 54021;
+yellow_nonZero: 0.175849609375;
+yellow_percentage: 18.0;
+yellow_percentage_max: 19;
+moving: True
+-----time=1652952868.457773 Pos: [2.7325  0.      0.43875] angle 0
+time=1652952868.5289416 Pos: [2.7725  0.      0.43875] angle 0
+time=1652952868.6012251 Pos: [2.8125  0.      0.43875] angle 0
+time=1652952868.6722875 Pos: [2.8525  0.      0.43875] angle 0
+time=1652952868.7438238 Pos: [2.8925  0.      0.43875] angle 0
+time=1652952868.8311768 Pos: [2.9325  0.      0.43875] angle 0
+time=1652952868.9104745 Pos: [2.9725  0.      0.43875] angle 0
+time=1652952868.9833233 Pos: [3.0125  0.      0.43875] angle 0
+time=1652952869.0592682 Pos: [3.0525  0.      0.43875] angle 0
+time=1652952869.1330245 Pos: [3.0925  0.      0.43875] angle 0
+time=1652952869.2040925 Pos: [3.1325  0.      0.43875] angle 0
+time=1652952869.2758174 Pos: [3.1725  0.      0.43875] angle 0
+time=1652952869.3502238 Pos: [3.2125  0.      0.43875] angle 0
+time=1652952869.423902 Pos: [3.2525  0.      0.43875] angle 0
+time=1652952869.4987195 Pos: [3.2925  0.      0.43875] angle 0
+time=1652952869.5712426 Pos: [3.3325  0.      0.43875] angle 0
+time=1652952869.645451 Pos: [3.3725  0.      0.43875] angle 0
+time=1652952869.7204597 Pos: [3.4125  0.      0.43875] angle 0
+time=1652952869.792439 Pos: [3.4525  0.      0.43875] angle 0
+time=1652952869.8664715 Pos: [3.4925  0.      0.43875] angle 0
+time=1652952869.9384573 Invalid pose. Collision free: False On drivable area: True
+time=1652952869.9385843 safety_factor: 1.0
+time=1652952869.9389544 pos: [3.5085  0.      0.43875]
+time=1652952869.939284 l_pos: [3.5085  0.      0.36375]
+time=1652952869.9396026 r_pos: [3.5085  0.      0.51375]
+time=1652952869.9398975 f_pos: [3.5985  0.      0.43875]
+time=1652952869.939971 Stopping the simulator because we are at an invalid pose.
+time=1652952869.9402921 Pos: [3.5325  0.      0.43875] angle 0
+
+yellow_nonZero_pixels: 54023;
+yellow_nonZero: 0.17585611979166665;
+yellow_percentage: 18.0;
+yellow_percentage_max: 19;
+moving: True
+-----
+yellow_nonZero_pixels: 54021;
+yellow_nonZero: 0.175849609375;
+yellow_percentage: 18.0;
+yellow_percentage_max: 19;
+moving: True
+-----
+yellow_nonZero_pixels: 54022;
+yellow_nonZero: 0.17585286458333332;
+yellow_percentage: 18.0;
+yellow_percentage_max: 19;
+moving: True
+-----
+yellow_nonZero_pixels: 54023;
+yellow_nonZero: 0.17585611979166665;
+yellow_percentage: 18.0;
+yellow_percentage_max: 19;
+moving: True
+-----
+yellow_nonZero_pixels: 54021;
+yellow_nonZero: 0.175849609375;
+yellow_percentage: 18.0;
+yellow_percentage_max: 19;
+moving: True
+-----
+yellow_nonZero_pixels: 54023;
+yellow_nonZero: 0.17585611979166665;
+yellow_percentage: 18.0;
+yellow_percentage_max: 19;
+moving: True
+-----
+yellow_nonZero_pixels: 54021;
+yellow_nonZero: 0.175849609375;
+yellow_percentage: 18.0;
+yellow_percentage_max: 19;
+moving: True
+-----
+yellow_nonZero_pixels: 54023;
+yellow_nonZero: 0.17585611979166665;
+yellow_percentage: 18.0;
+yellow_percentage_max: 19;
+moving: True
+-----
+yellow_nonZero_pixels: 54044;
+yellow_nonZero: 0.17592447916666668;
+yellow_percentage: 18.0;
+yellow_percentage_max: 19;
+moving: True
+-----
+yellow_nonZero_pixels: 54044;
+yellow_nonZero: 0.17592447916666668;
+yellow_percentage: 18.0;
+yellow_percentage_max: 19;
+moving: True
+-----
+yellow_nonZero_pixels: 54042;
+yellow_nonZero: 0.17591796875;
+yellow_percentage: 18.0;
+yellow_percentage_max: 19;
+moving: True
+-----
+yellow_nonZero_pixels: 54042;
+yellow_nonZero: 0.17591796875;
+yellow_percentage: 18.0;
+yellow_percentage_max: 19;
+moving: True
+-----
+yellow_nonZero_pixels: 54042;
+yellow_nonZero: 0.17591796875;
+yellow_percentage: 18.0;
+yellow_percentage_max: 19;
+moving: True
+-----
+yellow_nonZero_pixels: 54044;
+yellow_nonZero: 0.17592447916666668;
+yellow_percentage: 18.0;
+yellow_percentage_max: 19;
+moving: True
+-----
+yellow_nonZero_pixels: 54044;
+yellow_nonZero: 0.17592447916666668;
+yellow_percentage: 18.0;
+yellow_percentage_max: 19;
+moving: True
+-----
+yellow_nonZero_pixels: 54043;
+yellow_nonZero: 0.17592122395833334;
+yellow_percentage: 18.0;
+yellow_percentage_max: 19;
+moving: True
+-----
+yellow_nonZero_pixels: 54042;
+yellow_nonZero: 0.17591796875;
+yellow_percentage: 18.0;
+yellow_percentage_max: 19;
+moving: True
+-----
+yellow_nonZero_pixels: 54044;
+yellow_nonZero: 0.17592447916666668;
+yellow_percentage: 18.0;
+yellow_percentage_max: 19;
+moving: True
+-----
+yellow_nonZero_pixels: 54042;
+yellow_nonZero: 0.17591796875;
+yellow_percentage: 18.0;
+yellow_percentage_max: 19;
+moving: True
+-----
+yellow_nonZero_pixels: 54614;
+yellow_nonZero: 0.17777994791666665;
+yellow_percentage: 18.0;
+yellow_percentage_max: 19;
+moving: True
+-----
+total reward =  61.41486531460422
+False: Incorrect solution execution: Stopping the simulator because we are at an invalid pose.
