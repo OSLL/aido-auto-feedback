@@ -1,0 +1,26 @@
+False: Non-zero return code, probably a syntax error occurred\ntime=1653052915.491872 gym-duckietown 2019.0.0
+
+time=1653052915.7878563 Registering gym environment id: Duckietown-4way-v0
+time=1653052915.7879868 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1653052915.7880871 Registering gym environment id: Duckietown-loop_empty-v0
+time=1653052915.7881763 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1653052915.7882946 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1653052915.7883968 Registering gym environment id: Duckietown-small_loop-v0
+time=1653052915.7884953 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1653052915.7885835 Registering gym environment id: Duckietown-straight_road-v0
+time=1653052915.788688 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1653052915.788799 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1653052915.7889009 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1653052915.7890015 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1653052915.789092 Registering gym environment id: Duckietown-udem1-v0
+time=1653052915.789166 Registering gym environment id: Duckietown-zigzag_dists-v0
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib/python3.6/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/roundtrip/checker.py", line 30, in <module>
+    AngleRangeAtLeastPiChecker()
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/solution_evaluator.py", line 33, in __init__
+    self.solution_class = getattr(solution_file_as_module, solution_class_name)
+AttributeError: module 'gym_duckietown.tasks.roundtrip.solutions.solution' has no attribute 'RoundtripTaskSolution'
