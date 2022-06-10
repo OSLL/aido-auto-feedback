@@ -1,0 +1,74 @@
+False: Non-zero return code, probably a syntax error occurred\ntime=1654863350.1451275 gym-duckietown 2019.0.0
+
+time=1654863350.420481 Registering gym environment id: Duckietown-4way-v0
+time=1654863350.420621 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1654863350.4207106 Registering gym environment id: Duckietown-loop_empty-v0
+time=1654863350.4207973 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1654863350.4209135 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1654863350.4210017 Registering gym environment id: Duckietown-small_loop-v0
+time=1654863350.421149 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1654863350.4212737 Registering gym environment id: Duckietown-straight_road-v0
+time=1654863350.421356 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1654863350.4214315 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1654863350.4215136 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1654863350.4215863 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1654863350.4216578 Registering gym environment id: Duckietown-udem1-v0
+time=1654863350.4217424 Registering gym environment id: Duckietown-zigzag_dists-v0
+... logging to /home/appuser/.ros/log/126bbc00-e8b7-11ec-a88b-0242ac110003/roslaunch-384d835d9f02-146.log
+[1mstarted roslaunch server http://384d835d9f02:35105/[0m
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: melodic
+ * /rosversion: 1.14.12
+
+NODES
+  /
+    demo_node (demo/demo_node.py)
+    record (rosbag/record)
+
+auto-starting new master
+[1mprocess[master]: started with pid [161][0m
+[1mROS_MASTER_URI=http://localhost:11311[0m
+[1msetting /run_id to 126bbc00-e8b7-11ec-a88b-0242ac110003[0m
+[1mprocess[rosout-1]: started with pid [172][0m
+started core service [/rosout]
+[demo_node-2] killing on exit
+[rosout-1] killing on exit
+[master] killing on exit
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/roslaunch/nodeprocess.py", line 316, in start
+    self.popen = subprocess.Popen(self.args, cwd=cwd, stdout=logfileout, stderr=logfileerr, env=full_env, close_fds=close_file_descriptor, preexec_fn=preexec_function)
+  File "/usr/lib/python3.6/subprocess.py", line 729, in __init__
+    restore_signals, start_new_session)
+  File "/usr/lib/python3.6/subprocess.py", line 1364, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+OSError: [Errno 8] Exec format error: '/home/appuser/aido-auto/ros/catkin_ws/src/demo/scripts/demo_node.py'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib/python3.6/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/ride_1_m/checker.py", line 6, in <module>
+    checkers=[StopAtCoordinatesChecker()]
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/solution_evaluator.py", line 35, in __init__
+    self.task_generator.configure_ros()
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/task_generator.py", line 33, in configure_ros
+    self.generated_task['launch'].start()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/roslaunch/parent.py", line 300, in start
+    self.runner.launch()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/roslaunch/launch.py", line 663, in launch
+    succeeded, failed = self._launch_nodes()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/roslaunch/launch.py", line 370, in _launch_nodes
+    proc, success = self.launch_node(node)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/roslaunch/launch.py", line 562, in launch_node
+    success = process.start()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/roslaunch/nodeprocess.py", line 321, in start
+    raise FatalProcessLaunch("Unable to launch [%s]. \nIf it is a script, you may be missing a '#!' declaration at the top."%self.name)
+roslaunch.pmon.FatalProcessLaunch: Unable to launch [demo_node-2]. 
+If it is a script, you may be missing a '#!' declaration at the top.
