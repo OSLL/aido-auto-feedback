@@ -1,0 +1,26 @@
+False: Non-zero return code, probably a syntax error occurred\ntime=1655383647.4737425 gym-duckietown 2019.0.0
+
+time=1655383648.7003715 Registering gym environment id: Duckietown-4way-v0
+time=1655383648.7005262 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1655383648.7006245 Registering gym environment id: Duckietown-loop_empty-v0
+time=1655383648.700719 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1655383648.7008402 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1655383648.7009647 Registering gym environment id: Duckietown-small_loop-v0
+time=1655383648.7010846 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1655383648.7012033 Registering gym environment id: Duckietown-straight_road-v0
+time=1655383648.7012944 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1655383648.7014017 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1655383648.7014835 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1655383648.70156 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1655383648.7016447 Registering gym environment id: Duckietown-udem1-v0
+time=1655383648.7017622 Registering gym environment id: Duckietown-zigzag_dists-v0
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib/python3.6/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/lane_center/checker.py", line 26, in <module>
+    checkers=[StopAtLaneCenterChecker()],
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/solution_evaluator.py", line 33, in __init__
+    self.solution_class = getattr(solution_file_as_module, solution_class_name)
+AttributeError: module 'gym_duckietown.tasks.lane_center.solutions.solution' has no attribute 'LaneCenterTaskSolution'
