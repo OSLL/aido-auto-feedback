@@ -1,0 +1,57 @@
+
+time=1655402648.333242 gym-duckietown 2019.0.0
+
+time=1655402649.5903988 Registering gym environment id: Duckietown-4way-v0
+time=1655402649.590558 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1655402649.5906534 Registering gym environment id: Duckietown-loop_empty-v0
+time=1655402649.590773 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1655402649.5908594 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1655402649.5909524 Registering gym environment id: Duckietown-small_loop-v0
+time=1655402649.5910234 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1655402649.5910916 Registering gym environment id: Duckietown-straight_road-v0
+time=1655402649.5911603 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1655402649.5912619 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1655402649.5913303 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1655402649.5914006 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1655402649.5914814 Registering gym environment id: Duckietown-udem1-v0
+time=1655402649.5915527 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1655402652.5877895 Falling back to non-multisampled frame buffer
+time=1655402652.6484487 Falling back to non-multisampled frame buffer
+time=1655402652.6528656 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/zigzag_dists.yaml"
+time=1655402652.6747139 loading mesh "duckiebot.obj"
+time=1655402652.6750715 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1655402653.0921073 loading mesh "bus.obj"
+time=1655402653.1070611 loading texture "bus.png"
+time=1655402653.5447214 loading mesh "truck.obj"
+time=1655402653.561552 loading texture "truck.png"
+time=1655402653.936941 loading mesh "tree.obj"
+time=1655402653.937239 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/tree.mtl"
+time=1655402653.9416184 loading mesh "sign_blank.obj"
+time=1655402653.9460812 loading texture "sign_blank.png"
+time=1655402654.0384388 loading texture "asphalt_1.png"
+time=1655402654.2625089 loading texture "curve_left_1.png"
+time=1655402654.2742977 loading texture "straight_1.png"
+time=1655402654.3020139 loading texture "curve_right_1.png"
+time=1655402654.3466487 using user tile start: (1, 1)
+time=1655402654.347604 tile: {'coords': (1, 1), 'kind': 'curve_left', 'angle': 3, 'drivable': True, 'curves': array([[[1.17  , 0.    , 0.7605],
+        [0.8775, 0.    , 0.7605],
+        [0.7605, 0.    , 0.8775],
+        [0.7605, 0.    , 1.17  ]],
+
+       [[0.9945, 0.    , 1.17  ],
+        [0.9945, 0.    , 1.053 ],
+        [1.053 , 0.    , 0.9945],
+        [1.17  , 0.    , 0.9945]]]), 'texture': <gym_duckietown.graphics.Texture object at 0x7f36cd4b45c0>, 'color': array([1, 1, 1])}
+time=1655402654.349188 road_tile_size=0.585
+time=1655402654.3495455 Starting at [0.7112448  0.         0.93204725] -1.313711843950477
+time=1655402654.3499103 Pos: [0.7112448  0.         0.93204725] angle -1.313711843950477
+time=1655402654.866069 using DuckietownEnv
+/usr/local/lib/python3.6/dist-packages/gym/spaces/box.py:74: UserWarning: [33mWARN: Box bound precision lowered by casting to float32[0m
+  "Box bound precision lowered by casting to {}".format(self.dtype)
+time=1655402655.1439788 Pos: [0.7112448  0.         0.93204725] angle -1.2671243759793611
+time=1655402655.6015575 Pos: [0.7112448  0.         0.93204725] angle -1.2205369080082453
+time=1655402655.709311 Pos: [0.7112448  0.         0.93204725] angle -1.1739494400371295
+time=1655402655.8115466 Pos: [0.7112448  0.         0.93204725] angle -1.1273619720660137
+total reward =  -3.374369830972074
+False: Incorrect solution execution: OpenCV(4.5.4) /tmp/pip-req-build-w88qv8vs/opencv/modules/imgproc/src/color.cpp:182: error: (-215:Assertion failed) !_src.empty() in function 'cvtColor'
+
