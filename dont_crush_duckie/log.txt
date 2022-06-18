@@ -1,0 +1,31 @@
+False: Non-zero return code, probably a syntax error occurred\ntime=1655566430.2957997 gym-duckietown 2019.0.0
+
+time=1655566431.2476351 Registering gym environment id: Duckietown-4way-v0
+time=1655566431.24778 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1655566431.247881 Registering gym environment id: Duckietown-loop_empty-v0
+time=1655566431.2480204 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1655566431.2481568 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1655566431.2482505 Registering gym environment id: Duckietown-small_loop-v0
+time=1655566431.2483356 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1655566431.248416 Registering gym environment id: Duckietown-straight_road-v0
+time=1655566431.248492 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1655566431.2486053 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1655566431.2486901 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1655566431.248777 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1655566431.2488637 Registering gym environment id: Duckietown-udem1-v0
+time=1655566431.2489555 Registering gym environment id: Duckietown-zigzag_dists-v0
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib/python3.6/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/dont_crush_duckie/checker.py", line 6, in <module>
+    checkers=[StopAtCoordinatesChecker()]
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/solution_evaluator.py", line 31, in __init__
+    solution_file_as_module = importlib.import_module(self.args.solution_file_as_module)
+  File "/usr/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'gym_duckietown.tasks.dont_crush_duckie.solutions.solution'
