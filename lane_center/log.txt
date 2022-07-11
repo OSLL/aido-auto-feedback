@@ -1,0 +1,26 @@
+False: Non-zero return code, probably a syntax error occurred\ntime=1657571913.334136 gym-duckietown 2019.0.0
+
+time=1657571914.2856004 Registering gym environment id: Duckietown-4way-v0
+time=1657571914.28576 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1657571914.2858548 Registering gym environment id: Duckietown-loop_empty-v0
+time=1657571914.285941 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1657571914.286122 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1657571914.2862146 Registering gym environment id: Duckietown-small_loop-v0
+time=1657571914.2863414 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1657571914.28643 Registering gym environment id: Duckietown-straight_road-v0
+time=1657571914.2865086 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1657571914.286589 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1657571914.2866604 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1657571914.286778 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1657571914.286869 Registering gym environment id: Duckietown-udem1-v0
+time=1657571914.286938 Registering gym environment id: Duckietown-zigzag_dists-v0
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib/python3.6/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/lane_center/checker.py", line 26, in <module>
+    checkers=[StopAtLaneCenterChecker()],
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/solution_evaluator.py", line 33, in __init__
+    self.solution_class = getattr(solution_file_as_module, solution_class_name)
+AttributeError: module 'gym_duckietown.tasks.lane_center.solutions.solution' has no attribute 'LaneCenterTaskSolution'
