@@ -1,0 +1,26 @@
+False: Non-zero return code, probably a syntax error occurred\ntime=1657801296.2481616 gym-duckietown 2019.0.0
+
+time=1657801296.5047548 Registering gym environment id: Duckietown-4way-v0
+time=1657801296.504902 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1657801296.5049918 Registering gym environment id: Duckietown-loop_empty-v0
+time=1657801296.5050826 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1657801296.5051668 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1657801296.5052395 Registering gym environment id: Duckietown-small_loop-v0
+time=1657801296.5053246 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1657801296.5054018 Registering gym environment id: Duckietown-straight_road-v0
+time=1657801296.5054708 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1657801296.5055397 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1657801296.505619 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1657801296.5056808 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1657801296.5057614 Registering gym environment id: Duckietown-udem1-v0
+time=1657801296.5058746 Registering gym environment id: Duckietown-zigzag_dists-v0
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib/python3.6/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/ride_1_m/checker.py", line 6, in <module>
+    checkers=[StopAtCoordinatesChecker()]
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/solution_evaluator.py", line 33, in __init__
+    self.solution_class = getattr(solution_file_as_module, solution_class_name)
+AttributeError: module 'gym_duckietown.tasks.ride_1_m.solutions.solution' has no attribute 'Ride1MTaskSolution'
