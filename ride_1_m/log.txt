@@ -1,0 +1,42 @@
+False: Non-zero return code, probably a syntax error occurred\ntime=1658066715.3132985 gym-duckietown 2019.0.0
+
+time=1658066715.575147 Registering gym environment id: Duckietown-4way-v0
+time=1658066715.5752852 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1658066715.5753868 Registering gym environment id: Duckietown-loop_empty-v0
+time=1658066715.575514 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1658066715.5756133 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1658066715.5757322 Registering gym environment id: Duckietown-small_loop-v0
+time=1658066715.575844 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1658066715.5759525 Registering gym environment id: Duckietown-straight_road-v0
+time=1658066715.5760436 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1658066715.5761244 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1658066715.5761983 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1658066715.5763388 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1658066715.576424 Registering gym environment id: Duckietown-udem1-v0
+time=1658066715.576548 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1658066717.4010956 Falling back to non-multisampled frame buffer
+time=1658066717.4050503 Falling back to non-multisampled frame buffer
+time=1658066717.409461 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/straight_road.yaml"
+time=1658066717.4162776 loading mesh "duckiebot.obj"
+time=1658066717.4166005 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1658066717.817656 loading texture "straight_1.png"
+time=1658066717.8340893 road_tile_size=0.585
+time=1658066717.8345509 Starting at [0.2925 0.     0.2925] 0
+time=1658066717.8349192 Pos: [0.2925 0.     0.2925] angle 0
+time=1658066717.9956462 using DuckietownEnv
+/usr/local/lib/python3.6/dist-packages/gym/spaces/box.py:74: UserWarning: [33mWARN: Box bound precision lowered by casting to float32[0m
+  "Box bound precision lowered by casting to {}".format(self.dtype)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib/python3.6/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/ride_1_m/checker.py", line 6, in <module>
+    checkers=[StopAtCoordinatesChecker()]
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/solution_evaluator.py", line 42, in evaluate_solution
+    verdict = self.run_solution(generated_task)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/solution_evaluator.py", line 52, in run_solution
+    solution = self.solution_class(generated_task_copy)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/ride_1_m/solutions/solution.py", line 3, in __init__
+    super().__init__(generated_task)
+TypeError: object.__init__() takes no parameters
