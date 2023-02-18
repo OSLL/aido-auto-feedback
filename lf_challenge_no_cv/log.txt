@@ -1,0 +1,26 @@
+False: Non-zero return code, probably a syntax error occurred\ntime=1676733818.698523 gym-duckietown 2019.0.0
+
+time=1676733818.8689332 Registering gym environment id: Duckietown-4way-v0
+time=1676733818.8690207 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1676733818.8690584 Registering gym environment id: Duckietown-loop_empty-v0
+time=1676733818.86911 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1676733818.8691545 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1676733818.8692524 Registering gym environment id: Duckietown-small_loop-v0
+time=1676733818.8693542 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1676733818.8694036 Registering gym environment id: Duckietown-straight_road-v0
+time=1676733818.8694506 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1676733818.8695006 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1676733818.8695514 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1676733818.8696017 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1676733818.869652 Registering gym environment id: Duckietown-udem1-v0
+time=1676733818.8697 Registering gym environment id: Duckietown-zigzag_dists-v0
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib/python3.6/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/lf_challenge_no_cv/checker.py", line 6, in <module>
+    checkers=[RewardChecker()]
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/solution_evaluator.py", line 33, in __init__
+    self.solution_class = getattr(solution_file_as_module, solution_class_name)
+AttributeError: module 'gym_duckietown.tasks.lf_challenge_no_cv.solutions.solution' has no attribute 'LfChallengeNoCvTaskSolution'
