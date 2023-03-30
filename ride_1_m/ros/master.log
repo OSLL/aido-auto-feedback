@@ -1,0 +1,104 @@
+[rosmaster.main][INFO] 2023-03-30 15:59:42,859: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2023-03-30 15:59:42,859: Starting ROS Master Node
+[xmlrpc][INFO] 2023-03-30 15:59:42,860: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2023-03-30 15:59:42,860: Started XML-RPC server [http://bf8a5f04a163:11311/]
+[rosmaster.master][INFO] 2023-03-30 15:59:42,860: Master initialized: port[11311], uri[http://bf8a5f04a163:11311/]
+[xmlrpc][INFO] 2023-03-30 15:59:42,861: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2023-03-30 15:59:42,870: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2023-03-30 15:59:42,871: +PARAM [/roslaunch/uris/host_bf8a5f04a163__38421] by /roslaunch
+[rosmaster.master][INFO] 2023-03-30 15:59:42,893: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2023-03-30 15:59:42,894: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2023-03-30 15:59:42,940: +PUB [/bf8a5f04a163/corrected_image/compressed] /ROSAgent http://bf8a5f04a163:38723/
+[rosmaster.master][INFO] 2023-03-30 15:59:42,940: +PUB [/bf8a5f04a163/camera_node/camera_info] /ROSAgent http://bf8a5f04a163:38723/
+[rosmaster.master][INFO] 2023-03-30 15:59:42,941: +SUB [/bf8a5f04a163/car_cmd] /ROSAgent http://bf8a5f04a163:38723/
+[rosmaster.master][INFO] 2023-03-30 15:59:43,040: +PUB [/rosout] /ROSAgent http://bf8a5f04a163:38723/
+[rosmaster.master][INFO] 2023-03-30 15:59:43,042: +SERVICE [/ROSAgent/get_loggers] /ROSAgent http://bf8a5f04a163:38723/
+[rosmaster.master][INFO] 2023-03-30 15:59:43,043: +SERVICE [/ROSAgent/set_logger_level] /ROSAgent http://bf8a5f04a163:38723/
+[rosmaster.master][INFO] 2023-03-30 15:59:43,146: +SERVICE [/rosout/get_loggers] /rosout http://bf8a5f04a163:38325/
+[rosmaster.master][INFO] 2023-03-30 15:59:43,147: +SERVICE [/rosout/set_logger_level] /rosout http://bf8a5f04a163:38325/
+[rosmaster.master][INFO] 2023-03-30 15:59:43,147: +PUB [/rosout_agg] /rosout http://bf8a5f04a163:38325/
+[rosmaster.master][INFO] 2023-03-30 15:59:43,149: +SUB [/rosout] /rosout http://bf8a5f04a163:38325/
+[rosmaster.master][INFO] 2023-03-30 15:59:43,176: +PUB [/rosout] /record http://bf8a5f04a163:44757/
+[rosmaster.master][INFO] 2023-03-30 15:59:43,176: +SERVICE [/record/get_loggers] /record http://bf8a5f04a163:44757/
+[rosmaster.master][INFO] 2023-03-30 15:59:43,177: +SERVICE [/record/set_logger_level] /record http://bf8a5f04a163:44757/
+[rosmaster.master][INFO] 2023-03-30 15:59:43,177: +CACHEDPARAM [/rosout_disable_topics_generation] by /record
+[rosmaster.master][INFO] 2023-03-30 15:59:43,179: +SUB [/bf8a5f04a163/camera_node/camera_info] /record http://bf8a5f04a163:44757/
+[rosmaster.master][INFO] 2023-03-30 15:59:43,180: +SUB [/bf8a5f04a163/corrected_image/compressed] /record http://bf8a5f04a163:44757/
+[rosmaster.master][INFO] 2023-03-30 15:59:43,182: +SUB [/rosout] /record http://bf8a5f04a163:44757/
+[rosmaster.master][INFO] 2023-03-30 15:59:43,183: +SUB [/rosout_agg] /record http://bf8a5f04a163:44757/
+[rosmaster.master][INFO] 2023-03-30 15:59:43,260: publisherUpdate[/rosout] -> http://bf8a5f04a163:38325/ ['http://bf8a5f04a163:38723/', 'http://bf8a5f04a163:44757/']
+[rosmaster.master][INFO] 2023-03-30 15:59:43,283: publisherUpdate[/rosout] -> http://bf8a5f04a163:38325/ ['http://bf8a5f04a163:38723/', 'http://bf8a5f04a163:44757/']: sec=0.02, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-03-30 15:59:43,500: +CACHEDPARAM [/rosout/omit_topics] by /rosout
+[rosmaster.master][INFO] 2023-03-30 15:59:43,880: +PUB [/rosout] /demo_node http://bf8a5f04a163:40835/
+[rosmaster.master][INFO] 2023-03-30 15:59:43,882: +SERVICE [/demo_node/get_loggers] /demo_node http://bf8a5f04a163:40835/
+[rosmaster.master][INFO] 2023-03-30 15:59:43,883: +SERVICE [/demo_node/set_logger_level] /demo_node http://bf8a5f04a163:40835/
+[rosmaster.master][INFO] 2023-03-30 15:59:43,884: +SUB [/bf8a5f04a163/corrected_image/compressed] /demo_node http://bf8a5f04a163:40835/
+[rosmaster.master][INFO] 2023-03-30 15:59:43,884: publisherUpdate[/rosout] -> http://bf8a5f04a163:38325/ ['http://bf8a5f04a163:38723/', 'http://bf8a5f04a163:44757/', 'http://bf8a5f04a163:40835/']
+[rosmaster.master][INFO] 2023-03-30 15:59:43,884: +PUB [/bf8a5f04a163/car_cmd] /demo_node http://bf8a5f04a163:40835/
+[rosmaster.master][INFO] 2023-03-30 15:59:43,885: publisherUpdate[/rosout] -> http://bf8a5f04a163:38325/ ['http://bf8a5f04a163:38723/', 'http://bf8a5f04a163:44757/', 'http://bf8a5f04a163:40835/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-03-30 15:59:43,885: publisherUpdate[/rosout] -> http://bf8a5f04a163:44757/ ['http://bf8a5f04a163:38723/', 'http://bf8a5f04a163:44757/', 'http://bf8a5f04a163:40835/']
+[rosmaster.master][INFO] 2023-03-30 15:59:43,907: publisherUpdate[/rosout] -> http://bf8a5f04a163:44757/ ['http://bf8a5f04a163:38723/', 'http://bf8a5f04a163:44757/', 'http://bf8a5f04a163:40835/']: sec=0.02, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-03-30 15:59:43,907: publisherUpdate[/bf8a5f04a163/car_cmd] -> http://bf8a5f04a163:38723/ ['http://bf8a5f04a163:40835/']
+[rosmaster.master][INFO] 2023-03-30 15:59:43,908: publisherUpdate[/bf8a5f04a163/car_cmd] -> http://bf8a5f04a163:38723/ ['http://bf8a5f04a163:40835/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-03-30 15:59:44,186: +SUB [/bf8a5f04a163/car_cmd] /record http://bf8a5f04a163:44757/
+[rosmaster.master][INFO] 2023-03-30 15:59:45,640: -SUB [/bf8a5f04a163/corrected_image/compressed] /demo_node http://bf8a5f04a163:40835/
+[rosmaster.master][INFO] 2023-03-30 15:59:45,641: -PUB [/rosout] /demo_node http://bf8a5f04a163:40835/
+[rosmaster.master][INFO] 2023-03-30 15:59:45,641: -PUB [/bf8a5f04a163/car_cmd] /demo_node http://bf8a5f04a163:40835/
+[rosmaster.master][INFO] 2023-03-30 15:59:45,641: -SERVICE [/demo_node/get_loggers] /demo_node rosrpc://bf8a5f04a163:40857
+[rosmaster.master][INFO] 2023-03-30 15:59:45,642: -SERVICE [/demo_node/set_logger_level] /demo_node rosrpc://bf8a5f04a163:40857
+[rosmaster.master][INFO] 2023-03-30 15:59:45,665: publisherUpdate[/rosout] -> http://bf8a5f04a163:38325/ ['http://bf8a5f04a163:38723/', 'http://bf8a5f04a163:44757/']
+[rosmaster.master][INFO] 2023-03-30 15:59:45,665: publisherUpdate[/rosout] -> http://bf8a5f04a163:44757/ ['http://bf8a5f04a163:38723/', 'http://bf8a5f04a163:44757/']
+[rosmaster.master][INFO] 2023-03-30 15:59:45,702: publisherUpdate[/rosout] -> http://bf8a5f04a163:44757/ ['http://bf8a5f04a163:38723/', 'http://bf8a5f04a163:44757/']: sec=0.04, result=[0, 'Unknown Error', 0]
+[rosmaster.master][INFO] 2023-03-30 15:59:45,702: publisherUpdate[/bf8a5f04a163/car_cmd] -> http://bf8a5f04a163:38723/ []
+[rosmaster.master][INFO] 2023-03-30 15:59:45,711: publisherUpdate[/bf8a5f04a163/car_cmd] -> http://bf8a5f04a163:44757/ []
+[rosmaster.master][INFO] 2023-03-30 15:59:45,716: publisherUpdate[/bf8a5f04a163/car_cmd] -> http://bf8a5f04a163:44757/ []: sec=0.00, result=[0, 'Unknown Error', 0]
+[rosmaster.master][INFO] 2023-03-30 15:59:45,716: -PUB [/rosout] /record http://bf8a5f04a163:44757/
+[rosmaster.master][INFO] 2023-03-30 15:59:45,717: -SUB [/bf8a5f04a163/camera_node/camera_info] /record http://bf8a5f04a163:44757/
+[rosmaster.master][INFO] 2023-03-30 15:59:45,717: -SUB [/bf8a5f04a163/corrected_image/compressed] /record http://bf8a5f04a163:44757/
+[rosmaster.master][INFO] 2023-03-30 15:59:45,717: -SUB [/rosout] /record http://bf8a5f04a163:44757/
+[rosmaster.master][INFO] 2023-03-30 15:59:45,717: -SUB [/rosout_agg] /record http://bf8a5f04a163:44757/
+[rosmaster.master][INFO] 2023-03-30 15:59:45,718: -SUB [/bf8a5f04a163/car_cmd] /record http://bf8a5f04a163:44757/
+[rosmaster.master][INFO] 2023-03-30 15:59:45,718: -SERVICE [/record/get_loggers] /record rosrpc://bf8a5f04a163:54431
+[rosmaster.master][INFO] 2023-03-30 15:59:45,718: -SERVICE [/record/set_logger_level] /record rosrpc://bf8a5f04a163:54431
+[rosmaster.master][INFO] 2023-03-30 15:59:45,719: -CACHEDPARAM [/rosout_disable_topics_generation] by /record
+[rosmaster.master][INFO] 2023-03-30 15:59:45,726: publisherUpdate[/rosout] -> http://bf8a5f04a163:38325/ ['http://bf8a5f04a163:38723/', 'http://bf8a5f04a163:44757/']: sec=0.06, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-03-30 15:59:45,726: publisherUpdate[/rosout] -> http://bf8a5f04a163:38325/ ['http://bf8a5f04a163:38723/']
+[rosmaster.master][INFO] 2023-03-30 15:59:45,727: publisherUpdate[/bf8a5f04a163/car_cmd] -> http://bf8a5f04a163:38723/ []: sec=0.02, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-03-30 15:59:45,727: publisherUpdate[/rosout] -> http://bf8a5f04a163:44757/ ['http://bf8a5f04a163:38723/']
+[rosmaster.master][INFO] 2023-03-30 15:59:45,727: publisherUpdate[/rosout] -> http://bf8a5f04a163:38325/ ['http://bf8a5f04a163:38723/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-03-30 15:59:45,805: publisherUpdate[/rosout] -> http://bf8a5f04a163:44757/ ['http://bf8a5f04a163:38723/']: sec=0.08, exception=[Errno 111] Connection refused
+[rosmaster.threadpool][ERROR] 2023-03-30 15:59:45,830: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1311, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1459, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 1095, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 898, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 860, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 837, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+
+[rosmaster.master][INFO] 2023-03-30 15:59:46,128: -PUB [/rosout_agg] /rosout http://bf8a5f04a163:38325/
+[rosmaster.master][INFO] 2023-03-30 15:59:46,128: -SUB [/rosout] /rosout http://bf8a5f04a163:38325/
+[rosmaster.master][INFO] 2023-03-30 15:59:46,129: -SERVICE [/rosout/get_loggers] /rosout rosrpc://bf8a5f04a163:45219
+[rosmaster.master][INFO] 2023-03-30 15:59:46,129: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://bf8a5f04a163:45219
+[rosmaster.master][INFO] 2023-03-30 15:59:46,129: -CACHEDPARAM [/rosout/omit_topics] by /rosout
+[rosmaster.main][INFO] 2023-03-30 15:59:46,140: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2023-03-30 15:59:46,140: stopping master...
+[rospy.core][INFO] 2023-03-30 15:59:46,140: signal_shutdown [atexit]

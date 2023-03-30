@@ -1,0 +1,32 @@
+[rospy.client][INFO] 2023-03-30 15:59:43,777: init_node, name[/demo_node], pid[184]
+[xmlrpc][INFO] 2023-03-30 15:59:43,778: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2023-03-30 15:59:43,778: Started XML-RPC server [http://bf8a5f04a163:40835/]
+[rospy.init][INFO] 2023-03-30 15:59:43,778: ROS Slave URI: [http://bf8a5f04a163:40835/]
+[rospy.impl.masterslave][INFO] 2023-03-30 15:59:43,778: _ready: http://bf8a5f04a163:40835/
+[rospy.registration][INFO] 2023-03-30 15:59:43,779: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2023-03-30 15:59:43,779: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2023-03-30 15:59:43,879: registered with master
+[rospy.rosout][INFO] 2023-03-30 15:59:43,879: initializing /rosout core topic
+[rospy.rosout][INFO] 2023-03-30 15:59:43,881: connected to core topic /rosout
+[rospy.simtime][INFO] 2023-03-30 15:59:43,881: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2023-03-30 15:59:43,897: topic[/bf8a5f04a163/corrected_image/compressed] adding connection to [http://bf8a5f04a163:38723/], count 0
+[rospy.internal][INFO] 2023-03-30 15:59:43,910: topic[/bf8a5f04a163/car_cmd] adding connection to [/ROSAgent], count 0
+[rospy.internal][INFO] 2023-03-30 15:59:44,087: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2023-03-30 15:59:44,109: topic[/rosout] adding connection to [/record], count 1
+[rospy.internal][INFO] 2023-03-30 15:59:44,310: topic[/bf8a5f04a163/car_cmd] adding connection to [/record], count 1
+[rospy.core][INFO] 2023-03-30 15:59:45,636: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2023-03-30 15:59:45,644: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2023-03-30 15:59:45,648: topic[/rosout] removing connection to /record
+[rospy.internal][INFO] 2023-03-30 15:59:45,649: topic[/bf8a5f04a163/car_cmd] removing connection to /ROSAgent
+[rospy.internal][INFO] 2023-03-30 15:59:45,649: topic[/bf8a5f04a163/car_cmd] removing connection to /record
+[rospy.internal][INFO] 2023-03-30 15:59:45,651: topic[/bf8a5f04a163/corrected_image/compressed] removing connection to http://bf8a5f04a163:38723/
+[rospy.internal][INFO] 2023-03-30 15:59:45,651: topic[/bf8a5f04a163/corrected_image/compressed] removing connection to http://bf8a5f04a163:38723/
+[rospy.topics][ERROR] 2023-03-30 15:59:45,655: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 326, in close
+    c.close()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 858, in close
+    self.socket.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+
+[rospy.impl.masterslave][INFO] 2023-03-30 15:59:45,657: signal-2
+[rospy.core][INFO] 2023-03-30 15:59:45,759: signal_shutdown [atexit]
